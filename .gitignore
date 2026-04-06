@@ -7,3 +7,4 @@ data/ps1_explorer.db
 backend/.env
 *.log
 .DS_Store
+.vercel

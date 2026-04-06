@@ -7,12 +7,21 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Load bundled company data (pre-exported from SQLite)
 function loadCompanies() {
-  try {
-    const raw = readFileSync(join(__dirname, '../data/companies.json'), 'utf-8');
-    return JSON.parse(raw);
-  } catch {
-    return [];
+  // Try same directory first (Vercel deployment), then ../data (local dev)
+  const paths = [
+    join(__dirname, 'companies_data.json'),
+    join(__dirname, '../data/companies.json'),
+  ];
+  for (const p of paths) {
+    try {
+      const raw = readFileSync(p, 'utf-8');
+      const data = JSON.parse(raw);
+      console.log(`[Data] Loaded ${data.length} companies from ${p}`);
+      return data;
+    } catch {}
   }
+  console.warn('[Data] No companies.json found');
+  return [];
 }
 
 // Module-level store — survives across requests in the same warm lambda

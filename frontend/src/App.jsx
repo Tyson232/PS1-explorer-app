@@ -42,17 +42,17 @@ export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [cardEnrichments, setCardEnrichments] = useState({});
 
-  // SSE connection status
+  // Poll health endpoint to show online/offline status
   useEffect(() => {
-    const evtSource = new EventSource('/api/events');
-    evtSource.onopen = () => setConnected(true);
-    evtSource.onerror = () => setConnected(false);
-    evtSource.addEventListener('data-updated', () => {
-      toast.success('Company data refreshed!', { icon: '🔄' });
-      refresh();
-    });
-    return () => evtSource.close();
-  }, [refresh]);
+    const check = () => {
+      fetch('/api/health')
+        .then(r => r.ok ? setConnected(true) : setConnected(false))
+        .catch(() => setConnected(false));
+    };
+    check();
+    const interval = setInterval(check, 30000);
+    return () => clearInterval(interval);
+  }, []);
 
   // Pre-fetch enrichments for visible cards (lazy, queue-based)
   useEffect(() => {

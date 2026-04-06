@@ -67,16 +67,9 @@ export function useCompanies() {
     return () => clearTimeout(debounceRef.current);
   }, [filters, loadCompanies]);
 
-  // SSE for live updates
+  // No SSE on Vercel — noop
   useEffect(() => {
-    const evtSource = new EventSource('/api/events');
-    evtSource.addEventListener('data-updated', () => {
-      loadCompanies(filters);
-      loadDomains();
-      loadMeta();
-    });
-    evtSource.onerror = () => evtSource.close();
-    return () => evtSource.close();
+    return () => {};
   }, [filters, loadCompanies, loadDomains, loadMeta]);
 
   const refresh = useCallback(() => {
