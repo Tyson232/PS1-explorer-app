@@ -1,0 +1,15 @@
+{
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "rewrites": [
+    { "source": "/api/companies/domains", "destination": "/api/companies/domains" },
+    { "source": "/api/companies/meta", "destination": "/api/companies/meta" },
+    { "source": "/api/companies/:name/enrich", "destination": "/api/companies/[name]/enrich?name=:name" },
+    { "source": "/api/companies", "destination": "/api/companies/index" },
+    { "source": "/api/upload/refresh", "destination": "/api/upload" },
+    { "source": "/api/upload", "destination": "/api/upload" },
+    { "source": "/api/health", "destination": "/api/health" },
+    { "source": "/api/events", "destination": "/api/health" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

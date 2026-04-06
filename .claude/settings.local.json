@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(node -e \"const {DatabaseSync} = require\\('node:sqlite'\\); console.log\\('node:sqlite OK'\\)\")",
+      "Bash(node --experimental-sqlite create_sample.js)",
+      "Bash(node --experimental-sqlite ../create_sample.js)",
+      "Bash(cp \"/Users/aarushgoyal/Desktop/PS1 app/create_sample.js\" \"/Users/aarushgoyal/Desktop/PS1 app/backend/create_sample.js\")",
+      "Bash(mv create_sample.js ..)",
+      "Bash(cp ../sample_data.xlsx .)",
+      "Bash(mv sample_data.xlsx ..)",
+      "Bash(timeout 5 node --experimental-sqlite src/index.js)",
+      "Bash(node --experimental-sqlite src/index.js)",
+      "Bash(curl -s http://localhost:3001/api/health)",
+      "Bash(kill %1)"
+    ]
+  }
+}

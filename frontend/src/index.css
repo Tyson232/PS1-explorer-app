@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    @apply bg-bg-primary text-text-primary;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-bg-secondary;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-bg-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-text-muted;
+  }
+}
+
+@layer components {
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      theme('colors.bg.card') 0%,
+      theme('colors.bg.hover') 50%,
+      theme('colors.bg.card') 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+  }
+
+  .glass-card {
+    @apply bg-bg-card border border-bg-border rounded-xl;
+    backdrop-filter: blur(8px);
+  }
+
+  .badge {
+    @apply font-mono text-xs px-2 py-0.5 rounded-md border;
+  }
+
+  .tag-chip {
+    @apply font-mono text-xs px-2 py-0.5 rounded-md bg-bg-hover text-text-secondary border border-bg-border;
+  }
+
+  .btn-primary {
+    @apply bg-accent-purple hover:bg-opacity-80 text-white font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent hover:bg-bg-hover text-text-secondary hover:text-text-primary border border-bg-border px-3 py-1.5 rounded-lg transition-all duration-200 text-sm;
+  }
+}
+
+/* Custom highlight for search matches */
+mark {
+  @apply bg-accent-purple bg-opacity-30 text-accent-purple rounded px-0.5;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
