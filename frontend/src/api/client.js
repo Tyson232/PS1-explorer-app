@@ -1,37 +1,198 @@
-import axios from 'axios';
+import companiesData from '../companies_data.json';
 
-const api = axios.create({
-  baseURL: '/api',
-  timeout: 30000
-});
+// ─── In-memory store ──────────────────────────────────────────────────────
+let _companies = companiesData;
+let _lastUpdated = new Date().toISOString();
 
-export const fetchCompanies = (params = {}) =>
-  api.get('/companies', { params }).then(r => r.data);
+// ─── Companies ────────────────────────────────────────────────────────────
 
-export const fetchDomains = () =>
-  api.get('/companies/domains').then(r => r.data);
+export function fetchCompanies(params = {}) {
+  const { q, domains, subdomains } = params;
+  const domainList = domains ? domains.split(',').filter(Boolean) : [];
+  const subdomainList = subdomains ? subdomains.split(',').filter(Boolean) : [];
 
-export const fetchMeta = () =>
-  api.get('/companies/meta').then(r => r.data);
+  let companies = _companies;
 
-export const fetchEnrichment = (companyName) =>
-  api.get(`/companies/${encodeURIComponent(companyName)}/enrich`).then(r => r.data);
+  if (q) {
+    const ql = q.toLowerCase();
+    companies = companies.filter(c =>
+      c.name?.toLowerCase().includes(ql) ||
+      c.domain?.toLowerCase().includes(ql) ||
+      c.city?.toLowerCase().includes(ql) ||
+      c.project_details?.toLowerCase().includes(ql)
+    );
+  }
 
-export const queueEnrichment = (companyName) =>
-  api.post(`/companies/${encodeURIComponent(companyName)}/enrich/queue`).then(r => r.data);
+  if (domainList.length > 0) {
+    companies = companies.filter(c => domainList.includes(c.normalized_domain));
+  }
 
-export const uploadFile = (file, onProgress) => {
-  const form = new FormData();
-  form.append('file', file);
-  return api.post('/upload', form, {
-    headers: { 'Content-Type': 'multipart/form-data' },
-    onUploadProgress: onProgress
-      ? (e) => onProgress(Math.round((e.loaded * 100) / e.total))
-      : undefined
-  }).then(r => r.data);
+  if (subdomainList.length > 0) {
+    companies = companies.filter(c =>
+      subdomainList.some(sd => c.subdomains?.includes(sd))
+    );
+  }
+
+  return Promise.resolve({ companies, total: companies.length });
+}
+
+export function fetchDomains() {
+  const domainCounts = {};
+  const subdomainMap = {};
+
+  for (const c of _companies) {
+    const d = c.normalized_domain || 'General';
+    domainCounts[d] = (domainCounts[d] || 0) + 1;
+    if (!subdomainMap[d]) subdomainMap[d] = new Set();
+    (c.subdomains || []).forEach(s => subdomainMap[d].add(s));
+  }
+
+  const domains = Object.entries(domainCounts)
+    .map(([domain, count]) => ({ domain, count }))
+    .sort((a, b) => b.count - a.count);
+
+  const subdomainMapArr = {};
+  for (const [k, v] of Object.entries(subdomainMap)) {
+    subdomainMapArr[k] = [...v].sort();
+  }
+
+  return Promise.resolve({ domains, subdomainMap: subdomainMapArr });
+}
+
+export function fetchMeta() {
+  return Promise.resolve({
+    lastUpdated: _lastUpdated,
+    companyCount: String(_companies.length),
+    watchFilePath: null
+  });
+}
+
+// ─── Enrichment (calls Vercel API → Gemini) ───────────────────────────────
+
+const enrichmentCache = {};
+
+export async function fetchEnrichment(companyName) {
+  if (enrichmentCache[companyName]) {
+    return { enrichment: enrichmentCache[companyName], cached: true };
+  }
+  try {
+    const res = await fetch(`/api/enrich?name=${encodeURIComponent(companyName)}`);
+    if (!res.ok) throw new Error('API error');
+    const data = await res.json();
+    if (data.enrichment) enrichmentCache[companyName] = data.enrichment;
+    return data;
+  } catch {
+    return { enrichment: { fetch_status: 'error' }, cached: false };
+  }
+}
+
+export function queueEnrichment() { return Promise.resolve(); }
+
+// ─── Upload (replaces in-memory store) ───────────────────────────────────
+
+export async function uploadFile(file, onProgress) {
+  const XLSX = await import('xlsx');
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const wb = XLSX.read(e.target.result, { type: 'array', raw: false, defval: '' });
+        const ws = wb.Sheets[wb.SheetNames[0]];
+        const rows = XLSX.utils.sheet_to_json(ws, { raw: false, defval: '' });
+        if (rows.length === 0) throw new Error('File has no data rows');
+
+        const companies = parseRows(rows);
+        _companies = companies;
+        _lastUpdated = new Date().toISOString();
+        if (onProgress) onProgress(100);
+        resolve({ success: true, count: companies.length, message: `Loaded ${companies.length} companies` });
+      } catch (err) {
+        reject(err);
+      }
+    };
+    reader.onerror = reject;
+    reader.readAsArrayBuffer(file);
+  });
+}
+
+export function refreshData() {
+  return Promise.reject(new Error('No watched file on Vercel. Please upload a file.'));
+}
+
+// ─── Parser helpers ───────────────────────────────────────────────────────
+
+const COL_ALIASES = {
+  name: ['station name', 'company name', 'company', 'organization', 'name'],
+  domain: ['business domain', 'domain', 'field', 'branch'],
+  city: ['location (centre)', 'location', 'city', 'place', 'hq'],
+  project_details: ['project details', 'description', 'work', 'profile'],
+  project_domain: ['project domain', 'skill', 'subdomain', 'specialization'],
+  title: ['title']
 };
 
-export const refreshData = () =>
-  api.post('/upload/refresh').then(r => r.data);
+function findCol(headers, key) {
+  for (const alias of COL_ALIASES[key]) {
+    const exact = headers.find(h => h.toLowerCase().trim() === alias);
+    if (exact) return exact;
+  }
+  for (const alias of COL_ALIASES[key]) {
+    const sub = headers.find(h => h.toLowerCase().trim().includes(alias));
+    if (sub) return sub;
+  }
+  return null;
+}
 
-export default api;
+function normalizeDomain(raw) {
+  if (!raw) return 'General';
+  const s = raw.toString().trim();
+  if (/csis|cs\/it|cs|it\b|computer science|information tech/i.test(s)) return 'CSIS';
+  if (/ee|ece|electrical|electronics/i.test(s)) return 'Electrical';
+  if (/me\b|mech|mechanical/i.test(s)) return 'Mechanical';
+  if (/chem|chemical/i.test(s)) return 'Chemical';
+  if (/finance|fin\b|economics|finance and mgmt/i.test(s)) return 'Finance';
+  if (/consult/i.test(s)) return 'Consulting';
+  if (/pharma|bio|life science/i.test(s)) return 'Biotech';
+  if (/civil|env|environ|infrastructure/i.test(s)) return 'Infrastructure';
+  if (/others/i.test(s)) return 'Others';
+  return s;
+}
+
+function parseRows(rows) {
+  const headers = Object.keys(rows[0]);
+  const nameCol = findCol(headers, 'name');
+  const domainCol = findCol(headers, 'domain');
+  const cityCol = findCol(headers, 'city');
+  const projectCol = findCol(headers, 'project_details');
+  const projDomainCol = findCol(headers, 'project_domain');
+  const titleCol = findCol(headers, 'title');
+
+  if (!nameCol) throw new Error(`Cannot find company name column. Headers: ${headers.join(', ')}`);
+
+  let id = 1;
+  return rows.filter(row => row[nameCol]?.toString().trim()).map(row => {
+    const name = row[nameCol].toString().trim();
+    const domain = (domainCol ? row[domainCol] : '')?.toString().trim() || '';
+    const city = (cityCol ? row[cityCol] : '')?.toString().trim() || '';
+
+    const title = (titleCol && row[titleCol]) ? row[titleCol].toString().trim() : '';
+    const desc = (projectCol && row[projectCol]) ? row[projectCol].toString().trim() : '';
+    const isPlaceholder = s => /^[\d,]+$/.test(s) || /details awaited|yet to|tbd/i.test(s);
+    const parts = [];
+    if (title && !isPlaceholder(title) && title !== desc) parts.push(title);
+    if (desc && !isPlaceholder(desc)) parts.push(desc);
+    const project_details = parts.join('\n').trim();
+
+    const normalized_domain = normalizeDomain(domain);
+
+    const subdomains = [];
+    if (projDomainCol && row[projDomainCol]) {
+      const raw = row[projDomainCol].toString();
+      if (!/yet to|details awaited|tbd|n\/a/i.test(raw)) {
+        raw.split(/[,;/]/).map(s => s.trim()).filter(Boolean).forEach(s => subdomains.push(s));
+      }
+    }
+    if (subdomains.length === 0) subdomains.push('General');
+
+    return { id: id++, name, domain, normalized_domain, city, project_details, subdomains, raw_row: row };
+  });
+}
