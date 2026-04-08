@@ -1,14 +1,15 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { fetchCompanies, fetchDomains, fetchMeta } from '../api/client.js';
+import { fetchCompanies, fetchDomains, fetchMeta, fetchCities } from '../api/client.js';
 
 export function useCompanies() {
   const [companies, setCompanies] = useState([]);
   const [domains, setDomains] = useState([]);
   const [subdomainMap, setSubdomainMap] = useState({});
+  const [allCities, setAllCities] = useState([]);
   const [meta, setMeta] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [filters, setFilters] = useState({ q: '', domains: [], subdomains: [] });
+  const [filters, setFilters] = useState({ q: '', domains: [], subdomains: [], cities: [], workModes: [] });
 
   const abortRef = useRef(null);
 
@@ -23,6 +24,8 @@ export function useCompanies() {
       if (currentFilters.q) params.q = currentFilters.q;
       if (currentFilters.domains.length > 0) params.domains = currentFilters.domains.join(',');
       if (currentFilters.subdomains.length > 0) params.subdomains = currentFilters.subdomains.join(',');
+      if (currentFilters.cities.length > 0) params.cities = currentFilters.cities.join(',');
+      if (currentFilters.workModes.length > 0) params.workModes = currentFilters.workModes.join(',');
 
       const data = await fetchCompanies(params);
       setCompanies(data.companies || []);
@@ -50,11 +53,19 @@ export function useCompanies() {
     } catch {}
   }, []);
 
+  const loadCities = useCallback(async () => {
+    try {
+      const data = await fetchCities();
+      setAllCities(data.cities || []);
+    } catch {}
+  }, []);
+
   // Initial load
   useEffect(() => {
     loadDomains();
     loadMeta();
-  }, [loadDomains, loadMeta]);
+    loadCities();
+  }, [loadDomains, loadMeta, loadCities]);
 
   // Load companies when filters change (with debounce for search)
   const debounceRef = useRef(null);
@@ -76,7 +87,8 @@ export function useCompanies() {
     loadCompanies(filters);
     loadDomains();
     loadMeta();
-  }, [filters, loadCompanies, loadDomains, loadMeta]);
+    loadCities();
+  }, [filters, loadCompanies, loadDomains, loadMeta, loadCities]);
 
   const updateFilter = useCallback((key, value) => {
     setFilters(prev => ({ ...prev, [key]: value }));
@@ -100,14 +112,33 @@ export function useCompanies() {
     }));
   }, []);
 
+  const toggleCity = useCallback((city) => {
+    setFilters(prev => ({
+      ...prev,
+      cities: prev.cities.includes(city)
+        ? prev.cities.filter(c => c !== city)
+        : [...prev.cities, city]
+    }));
+  }, []);
+
+  const toggleWorkMode = useCallback((mode) => {
+    setFilters(prev => ({
+      ...prev,
+      workModes: prev.workModes.includes(mode)
+        ? prev.workModes.filter(m => m !== mode)
+        : [...prev.workModes, mode]
+    }));
+  }, []);
+
   const clearFilters = useCallback(() => {
-    setFilters({ q: '', domains: [], subdomains: [] });
+    setFilters({ q: '', domains: [], subdomains: [], cities: [], workModes: [] });
   }, []);
 
   return {
     companies,
     domains,
     subdomainMap,
+    allCities,
     meta,
     loading,
     error,
@@ -115,6 +146,8 @@ export function useCompanies() {
     updateFilter,
     toggleDomain,
     toggleSubdomain,
+    toggleCity,
+    toggleWorkMode,
     clearFilters,
     refresh,
     loadMeta

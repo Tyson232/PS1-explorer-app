@@ -2,12 +2,10 @@
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
   "functions": {
-    "api/enrich.js": {
-      "maxDuration": 30
-    }
+    "api/enrich.js": { "maxDuration": 30 },
+    "api/simplify.js": { "maxDuration": 30 }
   },
-  "routes": [
-    { "src": "/api/enrich", "dest": "/api/enrich.js" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

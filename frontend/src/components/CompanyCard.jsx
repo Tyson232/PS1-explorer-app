@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, ChevronRight } from 'lucide-react';
+import { MapPin, Bookmark } from 'lucide-react';
 
 const DOMAIN_COLORS = {
   CSIS: 'text-accent-purple border-accent-purple/40 bg-accent-purple/10',
@@ -35,7 +35,7 @@ const SCALE_COLORS = {
   '🌐 Enterprise': 'text-accent-purple border-accent-purple/30 bg-accent-purple/10',
 };
 
-export default function CompanyCard({ company, onClick, searchQuery, enrichment }) {
+export default function CompanyCard({ company, onClick, searchQuery, enrichment, isPriority, onTogglePriority }) {
   const teaser = company.project_details?.slice(0, 120);
   const hasTruncation = (company.project_details?.length || 0) > 120;
 
@@ -44,17 +44,35 @@ export default function CompanyCard({ company, onClick, searchQuery, enrichment 
     : null;
 
   return (
-    <button
+    <div
       onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => e.key === 'Enter' && onClick()}
       className="
-        glass-card p-4 flex flex-col gap-3 text-left w-full
+        glass-card p-4 flex flex-col gap-3 text-left w-full relative
         hover:border-accent-purple/40 hover:bg-bg-hover
         active:scale-[0.99] transition-all duration-200
         group animate-fade-in cursor-pointer
       "
     >
-      {/* Header */}
-      <div className="flex items-start justify-between gap-2">
+      {/* Bookmark button — absolute top-right */}
+      <button
+        onClick={(e) => { e.stopPropagation(); onTogglePriority?.(company); }}
+        className={`
+          absolute top-3 right-3 p-1.5 rounded-md transition-all duration-200
+          ${isPriority
+            ? 'text-accent-amber bg-accent-amber/15 border border-accent-amber/30'
+            : 'text-text-muted hover:text-accent-amber hover:bg-accent-amber/10 border border-transparent'
+          }
+        `}
+        title={isPriority ? 'Remove from priority list' : 'Save to priority list'}
+      >
+        <Bookmark size={13} className={isPriority ? 'fill-current' : ''} />
+      </button>
+
+      {/* Header — give right padding so title doesn't overlap bookmark */}
+      <div className="flex items-start gap-2 pr-8">
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-text-primary text-sm leading-snug group-hover:text-accent-purple transition-colors line-clamp-1">
             {highlightText(company.name, searchQuery)}
@@ -69,16 +87,11 @@ export default function CompanyCard({ company, onClick, searchQuery, enrichment 
           </div>
         </div>
 
-        {/* Scale badge or domain badge */}
-        {enrichment?.scale_badge ? (
+        {/* Scale badge */}
+        {enrichment?.scale_badge && (
           <span className={`badge text-xs whitespace-nowrap flex-shrink-0 ${scaleStyle}`}>
             {enrichment.scale_badge}
           </span>
-        ) : (
-          <ChevronRight
-            size={14}
-            className="text-text-muted group-hover:text-accent-purple transition-colors flex-shrink-0 mt-0.5"
-          />
         )}
       </div>
 
@@ -119,6 +132,6 @@ export default function CompanyCard({ company, onClick, searchQuery, enrichment 
           ))}
         </div>
       )}
-    </button>
+    </div>
   );
 }

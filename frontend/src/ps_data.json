@@ -1,0 +1,698 @@
+{
+  "505 Army Base Workshop": {
+    "min_cg": 5.78,
+    "contact_emails": [
+      "f20232206@hyderabad.bits-pilani.ac.in",
+      "f20230380@goa.bits-pilani.ac.in",
+      "f20230974@goa.bits-pilani.ac.in",
+      "f20231120@hyderabad.bits-pilani.ac.in",
+      "f20231204@goa.bits-pilani.ac.in",
+      "f20231184@goa.bits-pilani.ac.in",
+      "f20230005@goa.bits-pilani.ac.in",
+      "f20231190@goa.bits-pilani.ac.in",
+      "f20231240@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "ASPIC Innovations Private Limited": {
+    "min_cg": 4.79,
+    "contact_emails": [
+      "f20230120@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "AdaptNXT Technology Solutions Pvt. Ltd - Non Tech": {
+    "min_cg": 7.02,
+    "contact_emails": [
+      "f20230695@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Advanced Systems Laboratory, DRDO": {
+    "min_cg": 8.11,
+    "contact_emails": [
+      "f20231179@goa.bits-pilani.ac.in",
+      "f20230521@goa.bits-pilani.ac.in",
+      "f20230695@hyderabad.bits-pilani.ac.in",
+      "f20230646@goa.bits-pilani.ac.in",
+      "f20230452@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Airports Authority of India (AAI)": {
+    "min_cg": 6.8,
+    "contact_emails": [
+      "f20230631@goa.bits-pilani.ac.in",
+      "f20231239@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Amyush Techno Solution Pvt Ltd": {
+    "min_cg": 4.91,
+    "contact_emails": [
+      "f20230974@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Bhabha Atomic Research Centre (BARC)": {
+    "min_cg": 7.37,
+    "contact_emails": [
+      "f20230679@hyderabad.bits-pilani.ac.in",
+      "f20230168@hyderabad.bits-pilani.ac.in",
+      "f20231203@hyderabad.bits-pilani.ac.in",
+      "f20231086@pilani.bits-pilani.ac.in",
+      "f20231377@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Computer Centre & Networking": {
+    "min_cg": 5.95,
+    "contact_emails": [
+      "f20231037@goa.bits-pilani.ac.in",
+      "f20230682@pilani.bits-pilani.ac.in",
+      "f20240555@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Information, Liaison and Training": {
+    "min_cg": 5.3,
+    "contact_emails": [
+      "f20230815@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Knowledge Resource Centre": {
+    "min_cg": 5.8,
+    "contact_emails": [
+      "f20230790@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Planning, Monitoring & Evaluation": {
+    "min_cg": 5,
+    "contact_emails": [
+      "f20231216@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CSIR - Central Electronics Engineering Research Institute (CEERI) - Pilani": {
+    "min_cg": 7.25,
+    "contact_emails": [
+      "f20230191@goa.bits-pilani.ac.in",
+      "f20230625@goa.bits-pilani.ac.in",
+      "f20230225@hyderabad.bits-pilani.ac.in",
+      "f20230327@pilani.bits-pilani.ac.in",
+      "f20231128@goa.bits-pilani.ac.in",
+      "f20230210@goa.bits-pilani.ac.in",
+      "f20231036@goa.bits-pilani.ac.in",
+      "f20231071@hyderabad.bits-pilani.ac.in",
+      "f20231092@hyderabad.bits-pilani.ac.in",
+      "f20230648@goa.bits-pilani.ac.in",
+      "f20230635@goa.bits-pilani.ac.in",
+      "f20230603@goa.bits-pilani.ac.in",
+      "f20230525@goa.bits-pilani.ac.in",
+      "f20231172@goa.bits-pilani.ac.in",
+      "f20230200@goa.bits-pilani.ac.in",
+      "f20230162@goa.bits-pilani.ac.in",
+      "f20230209@hyderabad.bits-pilani.ac.in",
+      "f20230461@hyderabad.bits-pilani.ac.in",
+      "f20230500@goa.bits-pilani.ac.in",
+      "f20231125@goa.bits-pilani.ac.in",
+      "f20230400@hyderabad.bits-pilani.ac.in",
+      "f20230424@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CSIR - Central Electronics Engineering Research Institute (CEERI)- Jaipur": {
+    "min_cg": 5.84,
+    "contact_emails": [
+      "f20230793@goa.bits-pilani.ac.in",
+      "f20231239@goa.bits-pilani.ac.in",
+      "f20230800@goa.bits-pilani.ac.in",
+      "f20230226@goa.bits-pilani.ac.in",
+      "f20230604@goa.bits-pilani.ac.in",
+      "f20230315@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CSIR - National Aerospace Laboratories": {
+    "min_cg": 8.29,
+    "contact_emails": [
+      "f20230714@goa.bits-pilani.ac.in",
+      "f20230257@goa.bits-pilani.ac.in",
+      "f20230408@pilani.bits-pilani.ac.in",
+      "f20230656@hyderabad.bits-pilani.ac.in",
+      "f20230210@pilani.bits-pilani.ac.in",
+      "f20230425@pilani.bits-pilani.ac.in",
+      "f20230435@hyderabad.bits-pilani.ac.in",
+      "f20231199@hyderabad.bits-pilani.ac.in",
+      "f20230778@hyderabad.bits-pilani.ac.in",
+      "f20230991@goa.bits-pilani.ac.in",
+      "f20230418@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "CSIR-Central Scientific Instruments Organization": {
+    "min_cg": 5.81,
+    "contact_emails": [
+      "f20230768@goa.bits-pilani.ac.in",
+      "f20230641@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Center for Materials for Electronics Technology (C-MET), Pune": {
+    "min_cg": 6.97,
+    "contact_emails": [
+      "f20231267@pilani.bits-pilani.ac.in",
+      "f20231121@pilani.bits-pilani.ac.in",
+      "f20230950@goa.bits-pilani.ac.in",
+      "f20230780@goa.bits-pilani.ac.in",
+      "f20231169@goa.bits-pilani.ac.in",
+      "f20230241@hyderabad.bits-pilani.ac.in",
+      "f20230952@goa.bits-pilani.ac.in",
+      "f20231152@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Central Institute of Road Transport - Electrical & Electronics": {
+    "min_cg": 6.95,
+    "contact_emails": [
+      "f20230512@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Central Institute of Road Transport - Mechanical": {
+    "min_cg": 6.29,
+    "contact_emails": [
+      "f20230697@goa.bits-pilani.ac.in",
+      "f20231297@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Central Institute of Road Transport – Chemical": {
+    "min_cg": 7,
+    "contact_emails": [
+      "f20230079@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Centre for High Impact Neuroscience and Translational Applications, TCG CREST": {
+    "min_cg": 7.14,
+    "contact_emails": [
+      "f20230657@goa.bits-pilani.ac.in",
+      "f20230670@goa.bits-pilani.ac.in",
+      "f20230687@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Centre for Railway Information Systems": {
+    "min_cg": 5.56,
+    "contact_emails": [
+      "f20231063@goa.bits-pilani.ac.in",
+      "f20231228@goa.bits-pilani.ac.in",
+      "f20230477@hyderabad.bits-pilani.ac.in",
+      "f20230212@hyderabad.bits-pilani.ac.in",
+      "f20230018@hyderabad.bits-pilani.ac.in",
+      "f20230332@hyderabad.bits-pilani.ac.in",
+      "f20231354@hyderabad.bits-pilani.ac.in",
+      "f20231057@hyderabad.bits-pilani.ac.in",
+      "f20230385@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Collegedunia - Non Tech": {
+    "min_cg": 6.45,
+    "contact_emails": [
+      "f20230886@goa.bits-pilani.ac.in",
+      "f20230123@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "DHIO Research & Engineering Pvt. Ltd": {
+    "min_cg": 7.85,
+    "contact_emails": [
+      "f20231201@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Danlaw Technologies India Ltd.": {
+    "min_cg": 8.42,
+    "contact_emails": [
+      "f20230027@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Delhi Metro Rail Corporation (DMRC)": {
+    "min_cg": 6.5,
+    "contact_emails": [
+      "f20230241@pilani.bits-pilani.ac.in",
+      "f20230904@hyderabad.bits-pilani.ac.in",
+      "f20230258@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Digibuks LLP Mumbai": {
+    "min_cg": 8,
+    "contact_emails": [
+      "f20230373@goa.bits-pilani.ac.in",
+      "f20231073@pilani.bits-pilani.ac.in",
+      "f20230654@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Online"
+  },
+  "Digital India Bhasini Division(DIBD)": {
+    "min_cg": 6.3,
+    "contact_emails": [
+      "f20230577@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "ETDC - Electronic Test & Development Centre- Jaipur": {
+    "min_cg": 5.69,
+    "contact_emails": [
+      "f20230408@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Eclipse Prism Medical Device Pvt. Ltd": {
+    "min_cg": 7.2,
+    "contact_emails": [
+      "f20231003@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Four Kites": {
+    "min_cg": 5.6,
+    "contact_emails": [
+      "f20230479@goa.bits-pilani.ac.in",
+      "f20230868@goa.bits-pilani.ac.in",
+      "f20230071@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "GMDC Science and Research Centre": {
+    "min_cg": 6.3,
+    "contact_emails": [
+      "f20230122@goa.bits-pilani.ac.in",
+      "f20230199@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "GPLAN Services Private Limited - IT": {
+    "min_cg": 6.49,
+    "contact_emails": [
+      "f20230310@hyderabad.bits-pilani.ac.in",
+      "f20230634@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Goa Shipyard Ltd.": {
+    "min_cg": 6.65,
+    "contact_emails": [
+      "f20231045@goa.bits-pilani.ac.in",
+      "f20230959@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Heetherark Labs Private Limited - Electronics": {
+    "min_cg": null,
+    "contact_emails": [
+      "f20230950@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Hodo stays": {
+    "min_cg": 5.86,
+    "contact_emails": [
+      "f20230831@goa.bits-pilani.ac.in",
+      "f20230558@hyderabad.bits-pilani.ac.in",
+      "f20231299@hyderabad.bits-pilani.ac.in",
+      "f20231074@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Manesar": {
+    "min_cg": 6.88,
+    "contact_emails": [
+      "f20231083@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Hyderabad Eye Institute (DBA - L V Prasad Eye Institute)": {
+    "min_cg": 6.29,
+    "contact_emails": [
+      "f20230321@goa.bits-pilani.ac.in",
+      "f20231357@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Hyphen SCS Pvt Ltd": {
+    "min_cg": 6.59,
+    "contact_emails": [
+      "f20230034@hyderabad.bits-pilani.ac.in",
+      "f20230917@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Indian AI": {
+    "min_cg": 6.44,
+    "contact_emails": [
+      "f20231007@goa.bits-pilani.ac.in",
+      "f20230562@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Indian Oil Corporation Ltd": {
+    "min_cg": 7.21,
+    "contact_emails": [
+      "f20230942@hyderabad.bits-pilani.ac.in",
+      "f20231276@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Indian Red Cross Society": {
+    "min_cg": 6,
+    "contact_emails": [
+      "f20230426@goa.bits-pilani.ac.in",
+      "f20231208@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Indian Semiconductor Mission ( ISM )": {
+    "min_cg": 7.65,
+    "contact_emails": [
+      "f20230609@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Indira Gandhi Centre for Atomic Research (IGCAR)": {
+    "min_cg": 6.1,
+    "contact_emails": [
+      "f20230107@goa.bits-pilani.ac.in",
+      "f20230130@goa.bits-pilani.ac.in",
+      "f20230358@pilani.bits-pilani.ac.in",
+      "f20230988@goa.bits-pilani.ac.in",
+      "f20230935@goa.bits-pilani.ac.in",
+      "f20230896@hyderabad.bits-pilani.ac.in",
+      "f20231330@hyderabad.bits-pilani.ac.in",
+      "f20230649@hyderabad.bits-pilani.ac.in",
+      "f20230979@hyderabad.bits-pilani.ac.in",
+      "f20230996@goa.bits-pilani.ac.in",
+      "f20230081@goa.bits-pilani.ac.in",
+      "f20230885@hyderabad.bits-pilani.ac.in",
+      "f20230851@pilani.bits-pilani.ac.in",
+      "f20230344@pilani.bits-pilani.ac.in",
+      "f20231128@pilani.bits-pilani.ac.in",
+      "f20230181@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Kotak Education Foundation": {
+    "min_cg": 5.14,
+    "contact_emails": [
+      "f20230748@goa.bits-pilani.ac.in",
+      "f20230938@hyderabad.bits-pilani.ac.in",
+      "f20231224@goa.bits-pilani.ac.in",
+      "f20230946@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Lifespark Technologies Private Limited": {
+    "min_cg": 6.5,
+    "contact_emails": [
+      "f20231132@hyderabad.bits-pilani.ac.in",
+      "f20230898@goa.bits-pilani.ac.in",
+      "f20231049@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "MeitY Startup Hub(MSH)": {
+    "min_cg": 7.3,
+    "contact_emails": [
+      "f20230233@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Mormugao Port Trust": {
+    "min_cg": 5.81,
+    "contact_emails": [
+      "f20230934@goa.bits-pilani.ac.in",
+      "f20231134@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Multigraphics Group - Renewable Energy": {
+    "min_cg": 6.1,
+    "contact_emails": [
+      "f20230899@goa.bits-pilani.ac.in",
+      "f20231298@pilani.bits-pilani.ac.in",
+      "f20231229@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Myoworks Private Limited": {
+    "min_cg": 5.19,
+    "contact_emails": [
+      "f20230050@goa.bits-pilani.ac.in",
+      "f20230666@goa.bits-pilani.ac.in",
+      "f20231264@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Myoworks Private Limited - Non tech": {
+    "min_cg": 5.19,
+    "contact_emails": [
+      "f20230666@goa.bits-pilani.ac.in",
+      "f20231264@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "NICSI( National Informatics Centre services Inc.)": {
+    "min_cg": 7.45,
+    "contact_emails": [
+      "f20231034@pilani.bits-pilani.ac.in",
+      "f20230436@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "NIXI( National Internet Exchange of India)": {
+    "min_cg": 7.9,
+    "contact_emails": [
+      "f20230209@goa.bits-pilani.ac.in",
+      "f20231014@goa.bits-pilani.ac.in",
+      "f20230442@hyderabad.bits-pilani.ac.in",
+      "f20230111@hyderabad.bits-pilani.ac.in",
+      "f20230132@hyderabad.bits-pilani.ac.in",
+      "f20231069@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "National Informatics Centre (NIC)": {
+    "min_cg": 8.06,
+    "contact_emails": [
+      "f20231299@pilani.bits-pilani.ac.in",
+      "f20231385@hyderabad.bits-pilani.ac.in",
+      "f20230893@pilani.bits-pilani.ac.in",
+      "f20230517@pilani.bits-pilani.ac.in",
+      "f20230815@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "National Load Despatch Centre, Grid Controller of India Limited": {
+    "min_cg": 6.93,
+    "contact_emails": [
+      "f20230691@goa.bits-pilani.ac.in",
+      "f20231066@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "National Remote Sensing Centre": {
+    "min_cg": 8,
+    "contact_emails": [
+      "f20230853@goa.bits-pilani.ac.in",
+      "f20231122@pilani.bits-pilani.ac.in",
+      "f20230147@hyderabad.bits-pilani.ac.in",
+      "f20230099@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "National Stock Exchange of India Limited": {
+    "min_cg": 9.4,
+    "contact_emails": [
+      "f20230945@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "National e-Governance Division (NeGD)": {
+    "min_cg": 7.32,
+    "contact_emails": [
+      "f20231321@hyderabad.bits-pilani.ac.in",
+      "f20230490@hyderabad.bits-pilani.ac.in",
+      "f20230229@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Pockvue Solutions Pvt. Ltd - Tech": {
+    "min_cg": 5.3,
+    "contact_emails": [
+      "f20230045@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Pyrotech Electronics Pvt. Ltd.": {
+    "min_cg": 5.59,
+    "contact_emails": [
+      "f20230117@goa.bits-pilani.ac.in",
+      "f20230674@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Regional Remote Sensing Center-North, NRSC, ISRO - Electronics": {
+    "min_cg": 9.68,
+    "contact_emails": [
+      "f20231280@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Regional Remote Sensing Center-North, NRSC, ISRO - IT": {
+    "min_cg": 9.08,
+    "contact_emails": [
+      "f20230675@hyderabad.bits-pilani.ac.in",
+      "f20230696@goa.bits-pilani.ac.in",
+      "f20231032@pilani.bits-pilani.ac.in",
+      "f20230443@goa.bits-pilani.ac.in",
+      "f20231189@goa.bits-pilani.ac.in",
+      "f20230970@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Regional Remote Sensing Centre,Jodhpur": {
+    "min_cg": 7.53,
+    "contact_emails": [
+      "f20230972@pilani.bits-pilani.ac.in",
+      "f20231008@pilani.bits-pilani.ac.in",
+      "f20230835@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Roboaviate (BotSavvy Private Limited)": {
+    "min_cg": 5.9,
+    "contact_emails": [
+      "f20231060@goa.bits-pilani.ac.in",
+      "f20231056@goa.bits-pilani.ac.in",
+      "f20231173@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Semi-Conductor Laboratory (SCL), Mohali, Punjab": {
+    "min_cg": 8.19,
+    "contact_emails": [
+      "f20231072@goa.bits-pilani.ac.in",
+      "f20231077@goa.bits-pilani.ac.in",
+      "f20230292@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Siemens Digital Industries Software India Pvt Ltd": {
+    "min_cg": 7.22,
+    "contact_emails": [
+      "f20230061@goa.bits-pilani.ac.in",
+      "f20230602@goa.bits-pilani.ac.in",
+      "f20230795@hyderabad.bits-pilani.ac.in",
+      "f20231361@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Smartlink Holdings Ltd": {
+    "min_cg": null,
+    "contact_emails": [
+      "f20230402@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": null
+  },
+  "Standardisation, Testing & Quality Certification Directorate (STQC), Delhi": {
+    "min_cg": 6.82,
+    "contact_emails": [
+      "f20231069@goa.bits-pilani.ac.in",
+      "f20230799@hyderabad.bits-pilani.ac.in",
+      "f20231089@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "TCG Centres for Research and Education in Science and Technology (TCG CREST)": {
+    "min_cg": 7.16,
+    "contact_emails": [
+      "f20231011@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Techgeekz Services Private Limited": {
+    "min_cg": 7.81,
+    "contact_emails": [
+      "f20230972@goa.bits-pilani.ac.in",
+      "f20230155@hyderabad.bits-pilani.ac.in",
+      "f20231388@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Online"
+  },
+  "Technology Enabling Centre, BITS Pilani, Pilani campus": {
+    "min_cg": 6.42,
+    "contact_emails": [
+      "f20230206@goa.bits-pilani.ac.in",
+      "f20230487@hyderabad.bits-pilani.ac.in",
+      "f20231390@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "The Akshaya Patra Foundation": {
+    "min_cg": 5.6,
+    "contact_emails": [
+      "f20230883@goa.bits-pilani.ac.in",
+      "f20230127@goa.bits-pilani.ac.in",
+      "f20231046@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "sfHawk – Tech": {
+    "min_cg": 6.21,
+    "contact_emails": [
+      "f20230905@hyderabad.bits-pilani.ac.in",
+      "f20231098@hyderabad.bits-pilani.ac.in",
+      "f20231070@goa.bits-pilani.ac.in",
+      "f20230764@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "UST Infinity labs": {
+    "min_cg": 6.35,
+    "contact_emails": [
+      "f20230309@goa.bits-pilani.ac.in",
+      "f20230118@hyderabad.bits-pilani.ac.in",
+      "f20230159@goa.bits-pilani.ac.in",
+      "f20230957@goa.bits-pilani.ac.in",
+      "f20230790@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "OnFinance AI - IT": {
+    "min_cg": 8.02,
+    "contact_emails": [
+      "f20230905@goa.bits-pilani.ac.in",
+      "f20230484@goa.bits-pilani.ac.in",
+      "f20230654@goa.bits-pilani.ac.in",
+      "f20231256@hyderabad.bits-pilani.ac.in",
+      "f20230154@hyderabad.bits-pilani.ac.in",
+      "f20230347@goa.bits-pilani.ac.in",
+      "f20230764@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Yantraayush Solutions PVT Ltd": {
+    "min_cg": 4.66,
+    "contact_emails": [
+      "f20230475@pilani.bits-pilani.ac.in",
+      "f20230446@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  }
+}

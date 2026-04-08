@@ -1,15 +1,26 @@
 import companiesData from '../companies_data.json';
+import psData from '../ps_data.json';
+
+// Merge PS response data (min CG, emails, work mode) into every company
+const _companiesWithPS = companiesData.map(c => {
+  const ps = psData[c.name];
+  return ps
+    ? { ...c, min_cg: ps.min_cg, contact_emails: ps.contact_emails, work_mode: ps.work_mode }
+    : { ...c, min_cg: null, contact_emails: [], work_mode: null };
+});
 
 // ─── In-memory store ──────────────────────────────────────────────────────
-let _companies = companiesData;
+let _companies = _companiesWithPS;
 let _lastUpdated = new Date().toISOString();
 
 // ─── Companies ────────────────────────────────────────────────────────────
 
 export function fetchCompanies(params = {}) {
-  const { q, domains, subdomains } = params;
+  const { q, domains, subdomains, cities, workModes } = params;
   const domainList = domains ? domains.split(',').filter(Boolean) : [];
   const subdomainList = subdomains ? subdomains.split(',').filter(Boolean) : [];
+  const cityList = cities ? cities.split(',').filter(Boolean) : [];
+  const workModeList = workModes ? workModes.split(',').filter(Boolean) : [];
 
   let companies = _companies;
 
@@ -33,7 +44,24 @@ export function fetchCompanies(params = {}) {
     );
   }
 
+  if (cityList.length > 0) {
+    companies = companies.filter(c => cityList.includes(c.city?.trim()));
+  }
+
+  if (workModeList.length > 0) {
+    companies = companies.filter(c => c.work_mode && workModeList.includes(c.work_mode));
+  }
+
   return Promise.resolve({ companies, total: companies.length });
+}
+
+export function fetchCities() {
+  const citySet = new Set();
+  for (const c of _companies) {
+    if (c.city?.trim()) citySet.add(c.city.trim());
+  }
+  const cities = [...citySet].sort();
+  return Promise.resolve({ cities });
 }
 
 export function fetchDomains() {
@@ -67,9 +95,30 @@ export function fetchMeta() {
   });
 }
 
-// ─── Enrichment (calls Vercel API → Gemini) ───────────────────────────────
+// ─── Enrichment cache (memory + localStorage persistence) ────────────────
 
-const enrichmentCache = {};
+const ENRICH_STORAGE_KEY = 'ps1_enrichment_cache';
+
+// Seed in-memory cache from localStorage on module load
+const enrichmentCache = (() => {
+  try {
+    const stored = localStorage.getItem(ENRICH_STORAGE_KEY);
+    return stored ? JSON.parse(stored) : {};
+  } catch {
+    return {};
+  }
+})();
+
+function persistCache() {
+  try {
+    localStorage.setItem(ENRICH_STORAGE_KEY, JSON.stringify(enrichmentCache));
+  } catch {
+    // localStorage full or unavailable — fine, memory cache still works
+  }
+}
+
+// Expose the cache so App can seed React state from it without extra fetches
+export function getEnrichmentCache() { return enrichmentCache; }
 
 export async function fetchEnrichment(companyName) {
   if (enrichmentCache[companyName]) {
@@ -79,7 +128,11 @@ export async function fetchEnrichment(companyName) {
     const res = await fetch(`/api/enrich?name=${encodeURIComponent(companyName)}`);
     if (!res.ok) throw new Error('API error');
     const data = await res.json();
-    if (data.enrichment) enrichmentCache[companyName] = data.enrichment;
+    // Only cache successful enrichments, not errors/skipped
+    if (data.enrichment?.fetch_status === 'done') {
+      enrichmentCache[companyName] = data.enrichment;
+      persistCache();
+    }
     return data;
   } catch {
     return { enrichment: { fetch_status: 'error' }, cached: false };
@@ -146,7 +199,7 @@ function normalizeDomain(raw) {
   if (!raw) return 'General';
   const s = raw.toString().trim();
   if (/csis|cs\/it|cs|it\b|computer science|information tech/i.test(s)) return 'CSIS';
-  if (/ee|ece|electrical|electronics/i.test(s)) return 'Electrical';
+  if (/ee|ece|electrical|electronics/i.test(s)) return 'Electrical & Electronics';
   if (/me\b|mech|mechanical/i.test(s)) return 'Mechanical';
   if (/chem|chemical/i.test(s)) return 'Chemical';
   if (/finance|fin\b|economics|finance and mgmt/i.test(s)) return 'Finance';

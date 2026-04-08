@@ -1,7 +1,7 @@
 import React from 'react';
-import { Search, X, RefreshCw, Upload, Sheet } from 'lucide-react';
+import { Search, X, Sheet } from 'lucide-react';
 
-export default function SearchBar({ query, onChange, onRefresh, onUploadClick, onSheetsClick, refreshing, totalCount }) {
+export default function SearchBar({ query, onChange, onSheetsClick, totalCount }) {
   return (
     <div className="flex items-center gap-3">
       {/* Search input */}
@@ -47,27 +47,6 @@ export default function SearchBar({ query, onChange, onRefresh, onUploadClick, o
       >
         <Sheet size={14} />
         <span className="hidden sm:inline">Sheets</span>
-      </button>
-
-      {/* Upload button */}
-      <button
-        onClick={onUploadClick}
-        className="btn-ghost flex items-center gap-1.5 whitespace-nowrap"
-        title="Upload Excel / CSV file"
-      >
-        <Upload size={14} />
-        <span className="hidden sm:inline">Upload</span>
-      </button>
-
-      {/* Refresh button */}
-      <button
-        onClick={onRefresh}
-        disabled={refreshing}
-        className="btn-ghost flex items-center gap-1.5 whitespace-nowrap"
-        title="Re-parse uploaded file"
-      >
-        <RefreshCw size={14} className={refreshing ? 'animate-spin' : ''} />
-        <span className="hidden sm:inline">Refresh</span>
       </button>
     </div>
   );

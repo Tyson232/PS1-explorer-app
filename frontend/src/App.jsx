@@ -1,27 +1,33 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
-import { Building2, SlidersHorizontal, X } from 'lucide-react';
+import { Building2, SlidersHorizontal, X, Star } from 'lucide-react';
 
 import { useCompanies } from './hooks/useCompanies.js';
-import { refreshData } from './api/client.js';
+import { fetchEnrichment, getEnrichmentCache } from './api/client.js';
 import SearchBar from './components/SearchBar.jsx';
 import FilterSidebar from './components/FilterSidebar.jsx';
 import CompanyCard from './components/CompanyCard.jsx';
 import CompanyModal from './components/CompanyModal.jsx';
-import UploadZone from './components/UploadZone.jsx';
+import PriorityList from './components/PriorityList.jsx';
 import SheetsSync from './components/SheetsSync.jsx';
 import StatusBar from './components/StatusBar.jsx';
 import { SkeletonCard } from './components/SkeletonCard.jsx';
 
-// Cache enrichments in memory so cards show badges without re-fetching
-const enrichmentCache = {};
+
+const PRIORITY_KEY = 'ps1_priority_list';
+
+function loadPriority() {
+  try { return JSON.parse(localStorage.getItem(PRIORITY_KEY) || '[]'); }
+  catch { return []; }
+}
 
 export default function App() {
   const {
     companies,
     domains,
     subdomainMap,
+    allCities,
     meta,
     loading,
     error,
@@ -29,20 +35,58 @@ export default function App() {
     updateFilter,
     toggleDomain,
     toggleSubdomain,
+    toggleCity,
+    toggleWorkMode,
     clearFilters,
     refresh,
     loadMeta
   } = useCompanies();
 
   const [selectedCompany, setSelectedCompany] = useState(null);
-  const [showUpload, setShowUpload] = useState(false);
   const [showSheets, setShowSheets] = useState(false);
-  const [refreshing, setRefreshing] = useState(false);
   const [connected, setConnected] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [cardEnrichments, setCardEnrichments] = useState({});
 
-  // Poll health endpoint to show online/offline status
+  // Scale filter (post-filter on top of useCompanies results)
+  const [selectedScales, setSelectedScales] = useState([]);
+  const toggleScale = useCallback((scale) => {
+    setSelectedScales(prev =>
+      prev.includes(scale) ? prev.filter(s => s !== scale) : [...prev, scale]
+    );
+  }, []);
+
+  // Priority list — persisted to localStorage
+  const [priorityList, setPriorityList] = useState(loadPriority);
+  const [showPriorityList, setShowPriorityList] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem(PRIORITY_KEY, JSON.stringify(priorityList));
+  }, [priorityList]);
+
+  const togglePriority = useCallback((company) => {
+    setPriorityList(prev =>
+      prev.some(c => c.id === company.id)
+        ? prev.filter(c => c.id !== company.id)
+        : [...prev, company]
+    );
+  }, []);
+
+  const removePriority = useCallback((id) => {
+    setPriorityList(prev => prev.filter(c => c.id !== id));
+  }, []);
+
+  const reorderPriority = useCallback((newList) => {
+    setPriorityList(newList);
+  }, []);
+
+  // Clear all filters including scale
+  const clearAllFilters = useCallback(() => {
+    clearFilters();
+    setSelectedScales([]);
+  }, [clearFilters]);
+
+  // Poll health endpoint
   useEffect(() => {
     const check = () => {
       fetch('/api/health')
@@ -54,50 +98,55 @@ export default function App() {
     return () => clearInterval(interval);
   }, []);
 
-  // Pre-fetch enrichments for visible cards (lazy, queue-based)
+  // Seed card enrichments instantly from localStorage cache, then background-fetch the rest
   useEffect(() => {
+    if (companies.length === 0) return;
+
+    // Pass 1: instantly populate from localStorage (no API call)
+    const cache = getEnrichmentCache();
+    const instant = {};
+    companies.forEach(c => {
+      if (cache[c.name]) instant[c.name] = cache[c.name];
+    });
+    if (Object.keys(instant).length > 0) {
+      setCardEnrichments(prev => ({ ...prev, ...instant }));
+    }
+
+    // Pass 2: background-fetch uncached companies (all of them, throttled)
     let cancelled = false;
-    const fetchBatch = async () => {
-      for (const company of companies.slice(0, 20)) {
+    const uncached = companies.filter(c => !cache[c.name]);
+    (async () => {
+      for (const company of uncached) {
         if (cancelled) break;
-        if (enrichmentCache[company.name]) {
-          setCardEnrichments(prev => ({ ...prev, [company.name]: enrichmentCache[company.name] }));
-          continue;
-        }
         try {
-          const res = await fetch(`/api/companies/${encodeURIComponent(company.name)}/enrich`);
-          if (!res.ok) continue;
-          const data = await res.json();
-          if (data.enrichment) {
-            enrichmentCache[company.name] = data.enrichment;
-            if (!cancelled) {
-              setCardEnrichments(prev => ({ ...prev, [company.name]: data.enrichment }));
-            }
+          const data = await fetchEnrichment(company.name);
+          if (data.enrichment?.fetch_status === 'done' && !cancelled) {
+            setCardEnrichments(prev => ({ ...prev, [company.name]: data.enrichment }));
           }
-          await new Promise(r => setTimeout(r, 400)); // throttle
         } catch {}
+        // 1s between API calls to stay within rate limits
+        await new Promise(r => setTimeout(r, 1000));
       }
-    };
-    if (companies.length > 0) fetchBatch();
+    })();
+
     return () => { cancelled = true; };
   }, [companies]);
 
-  const handleRefresh = useCallback(async () => {
-    setRefreshing(true);
-    try {
-      const data = await refreshData();
-      toast.success(data.message || 'Data refreshed!');
-      refresh();
-      loadMeta();
-    } catch (err) {
-      const msg = err.response?.data?.error || 'No file to refresh. Please upload first.';
-      toast.error(msg);
-    } finally {
-      setRefreshing(false);
-    }
-  }, [refresh, loadMeta]);
+  // Callback from modal: update card enrichment state
+  const handleEnriched = useCallback((name, enrichment) => {
+    setCardEnrichments(prev => ({ ...prev, [name]: enrichment }));
+  }, []);
 
-  const hasFilters = filters.domains.length > 0 || filters.subdomains.length > 0;
+  // Apply scale post-filter
+  const visibleCompanies = selectedScales.length === 0
+    ? companies
+    : companies.filter(c => {
+        const e = cardEnrichments[c.name];
+        return e?.scale_badge && selectedScales.includes(e.scale_badge);
+      });
+
+  const hasFilters = filters.domains.length > 0 || filters.subdomains.length > 0
+    || filters.cities.length > 0 || selectedScales.length > 0 || filters.workModes.length > 0;
 
   return (
     <div className="min-h-screen bg-bg-primary flex flex-col font-sans">
@@ -111,7 +160,6 @@ export default function App() {
       {/* Top Header */}
       <header className="border-b border-bg-border bg-bg-secondary/50 backdrop-blur-sm sticky top-0 z-30">
         <div className="max-w-screen-xl mx-auto px-4 py-3 flex flex-col gap-2">
-          {/* Brand + Search row */}
           <div className="flex items-center gap-4">
             {/* Mobile sidebar toggle */}
             <button
@@ -136,13 +184,32 @@ export default function App() {
               <SearchBar
                 query={filters.q}
                 onChange={(v) => updateFilter('q', v)}
-                onRefresh={handleRefresh}
-                onUploadClick={() => setShowUpload(true)}
                 onSheetsClick={() => setShowSheets(true)}
-                refreshing={refreshing}
-                totalCount={companies.length}
+                totalCount={hasFilters ? undefined : visibleCompanies.length}
               />
             </div>
+
+            {/* Priority List button */}
+            <button
+              onClick={() => setShowPriorityList(true)}
+              className={`
+                flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium
+                transition-all duration-200 whitespace-nowrap
+                ${priorityList.length > 0
+                  ? 'bg-accent-amber/10 border-accent-amber/40 text-accent-amber hover:bg-accent-amber/20'
+                  : 'btn-ghost'
+                }
+              `}
+              title="My Priority List"
+            >
+              <Star size={14} className={priorityList.length > 0 ? 'fill-current' : ''} />
+              <span className="hidden sm:inline">My List</span>
+              {priorityList.length > 0 && (
+                <span className="font-mono text-xs bg-accent-amber/20 rounded px-1">
+                  {priorityList.length}
+                </span>
+              )}
+            </button>
           </div>
 
           {/* Status bar */}
@@ -163,7 +230,14 @@ export default function App() {
               selectedSubdomains={filters.subdomains}
               onToggleDomain={toggleDomain}
               onToggleSubdomain={toggleSubdomain}
-              onClear={clearFilters}
+              allCities={allCities}
+              selectedCities={filters.cities}
+              onToggleCity={toggleCity}
+              selectedScales={selectedScales}
+              onToggleScale={toggleScale}
+              selectedWorkModes={filters.workModes}
+              onToggleWorkMode={toggleWorkMode}
+              onClearAll={clearAllFilters}
             />
           </div>
         </div>
@@ -174,7 +248,10 @@ export default function App() {
             className="fixed inset-0 z-40 lg:hidden"
             onClick={() => setSidebarOpen(false)}
           >
-            <div className="absolute inset-y-0 left-0 w-64 bg-bg-secondary border-r border-bg-border p-4 overflow-y-auto animate-slide-up" onClick={e => e.stopPropagation()}>
+            <div
+              className="absolute inset-y-0 left-0 w-64 bg-bg-secondary border-r border-bg-border p-4 overflow-y-auto animate-slide-up"
+              onClick={e => e.stopPropagation()}
+            >
               <FilterSidebar
                 domains={domains}
                 subdomainMap={subdomainMap}
@@ -182,7 +259,14 @@ export default function App() {
                 selectedSubdomains={filters.subdomains}
                 onToggleDomain={(d) => { toggleDomain(d); setSidebarOpen(false); }}
                 onToggleSubdomain={(s) => { toggleSubdomain(s); setSidebarOpen(false); }}
-                onClear={clearFilters}
+                allCities={allCities}
+                selectedCities={filters.cities}
+                onToggleCity={(c) => { toggleCity(c); setSidebarOpen(false); }}
+                selectedScales={selectedScales}
+                onToggleScale={(s) => { toggleScale(s); setSidebarOpen(false); }}
+                selectedWorkModes={filters.workModes}
+                onToggleWorkMode={(m) => { toggleWorkMode(m); setSidebarOpen(false); }}
+                onClearAll={() => { clearAllFilters(); setSidebarOpen(false); }}
               />
             </div>
           </div>
@@ -190,24 +274,43 @@ export default function App() {
 
         {/* Company grid */}
         <main className="flex-1 min-w-0">
-          {/* Active filter banner */}
+          {/* Active filter summary bar */}
           {hasFilters && !loading && (
-            <div className="flex items-center gap-2 mb-4 text-sm text-text-secondary">
-              <span>Filtered by:</span>
+            <div className="flex flex-wrap items-center gap-2 mb-4 text-sm">
+              <span className="text-text-muted text-xs">Filtered by:</span>
+              <span className="font-mono text-xs text-text-primary bg-bg-card border border-bg-border rounded px-1.5 py-0.5">{visibleCompanies.length}</span>
               {filters.domains.map(d => (
-                <span key={d} className="tag-chip text-accent-purple border-accent-purple/30">
-                  {d}
-                </span>
+                <button key={d} onClick={() => toggleDomain(d)}
+                  className="tag-chip flex items-center gap-1 text-accent-purple border-accent-purple/30 hover:border-accent-purple transition-colors">
+                  {d} <X size={9} />
+                </button>
               ))}
               {filters.subdomains.map(s => (
-                <span key={s} className="tag-chip text-accent-teal border-accent-teal/30">
-                  {s}
-                </span>
+                <button key={s} onClick={() => toggleSubdomain(s)}
+                  className="tag-chip flex items-center gap-1 text-accent-teal border-accent-teal/30 hover:border-accent-teal transition-colors">
+                  {s} <X size={9} />
+                </button>
               ))}
-              <button
-                onClick={clearFilters}
-                className="text-xs text-text-muted hover:text-accent-purple transition-colors ml-1"
-              >
+              {filters.cities.map(c => (
+                <button key={c} onClick={() => toggleCity(c)}
+                  className="tag-chip flex items-center gap-1 text-accent-teal border-accent-teal/30 hover:border-accent-teal transition-colors">
+                  <span>📍</span>{c} <X size={9} />
+                </button>
+              ))}
+              {selectedScales.map(s => (
+                <button key={s} onClick={() => toggleScale(s)}
+                  className="tag-chip flex items-center gap-1 text-accent-amber border-accent-amber/30 hover:border-accent-amber transition-colors">
+                  {s} <X size={9} />
+                </button>
+              ))}
+              {filters.workModes.map(m => (
+                <button key={m} onClick={() => toggleWorkMode(m)}
+                  className="tag-chip flex items-center gap-1 text-orange-400 border-orange-500/30 hover:border-orange-500 transition-colors">
+                  {m} <X size={9} />
+                </button>
+              ))}
+              <button onClick={clearAllFilters}
+                className="text-xs text-text-muted hover:text-accent-purple transition-colors ml-1">
                 Clear all
               </button>
             </div>
@@ -221,29 +324,21 @@ export default function App() {
           )}
 
           {/* Empty state */}
-          {!loading && !error && companies.length === 0 && (
+          {!loading && !error && visibleCompanies.length === 0 && (
             <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
               <div className="w-16 h-16 rounded-2xl bg-bg-card border border-bg-border flex items-center justify-center text-3xl">
                 📂
               </div>
               <div>
-                <h3 className="text-text-primary font-semibold mb-1">No companies yet</h3>
+                <h3 className="text-text-primary font-semibold mb-1">No companies found</h3>
                 <p className="text-sm text-text-muted max-w-xs">
-                  {filters.q || hasFilters
-                    ? 'No companies match your search. Try adjusting your filters.'
-                    : 'Upload an Excel or CSV file to get started. See the README for the expected format.'}
+                  {hasFilters || filters.q
+                    ? 'No companies match your current filters.'
+                    : 'No data available.'}
                 </p>
               </div>
-              {!filters.q && !hasFilters && (
-                <button
-                  onClick={() => setShowUpload(true)}
-                  className="btn-primary flex items-center gap-2 mt-2"
-                >
-                  Upload Data
-                </button>
-              )}
-              {(filters.q || hasFilters) && (
-                <button onClick={clearFilters} className="btn-ghost">
+              {(hasFilters || filters.q) && (
+                <button onClick={clearAllFilters} className="btn-ghost">
                   Clear filters
                 </button>
               )}
@@ -254,13 +349,15 @@ export default function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
             {loading
               ? Array.from({ length: 9 }).map((_, i) => <SkeletonCard key={i} />)
-              : companies.map(company => (
+              : visibleCompanies.map(company => (
                 <CompanyCard
                   key={company.id}
                   company={company}
                   onClick={() => setSelectedCompany(company)}
                   searchQuery={filters.q}
                   enrichment={cardEnrichments[company.name]}
+                  isPriority={priorityList.some(c => c.id === company.id)}
+                  onTogglePriority={togglePriority}
                 />
               ))
             }
@@ -273,6 +370,21 @@ export default function App() {
         <CompanyModal
           company={selectedCompany}
           onClose={() => setSelectedCompany(null)}
+          onEnriched={handleEnriched}
+        />
+      )}
+
+      {/* Priority list drawer */}
+      {showPriorityList && (
+        <PriorityList
+          list={priorityList}
+          onClose={() => setShowPriorityList(false)}
+          onReorder={reorderPriority}
+          onRemove={removePriority}
+          onOpenCompany={(company) => {
+            setShowPriorityList(false);
+            setSelectedCompany(company);
+          }}
         />
       )}
 
@@ -281,18 +393,6 @@ export default function App() {
         <SheetsSync
           onClose={() => setShowSheets(false)}
           onSynced={() => { refresh(); loadMeta(); }}
-        />
-      )}
-
-      {/* Upload modal */}
-      {showUpload && (
-        <UploadZone
-          onClose={() => setShowUpload(false)}
-          onSuccess={() => {
-            setShowUpload(false);
-            refresh();
-            loadMeta();
-          }}
         />
       )}
     </div>
