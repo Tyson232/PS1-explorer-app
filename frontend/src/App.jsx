@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 import { Building2, SlidersHorizontal, X, Star } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import { useCompanies } from './hooks/useCompanies.js';
 import { fetchEnrichment, getEnrichmentCache } from './api/client.js';
@@ -395,6 +396,8 @@ export default function App() {
           onSynced={() => { refresh(); loadMeta(); }}
         />
       )}
+
+      <SpeedInsights />
     </div>
   );
 }
