@@ -316,19 +316,11 @@ export default function App() {
               <div className="w-8 h-8 rounded-lg bg-accent-purple/20 border border-accent-purple/30 flex items-center justify-center">
                 <Building2 size={15} className="text-accent-purple" />
               </div>
-              <div className="hidden sm:flex flex-col gap-0.5">
+              <div className="hidden sm:block">
                 <span className="font-bold text-text-primary leading-none" style={{ fontSize: '1.05rem', letterSpacing: '-0.02em' }}>
                   <span className="font-mono text-accent-purple">PS1</span>
                   <span className="text-text-primary"> Explorer</span>
                 </span>
-                <button
-                  onClick={() => setShowAllotmentInfo(true)}
-                  className="flex items-center gap-1 text-left text-[10px] text-text-muted hover:text-accent-purple transition-colors group/allot leading-none"
-                  title="How does allotment work?"
-                >
-                  <Info size={9} className="flex-shrink-0 group-hover/allot:text-accent-purple" />
-                  <span>How allotment works</span>
-                </button>
               </div>
             </div>
 
@@ -372,6 +364,16 @@ export default function App() {
                   {priorityList.length}
                 </span>
               )}
+            </button>
+
+            {/* Allotment info */}
+            <button
+              onClick={() => setShowAllotmentInfo(true)}
+              className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium bg-bg-card border-bg-border text-text-muted hover:text-accent-purple hover:border-accent-purple/40 hover:bg-accent-purple/5 transition-all duration-200 whitespace-nowrap"
+              title="How does allotment work?"
+            >
+              <Info size={14} />
+              <span>How allotment works?</span>
             </button>
           </div>
 
