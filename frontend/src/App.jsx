@@ -70,7 +70,10 @@ function AllotmentInfoModal({ onClose }) {
           <div className="rounded-lg border border-accent-purple/25 bg-accent-purple/5 p-4">
             <p className="text-xs font-semibold text-accent-purple uppercase tracking-wider mb-2">Example</p>
             <p className="text-sm text-text-secondary leading-relaxed">
-              If a <span className="font-semibold text-text-primary">9.2</span> and <span className="font-semibold text-text-primary">8.8</span> CGPA student both want the same station as pref 1 — the 9.2 gets it, and the 8.8 moves to their pref 2.
+              Student A (<span className="font-semibold text-text-primary">9.2 CGPA</span>) has a station as pref 5.
+              Student B (<span className="font-semibold text-text-primary">8.5 CGPA</span>) has the same station as pref 1.
+              If A's first 4 preferences don't work out, A still gets this station over B —{' '}
+              <span className="font-semibold text-accent-purple">CGPA always wins regardless of preference order.</span>
             </p>
           </div>
 
@@ -309,18 +312,22 @@ export default function App() {
             </button>
 
             {/* Logo */}
-            <div className="flex items-center gap-2 flex-shrink-0">
-              <div className="w-7 h-7 rounded-lg bg-accent-purple/20 border border-accent-purple/30 flex items-center justify-center">
-                <Building2 size={14} className="text-accent-purple" />
+            <div className="flex items-center gap-2.5 flex-shrink-0">
+              <div className="w-8 h-8 rounded-lg bg-accent-purple/20 border border-accent-purple/30 flex items-center justify-center">
+                <Building2 size={15} className="text-accent-purple" />
               </div>
-              <div className="hidden sm:flex items-center gap-1.5">
-                <span className="font-bold text-text-primary text-sm">PS1 Explorer</span>
+              <div className="hidden sm:flex flex-col gap-0.5">
+                <span className="font-bold text-text-primary leading-none" style={{ fontSize: '1.05rem', letterSpacing: '-0.02em' }}>
+                  <span className="font-mono text-accent-purple">PS1</span>
+                  <span className="text-text-primary"> Explorer</span>
+                </span>
                 <button
                   onClick={() => setShowAllotmentInfo(true)}
-                  className="p-1 rounded-md text-text-muted hover:text-accent-purple hover:bg-accent-purple/10 transition-colors"
+                  className="flex items-center gap-1 text-left text-[10px] text-text-muted hover:text-accent-purple transition-colors group/allot leading-none"
                   title="How does allotment work?"
                 >
-                  <Info size={14} />
+                  <Info size={9} className="flex-shrink-0 group-hover/allot:text-accent-purple" />
+                  <span>How allotment works</span>
                 </button>
               </div>
             </div>
