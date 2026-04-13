@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
-import { Building2, SlidersHorizontal, X, Plus, MessageSquarePlus } from 'lucide-react';
+import { Building2, SlidersHorizontal, X, Plus, MessageSquarePlus, Info } from 'lucide-react';
 
 import { useCompanies } from './hooks/useCompanies.js';
 import { fetchEnrichment, getEnrichmentCache, getAllCompanies } from './api/client.js';
@@ -18,6 +18,71 @@ import { SkeletonCard } from './components/SkeletonCard.jsx';
 
 
 const PRIORITY_KEY = 'ps1_priority_list';
+
+function AllotmentInfoModal({ onClose }) {
+  useEffect(() => {
+    const handler = (e) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [onClose]);
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
+      onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
+    >
+      <div className="bg-bg-secondary border border-bg-border rounded-2xl w-full max-w-lg shadow-2xl animate-slide-up flex flex-col max-h-[85vh]">
+        {/* Header */}
+        <div className="flex items-center justify-between p-5 border-b border-bg-border flex-shrink-0">
+          <div className="flex items-center gap-2">
+            <div className="w-7 h-7 rounded-lg bg-accent-purple/20 border border-accent-purple/30 flex items-center justify-center">
+              <Info size={14} className="text-accent-purple" />
+            </div>
+            <h2 className="text-base font-bold text-text-primary">How does allotment work?</h2>
+          </div>
+          <button onClick={onClose} className="btn-ghost p-2"><X size={14} /></button>
+        </div>
+
+        {/* Body */}
+        <div className="overflow-y-auto p-5 flex flex-col gap-4">
+          {/* Intro */}
+          <p className="text-sm text-text-secondary leading-relaxed">
+            Students are sorted by CGPA (highest first). The system goes one by one and tries to allot each student their highest available preference.
+          </p>
+
+          {/* Key points */}
+          <div className="flex flex-col gap-2">
+            <p className="text-xs font-semibold uppercase tracking-wider text-text-muted">Key Points</p>
+            {[
+              { icon: '🏆', text: 'Higher CGPA = processed first.' },
+              { icon: '🔁', text: "If your pref 1 isn't available, system tries pref 2, then 3, and so on." },
+              { icon: '🏠', text: "Accommodation matters — if you don't have it and neither does the org, you likely won't get that station." },
+              { icon: '⚖️', text: 'Same CGPA? Whoever ranked that station higher wins. Still tied? Branch/domain match decides.' },
+            ].map(({ icon, text }) => (
+              <div key={text} className="flex items-start gap-3 p-3 rounded-lg bg-bg-card border border-bg-border">
+                <span className="text-base flex-shrink-0">{icon}</span>
+                <p className="text-sm text-text-secondary leading-relaxed">{text}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Example */}
+          <div className="rounded-lg border border-accent-purple/25 bg-accent-purple/5 p-4">
+            <p className="text-xs font-semibold text-accent-purple uppercase tracking-wider mb-2">Example</p>
+            <p className="text-sm text-text-secondary leading-relaxed">
+              If a <span className="font-semibold text-text-primary">9.2</span> and <span className="font-semibold text-text-primary">8.8</span> CGPA student both want the same station as pref 1 — the 9.2 gets it, and the 8.8 moves to their pref 2.
+            </p>
+          </div>
+
+          {/* Source */}
+          <p className="text-xs text-text-muted text-center pt-1">
+            Taken from the official FAQs posted by PSD
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 function loadPriority() {
   try { return JSON.parse(localStorage.getItem(PRIORITY_KEY) || '[]'); }
@@ -84,6 +149,7 @@ export default function App() {
   } = useCompanies();
 
   const [selectedCompany, setSelectedCompany] = useState(null);
+  const [showAllotmentInfo, setShowAllotmentInfo] = useState(false);
   const [showSheets, setShowSheets] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [connected, setConnected] = useState(true);
@@ -247,8 +313,15 @@ export default function App() {
               <div className="w-7 h-7 rounded-lg bg-accent-purple/20 border border-accent-purple/30 flex items-center justify-center">
                 <Building2 size={14} className="text-accent-purple" />
               </div>
-              <div className="hidden sm:block">
+              <div className="hidden sm:flex items-center gap-1.5">
                 <span className="font-bold text-text-primary text-sm">PS1 Explorer</span>
+                <button
+                  onClick={() => setShowAllotmentInfo(true)}
+                  className="p-1 rounded-md text-text-muted hover:text-accent-purple hover:bg-accent-purple/10 transition-colors"
+                  title="How does allotment work?"
+                >
+                  <Info size={14} />
+                </button>
               </div>
             </div>
 
@@ -514,6 +587,9 @@ export default function App() {
           }}
         />
       )}
+
+      {/* Allotment info modal */}
+      {showAllotmentInfo && <AllotmentInfoModal onClose={() => setShowAllotmentInfo(false)} />}
 
       {/* Sheets reference modal */}
       {showSheets && (
