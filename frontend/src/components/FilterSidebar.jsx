@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { ChevronDown, ChevronRight, X, Layers, MapPin, BarChart2, Wifi } from 'lucide-react';
+import { createPortal } from 'react-dom';
+import { ChevronDown, ChevronRight, X, Layers, MapPin, BarChart2, Wifi, GraduationCap, Info, Landmark, BedDouble } from 'lucide-react';
+import { BRANCH_CODES, BRANCH_NAMES } from '../api/client.js';
 
 const DOMAIN_COLORS = {
   CSIS: { bg: 'bg-accent-purple/10', text: 'text-accent-purple', border: 'border-accent-purple/30' },
-  Electrical: { bg: 'bg-yellow-500/10', text: 'text-yellow-400', border: 'border-yellow-500/30' },
   'Electrical & Electronics': { bg: 'bg-yellow-500/10', text: 'text-yellow-400', border: 'border-yellow-500/30' },
   Mechanical: { bg: 'bg-orange-500/10', text: 'text-orange-400', border: 'border-orange-500/30' },
   Chemical: { bg: 'bg-green-500/10', text: 'text-green-400', border: 'border-green-500/30' },
@@ -13,6 +14,7 @@ const DOMAIN_COLORS = {
   Civil: { bg: 'bg-stone-500/10', text: 'text-stone-400', border: 'border-stone-500/30' },
   Design: { bg: 'bg-fuchsia-500/10', text: 'text-fuchsia-400', border: 'border-fuchsia-500/30' },
   Management: { bg: 'bg-indigo-500/10', text: 'text-indigo-400', border: 'border-indigo-500/30' },
+  'Health Care': { bg: 'bg-rose-500/10', text: 'text-rose-400', border: 'border-rose-500/30' },
 };
 
 const SCALE_OPTIONS = [
@@ -25,28 +27,40 @@ const SCALE_OPTIONS = [
 const WORK_MODE_OPTIONS = [
   { value: 'Onsite',  label: '🏢 Onsite',  color: 'text-orange-400 border-orange-500/30 bg-orange-500/10' },
   { value: 'Online',  label: '💻 Online',  color: 'text-accent-teal border-accent-teal/30 bg-accent-teal/10' },
-  { value: 'Hybrid',  label: '🔀 Hybrid',  color: 'text-accent-purple border-accent-purple/30 bg-accent-purple/10' },
 ];
 
 function getDomainColor(domain) {
   return DOMAIN_COLORS[domain] || { bg: 'bg-text-muted/10', text: 'text-text-secondary', border: 'border-bg-border' };
 }
 
-function SectionHeader({ icon: Icon, label, count, expanded, onToggle }) {
+function SectionHeader({ icon: Icon, label, count, expanded, onToggle, onInfo }) {
   return (
-    <button
-      onClick={onToggle}
-      className="w-full flex items-center justify-between text-xs font-semibold uppercase tracking-wider text-text-muted hover:text-text-secondary transition-colors py-1"
-    >
-      <span className="flex items-center gap-1.5">
+    <div className="flex items-center justify-between py-1">
+      <button
+        onClick={onToggle}
+        className="flex-1 flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-text-muted hover:text-text-secondary transition-colors"
+      >
         <Icon size={12} />
         {label}
         {count > 0 && (
           <span className="font-mono bg-accent-purple/20 text-accent-purple rounded px-1">{count}</span>
         )}
-      </span>
-      {expanded ? <ChevronDown size={12} /> : <ChevronRight size={12} />}
-    </button>
+      </button>
+      <div className="flex items-center gap-1">
+        {onInfo && (
+          <button
+            onClick={e => { e.stopPropagation(); onInfo(); }}
+            className="p-0.5 text-text-muted/50 hover:text-text-secondary transition-colors"
+            title="How is scale determined?"
+          >
+            <Info size={11} />
+          </button>
+        )}
+        <button onClick={onToggle} className="text-text-muted hover:text-text-secondary transition-colors">
+          {expanded ? <ChevronDown size={12} /> : <ChevronRight size={12} />}
+        </button>
+      </div>
+    </div>
   );
 }
 
@@ -110,21 +124,34 @@ function DomainSection({ domain, count, subdomains, isSelected, selectedSubdomai
   );
 }
 
+const TYPE_OPTIONS = [
+  { value: 'Government', label: '🏛 Government', color: 'text-orange-400 border-orange-500/30 bg-orange-500/10' },
+  { value: 'Private',    label: '🏢 Private',    color: 'text-accent-purple border-accent-purple/30 bg-accent-purple/10' },
+];
+
 export default function FilterSidebar({
   domains, subdomainMap, selectedDomains, selectedSubdomains, onToggleDomain, onToggleSubdomain,
   allCities, selectedCities, onToggleCity,
   selectedScales, onToggleScale,
+  selectedTypes, onToggleType,
+  accomOnly, onToggleAccom,
   selectedWorkModes, onToggleWorkMode,
+  selectedBranches, onToggleBranch,
   onClearAll
 }) {
-  const [domainsOpen, setDomainsOpen] = useState(true);
+  const [domainsOpen, setDomainsOpen] = useState(false);
   const [citiesOpen, setCitiesOpen] = useState(false);
   const [scaleOpen, setScaleOpen] = useState(false);
+  const [typeOpen, setTypeOpen] = useState(false);
+  const [accomOpen, setAccomOpen] = useState(false);
   const [workModeOpen, setWorkModeOpen] = useState(false);
+  const [branchOpen, setBranchOpen] = useState(false);
   const [citySearch, setCitySearch] = useState('');
+  const [showScaleInfo, setShowScaleInfo] = useState(false);
 
   const hasFilters = selectedDomains.length > 0 || selectedSubdomains.length > 0
-    || selectedCities.length > 0 || selectedScales.length > 0 || selectedWorkModes.length > 0;
+    || selectedCities.length > 0 || selectedScales.length > 0 || selectedWorkModes.length > 0
+    || selectedBranches.length > 0 || selectedTypes.length > 0 || accomOnly;
 
   const filteredCities = citySearch
     ? allCities.filter(c => c.toLowerCase().includes(citySearch.toLowerCase()))
@@ -216,6 +243,7 @@ export default function FilterSidebar({
           count={selectedScales.length}
           expanded={scaleOpen}
           onToggle={() => setScaleOpen(v => !v)}
+          onInfo={() => setShowScaleInfo(true)}
         />
         {scaleOpen && (
           <div className="mt-1 flex flex-col gap-0.5">
@@ -233,9 +261,127 @@ export default function FilterSidebar({
                 </button>
               );
             })}
-            <p className="text-xs text-text-muted/60 mt-1 px-1 leading-relaxed">
-              Only shows enriched companies
-            </p>
+          </div>
+        )}
+
+        {/* Scale info modal — portalled to body to avoid z-index clipping */}
+        {showScaleInfo && createPortal(
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+            onClick={() => setShowScaleInfo(false)}
+          >
+            <div
+              className="bg-bg-secondary border border-bg-border rounded-2xl w-full max-w-sm shadow-2xl p-5"
+              onClick={e => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-sm font-semibold text-text-primary">How is scale determined?</h3>
+                <button onClick={() => setShowScaleInfo(false)} className="btn-ghost p-1"><X size={13} /></button>
+              </div>
+              <div className="flex flex-col gap-3 text-xs text-text-secondary leading-relaxed">
+                <div className="flex flex-col gap-2">
+                  <p><span className="text-text-primary font-medium">🌱 Early Startup</span> — typically fewer than 50 employees, seed or pre-seed funded, or bootstrapped — early product stage with limited market presence</p>
+                  <p><span className="text-text-primary font-medium">🚀 Growth Stage</span> — 50–500 employees, Series A/B/C funded, actively scaling operations and expanding their market reach</p>
+                  <p><span className="text-text-primary font-medium">🏢 Mid-size</span> — 500–5,000 employees, well-established with a stable product line and consistent market presence</p>
+                  <p><span className="text-text-primary font-medium">🌐 Enterprise</span> — 5,000+ employees, publicly listed or part of a major conglomerate with large-scale national or global operations</p>
+                </div>
+                <p className="text-text-muted border-t border-bg-border pt-3">
+                  Scale badges are AI-inferred from publicly available data — including employee count, funding stage, and company profile. Results were manually reviewed and corrected for well-known large organisations such as government bodies, PSUs, and major enterprises. This is a best-effort classification and may not be perfectly accurate in every case. Only companies with available data are shown when this filter is active.
+                </p>
+              </div>
+            </div>
+          </div>,
+          document.body
+        )}
+      </div>
+
+      <div className="border-t border-bg-border" />
+
+      {/* ── Company Type ── */}
+      <div>
+        <SectionHeader
+          icon={Landmark}
+          label="Type"
+          count={selectedTypes.length}
+          expanded={typeOpen}
+          onToggle={() => setTypeOpen(v => !v)}
+        />
+        {typeOpen && (
+          <div className="mt-1 flex flex-col gap-0.5">
+            {TYPE_OPTIONS.map(({ value, label, color }) => {
+              const sel = selectedTypes.includes(value);
+              return (
+                <button
+                  key={value}
+                  onClick={() => onToggleType(value)}
+                  className={`text-left text-xs px-2 py-1.5 rounded-md border transition-all duration-150 ${
+                    sel ? color : 'text-text-muted border-transparent hover:bg-bg-hover hover:text-text-secondary'
+                  }`}
+                >
+                  {label}
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      <div className="border-t border-bg-border" />
+
+      {/* ── Branch ── */}
+      <div>
+        <SectionHeader
+          icon={GraduationCap}
+          label="Branch"
+          count={selectedBranches.length}
+          expanded={branchOpen}
+          onToggle={() => setBranchOpen(v => !v)}
+        />
+        {branchOpen && (
+          <div className="mt-1 flex flex-col gap-0.5">
+            {BRANCH_CODES.map(code => {
+              const sel = selectedBranches.includes(code);
+              return (
+                <button
+                  key={code}
+                  onClick={() => onToggleBranch(code)}
+                  className={`text-left text-xs px-2 py-1.5 rounded-md border transition-all duration-150 ${
+                    sel
+                      ? 'bg-accent-purple/10 text-accent-purple border-accent-purple/30'
+                      : 'text-text-muted border-transparent hover:bg-bg-hover hover:text-text-secondary'
+                  }`}
+                >
+                  {BRANCH_NAMES[code]}
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      <div className="border-t border-bg-border" />
+
+      {/* ── Accommodation ── */}
+      <div>
+        <SectionHeader
+          icon={BedDouble}
+          label="Accommodation"
+          count={accomOnly ? 1 : 0}
+          expanded={accomOpen}
+          onToggle={() => setAccomOpen(v => !v)}
+        />
+        {accomOpen && (
+          <div className="mt-1">
+            <button
+              onClick={onToggleAccom}
+              className={`w-full text-left text-xs px-2 py-1.5 rounded-md border transition-all duration-150 ${
+                accomOnly
+                  ? 'bg-accent-teal/10 text-accent-teal border-accent-teal/30'
+                  : 'text-text-muted border-transparent hover:bg-bg-hover hover:text-text-secondary'
+              }`}
+            >
+              🏠 Has Accommodation
+            </button>
           </div>
         )}
       </div>
@@ -267,6 +413,12 @@ export default function FilterSidebar({
                 </button>
               );
             })}
+            <div className="mt-2 px-1 py-2 rounded-lg bg-accent-amber/10 border border-accent-amber/30">
+              <p className="text-xs text-accent-amber font-semibold">⚠ NOT OFFICIAL</p>
+              <p className="text-xs text-accent-amber/80 mt-0.5 leading-relaxed">
+                Work mode is based on <span className="font-semibold">last year's student responses</span> — for reference only. Official data will be updated when available.
+              </p>
+            </div>
           </div>
         )}
       </div>
@@ -308,12 +460,30 @@ export default function FilterSidebar({
                 {s} <X size={9} />
               </button>
             ))}
+            {selectedTypes.map(t => (
+              <button key={t} onClick={() => onToggleType(t)}
+                className="tag-chip flex items-center gap-1 text-orange-400 border-orange-500/30 hover:border-orange-500 transition-colors">
+                {t} <X size={9} />
+              </button>
+            ))}
             {selectedWorkModes.map(m => (
               <button key={m} onClick={() => onToggleWorkMode(m)}
                 className="tag-chip flex items-center gap-1 text-orange-400 border-orange-500/30 hover:border-orange-500 transition-colors">
                 {m} <X size={9} />
               </button>
             ))}
+            {selectedBranches.map(b => (
+              <button key={b} onClick={() => onToggleBranch(b)}
+                className="tag-chip flex items-center gap-1 text-accent-purple border-accent-purple/30 hover:border-accent-purple transition-colors">
+                {b} <X size={9} />
+              </button>
+            ))}
+            {accomOnly && (
+              <button onClick={onToggleAccom}
+                className="tag-chip flex items-center gap-1 text-accent-teal border-accent-teal/30 hover:border-accent-teal transition-colors">
+                🏠 Accom <X size={9} />
+              </button>
+            )}
           </div>
         </div>
       )}

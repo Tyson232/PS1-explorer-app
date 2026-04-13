@@ -1,15 +1,17 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
-import { Building2, SlidersHorizontal, X, Star } from 'lucide-react';
+import { Building2, SlidersHorizontal, X, Plus, MessageSquarePlus } from 'lucide-react';
 
 import { useCompanies } from './hooks/useCompanies.js';
-import { fetchEnrichment, getEnrichmentCache } from './api/client.js';
+import { fetchEnrichment, getEnrichmentCache, getAllCompanies } from './api/client.js';
 import SearchBar from './components/SearchBar.jsx';
 import FilterSidebar from './components/FilterSidebar.jsx';
 import CompanyCard from './components/CompanyCard.jsx';
 import CompanyModal from './components/CompanyModal.jsx';
 import PriorityList from './components/PriorityList.jsx';
+import SuggestionBox from './components/SuggestionBox.jsx';
+import QueryBox from './components/QueryBox.jsx';
 import SheetsSync from './components/SheetsSync.jsx';
 import StatusBar from './components/StatusBar.jsx';
 import { SkeletonCard } from './components/SkeletonCard.jsx';
@@ -20,6 +22,46 @@ const PRIORITY_KEY = 'ps1_priority_list';
 function loadPriority() {
   try { return JSON.parse(localStorage.getItem(PRIORITY_KEY) || '[]'); }
   catch { return []; }
+}
+
+function OnlineNotice({ companies, enrichments, onOpenCompany, onTogglePriority, priorityList, searchQuery }) {
+  const [showCompanies, setShowCompanies] = useState(false);
+  return (
+    <div className="rounded-xl border border-accent-teal/25 bg-accent-teal/5 p-4 mb-4 flex flex-col gap-3">
+      <div className="flex items-start gap-2">
+        <span className="text-accent-teal text-base flex-shrink-0 mt-0.5">💻</span>
+        <div>
+          <p className="text-sm font-semibold text-accent-teal">No online stations officially listed yet</p>
+          <p className="text-xs text-text-secondary mt-1 leading-relaxed">
+            The official PS1 station list hasn't confirmed any online mode yet.
+            The {companies.length} station{companies.length !== 1 ? 's' : ''} below offered online last year and are available this year too —{' '}
+            <span className="font-semibold text-accent-amber">for reference only, not a guarantee.</span>
+          </p>
+        </div>
+      </div>
+      <button
+        onClick={() => setShowCompanies(v => !v)}
+        className="self-start flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-accent-teal/10 text-accent-teal border border-accent-teal/30 hover:bg-accent-teal/20 transition-all"
+      >
+        {showCompanies ? '▲ Hide' : '▼ Show'} last year's online stations ({companies.length})
+      </button>
+      {showCompanies && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+          {companies.map(company => (
+            <CompanyCard
+              key={company.id}
+              company={company}
+              onClick={() => onOpenCompany(company)}
+              searchQuery={searchQuery}
+              enrichment={enrichments[company.name]}
+              isPriority={priorityList.some(c => c.id === company.id)}
+              onTogglePriority={onTogglePriority}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default function App() {
@@ -37,13 +79,13 @@ export default function App() {
     toggleSubdomain,
     toggleCity,
     toggleWorkMode,
+    toggleBranch,
     clearFilters,
-    refresh,
-    loadMeta
   } = useCompanies();
 
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [showSheets, setShowSheets] = useState(false);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const [connected, setConnected] = useState(true);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [cardEnrichments, setCardEnrichments] = useState({});
@@ -56,6 +98,17 @@ export default function App() {
     );
   }, []);
 
+  // Company type filter
+  const [selectedTypes, setSelectedTypes] = useState([]);
+  const toggleType = useCallback((type) => {
+    setSelectedTypes(prev =>
+      prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
+    );
+  }, []);
+
+  // Accommodation filter
+  const [accomOnly, setAccomOnly] = useState(false);
+
   // Priority list — persisted to localStorage
   const [priorityList, setPriorityList] = useState(loadPriority);
   const [showPriorityList, setShowPriorityList] = useState(false);
@@ -63,6 +116,22 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem(PRIORITY_KEY, JSON.stringify(priorityList));
   }, [priorityList]);
+
+  // On mount: if ?list= param is present, load shared list
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const listParam = params.get('list');
+    if (!listParam) return;
+    const ids = listParam.split(',').map(Number).filter(Boolean);
+    if (ids.length === 0) return;
+    const all = getAllCompanies();
+    const loaded = ids.map(id => all.find(c => c.id === id)).filter(Boolean);
+    if (loaded.length === 0) return;
+    setPriorityList(loaded);
+    setShowPriorityList(true);
+    toast.success(`Loaded shared list of ${loaded.length} station${loaded.length > 1 ? 's' : ''}`);
+    window.history.replaceState({}, '', window.location.pathname);
+  }, []);
 
   const togglePriority = useCallback((company) => {
     setPriorityList(prev =>
@@ -80,10 +149,12 @@ export default function App() {
     setPriorityList(newList);
   }, []);
 
-  // Clear all filters including scale
+  // Clear all filters including scale, type, accom
   const clearAllFilters = useCallback(() => {
     clearFilters();
     setSelectedScales([]);
+    setSelectedTypes([]);
+    setAccomOnly(false);
   }, [clearFilters]);
 
   // Poll health endpoint
@@ -114,7 +185,7 @@ export default function App() {
 
     // Pass 2: background-fetch uncached companies (all of them, throttled)
     let cancelled = false;
-    const uncached = companies.filter(c => !cache[c.name]);
+    const uncached = companies.filter(c => !cache[c.name] || cache[c.name].fetch_status === 'type_only');
     (async () => {
       for (const company of uncached) {
         if (cancelled) break;
@@ -137,16 +208,18 @@ export default function App() {
     setCardEnrichments(prev => ({ ...prev, [name]: enrichment }));
   }, []);
 
-  // Apply scale post-filter
-  const visibleCompanies = selectedScales.length === 0
-    ? companies
-    : companies.filter(c => {
-        const e = cardEnrichments[c.name];
-        return e?.scale_badge && selectedScales.includes(e.scale_badge);
-      });
+  // Apply scale + type + accommodation post-filters
+  const visibleCompanies = companies.filter(c => {
+    const e = cardEnrichments[c.name];
+    if (selectedScales.length > 0 && !(e?.scale_badge && selectedScales.includes(e.scale_badge))) return false;
+    if (selectedTypes.length > 0 && !(e?.company_type && selectedTypes.includes(e.company_type))) return false;
+    if (accomOnly && !e?.accommodation) return false;
+    return true;
+  });
 
   const hasFilters = filters.domains.length > 0 || filters.subdomains.length > 0
-    || filters.cities.length > 0 || selectedScales.length > 0 || filters.workModes.length > 0;
+    || filters.cities.length > 0 || selectedScales.length > 0 || filters.workModes.length > 0
+    || filters.branches.length > 0 || selectedTypes.length > 0 || accomOnly;
 
   return (
     <div className="min-h-screen bg-bg-primary flex flex-col font-sans">
@@ -189,6 +262,16 @@ export default function App() {
               />
             </div>
 
+            {/* Suggest button */}
+            <button
+              onClick={() => setShowSuggestions(true)}
+              className="flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium bg-accent-purple/10 border-accent-purple/30 text-accent-purple hover:bg-accent-purple/20 transition-all duration-200 whitespace-nowrap"
+              title="Send a suggestion"
+            >
+              <MessageSquarePlus size={14} />
+              <span className="hidden sm:inline">Suggest</span>
+            </button>
+
             {/* Priority List button */}
             <button
               onClick={() => setShowPriorityList(true)}
@@ -197,12 +280,12 @@ export default function App() {
                 transition-all duration-200 whitespace-nowrap
                 ${priorityList.length > 0
                   ? 'bg-accent-amber/10 border-accent-amber/40 text-accent-amber hover:bg-accent-amber/20'
-                  : 'btn-ghost'
+                  : 'bg-accent-amber/10 border-accent-amber/30 text-accent-amber hover:bg-accent-amber/20'
                 }
               `}
               title="My Priority List"
             >
-              <Star size={14} className={priorityList.length > 0 ? 'fill-current' : ''} />
+              <Plus size={14} />
               <span className="hidden sm:inline">My List</span>
               {priorityList.length > 0 && (
                 <span className="font-mono text-xs bg-accent-amber/20 rounded px-1">
@@ -217,12 +300,19 @@ export default function App() {
         </div>
       </header>
 
+      {/* Disclaimer banner */}
+      <div className="max-w-screen-xl mx-auto w-full px-4 pt-4">
+        <div className="rounded-xl border border-accent-purple/20 bg-accent-purple/5 px-4 py-3 text-xs text-text-secondary leading-relaxed">
+          <span className="font-semibold text-text-primary">Heads up:</span> Some stations on PSMS have more projects than what's listed here — this site only shows data from the official PS1 Excel sheet. If a company shows fewer projects than expected, the remaining ones exist only on the PSMS portal and weren't included in the sheet. <span className="font-medium text-text-primary">Always cross-check on PSMS before finalising your preferences.</span>
+        </div>
+      </div>
+
       {/* Main layout */}
-      <div className="flex-1 max-w-screen-xl mx-auto w-full px-4 py-6 flex gap-6">
+      <div className="flex-1 max-w-screen-xl mx-auto w-full px-4 py-4 flex gap-6">
 
         {/* Sidebar — desktop */}
         <div className="hidden lg:block flex-shrink-0">
-          <div className="sticky top-24">
+          <div className="sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto overscroll-contain pr-1">
             <FilterSidebar
               domains={domains}
               subdomainMap={subdomainMap}
@@ -235,8 +325,14 @@ export default function App() {
               onToggleCity={toggleCity}
               selectedScales={selectedScales}
               onToggleScale={toggleScale}
+              selectedTypes={selectedTypes}
+              onToggleType={toggleType}
+              accomOnly={accomOnly}
+              onToggleAccom={() => setAccomOnly(v => !v)}
               selectedWorkModes={filters.workModes}
               onToggleWorkMode={toggleWorkMode}
+              selectedBranches={filters.branches}
+              onToggleBranch={toggleBranch}
               onClearAll={clearAllFilters}
             />
           </div>
@@ -264,8 +360,14 @@ export default function App() {
                 onToggleCity={(c) => { toggleCity(c); setSidebarOpen(false); }}
                 selectedScales={selectedScales}
                 onToggleScale={(s) => { toggleScale(s); setSidebarOpen(false); }}
+                selectedTypes={selectedTypes}
+                onToggleType={(t) => { toggleType(t); setSidebarOpen(false); }}
+                accomOnly={accomOnly}
+                onToggleAccom={() => { setAccomOnly(v => !v); setSidebarOpen(false); }}
                 selectedWorkModes={filters.workModes}
                 onToggleWorkMode={(m) => { toggleWorkMode(m); setSidebarOpen(false); }}
+                selectedBranches={filters.branches}
+                onToggleBranch={(b) => { toggleBranch(b); setSidebarOpen(false); }}
                 onClearAll={() => { clearAllFilters(); setSidebarOpen(false); }}
               />
             </div>
@@ -303,6 +405,18 @@ export default function App() {
                   {s} <X size={9} />
                 </button>
               ))}
+              {selectedTypes.map(t => (
+                <button key={t} onClick={() => toggleType(t)}
+                  className="tag-chip flex items-center gap-1 text-orange-400 border-orange-500/30 hover:border-orange-500 transition-colors">
+                  {t} <X size={9} />
+                </button>
+              ))}
+              {accomOnly && (
+                <button onClick={() => setAccomOnly(false)}
+                  className="tag-chip flex items-center gap-1 text-accent-teal border-accent-teal/30 hover:border-accent-teal transition-colors">
+                  🏠 Accommodation <X size={9} />
+                </button>
+              )}
               {filters.workModes.map(m => (
                 <button key={m} onClick={() => toggleWorkMode(m)}
                   className="tag-chip flex items-center gap-1 text-orange-400 border-orange-500/30 hover:border-orange-500 transition-colors">
@@ -316,6 +430,16 @@ export default function App() {
             </div>
           )}
 
+          {/* Online filter notice */}
+          {filters.workModes.includes('Online') && <OnlineNotice
+            companies={visibleCompanies}
+            enrichments={cardEnrichments}
+            onOpenCompany={setSelectedCompany}
+            onTogglePriority={togglePriority}
+            priorityList={priorityList}
+            searchQuery={filters.q}
+          />}
+
           {/* Error state */}
           {error && !loading && (
             <div className="bg-red-500/10 border border-red-500/30 rounded-xl p-4 text-sm text-red-400 mb-4">
@@ -324,7 +448,7 @@ export default function App() {
           )}
 
           {/* Empty state */}
-          {!loading && !error && visibleCompanies.length === 0 && (
+          {!loading && !error && visibleCompanies.length === 0 && !(filters.workModes.length === 1 && filters.workModes[0] === 'Online') && (
             <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
               <div className="w-16 h-16 rounded-2xl bg-bg-card border border-bg-border flex items-center justify-center text-3xl">
                 📂
@@ -345,8 +469,8 @@ export default function App() {
             </div>
           )}
 
-          {/* Cards grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
+          {/* Cards grid — hidden when Online-only filter active (OnlineNotice handles display) */}
+          <div className={`grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 ${filters.workModes.length === 1 && filters.workModes[0] === 'Online' ? 'hidden' : ''}`}>
             {loading
               ? Array.from({ length: 9 }).map((_, i) => <SkeletonCard key={i} />)
               : visibleCompanies.map(company => (
@@ -371,6 +495,8 @@ export default function App() {
           company={selectedCompany}
           onClose={() => setSelectedCompany(null)}
           onEnriched={handleEnriched}
+          isPriority={priorityList.some(c => c.id === selectedCompany.id)}
+          onTogglePriority={togglePriority}
         />
       )}
 
@@ -381,6 +507,7 @@ export default function App() {
           onClose={() => setShowPriorityList(false)}
           onReorder={reorderPriority}
           onRemove={removePriority}
+          onClearAll={() => setPriorityList([])}
           onOpenCompany={(company) => {
             setShowPriorityList(false);
             setSelectedCompany(company);
@@ -388,13 +515,23 @@ export default function App() {
         />
       )}
 
-      {/* Sheets sync modal */}
+      {/* Sheets reference modal */}
       {showSheets && (
         <SheetsSync
           onClose={() => setShowSheets(false)}
-          onSynced={() => { refresh(); loadMeta(); }}
         />
       )}
+
+      <QueryBox />
+      <SuggestionBox open={showSuggestions} onClose={() => setShowSuggestions(false)} />
+
+      {/* Credits */}
+      <div className="fixed bottom-4 left-4 z-30 text-left pointer-events-none select-none">
+        <p className="text-xs leading-relaxed" style={{ color: 'rgba(148,163,184,0.35)', fontFamily: 'Inter, sans-serif' }}>
+          Made by Aarush Goyal · 2024A7PS1401G<br />
+          Ammar Abdul Azeez · 2024B3A41070G
+        </p>
+      </div>
     </div>
   );
 }

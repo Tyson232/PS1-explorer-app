@@ -47,6 +47,7 @@ Return ONLY a valid JSON object with these fields (use null only if truly unknow
   "website": "domain.com (without https://)",
   "employee_count": "specific range like '50,000+' or '500-1000'",
   "scale": "early_startup|growth_stage|mid_size|enterprise",
+  "company_type": "Government|Private",
   "funding_stage": "e.g. Series B, Series C, Public, Bootstrapped, Acquired",
   "investors": ["list up to 5 notable investors or parent company"],
   "tech_stack": ["list 6-8 specific technologies, languages, frameworks, or platforms they are known for"],
@@ -54,6 +55,7 @@ Return ONLY a valid JSON object with these fields (use null only if truly unknow
 }
 
 Scale definitions: early_startup = <50 employees, growth_stage = 50-500, mid_size = 500-5000, enterprise = 5000+ or publicly listed.
+company_type: Government = PSU, central/state govt body, defence, research lab funded by govt. Private = private sector, MNC, startup, NGO.
 Return ONLY the JSON object. No markdown fences, no explanation, no extra text.`
           }
         ],
@@ -85,6 +87,7 @@ Return ONLY the JSON object. No markdown fences, no explanation, no extra text.`
       investors: Array.isArray(data.investors) ? data.investors.slice(0, 5) : [],
       tech_stack: Array.isArray(data.tech_stack) ? data.tech_stack.slice(0, 8) : [],
       culture_snippet: data.culture_snippet || null,
+      company_type: ['Government', 'Private'].includes(data.company_type) ? data.company_type : null,
       fetch_status: 'done'
     };
 

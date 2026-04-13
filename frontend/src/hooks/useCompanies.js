@@ -9,7 +9,7 @@ export function useCompanies() {
   const [meta, setMeta] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [filters, setFilters] = useState({ q: '', domains: [], subdomains: [], cities: [], workModes: [] });
+  const [filters, setFilters] = useState({ q: '', domains: [], subdomains: [], cities: [], workModes: [], branches: [] });
 
   const abortRef = useRef(null);
 
@@ -26,6 +26,7 @@ export function useCompanies() {
       if (currentFilters.subdomains.length > 0) params.subdomains = currentFilters.subdomains.join(',');
       if (currentFilters.cities.length > 0) params.cities = currentFilters.cities.join(',');
       if (currentFilters.workModes.length > 0) params.workModes = currentFilters.workModes.join(',');
+      if (currentFilters.branches.length > 0) params.branches = currentFilters.branches.join(',');
 
       const data = await fetchCompanies(params);
       setCompanies(data.companies || []);
@@ -130,8 +131,17 @@ export function useCompanies() {
     }));
   }, []);
 
+  const toggleBranch = useCallback((branch) => {
+    setFilters(prev => ({
+      ...prev,
+      branches: prev.branches.includes(branch)
+        ? prev.branches.filter(b => b !== branch)
+        : [...prev.branches, branch]
+    }));
+  }, []);
+
   const clearFilters = useCallback(() => {
-    setFilters({ q: '', domains: [], subdomains: [], cities: [], workModes: [] });
+    setFilters({ q: '', domains: [], subdomains: [], cities: [], workModes: [], branches: [] });
   }, []);
 
   return {
@@ -148,6 +158,7 @@ export function useCompanies() {
     toggleSubdomain,
     toggleCity,
     toggleWorkMode,
+    toggleBranch,
     clearFilters,
     refresh,
     loadMeta

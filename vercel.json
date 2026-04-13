@@ -3,7 +3,8 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/enrich.js": { "maxDuration": 30 },
-    "api/simplify.js": { "maxDuration": 30 }
+    "api/simplify.js": { "maxDuration": 30 },
+    "api/suggest.js": { "maxDuration": 10 }
   },
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }

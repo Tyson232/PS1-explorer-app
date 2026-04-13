@@ -1,26 +1,95 @@
 import companiesData from '../companies_data.json';
 import psData from '../ps_data.json';
+import bundledEnrichments from '../enrichments_data.json';
 
-// Merge PS response data (min CG, emails, work mode) into every company
+// Branch codes we care about (order matters for display)
+export const BRANCH_CODES = ['A7','AA','A3','A8','AD','AC','A4','A1','A2','AB','AJ','A5','B4','B5','B2','B3','B1'];
+
+export const BRANCH_NAMES = {
+  A7: 'Computer Science (CSE)',
+  AA: 'Electronics & Communication (ECE)',
+  A3: 'Electrical & Electronics (EEE)',
+  A8: 'Electronics & Instrumentation (ENI)',
+  AD: 'Mathematics & Computing',
+  AC: 'Electronics & Computer',
+  A4: 'Mechanical Engineering',
+  A1: 'Chemical Engineering',
+  A2: 'Civil Engineering',
+  AB: 'Manufacturing Engineering',
+  AJ: 'Environmental & Sustainability',
+  A5: 'B. Pharma',
+  B4: 'MSc Mathematics',
+  B5: 'MSc Physics',
+  B2: 'MSc Chemistry',
+  B3: 'MSc Economics',
+  B1: 'MSc Biology',
+};
+
+function normalizeCity(city) {
+  if (!city) return '';
+  const c = city.trim();
+  if (c === 'New Delhi') return 'Delhi';
+  if (c === 'Navi Mumbai') return 'Mumbai';
+  if (c === 'Bangalore') return 'Bengaluru';
+  return c;
+}
+
+function extractBranchCodes(tagString) {
+  if (!tagString || tagString.trim() === '-') return [];
+  const parts = tagString.split(',').map(t => t.trim()).filter(Boolean);
+  // "Any" alone (repeated or not) means open to all branches
+  if (parts.every(t => t === 'Any')) return [...BRANCH_CODES];
+  const codes = new Set();
+  parts.forEach(t => {
+    if (t === 'Any') return; // skip bare Any when mixed with specific codes
+    const stripped = t.startsWith('Any') ? t.slice(3) : t;
+    // Handle merged codes like "B1A7" → split into known codes
+    let remaining = stripped;
+    while (remaining.length >= 2) {
+      let matched = false;
+      for (const code of BRANCH_CODES) {
+        if (remaining.startsWith(code)) {
+          codes.add(code);
+          remaining = remaining.slice(code.length);
+          matched = true;
+          break;
+        }
+      }
+      if (!matched) break;
+    }
+  });
+  return [...codes];
+}
+
+// Merge PS response data (min CG, emails, work mode) + branch codes into every company
 const _companiesWithPS = companiesData.map(c => {
   const ps = psData[c.name];
+  const branch_codes = extractBranchCodes(c.raw_row?.Tags || '');
+  const city = normalizeCity(c.city);
+  const nd = c.normalized_domain === 'Electrical' ? 'Electrical & Electronics'
+    : c.normalized_domain === 'Mech' ? 'Mechanical'
+    : c.normalized_domain;
+  const normalized_domain = /^others?$/i.test(nd) ? 'Other' : nd;
   return ps
-    ? { ...c, min_cg: ps.min_cg, contact_emails: ps.contact_emails, work_mode: ps.work_mode }
-    : { ...c, min_cg: null, contact_emails: [], work_mode: null };
+    ? { ...c, city, normalized_domain, min_cg: ps.min_cg, contact_emails: ps.contact_emails, work_mode: ps.work_mode, branch_codes }
+    : { ...c, city, normalized_domain, min_cg: null, contact_emails: [], work_mode: null, branch_codes };
 });
 
 // ─── In-memory store ──────────────────────────────────────────────────────
 let _companies = _companiesWithPS;
 let _lastUpdated = new Date().toISOString();
 
+export function getAllCompanies() { return _companiesWithPS; }
+
 // ─── Companies ────────────────────────────────────────────────────────────
 
 export function fetchCompanies(params = {}) {
-  const { q, domains, subdomains, cities, workModes } = params;
+  const { q, domains, subdomains, cities, workModes, branches } = params;
   const domainList = domains ? domains.split(',').filter(Boolean) : [];
   const subdomainList = subdomains ? subdomains.split(',').filter(Boolean) : [];
   const cityList = cities ? cities.split(',').filter(Boolean) : [];
   const workModeList = workModes ? workModes.split(',').filter(Boolean) : [];
+  const branchList = branches ? branches.split(',').filter(Boolean) : [];
 
   let companies = _companies;
 
@@ -52,6 +121,12 @@ export function fetchCompanies(params = {}) {
     companies = companies.filter(c => c.work_mode && workModeList.includes(c.work_mode));
   }
 
+  if (branchList.length > 0) {
+    companies = companies.filter(c =>
+      branchList.some(b => c.branch_codes?.includes(b))
+    );
+  }
+
   return Promise.resolve({ companies, total: companies.length });
 }
 
@@ -77,7 +152,11 @@ export function fetchDomains() {
 
   const domains = Object.entries(domainCounts)
     .map(([domain, count]) => ({ domain, count }))
-    .sort((a, b) => b.count - a.count);
+    .sort((a, b) => {
+      if (a.domain === 'Other') return 1;
+      if (b.domain === 'Other') return -1;
+      return b.count - a.count;
+    });
 
   const subdomainMapArr = {};
   for (const [k, v] of Object.entries(subdomainMap)) {
@@ -99,14 +178,15 @@ export function fetchMeta() {
 
 const ENRICH_STORAGE_KEY = 'ps1_enrichment_cache';
 
-// Seed in-memory cache from localStorage on module load
+// Seed in-memory cache: bundled JSON first, then localStorage on top
 const enrichmentCache = (() => {
+  let stored = {};
   try {
-    const stored = localStorage.getItem(ENRICH_STORAGE_KEY);
-    return stored ? JSON.parse(stored) : {};
-  } catch {
-    return {};
-  }
+    const raw = localStorage.getItem(ENRICH_STORAGE_KEY);
+    if (raw) stored = JSON.parse(raw);
+  } catch {}
+  // bundledEnrichments takes priority over stale localStorage data
+  return { ...stored, ...bundledEnrichments };
 })();
 
 function persistCache() {
@@ -198,15 +278,16 @@ function findCol(headers, key) {
 function normalizeDomain(raw) {
   if (!raw) return 'General';
   const s = raw.toString().trim();
-  if (/csis|cs\/it|cs|it\b|computer science|information tech/i.test(s)) return 'CSIS';
-  if (/ee|ece|electrical|electronics/i.test(s)) return 'Electrical & Electronics';
-  if (/me\b|mech|mechanical/i.test(s)) return 'Mechanical';
-  if (/chem|chemical/i.test(s)) return 'Chemical';
+  if (/\bcsis\b|cs\/it|\bcomputer science\b|\binformation tech/i.test(s)) return 'CSIS';
+  if (/\bee\b|\bece\b|\belectrical\b|\belectronics\b/i.test(s)) return 'Electrical & Electronics';
+  if (/\bme\b|\bmech\b|\bmechanical\b/i.test(s)) return 'Mechanical';
+  if (/\bchem\b|\bchemical\b/i.test(s)) return 'Chemical';
   if (/finance|fin\b|economics|finance and mgmt/i.test(s)) return 'Finance';
   if (/consult/i.test(s)) return 'Consulting';
   if (/pharma|bio|life science/i.test(s)) return 'Biotech';
   if (/civil|env|environ|infrastructure/i.test(s)) return 'Infrastructure';
-  if (/others/i.test(s)) return 'Others';
+  if (/health\s*care|medical|healthcare/i.test(s)) return 'Health Care';
+  if (/^others?$/i.test(s)) return 'Other';
   return s;
 }
 

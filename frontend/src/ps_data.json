@@ -694,5 +694,41 @@
       "f20230446@pilani.bits-pilani.ac.in"
     ],
     "work_mode": "Onsite"
+  },
+  "DRDO - Solid State Physics Laboratory (SSPL)": {
+    "min_cg": 8.77,
+    "contact_emails": [
+      "f20230887@pilani.bits-pilani.ac.in",
+      "f20230412@pilani.bits-pilani.ac.in",
+      "f20230758@pilani.bits-pilani.ac.in",
+      "f20231251@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Indian Red Cross Society Delhi": {
+    "min_cg": 6,
+    "contact_emails": [
+      "f20230426@goa.bits-pilani.ac.in",
+      "f20231208@pilani.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "Lenest": {
+    "min_cg": 5.1,
+    "contact_emails": [
+      "f20231142@goa.bits-pilani.ac.in",
+      "f20230105@goa.bits-pilani.ac.in",
+      "f20230937@goa.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
+  },
+  "PNT Robotics & Automation Solutions,LLP": {
+    "min_cg": 7.3,
+    "contact_emails": [
+      "f20231030@goa.bits-pilani.ac.in",
+      "f20230272@hyderabad.bits-pilani.ac.in",
+      "f20230772@hyderabad.bits-pilani.ac.in"
+    ],
+    "work_mode": "Onsite"
   }
 }
