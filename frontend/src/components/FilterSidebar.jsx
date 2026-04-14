@@ -351,7 +351,7 @@ export default function FilterSidebar({
                       : 'text-text-muted border-transparent hover:bg-bg-hover hover:text-text-secondary'
                   }`}
                 >
-                  {BRANCH_NAMES[code]}
+                  <span className="font-mono text-[10px] opacity-50 mr-1">{code}</span>{BRANCH_NAMES[code]}
                 </button>
               );
             })}
