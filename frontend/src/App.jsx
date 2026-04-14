@@ -334,27 +334,20 @@ export default function App() {
               />
             </div>
 
-            {/* Suggest button */}
+            {/* Suggest button — icon-only on mobile */}
             <button
               onClick={() => setShowSuggestions(true)}
-              className="flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium bg-accent-purple/10 border-accent-purple/30 text-accent-purple hover:bg-accent-purple/20 transition-all duration-200 whitespace-nowrap"
+              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-lg border text-sm font-medium bg-accent-purple/10 border-accent-purple/30 text-accent-purple hover:bg-accent-purple/20 transition-all duration-200 whitespace-nowrap"
               title="Send a suggestion"
             >
               <MessageSquarePlus size={14} />
               <span className="hidden sm:inline">Suggest</span>
             </button>
 
-            {/* Priority List button */}
+            {/* Priority List button — icon + count on mobile */}
             <button
               onClick={() => setShowPriorityList(true)}
-              className={`
-                flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium
-                transition-all duration-200 whitespace-nowrap
-                ${priorityList.length > 0
-                  ? 'bg-accent-amber/10 border-accent-amber/40 text-accent-amber hover:bg-accent-amber/20'
-                  : 'bg-accent-amber/10 border-accent-amber/30 text-accent-amber hover:bg-accent-amber/20'
-                }
-              `}
+              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-lg border text-sm font-medium bg-accent-amber/10 border-accent-amber/30 text-accent-amber hover:bg-accent-amber/20 transition-all duration-200 whitespace-nowrap"
               title="My Priority List"
             >
               <Plus size={14} />
@@ -366,7 +359,7 @@ export default function App() {
               )}
             </button>
 
-            {/* Allotment info */}
+            {/* Allotment info — desktop only */}
             <button
               onClick={() => setShowAllotmentInfo(true)}
               className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-lg border text-sm font-medium bg-bg-card border-bg-border text-text-muted hover:text-accent-purple hover:border-accent-purple/40 hover:bg-accent-purple/5 transition-all duration-200 whitespace-nowrap"
@@ -383,10 +376,18 @@ export default function App() {
       </header>
 
       {/* Disclaimer banner */}
-      <div className="max-w-screen-xl mx-auto w-full px-4 pt-4">
-        <div className="rounded-xl border border-accent-purple/20 bg-accent-purple/5 px-4 py-3 text-xs text-text-secondary leading-relaxed">
+      <div className="max-w-screen-xl mx-auto w-full px-4 pt-4 flex flex-col sm:flex-row gap-2">
+        <div className="flex-1 rounded-xl border border-accent-purple/20 bg-accent-purple/5 px-4 py-3 text-xs text-text-secondary leading-relaxed">
           <span className="font-semibold text-text-primary">Heads up:</span> Some stations on PSMS have more projects than what's listed here — this site only shows data from the official PS1 Excel sheet. If a company shows fewer projects than expected, the remaining ones exist only on the PSMS portal and weren't included in the sheet. <span className="font-medium text-text-primary">Always cross-check on PSMS before finalising your preferences.</span>
         </div>
+        {/* Allotment info — mobile only (desktop has it in header) */}
+        <button
+          onClick={() => setShowAllotmentInfo(true)}
+          className="sm:hidden flex items-center justify-center gap-2 px-4 py-3 rounded-xl border border-bg-border bg-bg-card text-sm font-medium text-text-muted hover:text-accent-purple hover:border-accent-purple/40 transition-all"
+        >
+          <Info size={15} />
+          How does allotment work?
+        </button>
       </div>
 
       {/* Main layout */}

@@ -114,73 +114,77 @@ function CityMapLink({ company, enrichment }) {
   const dest = buildDest(company);
 
   return (
-    <div className="mt-1">
-      <div className="flex items-center gap-2 flex-wrap">
-        {/* City + maps link */}
-        {homeAddress ? (
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-sm text-text-muted flex items-center gap-1">
-              <MapPin size={12} />{company.city}
-            </span>
-            <a
-              href={`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(homeAddress)}&destination=${encodeURIComponent(dest)}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium bg-accent-teal/10 text-accent-teal border border-accent-teal/30 hover:bg-accent-teal/20 transition-all"
-              title={`Directions from your home to ${dest}`}
-            >
-              <MapPin size={11} /> Directions ↗
-            </a>
-          </div>
-        ) : (
+    <div className="mt-2 flex flex-col gap-2">
+      {/* City label */}
+      <span className="text-sm text-text-muted flex items-center gap-1">
+        <MapPin size={12} />{company.city}
+      </span>
+
+      {/* Directions / Maps row */}
+      {homeAddress ? (
+        <div className="flex items-center gap-2 flex-wrap">
+          <a
+            href={`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(homeAddress)}&destination=${encodeURIComponent(dest)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold bg-accent-teal/15 text-accent-teal border border-accent-teal/40 hover:bg-accent-teal/25 active:scale-95 transition-all"
+            title={`Directions from your home to ${dest}`}
+          >
+            <MapPin size={14} /> Get Directions ↗
+          </a>
+          <button
+            onClick={() => setShowPrompt(v => !v)}
+            className="text-xs text-text-muted hover:text-accent-teal transition-colors px-2 py-1 rounded-lg hover:bg-bg-card border border-transparent hover:border-bg-border"
+          >
+            ✏ Change home
+          </button>
+        </div>
+      ) : (
+        <div className="flex items-center gap-2 flex-wrap">
           <a
             href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dest)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-text-muted flex items-center gap-1 hover:text-accent-purple transition-colors group/map"
-            title={`Search ${dest} on Google Maps`}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium bg-bg-card text-text-secondary border border-bg-border hover:border-accent-purple/40 hover:text-accent-purple active:scale-95 transition-all"
           >
-            <MapPin size={12} className="group-hover/map:text-accent-purple transition-colors" />
-            {company.city}
-            <span className="text-xs text-text-muted/50 group-hover/map:text-accent-purple/70 transition-colors">↗</span>
+            <MapPin size={14} /> View on Maps ↗
           </a>
-        )}
-
-        {/* Set/change home */}
-        <button
-          onClick={() => setShowPrompt(v => !v)}
-          className="text-xs text-text-muted hover:text-accent-teal transition-colors"
-          title={homeAddress ? 'Change home address' : 'Set home address for directions'}
-        >
-          {homeAddress ? '✏ Change home' : '+ Set home for directions'}
-        </button>
-      </div>
+          <button
+            onClick={() => setShowPrompt(v => !v)}
+            className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium bg-accent-teal/10 text-accent-teal border border-accent-teal/30 hover:bg-accent-teal/20 active:scale-95 transition-all"
+          >
+            + Set home for directions
+          </button>
+        </div>
+      )}
 
       {/* Inline address prompt */}
       {showPrompt && (
-        <form onSubmit={saveHome} className="mt-2 flex gap-2 items-center">
+        <form onSubmit={saveHome} className="flex flex-col sm:flex-row gap-2">
           <input
             ref={inputRef}
             type="text"
             value={draft}
             onChange={e => setDraft(e.target.value)}
             placeholder="e.g. Connaught Place, Delhi"
-            className="flex-1 bg-bg-card border border-bg-border rounded-lg px-3 py-1.5 text-xs text-text-primary placeholder-text-muted focus:outline-none focus:border-accent-teal focus:ring-1 focus:ring-accent-teal/30"
+            className="flex-1 bg-bg-card border border-bg-border rounded-xl px-3 py-2.5 text-sm text-text-primary placeholder-text-muted focus:outline-none focus:border-accent-teal focus:ring-1 focus:ring-accent-teal/30"
           />
-          <button
-            type="submit"
-            disabled={!draft.trim()}
-            className="px-3 py-1.5 rounded-lg text-xs font-medium bg-accent-teal/10 text-accent-teal border border-accent-teal/30 hover:bg-accent-teal/20 transition-all disabled:opacity-40"
-          >
-            Save
-          </button>
-          <button
-            type="button"
-            onClick={() => setShowPrompt(false)}
-            className="text-xs text-text-muted hover:text-text-primary transition-colors"
-          >
-            Cancel
-          </button>
+          <div className="flex gap-2">
+            <button
+              type="submit"
+              disabled={!draft.trim()}
+              className="flex-1 sm:flex-none px-4 py-2.5 rounded-xl text-sm font-semibold bg-accent-teal/15 text-accent-teal border border-accent-teal/40 hover:bg-accent-teal/25 transition-all disabled:opacity-40"
+            >
+              Save & Go
+            </button>
+            <button
+              type="button"
+              onClick={() => setShowPrompt(false)}
+              className="px-3 py-2.5 rounded-xl text-sm text-text-muted hover:text-text-primary bg-bg-card border border-bg-border transition-colors"
+            >
+              Cancel
+            </button>
+          </div>
         </form>
       )}
     </div>
@@ -293,18 +297,23 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center sm:p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
       <div
         className="
-          bg-bg-secondary border border-bg-border rounded-2xl
-          w-full max-w-2xl max-h-[90vh] flex flex-col
+          bg-bg-secondary border border-bg-border
+          rounded-t-2xl sm:rounded-2xl
+          w-full sm:max-w-2xl max-h-[92vh] sm:max-h-[90vh] flex flex-col
           animate-slide-up shadow-2xl
         "
       >
+        {/* Mobile drag handle */}
+        <div className="sm:hidden flex justify-center pt-3 pb-1 flex-shrink-0">
+          <div className="w-10 h-1 rounded-full bg-bg-border" />
+        </div>
         {/* Modal Header */}
-        <div className="flex items-start justify-between p-6 border-b border-bg-border flex-shrink-0">
+        <div className="flex items-start justify-between p-4 sm:p-6 border-b border-bg-border flex-shrink-0">
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 flex-wrap mb-1">
               <span className={`badge ${domainStyle}`}>{company.normalized_domain}</span>
@@ -382,7 +391,7 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
         </div>
 
         {/* Modal Body — scrollable */}
-        <div className="flex-1 overflow-y-auto p-6 flex flex-col gap-6">
+        <div className="flex-1 overflow-y-auto p-4 sm:p-6 flex flex-col gap-5 sm:gap-6">
 
           {/* PS Data row: Min CG + Work Mode */}
           <div className="grid grid-cols-3 gap-3 p-3 rounded-xl bg-bg-card border border-bg-border">
