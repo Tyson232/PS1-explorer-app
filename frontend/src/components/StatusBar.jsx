@@ -39,7 +39,7 @@ export default function StatusBar({ meta, connected }) {
 
       {/* Deadline note */}
       <span className="ml-auto text-text-muted/60 hidden sm:inline">
-        Data deadline: Apr 15
+        Data deadline: Apr 19
       </span>
     </div>
   );
