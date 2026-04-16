@@ -258,7 +258,7 @@
       "f20231073@pilani.bits-pilani.ac.in",
       "f20230654@hyderabad.bits-pilani.ac.in"
     ],
-    "work_mode": "Online"
+    "work_mode": "Onsite"
   },
   "Digital India Bhasini Division(DIBD)": {
     "min_cg": 6.3,
@@ -608,7 +608,7 @@
     "contact_emails": [
       "f20230402@goa.bits-pilani.ac.in"
     ],
-    "work_mode": null
+    "work_mode": "Onsite"
   },
   "Standardisation, Testing & Quality Certification Directorate (STQC), Delhi": {
     "min_cg": 6.82,
@@ -633,7 +633,7 @@
       "f20230155@hyderabad.bits-pilani.ac.in",
       "f20231388@hyderabad.bits-pilani.ac.in"
     ],
-    "work_mode": "Online"
+    "work_mode": "Onsite"
   },
   "Technology Enabling Centre, BITS Pilani, Pilani campus": {
     "min_cg": 6.42,
@@ -742,6 +742,1636 @@
     "work_mode": "Online"
   },
   "THE GLOBAL MERCHANTS - Online": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "1Buy.Ai (Sharpbuy Global Solutions Pvt Ltd)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ATMANIRBHAR SASHAKT JEEVAN SANSTHAN (DBA: Atmanirbhar.NGO)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ATRIBS GLOBAL - SWOT DIGINXT P LTD": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Adani Natural Resources": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "AdaptNXT Technology Solutions Pvt. Ltd - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Aivid Techvision": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Amritatva Farm - Digital Marketing & Content Strategy": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Amritatva Farm - Market Expansion & Business Development-Bengaluru": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Amritatva Farm - Market Expansion & Business Development-Delhi": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Amritatva Farm - Market Expansion & Business Development-Hyderabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Amritatva Farm - Market Expansion & Business Development-Mumbai": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Ananta Medicare Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "BHUMI": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "BSNL Zira": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Bhaskaracharya Institute For Space Applications And Geoinformatics,Gandhinagar": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Bid Alert - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Bid alert - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Bikaner Ceramics Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Blueinfy Solutions Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Brahmaputra Bridge Construction Sub-Division-III": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Bridge Engineering & Structures Division": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Flexible Pavements Division": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Geotechnical Engineering Division": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Rigid Pavements Division": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "CRRI- Traffic Engineering and Safety Division": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "CT Software Solutions": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Center for DNA Fingerprinting and Diagnostics": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Center for Materials for Electronics Technology (C-MET), Hyderabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Central Institute of Road Transport - IT": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Centre for Development of Advanced Computing (CDAC) - Thiruvananthapuram": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Centre for Railway Information Systems, Secunderabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Collegedunia - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Compliance Sutras Technologies Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Connect Signal": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "DYSL - CT DRDO": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Department of Agriculture": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Deve Herbes": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Devoir Lifesciences": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "DigiWok Media": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ERTL(N) - Electronics Test & Development Centre- New Delhi": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ETDC - Electronic Test & Development Centre- Hyderabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ETDC - Electronic Test & Development Centre- Pune": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ETDC- Electronic Test & Development Centre- Bengaluru": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ETDC- Electronic Test & Development Centre- Mohali": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Enboarder": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Evoneural Artificial Intelligence OPC Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "FlairX Networks": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Haryana Power Generation Corporation": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Narasapura": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Tapukara": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Vithalapur": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "IBizCatalyst Venture Pvt Ltd (AiRoHire.ai)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "IRCTC": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Inc42 Media": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Indian National Centre for Ocean Information Services (INCOIS)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Induma Infratech pvt ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Integra Design - Electronics": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Integra Design - IT": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Integrated Active Monitoring Pvt Ltd, Pune": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Intercontinental Consultants & Technocrats Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Kelachandra Aquatic Machines": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Krishavaa Lifesciences Pvt.Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "LOHUM Cleantech Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Lailen Consulting Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Maritime Research Center, Foundation for Underwater Domain Awareeness": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Max Trantech Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "NDR Warehousing": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "NHPC Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Atmospheric Research Laboratory": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Centre for Polar and Ocean Research (NCPOR) -Causal analysis": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Centre for Polar and Ocean Research (NCPOR) -Integration of Neural Network Models with WRF/ROMS": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Centre for Polar and Ocean Research (NCPOR)-Application of AI and ML": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Centre for Polar and Ocean Research (NCPOR)-Marine Chemistry/Geochemistry": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Centre for Polar and Ocean Research (NCPOR)-Microbiology and Biogeochemistry": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Institute of Electronics and Information Technology [NIELIT]": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Neovant Therapeutics Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Nichebit Softech Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Nirmal Bang - Bhilwara, Rajasthan": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Nirmal Bang -Kota - Rajasthan": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Nirmal Bang-Jaipur - Rajasthan": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Nitisara – Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Nouveau Labs Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ONGC, Ahmedabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ONGC, Dehradun": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ONGC, Delhi": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Oh Bhaisahab Experiences": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Ornate Agencies Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PRIMESTEELTECH IND PVT LTD": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Patratu Vidyut Utpadan Nigam Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PerfectQA LLP": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Petasense Technologies Private Limited-Bangalore": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Petasense Technologies Private Limited-Hyderabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Pinnacle Industrial Controls Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Pratham Education Foundation-Bengaluru": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Pratham Education Foundation-Koppal": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Pratham Education Foundation-Mysuru": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Preto Tooling Systems": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Quinfosys Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "RRSC": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Rane Group-Bawal, Haryana": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Rane Group-Chennai": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Rane Madras Limited - Brake Components Division - Ambattur,chennai": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Rane Madras Limited - Brake Components Division - Pondicherry": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Rane Madras Limited - Brake Components Division - Trichy": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Runverve Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "SMARTSA TECH PRIVATE LIMITED-Onsite": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Saikrishna & Associates": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Sarvika Technology Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Shrreeji Sharan": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "SimpleWorks Solutions Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Steel Authority of India Ltd. (SAIL) Bhilai Steel Plant - Bhilai": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Steel Authority of India Ltd. (SAIL), Delhi": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Steel Authority of India Ltd. (SAIL), Kolkata": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Steel Authority of India Ltd. (SAIL), Ranchi": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Sunmount Solutions Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "TIF Labs Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Teach For India": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "The Affordable Organic Store": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "The Muthoot Group": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Thinkbyte Technologies Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Thinkbyte Technologies Private Limited - Vijayawada": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Tienda Advanced Materials Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "VNR Seeds Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Vankal Agri Solutions Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Varistor Technologies Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Vrundavan children hospital": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "IDS Infotech Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "National Council of Applied Economic Research (NCAER)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Maven Infotech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "CarbonM FuelMax Technology Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Institute of Applied Mathematics (IfAM) at Leibniz University Hannover, Germany": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Emertech Innovations Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "I-Net Secure Labs Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Tale of Humankind Foundation": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Bharat Aluminum Company Limited (BALCO)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Uratom Solar (India) Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "APS LIFETECH": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "DeepCureTech Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Ode Chem LLP": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Airports Authority of India (AAI)- Guwahati": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Airports Authority of India (AAI)- Kanpur": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Albatross Energetics": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Anish Pharma Equip Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "ARX India Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Atharv SecureTech Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Bhukhanvala Industries Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Deloitte Touche Tohmatsu India LLP": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "E MUG Engineering Services Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Guru Hargobind Thermal Plant (GHTP),Punjab State Power Corporation Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "HPCL – Visakh Refinery": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "I-Hub for Robotics and Autonomous Systems Innovation Foundation(Artpart IISc)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "KYRO Technologies Inc.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Multigraphics Group - Market Research": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Multigraphics Group - Software Development": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Multigraphics Groupn - Battery Technology and Energy Systems": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "NRLDC-National Regional Load Despatch Center, Grid-India": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Power Finance Corp. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Aha Automotive Innovations LLP - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Aha Automotive Innovations LLP - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Aithri Tech Private Limited - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Aithri Tech Private Limited - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Akshar Bharati": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Apollyon Dynamics - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Apollyon Dynamics - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Arthadam": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - BaseThesis Labs Pvt Ltd - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - BaseThesis Labs Pvt Ltd - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Capital Craft - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Capital Craft - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Carbon Crunch - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Carbon Crunch - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Cautio - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Cautio - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - CognifyEV": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Creware Coworks": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - CuraCraft Designs - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - CuraCraft Designs - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Deepshorts - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Deepshorts - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Defendron Technologies - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Defendron Technologies - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Dr. B. Lal Clinical Laboratory Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Drivomate": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Es Magico - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Es Magico - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Finspectors Technologies Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Growleads - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Happywrap - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Happywrap - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Hobnob Realtech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Iofold labs": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Kalpi": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Kinetic Age - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Kinetic Age - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - KriSHE Carbon - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - KriSHE Carbon - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Lepton Maps": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Lingopanda - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Lingopanda - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - ManageWorkspace": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Mati Amrit Clay Industries Pvt. Ltd. - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Mati Amrit Clay Industries Pvt. Ltd. - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Matih Labs - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Matih Labs - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Neander": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Newcycl": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - OpenVaidya - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - OpenVaidya - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Palyt Technologies Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - PocketGluca": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Prakirbha AI Diagnostics - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Prakirbha AI Diagnostics - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - puvitham private limited - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - puvitham private limited - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - RAASA KARTS INDIA PRIVATE LIMITED": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - ReCon AI": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Ren - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Ren - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Runverve Pvt Ltd - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Runverve Pvt Ltd - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Savr - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Savr - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Sipwise Technologies Pvt Ltd - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Sipwise Technologies Pvt Ltd - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Solayu": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Stych AI": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - TanPrish Dynamics Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Unihead Inovation - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Unihead Inovation - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Vrisva Space Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Weavehand - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Weavehand - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Zernyx Innovations Private Limited - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Zernyx Innovations Private Limited - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Reliance Jio Infocomm Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "SNC&IT services Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Agriculture Technology": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Artificial Intelligence - AI Workflows": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Artificial Intelligence - Corpus": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Data Analytics": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Data Engineering": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Education Technology": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - HealthCare": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Mobile Application": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Operating Systems": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Swecha - Software Engineering": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Unwind Minds Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "WRLDC- Western Regional Load Despatch Center, Grid-India Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Yashoda Hospitals": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Action For India": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "AI Gurukul": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Amukha Technologies Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Anushka Jobtech Pvt. Ltd- Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Anushka Jobtech Pvt. Ltd- Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "AudioPod, Inc - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "BigLook - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "BigLook - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Breathe ESG Private Limited - Nontech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Breathe ESG Private Limited - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Caarya Innovative Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Celebal Technologies": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Center for Development of Advanced Computing(C-DAC) - Pune": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Centre for Development of Advanced Computing (CDAC) - Hyderabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Centre for Military Airworthiness & Certification (CEMILAC), DRDO": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Claravest Technologies Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Codegres (OPC) Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Commercial Consultancy Services (Flexsim)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Cosmasol": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Deccan Fine Chemicals": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Edutech Learning Solutions Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Elite Projects Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "ERLDC- Eastern Regional Load Dispatch Center, Grid India": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "FANPLAY IoT": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Genesis Gas Solutions Private Limited - Electronics": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Genesis Gas Solutions Private Limited - IT": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Genquery Technology Services Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Glocol Networks, California, USA": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "HEBE Financial Services": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Heetherark Labs Private Limited - IT": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Iljin Electronics": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Indium Software Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Infogain India Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Innokreat Technologies Pvt Ltd - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "ITCONS E-Solutions Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Jalte Diye Foundation": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Kuppismart solutions Pvt Ltd - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Kuppismart solutions Pvt Ltd - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "KVGAI Tech Pvt. Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "L&T Heavy Engineering, IC": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Laurus Labs": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "MCEME": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "MD Enterprises Global": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "MeghaAI India Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Meghgen Technologies Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "METASRUJAN": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "miBiome Therapeutics (DataHelix AI)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "MindPeers - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "MindPeers - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "NERLDC- North Eastern Regional Load Despatch Center, Grid-India": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "NeSL Asset Data Limited (NADL)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Niftrix Technologies Private Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Nitisara - Tech, Gurgaon": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "NLDC": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "NoQs Digital, Ahmedabad": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "OrbitArch": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Paradeep Phosphates Limited": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Pascal AI": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Phodu Club - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Pranesh Deep Tech Solutions": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Promark Techsolutionspvt ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Vopais Tech - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "PS-I Entrepreneurship track - Vopais Tech - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Pune Polytech Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "RCMA (Chandigarh)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Remedo Clinitech Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "RenewCred (Net Zero Initiative Pvt Ltd)": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Richas Techpro Pvt Ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Samaro software pvt ltd": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Sasha Innoworks Pvt. Ltd.": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "SRLDC -Southern Regional Load Despatch Center, Grid-India": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Sungold Suppliers Pvt Ltd, Kota Rajasthan": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "Vitalize Healthcare Pvt. Ltd - Non Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Vitalize Healthcare Pvt. Ltd - Tech": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "Yana Travel Pvt Ltd": {
     "min_cg": null,
     "contact_emails": [],
     "work_mode": "Online"
