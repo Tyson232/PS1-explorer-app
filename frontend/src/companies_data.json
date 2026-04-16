@@ -12239,5 +12239,515 @@
       "Project Domain": "Backend Development,API,Frontend Dev.,UI Engineering,Software Engg,Automation,software,Front end",
       "Title": "Backend Development for AI-Powered Trip Planning,Frontend Development for AI-Powered Trip Planning,AI agent for Backend QA Automation,AI agent for Frontend QA Automation"
     }
+  },
+  {
+    "id": 1090,
+    "name": "AudioPod, Inc - Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Title: AudioPod - AI Podcast Editing Tool\nDescription: Help build and test the web interface for AudioPod, an AI-powered audioediting tool for podcasters. Tasks include building UI components (buttons, waveformdisplay, audio controls), testing audio features manually, reporting bugs, creating testcases, and improving the look and feel of the editor based on user feedback.Skill sets: HTML/CSS, JavaScript/TypeScript basics, React basics, manual testing,Figma (for UI review), basic GitExpected learning: How real web applications are built and shipped, basics of Reactfrontend development, software testing and bug reporting, working in a startup team,UI/UX feedback and iterationSpecific courses required for project execution: OOP, Computer Programming,Software Engineering basics",
+    "subdomains": [
+      "AI"
+    ],
+    "raw_row": {
+      "Station Id": "7043",
+      "Station Name": "AudioPod, Inc - Tech",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA8,AnyA7,AnyAA,AnyAC,A7,A8,AA,AC,A3",
+      "Description": "Description: Help build and test the web interface for AudioPod, an AI-powered audioediting tool for podcasters. Tasks include building UI components (buttons, waveformdisplay, audio controls), testing audio features manually, reporting bugs, creating testcases, and improving the look and feel of the editor based on user feedback.Skill sets: HTML/CSS, JavaScript/TypeScript basics, React basics, manual testing,Figma (for UI review), basic GitExpected learning: How real web applications are built and shipped, basics of Reactfrontend development, software testing and bug reporting, working in a startup team,UI/UX feedback and iterationSpecific courses required for project execution: OOP, Computer Programming,Software Engineering basics",
+      "Project Domain": "AI",
+      "Title": "Title: AudioPod - AI Podcast Editing Tool"
+    }
+  },
+  {
+    "id": 1091,
+    "name": "AudioPod, Inc - Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Title: JEET - JEE and NEET Prep App for Coaching Institutes,Title: WhatsBy - WhatsApp AI Bot for Indian Small Businesses\nDescription: Research and prototype a mobile-friendly app for JEE/NEET preparation, tobe offered through coaching institutes. Since interns are recent JEE candidatesthemselves, they will interview fellow students and coaching center staff, identify painpoints in current prep tools, design app screens in Figma, build a basic prototype, andprepare a pitch for coaching partners.Skill sets: User interviews, Google Forms/surveys, Figma/wireframing, basicHTML/CSS/JavaScript, PowerPoint/Google Slides, market researchExpected learning: How to validate a product idea with real users, basics of UX designand wireframing, understanding B2B2C business models, creating pitch decks, workingon a greenfield product from scratchSpecific courses required for project execution: Computer Programming, anyManagement/Economics elective,Description: Conduct field research and business development for WhatsBy, an AIchatbot on WhatsApp for Indian small businesses (shops, restaurants, salons). Tasksinclude visiting and interviewing local business owners, understanding how they currentlyhandle customer queries, demonstrating the product, collecting feedback, creating salesmaterials in Hindi/English, and mapping competitors in the WhatsApp business toolsspace.Skill sets: Communication skills (Hindi and English), Google Sheets/Docs, basicpresentation skills, interviewing and survey techniques, market research basicsExpected learning: How to do customer discovery and validate product ideas, B2Bsales basics, understanding the Indian SMB market, competitive analysis, creating salescollateralSpecific courses required for project execution: Any branch(Management/Economics electives helpful)",
+    "subdomains": [
+      "AI"
+    ],
+    "raw_row": {
+      "Station Id": "7043",
+      "Station Name": "AudioPod, Inc - Tech",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "2",
+      "Tags": "Any,Any",
+      "Description": "Description: Research and prototype a mobile-friendly app for JEE/NEET preparation, tobe offered through coaching institutes. Since interns are recent JEE candidatesthemselves, they will interview fellow students and coaching center staff, identify painpoints in current prep tools, design app screens in Figma, build a basic prototype, andprepare a pitch for coaching partners.Skill sets: User interviews, Google Forms/surveys, Figma/wireframing, basicHTML/CSS/JavaScript, PowerPoint/Google Slides, market researchExpected learning: How to validate a product idea with real users, basics of UX designand wireframing, understanding B2B2C business models, creating pitch decks, workingon a greenfield product from scratchSpecific courses required for project execution: Computer Programming, anyManagement/Economics elective,Description: Conduct field research and business development for WhatsBy, an AIchatbot on WhatsApp for Indian small businesses (shops, restaurants, salons). Tasksinclude visiting and interviewing local business owners, understanding how they currentlyhandle customer queries, demonstrating the product, collecting feedback, creating salesmaterials in Hindi/English, and mapping competitors in the WhatsApp business toolsspace.Skill sets: Communication skills (Hindi and English), Google Sheets/Docs, basicpresentation skills, interviewing and survey techniques, market research basicsExpected learning: How to do customer discovery and validate product ideas, B2Bsales basics, understanding the Indian SMB market, competitive analysis, creating salescollateralSpecific courses required for project execution: Any branch(Management/Economics electives helpful)",
+      "Project Domain": "AI",
+      "Title": "Title: JEET - JEE and NEET Prep App for Coaching Institutes,Title: WhatsBy - WhatsApp AI Bot for Indian Small Businesses"
+    }
+  },
+  {
+    "id": 1092,
+    "name": "AudioPod, Inc - Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Title: Findable - Directory and Marketplace for AI Agents\nDescription: Help build the website and research the market for Findable, a platformwhere businesses can discover and hire AI agents. Tasks include building website pages(listing pages, search, filters), writing descriptions for AI agent categories, researchingwhat AI agents exist today across industries, and helping design how the marketplaceshould work.Skill sets: HTML/CSS, JavaScript/React basics, content writing, web research, GoogleSheets for data collection, basic FigmaExpected learning: How marketplace websites are built, basics of React webdevelopment, understanding the emerging AI agent ecosystem, content strategy andSEO basics, product thinkingSpecific courses required for project execution: Computer Programming, OOP, WebDevelopment basics",
+    "subdomains": [
+      "AI"
+    ],
+    "raw_row": {
+      "Station Id": "7043",
+      "Station Name": "AudioPod, Inc - Tech",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA7,AnyB3,A7,B3",
+      "Description": "Description: Help build the website and research the market for Findable, a platformwhere businesses can discover and hire AI agents. Tasks include building website pages(listing pages, search, filters), writing descriptions for AI agent categories, researchingwhat AI agents exist today across industries, and helping design how the marketplaceshould work.Skill sets: HTML/CSS, JavaScript/React basics, content writing, web research, GoogleSheets for data collection, basic FigmaExpected learning: How marketplace websites are built, basics of React webdevelopment, understanding the emerging AI agent ecosystem, content strategy andSEO basics, product thinkingSpecific courses required for project execution: Computer Programming, OOP, WebDevelopment basics",
+      "Project Domain": "AI",
+      "Title": "Title: Findable - Directory and Marketplace for AI Agents"
+    }
+  },
+  {
+    "id": 1093,
+    "name": "Claravest Technologies Private Limited",
+    "domain": "Infrastructure",
+    "normalized_domain": "Infrastructure",
+    "city": "Navi Mumbai",
+    "project_details": "Growth Marketing\nDescription: Work on digital campaigns, content strategy, social media, andperformance marketing to drive brand awareness and lead generation.Skill sets:Digital marketing knowledge (social media, SEO, email) Creativity &amp; problem-solving,Content creation &amp; social media management,Familiarity with tools such as Canva, Photoshop, etc.",
+    "subdomains": [
+      "-"
+    ],
+    "raw_row": {
+      "Station Id": "6712",
+      "Station Name": "Claravest Technologies Private Limited",
+      "Centre (Location)": "Navi Mumbai",
+      "Business Domain": "Infrastructure",
+      "Total Project": "1",
+      "Tags": "-",
+      "Description": "Description: Work on digital campaigns, content strategy, social media, andperformance marketing to drive brand awareness and lead generation.Skill sets:Digital marketing knowledge (social media, SEO, email) Creativity &amp; problem-solving,Content creation &amp; social media management,Familiarity with tools such as Canva, Photoshop, etc.",
+      "Project Domain": "-",
+      "Title": "Growth Marketing"
+    }
+  },
+  {
+    "id": 1094,
+    "name": "Glocol Networks, California, USA",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Sacramento",
+    "project_details": "Decision Dashboard for Emergency Operations\nDescription: Build a dashboard that visualizes occupancy heatmaps, alert overlays, exposure metrics, and generates structured Situational Report SummariesSkill sets:Front-end dashboarding (React/JavaScript)Data visualizationREST APIsReport automationDocumentation &amp;amp; ReviewExpected learning:Human-centered designExecutive reportingOperational intelligenceCommunication of uncertaintyBasics of Python Programming and use of AI Modeling TechniquesEdge Data and Cloud Data Handling using AWS or other Cloud ApproachesSpecific courses required for project execution:Software EngineeringDBMSUI/UX fundamentalsGeneric Management and Communication Topics",
+    "subdomains": [
+      "Software Development",
+      "dashboard creation"
+    ],
+    "raw_row": {
+      "Station Id": "8501",
+      "Station Name": "Glocol Networks, California, USA",
+      "Centre (Location)": "Sacramento",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyAJ,AnyA2,AnyA7,A7,A2,AJ",
+      "Description": "Description: Build a dashboard that visualizes occupancy heatmaps, alert overlays, exposure metrics, and generates structured Situational Report SummariesSkill sets:Front-end dashboarding (React/JavaScript)Data visualizationREST APIsReport automationDocumentation &amp;amp; ReviewExpected learning:Human-centered designExecutive reportingOperational intelligenceCommunication of uncertaintyBasics of Python Programming and use of AI Modeling TechniquesEdge Data and Cloud Data Handling using AWS or other Cloud ApproachesSpecific courses required for project execution:Software EngineeringDBMSUI/UX fundamentalsGeneric Management and Communication Topics",
+      "Project Domain": "Software Development,dashboard creation",
+      "Title": "Decision Dashboard for Emergency Operations"
+    }
+  },
+  {
+    "id": 1095,
+    "name": "Glocol Networks, California, USA",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Sacramento",
+    "project_details": "Study of various Reports used by United Nations Disaster Reporting and design of Occupancy-Aware Alerting\nDescription: Students will prototype XML extensions to Common Alerting Protocol (CAP)embedding occupancy metadata, mapping to ICS-209 and SITREP Reporting sections usedby United Nations.Skill sets:XML/JSONStandards researchData modellingTechnical documentationAPI architectureDocumentation &amp;amp; ReviewExpected learning:Standards engineeringInteroperability designEmergency communication systemsPolicy-tech alignmentBasics of Python Programming and use of AI Modeling TechniquesEdge Data and Cloud Data Handling using AWS or other Cloud ApproachesSpecific courses required for project execution:Object Oriented Programming Computer NetworksDatabase SystemsTechnical Writing",
+    "subdomains": [
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "8501",
+      "Station Name": "Glocol Networks, California, USA",
+      "Centre (Location)": "Sacramento",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,AnyAC,AnyB4,A7,A3,A8,AA,AD,B4,AC",
+      "Description": "Description: Students will prototype XML extensions to Common Alerting Protocol (CAP)embedding occupancy metadata, mapping to ICS-209 and SITREP Reporting sections usedby United Nations.Skill sets:XML/JSONStandards researchData modellingTechnical documentationAPI architectureDocumentation &amp;amp; ReviewExpected learning:Standards engineeringInteroperability designEmergency communication systemsPolicy-tech alignmentBasics of Python Programming and use of AI Modeling TechniquesEdge Data and Cloud Data Handling using AWS or other Cloud ApproachesSpecific courses required for project execution:Object Oriented Programming Computer NetworksDatabase SystemsTechnical Writing",
+      "Project Domain": "Software Development",
+      "Title": "Study of various Reports used by United Nations Disaster Reporting and design of Occupancy-Aware Alerting"
+    }
+  },
+  {
+    "id": 1096,
+    "name": "Glocol Networks, California, USA",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Sacramento",
+    "project_details": "AI-Based Real-Time Occupancy Estimation Using Edge Data\nDescription: Students will work on building models to estimate occupancy usinganonymized data from various sensors for signal density, time-series smoothing, anomalydetection, and short-term forecasting. The project will simulate deployment scenarios intransit hubs and campuses.Skill sets:PythonTime-series analysisML (LightGBM / Regression / Clustering)Edge computing fundamentalsAPI integrationDocumentation &amp;amp; ReviewExpected learning:Real-world noisy data handlingAI deployment constraintsSignal-to-occupancy modellingData governance principlesBasics of Python Programming and use of AI Modeling TechniquesEdge Data and Cloud Data Handling using AWS or other Cloud ApproachesSpecific courses required for project execution:Probability &amp;amp; StatisticsData StructuresSignals &amp;amp; SystemsMachine Learning (intro level)Numerical Methods",
+    "subdomains": [
+      "Data Science",
+      "AI & ML"
+    ],
+    "raw_row": {
+      "Station Id": "8501",
+      "Station Name": "Glocol Networks, California, USA",
+      "Centre (Location)": "Sacramento",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,AnyAC,AnyB4,A8,A3,A7,AA,AC,AD,B4",
+      "Description": "Description: Students will work on building models to estimate occupancy usinganonymized data from various sensors for signal density, time-series smoothing, anomalydetection, and short-term forecasting. The project will simulate deployment scenarios intransit hubs and campuses.Skill sets:PythonTime-series analysisML (LightGBM / Regression / Clustering)Edge computing fundamentalsAPI integrationDocumentation &amp;amp; ReviewExpected learning:Real-world noisy data handlingAI deployment constraintsSignal-to-occupancy modellingData governance principlesBasics of Python Programming and use of AI Modeling TechniquesEdge Data and Cloud Data Handling using AWS or other Cloud ApproachesSpecific courses required for project execution:Probability &amp;amp; StatisticsData StructuresSignals &amp;amp; SystemsMachine Learning (intro level)Numerical Methods",
+      "Project Domain": "Data Science,AI & ML",
+      "Title": "AI-Based Real-Time Occupancy Estimation Using Edge Data"
+    }
+  },
+  {
+    "id": 1097,
+    "name": "Jalte Diye Foundation",
+    "domain": "Health Care",
+    "normalized_domain": "Health Care",
+    "city": "Jaipur",
+    "project_details": "Title: Cognitive Agentic AI System for Social Education\nDescription: Development of cognitive thinking-based AI modelsSkill sets: Abstract thinking, Generative AI modelingExpected learning: Effective learning media for social educationSpecific courses required for project execution: Cognitive neuroscience/AI/ML modeling",
+    "subdomains": [
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "8656",
+      "Station Name": "Jalte Diye Foundation",
+      "Centre (Location)": "Jaipur",
+      "Business Domain": "Health Care",
+      "Total Project": "1",
+      "Tags": "AnyA7,AnyAD,A7,AD",
+      "Description": "Description: Development of cognitive thinking-based AI modelsSkill sets: Abstract thinking, Generative AI modelingExpected learning: Effective learning media for social educationSpecific courses required for project execution: Cognitive neuroscience/AI/ML modeling",
+      "Project Domain": "Software Development",
+      "Title": "Title: Cognitive Agentic AI System for Social Education"
+    }
+  },
+  {
+    "id": 1098,
+    "name": "Jalte Diye Foundation",
+    "domain": "Health Care",
+    "normalized_domain": "Health Care",
+    "city": "Jaipur",
+    "project_details": "Title: Smart Wearables for Mental Health\nDescription: Design and development of wearables to track and improve mental healthSkill sets: CAD modeling, Engineering drawingExpected learning: Constraints based designingSpecific courses required for project execution: Engineering drawing, CAD",
+    "subdomains": [
+      "Electronics"
+    ],
+    "raw_row": {
+      "Station Id": "8656",
+      "Station Name": "Jalte Diye Foundation",
+      "Centre (Location)": "Jaipur",
+      "Business Domain": "Health Care",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyAB,AnyAA,AnyAC,A8,A3,AA,AC",
+      "Description": "Description: Design and development of wearables to track and improve mental healthSkill sets: CAD modeling, Engineering drawingExpected learning: Constraints based designingSpecific courses required for project execution: Engineering drawing, CAD",
+      "Project Domain": "Electronics",
+      "Title": "Title: Smart Wearables for Mental Health"
+    }
+  },
+  {
+    "id": 1099,
+    "name": "MD Enterprises Global",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Michigan",
+    "project_details": "iOS programming (Objective C and/or Swift) to enhance existing mobile apps\nTitle: iOS programming (Objective C and/or Swift) to enhance existing mobile appsDescription: The company has MVP or core Framework that can be customized tothe needs of the clientSkill sets: Swift, ObjectiveC, Java (one or combo, iOS Frameworks desirableExpected learning: In-depth exposure to Mobile development, Security &amp; PrivacySpecific courses required for project execution: Object Oriented Progrramming",
+    "subdomains": [
+      "Mobile App"
+    ],
+    "raw_row": {
+      "Station Id": "5332",
+      "Station Name": "MD Enterprises Global",
+      "Centre (Location)": "Michigan",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA1,AB,A8,A3,A4,A2,A1,B4,AD,A7,AnyAB,AnyAA,AnyA8,AnyA7,AnyA4,AnyA3,AnyA2,AnyAD,AA",
+      "Description": "Title: iOS programming (Objective C and/or Swift) to enhance existing mobile appsDescription: The company has MVP or core Framework that can be customized tothe needs of the clientSkill sets: Swift, ObjectiveC, Java (one or combo, iOS Frameworks desirableExpected learning: In-depth exposure to Mobile development, Security &amp; PrivacySpecific courses required for project execution: Object Oriented Progrramming",
+      "Project Domain": "Mobile App",
+      "Title": "iOS programming (Objective C and/or Swift) to enhance existing mobile apps"
+    }
+  },
+  {
+    "id": 1100,
+    "name": "MD Enterprises Global",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Michigan",
+    "project_details": "AI algorithms for person identification using face & voice data,Creating fintech apps with biometrics, integrate blockchain\nTitle: AI algorithms for person identification using face &amp; voice dataDescription: Company patents utilize face &amp; voice biometrics to identify peopleSkill sets: Neural Nets, Genetic Algorithms, ML etc.Expected learning: AI &amp; its applications to real-life problemsSpecific courses required for project execution: Exposure to AI,Title: Creating fintech apps with biometrics, integrate blockchain .Description: Prototype fin-tech apps based on company patents incorporatingbiometrics &amp; BlockchainsSkill sets: Mobile programming, UI Design, BlockchainsExpected learning: Exposure to Fintech, Blockchains, Security &amp; Privacy",
+    "subdomains": [
+      "Artificial Intelligence",
+      "Blockchain"
+    ],
+    "raw_row": {
+      "Station Id": "5332",
+      "Station Name": "MD Enterprises Global",
+      "Centre (Location)": "Michigan",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "2",
+      "Tags": "AnyA7,AnyB4,B4,A7,AnyA7,AnyB4,A7,B4",
+      "Description": "Title: AI algorithms for person identification using face &amp; voice dataDescription: Company patents utilize face &amp; voice biometrics to identify peopleSkill sets: Neural Nets, Genetic Algorithms, ML etc.Expected learning: AI &amp; its applications to real-life problemsSpecific courses required for project execution: Exposure to AI,Title: Creating fintech apps with biometrics, integrate blockchain .Description: Prototype fin-tech apps based on company patents incorporatingbiometrics &amp; BlockchainsSkill sets: Mobile programming, UI Design, BlockchainsExpected learning: Exposure to Fintech, Blockchains, Security &amp; Privacy",
+      "Project Domain": "Artificial Intelligence,Blockchain",
+      "Title": "AI algorithms for person identification using face & voice data,Creating fintech apps with biometrics, integrate blockchain"
+    }
+  },
+  {
+    "id": 1101,
+    "name": "MD Enterprises Global",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Michigan",
+    "project_details": "Prototyping active-RFID receiver/transmitter for 20-100 feet range\nTitle: Prototyping active-RFID receiver/transmitter for 20-100 feet rangeDescription: Make prototype for Patented active-RFID deviceSkill sets: RF Circuitry, Antenna theory, DesignExpected learning: In-depth used of RFID technology to variety of use-casesSpecific courses required for project execution: Courses on Circuits &amp; Antennas",
+    "subdomains": [
+      "RFID Tech"
+    ],
+    "raw_row": {
+      "Station Id": "5332",
+      "Station Name": "MD Enterprises Global",
+      "Centre (Location)": "Michigan",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA8,AnyAA,AnyB5,A3,B5,A8,AA",
+      "Description": "Title: Prototyping active-RFID receiver/transmitter for 20-100 feet rangeDescription: Make prototype for Patented active-RFID deviceSkill sets: RF Circuitry, Antenna theory, DesignExpected learning: In-depth used of RFID technology to variety of use-casesSpecific courses required for project execution: Courses on Circuits &amp; Antennas",
+      "Project Domain": "RFID Tech",
+      "Title": "Prototyping active-RFID receiver/transmitter for 20-100 feet range"
+    }
+  },
+  {
+    "id": 1102,
+    "name": "MD Enterprises Global",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Michigan",
+    "project_details": "Investments, Business Development & Finance\nTitle: Investments, Business Development &amp; FinanceDescription: Investor pitch &amp; procurement, Customer Enrollment, FinancialsSkill sets: Investor Pitches, Marketing, Financial ProjectionsExpected learning: In-depth investment acquisition, marketing &amp; FinanceSpecific courses required for project execution: Business, Economics Coursework",
+    "subdomains": [
+      "Business Strategy"
+    ],
+    "raw_row": {
+      "Station Id": "5332",
+      "Station Name": "MD Enterprises Global",
+      "Centre (Location)": "Michigan",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyB3,B3",
+      "Description": "Title: Investments, Business Development &amp; FinanceDescription: Investor pitch &amp; procurement, Customer Enrollment, FinancialsSkill sets: Investor Pitches, Marketing, Financial ProjectionsExpected learning: In-depth investment acquisition, marketing &amp; FinanceSpecific courses required for project execution: Business, Economics Coursework",
+      "Project Domain": "Business Strategy",
+      "Title": "Investments, Business Development & Finance"
+    }
+  },
+  {
+    "id": 1103,
+    "name": "METASRUJAN",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Title: Image processing using MATLAB/Python\nDescription: This project aims to develop and implement an Inverse Synthetic Aperture Radar (ISAR)imaging system using MATLAB or Python, focusing on signal processing algorithms and imageformation techniques. ISAR is a powerful radar imaging methodology used to generate high-resolutionimages of moving targets, such as aircraft or ships, by exploiting their relative motion with respect to theradar platform.This work has practical relevance in defense surveillance, remote sensing, target identification, andreconnaissance operations. It also provides hands-on exposure to core concepts in digital signalprocessing, time-frequency analysis, and radar system design.Skill sets:• Strong understanding of radar principles and wave propagation• Proficiency in MATLAB and/or Python for scientific computing• Knowledge of signal processing techniques (e.g., FFT, filtering, windowing)• Familiarity with radar imaging concepts (e.g., range-Doppler, cross-range resolution)• Experience with data visualization and image processing libraries (e.g., matplotlib, OpenCV)• Ability to work with simulated or real radar datasets• Problem-solving and debugging skills in a programming environment• Technical writing and documentation proficiencyExpected learning:• Comprehensive understanding of ISAR image formation theory and techniques• Hands-on experience with radar signal simulation and processing in MATLAB/Python• Ability to implement and optimize algorithms for motion compensation and focusing• Familiarity with real-world radar challenges like noise, clutter, and resolution limits• Insight into advanced signal processing methods used in modern radar systems• Development of software and analytical skills critical to defense and aerospace R&amp;DSpecific courses required for project execution:• Digital Signal Processing – for handling and transforming radar signals• Electromagnetic Wave Theory – for understanding wave interactions and radar returns• Programming for Engineers – for implementing and debugging ISAR algorithms• Pattern Recognition or Image Processing – for target interpretation and analysis• Time-Frequency Analysis – for dynamic target signal characterization• Applied Linear Algebra – for signal transformation and filtering techniques",
+    "subdomains": [
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "7025",
+      "Station Name": "METASRUJAN",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AA,AnyAA",
+      "Description": "Description: This project aims to develop and implement an Inverse Synthetic Aperture Radar (ISAR)imaging system using MATLAB or Python, focusing on signal processing algorithms and imageformation techniques. ISAR is a powerful radar imaging methodology used to generate high-resolutionimages of moving targets, such as aircraft or ships, by exploiting their relative motion with respect to theradar platform.This work has practical relevance in defense surveillance, remote sensing, target identification, andreconnaissance operations. It also provides hands-on exposure to core concepts in digital signalprocessing, time-frequency analysis, and radar system design.Skill sets:• Strong understanding of radar principles and wave propagation• Proficiency in MATLAB and/or Python for scientific computing• Knowledge of signal processing techniques (e.g., FFT, filtering, windowing)• Familiarity with radar imaging concepts (e.g., range-Doppler, cross-range resolution)• Experience with data visualization and image processing libraries (e.g., matplotlib, OpenCV)• Ability to work with simulated or real radar datasets• Problem-solving and debugging skills in a programming environment• Technical writing and documentation proficiencyExpected learning:• Comprehensive understanding of ISAR image formation theory and techniques• Hands-on experience with radar signal simulation and processing in MATLAB/Python• Ability to implement and optimize algorithms for motion compensation and focusing• Familiarity with real-world radar challenges like noise, clutter, and resolution limits• Insight into advanced signal processing methods used in modern radar systems• Development of software and analytical skills critical to defense and aerospace R&amp;DSpecific courses required for project execution:• Digital Signal Processing – for handling and transforming radar signals• Electromagnetic Wave Theory – for understanding wave interactions and radar returns• Programming for Engineers – for implementing and debugging ISAR algorithms• Pattern Recognition or Image Processing – for target interpretation and analysis• Time-Frequency Analysis – for dynamic target signal characterization• Applied Linear Algebra – for signal transformation and filtering techniques",
+      "Project Domain": "Software Development",
+      "Title": "Title: Image processing using MATLAB/Python"
+    }
+  },
+  {
+    "id": 1104,
+    "name": "METASRUJAN",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Design and Optimization of a Wideband Standard Horn Antenna (800 MHz – 18 GHz)\nDescription: This project is focused on the end-to-end design, simulation, and performance evaluationof a wideband standard horn antenna operating across the 800 MHz to 18 GHz frequency range. Suchultra-wideband (UWB) horn antennas are critical components in broadband measurement systems,EMC testing, radar front ends, and antenna calibration setups.The primary objective is to create a horn antenna with high gain, low VSWR, and stable radiationpatterns across the entire band. The project will explore various horn geometries (pyramidal, conical,and dual-ridged), waveguide transitions, impedance matching techniques, and material considerationsto achieve wideband operation..Skill sets:• Understanding of antenna theory and electromagnetic wave propagation• Proficiency in 3D electromagnetic simulation (e.g., HFSS, CST, FEKO)• Basic knowledge of waveguide theory and transition design• Mechanical design using CAD tools (e.g., SolidWorks, Fusion 360)• Scripting and automation for parametric sweeps (e.g., MATLAB, Python)• Familiarity with RF measurement equipment (e.g., VNA, spectrum analyzer)• Technical documentation and research reportingExpected learning:• Ability to design and optimize horn antennas over wide frequency ranges• Deep understanding of waveguide feeding structures and impedance matching• Proficiency in simulation of complex EM structures and interpretation of S-parameters• Hands-on knowledge of CAD modeling and preparing fabrication-ready designs• Insights into real-world fabrication constraints and RF testing methodologies• Enhanced analytical thinking and multi-domain design capability (EM + mechanical)Specific courses required for project execution:• Antenna Theory and Design – for radiation mechanism and parameter tuning• Microwave Engineering – for transmission line and waveguide concepts• Electromagnetic Field Theory – for understanding wave propagation and boundary conditions• Computer-Aided Design (CAD) – for mechanical modeling of antenna structures• High-Frequency Simulation Techniques – using tools like CST, HFSS, COMSOL• RF &amp; Microwave Measurements – for post-fabrication validation• Numerical Techniques in Electromagnetics – for solving Maxwell’s equations in complexgeometries",
+    "subdomains": [
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "7025",
+      "Station Name": "METASRUJAN",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AA,AnyAA",
+      "Description": "Description: This project is focused on the end-to-end design, simulation, and performance evaluationof a wideband standard horn antenna operating across the 800 MHz to 18 GHz frequency range. Suchultra-wideband (UWB) horn antennas are critical components in broadband measurement systems,EMC testing, radar front ends, and antenna calibration setups.The primary objective is to create a horn antenna with high gain, low VSWR, and stable radiationpatterns across the entire band. The project will explore various horn geometries (pyramidal, conical,and dual-ridged), waveguide transitions, impedance matching techniques, and material considerationsto achieve wideband operation..Skill sets:• Understanding of antenna theory and electromagnetic wave propagation• Proficiency in 3D electromagnetic simulation (e.g., HFSS, CST, FEKO)• Basic knowledge of waveguide theory and transition design• Mechanical design using CAD tools (e.g., SolidWorks, Fusion 360)• Scripting and automation for parametric sweeps (e.g., MATLAB, Python)• Familiarity with RF measurement equipment (e.g., VNA, spectrum analyzer)• Technical documentation and research reportingExpected learning:• Ability to design and optimize horn antennas over wide frequency ranges• Deep understanding of waveguide feeding structures and impedance matching• Proficiency in simulation of complex EM structures and interpretation of S-parameters• Hands-on knowledge of CAD modeling and preparing fabrication-ready designs• Insights into real-world fabrication constraints and RF testing methodologies• Enhanced analytical thinking and multi-domain design capability (EM + mechanical)Specific courses required for project execution:• Antenna Theory and Design – for radiation mechanism and parameter tuning• Microwave Engineering – for transmission line and waveguide concepts• Electromagnetic Field Theory – for understanding wave propagation and boundary conditions• Computer-Aided Design (CAD) – for mechanical modeling of antenna structures• High-Frequency Simulation Techniques – using tools like CST, HFSS, COMSOL• RF &amp; Microwave Measurements – for post-fabrication validation• Numerical Techniques in Electromagnetics – for solving Maxwell’s equations in complexgeometries",
+      "Project Domain": "Software Development",
+      "Title": "Design and Optimization of a Wideband Standard Horn Antenna (800 MHz – 18 GHz)"
+    }
+  },
+  {
+    "id": 1105,
+    "name": "OrbitArch",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Delhi",
+    "project_details": "R&D\nTitle: R&amp;DDescription: Students will be doing a through research on hardware like LiDar sensors and space conditions Skill sets: Reading papers Expected learning: working in a collaborated team, researching in a fast paced goal oriented method&nbsp;",
+    "subdomains": [
+      "R&D"
+    ],
+    "raw_row": {
+      "Station Id": "8545",
+      "Station Name": "OrbitArch",
+      "Centre (Location)": "Delhi",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA7,AnyA4,A7,A4",
+      "Description": "Title: R&amp;DDescription: Students will be doing a through research on hardware like LiDar sensors and space conditions Skill sets: Reading papers Expected learning: working in a collaborated team, researching in a fast paced goal oriented method&nbsp;",
+      "Project Domain": "R&D",
+      "Title": "R&D"
+    }
+  },
+  {
+    "id": 1106,
+    "name": "Samaro software pvt ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Navi Mumbai",
+    "project_details": "Generative web animation\n(CS &amp; ECE/EEE/ENI/ any branch student with coding experience)Self research, good understanding of image processing and photography in general. Good knowledge of Python &amp; Angular.",
+    "subdomains": [
+      "Image Processing"
+    ],
+    "raw_row": {
+      "Station Id": "7110",
+      "Station Name": "Samaro software pvt ltd",
+      "Centre (Location)": "Navi Mumbai",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,A3,A7,A8,AA",
+      "Description": "(CS &amp; ECE/EEE/ENI/ any branch student with coding experience)Self research, good understanding of image processing and photography in general. Good knowledge of Python &amp; Angular.",
+      "Project Domain": "Image Processing",
+      "Title": "Generative web animation"
+    }
+  },
+  {
+    "id": 1107,
+    "name": "Samaro software pvt ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Navi Mumbai",
+    "project_details": "Cyber Security Developer\n(CS &amp; ECE/EEE/ENI/ any branch student with coding experience)To work on securing REST API's in Python (Django).",
+    "subdomains": [
+      "Cyber Security"
+    ],
+    "raw_row": {
+      "Station Id": "7110",
+      "Station Name": "Samaro software pvt ltd",
+      "Centre (Location)": "Navi Mumbai",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,A3,A7,A8,AA",
+      "Description": "(CS &amp; ECE/EEE/ENI/ any branch student with coding experience)To work on securing REST API's in Python (Django).",
+      "Project Domain": "Cyber Security",
+      "Title": "Cyber Security Developer"
+    }
+  },
+  {
+    "id": 1108,
+    "name": "Samaro software pvt ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Navi Mumbai",
+    "project_details": "Design automation intern\n(CS &amp; ECE/EEE/ENI/ any branch student with coding experience) Automated photo album layout system using image processing + AI (face detection, clustering, aesthetic scoring) deployed on cloud infrastructure.",
+    "subdomains": [
+      "Design and development"
+    ],
+    "raw_row": {
+      "Station Id": "7110",
+      "Station Name": "Samaro software pvt ltd",
+      "Centre (Location)": "Navi Mumbai",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,A3,A7,A8,AA",
+      "Description": "(CS &amp; ECE/EEE/ENI/ any branch student with coding experience) Automated photo album layout system using image processing + AI (face detection, clustering, aesthetic scoring) deployed on cloud infrastructure.",
+      "Project Domain": "Design and development",
+      "Title": "Design automation intern"
+    }
+  },
+  {
+    "id": 1109,
+    "name": "Samaro software pvt ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Navi Mumbai",
+    "project_details": "Product management\n(CS &amp; ECE/EEE/ENI/ Mechanical any branch student with vibe coding and process automation)Process automation, vibe coding, product management.",
+    "subdomains": [
+      "Product Management"
+    ],
+    "raw_row": {
+      "Station Id": "7110",
+      "Station Name": "Samaro software pvt ltd",
+      "Centre (Location)": "Navi Mumbai",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA4,AnyA7,AnyA8,AnyAA,A3,A4,A7,A8,AA",
+      "Description": "(CS &amp; ECE/EEE/ENI/ Mechanical any branch student with vibe coding and process automation)Process automation, vibe coding, product management.",
+      "Project Domain": "Product Management",
+      "Title": "Product management"
+    }
+  },
+  {
+    "id": 1110,
+    "name": "Samaro software pvt ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Navi Mumbai",
+    "project_details": "Marketing\nAutomating operations and sales.",
+    "subdomains": [
+      "Automation"
+    ],
+    "raw_row": {
+      "Station Id": "7110",
+      "Station Name": "Samaro software pvt ltd",
+      "Centre (Location)": "Navi Mumbai",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": " Automating operations and sales.",
+      "Project Domain": "Automation",
+      "Title": "Marketing"
+    }
+  },
+  {
+    "id": 1111,
+    "name": "SMARTSA TECH PRIVATE LIMITED-Online",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Pune",
+    "project_details": "Title: Doubt Solver – Multimodal Talking Agentic AI with WhatsApp Integration & Android App\nDescription:This project focuses on building a personalized, multimodal agentic AI system capable of resolving student doubts through voice, text, and image inputs. The AI agent contextually understands questions across subjects and responds with step-by-step explanations in a conversational, human-like manner. The system integrates with WhatsApp Business API to enable autonomous doubt resolution directly on the platform students already use. Additionally, a native Android application is developed to provide a seamless mobile experience. The project emphasizes real-time inference, multimodal understanding, and autonomous conversation management without human escalation for standard queries.Skill sets:Multimodal AI &amp; Speech Processing: Handling text, voice, and image-based doubt inputs using LLMs and vision modelsAgentic Conversation Design: Building autonomous, context-aware dialogue agents that maintain session historyWhatsApp Business API Integration: Enabling automated doubt solving through WhatsApp using the Meta Cloud APIAndroid App Development: Building a mobile application for doubt submission, history, and AI interactionPersonalization &amp; Adaptive Response: Tailoring explanations to the user's grade level, learning pace, and prior contextExpected learning:Gaining hands-on experience in multimodal AI system design combining voice, text, and image understandingImplementing WhatsApp API-based autonomous workflows for real-world student interactionDeveloping a production-grade Android application integrated with an AI backendDesigning personalized conversational agents that adapt to individual student needsUnderstanding real-time inference pipelines for low-latency doubt resolutionSpecific courses required for project execution:Natural Language Processing &amp; Conversational AI (for dialogue management and response generation)Computer Vision &amp; Multimodal Learning (for image-based doubt interpretation)Mobile Application Development – Android (for building the student-facing app)Software Engineering &amp; API Integration (for WhatsApp Business API and backend orchestration)",
+    "subdomains": [
+      "Mobile App Development"
+    ],
+    "raw_row": {
+      "Station Id": "8634",
+      "Station Name": "SMARTSA TECH PRIVATE LIMITED-Online",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Description:This project focuses on building a personalized, multimodal agentic AI system capable of resolving student doubts through voice, text, and image inputs. The AI agent contextually understands questions across subjects and responds with step-by-step explanations in a conversational, human-like manner. The system integrates with WhatsApp Business API to enable autonomous doubt resolution directly on the platform students already use. Additionally, a native Android application is developed to provide a seamless mobile experience. The project emphasizes real-time inference, multimodal understanding, and autonomous conversation management without human escalation for standard queries.Skill sets:Multimodal AI &amp; Speech Processing: Handling text, voice, and image-based doubt inputs using LLMs and vision modelsAgentic Conversation Design: Building autonomous, context-aware dialogue agents that maintain session historyWhatsApp Business API Integration: Enabling automated doubt solving through WhatsApp using the Meta Cloud APIAndroid App Development: Building a mobile application for doubt submission, history, and AI interactionPersonalization &amp; Adaptive Response: Tailoring explanations to the user's grade level, learning pace, and prior contextExpected learning:Gaining hands-on experience in multimodal AI system design combining voice, text, and image understandingImplementing WhatsApp API-based autonomous workflows for real-world student interactionDeveloping a production-grade Android application integrated with an AI backendDesigning personalized conversational agents that adapt to individual student needsUnderstanding real-time inference pipelines for low-latency doubt resolutionSpecific courses required for project execution:Natural Language Processing &amp; Conversational AI (for dialogue management and response generation)Computer Vision &amp; Multimodal Learning (for image-based doubt interpretation)Mobile Application Development – Android (for building the student-facing app)Software Engineering &amp; API Integration (for WhatsApp Business API and backend orchestration)",
+      "Project Domain": "Mobile App Development",
+      "Title": "Title: Doubt Solver – Multimodal Talking Agentic AI with WhatsApp Integration & Android App"
+    }
+  },
+  {
+    "id": 1112,
+    "name": "SMARTSA TECH PRIVATE LIMITED-Online",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Pune",
+    "project_details": "Title: Academic SME Agentic AI – K12 Mathematics Content Generation & Deployment at Scale\nDescription:This project involves building an agentic AI system that functions as a Subject Matter Expert (SME) in K12 mathematics, capable of autonomously generating high-quality, curriculum-aligned practice content at scale. The system is designed to produce over 10,000 pages of structured mathematics practice material spanning Grades 1 through 12, covering topics from foundational arithmetic to advanced algebra, geometry, and calculus. The generated content is deployed to a production environment accessible to students and educators. A web-based admin panel is developed for content review, quality control, topic configuration, and deployment management. The project emphasizes prompt engineering, content quality assurance pipelines, and scalable AI deployment.Skill sets:Agentic AI &amp; Prompt Engineering: Designing LLM-based agents with structured prompting for consistent, accurate mathematical content generationCurriculum Design &amp; K12 Mathematics: Understanding grade-wise learning objectives and structuring content accordinglyContent Quality Assurance &amp; Evaluation: Implementing automated and human-in-the-loop pipelines to validate mathematical accuracyProduction Deployment &amp; DevOps: Deploying AI-generated content systems to scalable cloud infrastructureWeb Development (Admin Panel): Building a full-stack interface for content management, review workflows, and deployment controlsExpected learning:Gaining hands-on experience in large-scale AI content generation using agentic workflowsImplementing K12 curriculum-aligned mathematics content pipelines from generation to deploymentDeveloping content quality control systems combining automated validation and structured reviewBuilding admin-facing web tools for managing, filtering, and deploying AI-generated educational materialSpecific courses required for project execution:Natural Language Processing &amp; Large Language Models (for content generation and prompt engineering)Mathematics &amp; Curriculum Studies (for K12-aligned content structuring and accuracy)Web Technologies &amp; Full-Stack Development (for admin panel and content management interface)",
+    "subdomains": [
+      "Data Analysis",
+      "Agentic AI"
+    ],
+    "raw_row": {
+      "Station Id": "8634",
+      "Station Name": "SMARTSA TECH PRIVATE LIMITED-Online",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Description:This project involves building an agentic AI system that functions as a Subject Matter Expert (SME) in K12 mathematics, capable of autonomously generating high-quality, curriculum-aligned practice content at scale. The system is designed to produce over 10,000 pages of structured mathematics practice material spanning Grades 1 through 12, covering topics from foundational arithmetic to advanced algebra, geometry, and calculus. The generated content is deployed to a production environment accessible to students and educators. A web-based admin panel is developed for content review, quality control, topic configuration, and deployment management. The project emphasizes prompt engineering, content quality assurance pipelines, and scalable AI deployment.Skill sets:Agentic AI &amp; Prompt Engineering: Designing LLM-based agents with structured prompting for consistent, accurate mathematical content generationCurriculum Design &amp; K12 Mathematics: Understanding grade-wise learning objectives and structuring content accordinglyContent Quality Assurance &amp; Evaluation: Implementing automated and human-in-the-loop pipelines to validate mathematical accuracyProduction Deployment &amp; DevOps: Deploying AI-generated content systems to scalable cloud infrastructureWeb Development (Admin Panel): Building a full-stack interface for content management, review workflows, and deployment controlsExpected learning:Gaining hands-on experience in large-scale AI content generation using agentic workflowsImplementing K12 curriculum-aligned mathematics content pipelines from generation to deploymentDeveloping content quality control systems combining automated validation and structured reviewBuilding admin-facing web tools for managing, filtering, and deploying AI-generated educational materialSpecific courses required for project execution:Natural Language Processing &amp; Large Language Models (for content generation and prompt engineering)Mathematics &amp; Curriculum Studies (for K12-aligned content structuring and accuracy)Web Technologies &amp; Full-Stack Development (for admin panel and content management interface)",
+      "Project Domain": "Data Analysis,Agentic AI",
+      "Title": "Title: Academic SME Agentic AI – K12 Mathematics Content Generation & Deployment at Scale"
+    }
   }
 ]
