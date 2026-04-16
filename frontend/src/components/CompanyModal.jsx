@@ -486,15 +486,32 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
 
           {/* PS Data row: Min CG + Work Mode */}
           <div className="flex flex-col gap-1.5">
-            <div className={`grid gap-3 p-3 rounded-xl bg-bg-card border border-bg-border ${allotInfo ? 'grid-cols-2 sm:grid-cols-4' : 'grid-cols-3'}`}>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-3 rounded-xl bg-bg-card border border-bg-border">
+              {/* '24 Min CG — from PS Allotment Responses */}
               <div className="flex flex-col gap-0.5">
                 <span className="text-xs text-text-muted flex items-center gap-1">
-                  <GraduationCap size={10} /> Min CG
+                  <GraduationCap size={10} /> '24 Min CG
+                </span>
+                {allotInfo ? (
+                  <span className="text-sm font-semibold text-rose-400">
+                    {allotInfo.allot_min_cg}
+                    <span className="text-[10px] text-text-muted font-normal ml-1">({allotInfo.allot_responses})</span>
+                  </span>
+                ) : (
+                  <span className="text-sm text-text-muted italic">No data</span>
+                )}
+              </div>
+
+              {/* '25 Min CG — from PS Station Responses */}
+              <div className="flex flex-col gap-0.5">
+                <span className="text-xs text-text-muted flex items-center gap-1">
+                  <GraduationCap size={10} /> '25 Min CG
                 </span>
                 <span className={`text-sm font-semibold ${stationCompany.min_cg != null ? 'text-accent-amber' : 'text-text-muted italic'}`}>
                   {minCG}
                 </span>
               </div>
+
               <div className="flex flex-col gap-0.5">
                 <span className="text-xs text-text-muted flex items-center gap-1">
                   <Wifi size={10} /> Work Mode
@@ -517,23 +534,10 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
                   <span className="text-sm text-text-muted italic">Not Available</span>
                 )}
               </div>
-              {allotInfo && (
-                <div className="flex flex-col gap-0.5">
-                  <span className="text-xs text-text-muted flex items-center gap-1">
-                    <TrendingUp size={10} /> '24 Allot. Min CG
-                  </span>
-                  <span className="text-sm font-semibold text-rose-400">
-                    {allotInfo.allot_min_cg}
-                    <span className="text-[10px] text-text-muted font-normal ml-1">({allotInfo.allot_responses} resp.)</span>
-                  </span>
-                </div>
-              )}
             </div>
-            {allotInfo && (
-              <p className="text-[10px] text-text-muted/60 leading-relaxed px-1">
-                ⚠ Last year allotment CG is strictly based on self-reported responses — not official data. Use only as a rough reference.
-              </p>
-            )}
+            <p className="text-[10px] text-text-muted/55 leading-relaxed px-1">
+              ⚠ Both CG figures are based on self-reported responses — not official data. Use only as a rough reference.
+            </p>
           </div>
 
           {/* Subdomain chips — from current project */}
