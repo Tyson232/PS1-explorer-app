@@ -413,12 +413,6 @@ export default function FilterSidebar({
                 </button>
               );
             })}
-            <div className="mt-2 px-1 py-2 rounded-lg bg-accent-amber/10 border border-accent-amber/30">
-              <p className="text-xs text-accent-amber font-semibold">⚠ NOT OFFICIAL</p>
-              <p className="text-xs text-accent-amber/80 mt-0.5 leading-relaxed">
-                Work mode is based on <span className="font-semibold">last year's student responses</span> — for reference only. Official data will be updated when available.
-              </p>
-            </div>
           </div>
         )}
       </div>
