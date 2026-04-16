@@ -462,7 +462,13 @@ export default function App() {
           {hasFilters && !loading && (
             <div className="flex flex-wrap items-center gap-2 mb-4 text-sm">
               <span className="text-text-muted text-xs">Filtered by:</span>
-              <span className="font-mono text-xs text-text-primary bg-bg-card border border-bg-border rounded px-1.5 py-0.5">{groupedCompanies.length}</span>
+              <span className="font-mono text-xs text-text-primary bg-bg-card border border-bg-border rounded px-1.5 py-0.5">
+                {groupedCompanies.length} stations
+              </span>
+              <span className="text-text-muted/50 text-xs">·</span>
+              <span className="font-mono text-xs text-text-muted bg-bg-card border border-bg-border rounded px-1.5 py-0.5">
+                {visibleCompanies.length} projects
+              </span>
               {filters.domains.map(d => (
                 <button key={d} onClick={() => toggleDomain(d)}
                   className="tag-chip flex items-center gap-1 text-accent-purple border-accent-purple/30 hover:border-accent-purple transition-colors">

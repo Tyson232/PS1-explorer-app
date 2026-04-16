@@ -1,6 +1,9 @@
 import companiesData from '../companies_data.json';
 import psData from '../ps_data.json';
 import bundledEnrichments from '../enrichments_data.json';
+import allotmentCG from '../allotment_cg.json';
+
+export function getAllotmentData() { return allotmentCG; }
 
 // Branch codes we care about (order matters for display)
 export const BRANCH_CODES = ['A7','AA','A3','A8','AD','AC','A4','A1','A2','AB','AJ','A5','B4','B5','B2','B3','B1'];

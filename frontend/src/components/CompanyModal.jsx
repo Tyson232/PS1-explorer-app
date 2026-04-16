@@ -4,7 +4,9 @@ import {
   Code, ExternalLink, Linkedin, Building2, Briefcase,
   GraduationCap, Mail, Wifi, Sparkles, RotateCcw, Loader2, Plus, Check, ChevronLeft, ChevronRight
 } from 'lucide-react';
-import { fetchEnrichment } from '../api/client.js';
+import { fetchEnrichment, getAllotmentData } from '../api/client.js';
+
+const allotmentData = getAllotmentData();
 import { SkeletonEnrichment } from './SkeletonCard.jsx';
 
 const COLOR_OPTIONS = [
@@ -306,6 +308,9 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
   const workMode = stationCompany.work_mode || null;
   const contactEmails = stationCompany.contact_emails || [];
 
+  // Last-year allotment data
+  const allotInfo = allotmentData[stationCompany.name] || null;
+
   const displayedProjectDetails = simplified && !showOriginal ? simplified : company.project_details;
 
   return (
@@ -406,43 +411,69 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
 
         {/* Project switcher — shown when multi-project station */}
         {isMulti && (
-          <div className="border-b border-bg-border bg-bg-card/40 flex-shrink-0">
-            <div className="px-4 sm:px-6 py-2 flex items-center gap-1.5 overflow-x-auto">
-              <span className="text-xs text-text-muted flex-shrink-0 mr-1">Projects:</span>
+          <div className="border-b border-bg-border bg-bg-card/60 flex-shrink-0 animate-fade-in">
+            {/* Header row */}
+            <div className="px-4 sm:px-6 pt-2.5 pb-1 flex items-center justify-between">
+              <span className="text-[10px] font-semibold uppercase tracking-widest text-accent-purple/70 flex items-center gap-1.5">
+                <span className="inline-block w-1 h-1 rounded-full bg-accent-purple/60" />
+                {projects.length} Projects
+              </span>
+              <span className="text-[10px] text-text-muted/50 font-mono tabular-nums">
+                {selectedProjectIndex + 1} / {projects.length}
+              </span>
+            </div>
+
+            {/* Scrollable tab row */}
+            <div className="px-4 sm:px-6 pb-2.5 flex items-center gap-1.5 overflow-x-auto scrollbar-none">
               {projects.map((p, i) => {
                 const title = p.project_details?.split('\n')[0]?.replace(/^Title:\s*/i, '').trim() || `Project ${i + 1}`;
+                const isActive = i === selectedProjectIndex;
                 return (
                   <button
                     key={p.id}
                     onClick={() => setSelectedProjectIndex(i)}
-                    className={`flex-shrink-0 flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
-                      i === selectedProjectIndex
-                        ? 'bg-accent-purple/15 text-accent-purple border border-accent-purple/30'
-                        : 'text-text-muted hover:text-text-primary hover:bg-bg-hover border border-transparent'
-                    }`}
+                    className={`
+                      flex-shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium
+                      transition-all duration-200 whitespace-nowrap border
+                      ${isActive
+                        ? 'bg-accent-purple/15 text-accent-purple border-accent-purple/40 shadow-sm shadow-accent-purple/10 scale-[1.02]'
+                        : 'text-text-muted hover:text-text-secondary hover:bg-bg-hover border-transparent hover:border-bg-border'
+                      }
+                    `}
                   >
-                    <span className="font-mono text-[10px] opacity-60">{i + 1}</span>
-                    <span className="max-w-[150px] truncate">{title}</span>
+                    <span className={`font-mono text-[10px] w-4 h-4 rounded flex items-center justify-center flex-shrink-0 transition-colors ${
+                      isActive ? 'bg-accent-purple/25 text-accent-purple' : 'text-text-muted/50'
+                    }`}>{i + 1}</span>
+                    <span className="max-w-[160px] truncate">{title}</span>
                   </button>
                 );
               })}
             </div>
-            {/* Prev/next navigation for mobile */}
-            <div className="sm:hidden flex items-center justify-between px-4 py-1.5 border-t border-bg-border/50">
+
+            {/* Prev/next for mobile */}
+            <div className="sm:hidden flex items-center justify-between px-4 py-2 border-t border-bg-border/40 bg-bg-card/30">
               <button
                 onClick={() => setSelectedProjectIndex(i => Math.max(0, i - 1))}
                 disabled={selectedProjectIndex === 0}
-                className="flex items-center gap-1 text-xs text-text-muted disabled:opacity-30 hover:text-text-primary transition-colors"
+                className="flex items-center gap-1 text-xs font-medium text-text-muted disabled:opacity-25 hover:text-accent-purple transition-colors"
               >
                 <ChevronLeft size={13} /> Prev
               </button>
-              <span className="text-xs text-text-muted font-mono">
-                {selectedProjectIndex + 1} / {projects.length}
-              </span>
+              <div className="flex gap-1">
+                {projects.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setSelectedProjectIndex(i)}
+                    className={`w-1.5 h-1.5 rounded-full transition-all duration-200 ${
+                      i === selectedProjectIndex ? 'bg-accent-purple scale-125' : 'bg-text-muted/30 hover:bg-text-muted/60'
+                    }`}
+                  />
+                ))}
+              </div>
               <button
                 onClick={() => setSelectedProjectIndex(i => Math.min(projects.length - 1, i + 1))}
                 disabled={selectedProjectIndex === projects.length - 1}
-                className="flex items-center gap-1 text-xs text-text-muted disabled:opacity-30 hover:text-text-primary transition-colors"
+                className="flex items-center gap-1 text-xs font-medium text-text-muted disabled:opacity-25 hover:text-accent-purple transition-colors"
               >
                 Next <ChevronRight size={13} />
               </button>
@@ -454,37 +485,55 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
         <div className="flex-1 overflow-y-auto p-4 sm:p-6 flex flex-col gap-5 sm:gap-6">
 
           {/* PS Data row: Min CG + Work Mode */}
-          <div className="grid grid-cols-3 gap-3 p-3 rounded-xl bg-bg-card border border-bg-border">
-            <div className="flex flex-col gap-0.5">
-              <span className="text-xs text-text-muted flex items-center gap-1">
-                <GraduationCap size={10} /> Min CG
-              </span>
-              <span className={`text-sm font-semibold ${stationCompany.min_cg != null ? 'text-accent-amber' : 'text-text-muted italic'}`}>
-                {minCG}
-              </span>
-            </div>
-            <div className="flex flex-col gap-0.5">
-              <span className="text-xs text-text-muted flex items-center gap-1">
-                <Wifi size={10} /> Work Mode
-              </span>
-              {workMode ? (
-                <span className={`text-sm font-semibold ${workMode === 'Onsite' ? 'text-orange-400' : workMode === 'Online' ? 'text-accent-teal' : 'text-accent-purple'}`}>
-                  {workMode === 'Onsite' ? '🏢' : '💻'} {workMode}
+          <div className="flex flex-col gap-1.5">
+            <div className={`grid gap-3 p-3 rounded-xl bg-bg-card border border-bg-border ${allotInfo ? 'grid-cols-2 sm:grid-cols-4' : 'grid-cols-3'}`}>
+              <div className="flex flex-col gap-0.5">
+                <span className="text-xs text-text-muted flex items-center gap-1">
+                  <GraduationCap size={10} /> Min CG
                 </span>
-              ) : (
-                <span className="text-sm text-text-muted italic">Not Available</span>
+                <span className={`text-sm font-semibold ${stationCompany.min_cg != null ? 'text-accent-amber' : 'text-text-muted italic'}`}>
+                  {minCG}
+                </span>
+              </div>
+              <div className="flex flex-col gap-0.5">
+                <span className="text-xs text-text-muted flex items-center gap-1">
+                  <Wifi size={10} /> Work Mode
+                </span>
+                {workMode ? (
+                  <span className={`text-sm font-semibold ${workMode === 'Onsite' ? 'text-orange-400' : workMode === 'Online' ? 'text-accent-teal' : 'text-accent-purple'}`}>
+                    {workMode === 'Onsite' ? '🏢' : '💻'} {workMode}
+                  </span>
+                ) : (
+                  <span className="text-sm text-text-muted italic">Not Available</span>
+                )}
+              </div>
+              <div className="flex flex-col gap-0.5">
+                <span className="text-xs text-text-muted flex items-center gap-1">
+                  <Mail size={10} /> Past Intern Contacts
+                </span>
+                {contactEmails.length > 0 ? (
+                  <span className="text-xs text-accent-teal font-medium">{contactEmails.length} available</span>
+                ) : (
+                  <span className="text-sm text-text-muted italic">Not Available</span>
+                )}
+              </div>
+              {allotInfo && (
+                <div className="flex flex-col gap-0.5">
+                  <span className="text-xs text-text-muted flex items-center gap-1">
+                    <TrendingUp size={10} /> '24 Allot. Min CG
+                  </span>
+                  <span className="text-sm font-semibold text-rose-400">
+                    {allotInfo.allot_min_cg}
+                    <span className="text-[10px] text-text-muted font-normal ml-1">({allotInfo.allot_responses} resp.)</span>
+                  </span>
+                </div>
               )}
             </div>
-            <div className="flex flex-col gap-0.5">
-              <span className="text-xs text-text-muted flex items-center gap-1">
-                <Mail size={10} /> Past Intern Contacts
-              </span>
-              {contactEmails.length > 0 ? (
-                <span className="text-xs text-accent-teal font-medium">{contactEmails.length} available</span>
-              ) : (
-                <span className="text-sm text-text-muted italic">Not Available</span>
-              )}
-            </div>
+            {allotInfo && (
+              <p className="text-[10px] text-text-muted/60 leading-relaxed px-1">
+                ⚠ Last year allotment CG is strictly based on self-reported responses — not official data. Use only as a rough reference.
+              </p>
+            )}
           </div>
 
           {/* Subdomain chips — from current project */}

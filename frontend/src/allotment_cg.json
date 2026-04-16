@@ -1,0 +1,402 @@
+{
+  "AdaptNXT Technology Solutions Pvt. Ltd - Non Tech": {
+    "allot_min_cg": 5.53,
+    "allot_responses": 4
+  },
+  "AdaptNXT Technology Solutions Pvt. Ltd - Tech": {
+    "allot_min_cg": 5.53,
+    "allot_responses": 4
+  },
+  "Airports Authority of India (AAI)": {
+    "allot_min_cg": 6.81,
+    "allot_responses": 4
+  },
+  "Airports Authority of India (AAI)- Guwahati": {
+    "allot_min_cg": 6.81,
+    "allot_responses": 4
+  },
+  "Airports Authority of India (AAI)- Kanpur": {
+    "allot_min_cg": 6.81,
+    "allot_responses": 4
+  },
+  "Albatross Energetics": {
+    "allot_min_cg": 7.19,
+    "allot_responses": 2
+  },
+  "Bhabha Atomic Research Centre (BARC)": {
+    "allot_min_cg": 6.91,
+    "allot_responses": 8
+  },
+  "ASPIC Innovations Private Limited": {
+    "allot_min_cg": 7.55,
+    "allot_responses": 1
+  },
+  "Caarya Innovative Pvt. Ltd": {
+    "allot_min_cg": 7.8,
+    "allot_responses": 4
+  },
+  "Center for Development of Advanced Computing(C-DAC) - Pune": {
+    "allot_min_cg": 7.41,
+    "allot_responses": 1
+  },
+  "Center for Materials for Electronics Technology (C-MET), Hyderabad": {
+    "allot_min_cg": 7.79,
+    "allot_responses": 3
+  },
+  "Center for Materials for Electronics Technology (C-MET), Pune": {
+    "allot_min_cg": 7.79,
+    "allot_responses": 3
+  },
+  "Centre for Development of Advanced Computing (CDAC) - Thiruvananthapuram": {
+    "allot_min_cg": 8.44,
+    "allot_responses": 2
+  },
+  "Centre for Development of Advanced Computing (CDAC) - Hyderabad": {
+    "allot_min_cg": 8.44,
+    "allot_responses": 2
+  },
+  "Centre for Railway Information Systems": {
+    "allot_min_cg": 6.62,
+    "allot_responses": 3
+  },
+  "Commercial Consultancy Services (Flexsim)": {
+    "allot_min_cg": 6.95,
+    "allot_responses": 4
+  },
+  "CSIR - Central Electronics Engineering Research Institute (CEERI) - Pilani": {
+    "allot_min_cg": 4.8,
+    "allot_responses": 1
+  },
+  "CSIR - Central Electronics Engineering Research Institute (CEERI)- Jaipur": {
+    "allot_min_cg": 4.8,
+    "allot_responses": 1
+  },
+  "CSIR - National Aerospace Laboratories": {
+    "allot_min_cg": 4.8,
+    "allot_responses": 1
+  },
+  "CSIR-Central Scientific Instruments Organization": {
+    "allot_min_cg": 4.8,
+    "allot_responses": 1
+  },
+  "Delhi Metro Rail Corporation (DMRC)": {
+    "allot_min_cg": 7.11,
+    "allot_responses": 1
+  },
+  "DHIO Research & Engineering Pvt. Ltd": {
+    "allot_min_cg": 5.86,
+    "allot_responses": 1
+  },
+  "Ananta Medicare Limited": {
+    "allot_min_cg": 6.25,
+    "allot_responses": 2
+  },
+  "DRDO - Solid State Physics Laboratory (SSPL)": {
+    "allot_min_cg": 7.1,
+    "allot_responses": 4
+  },
+  "DYSL - CT DRDO": {
+    "allot_min_cg": 9.1,
+    "allot_responses": 2
+  },
+  "505 Army Base Workshop": {
+    "allot_min_cg": 4.68,
+    "allot_responses": 2
+  },
+  "FANPLAY IoT": {
+    "allot_min_cg": 7.18,
+    "allot_responses": 2
+  },
+  "Four Kites": {
+    "allot_min_cg": 7.84,
+    "allot_responses": 1
+  },
+  "Goa Shipyard Ltd.": {
+    "allot_min_cg": 5.74,
+    "allot_responses": 1
+  },
+  "GPLAN Services Private Limited - IT": {
+    "allot_min_cg": 8.7,
+    "allot_responses": 2
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Manesar": {
+    "allot_min_cg": 5.86,
+    "allot_responses": 2
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Narasapura": {
+    "allot_min_cg": 5.86,
+    "allot_responses": 2
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Tapukara": {
+    "allot_min_cg": 5.86,
+    "allot_responses": 2
+  },
+  "Honda Motor Cycle and Scooter India Pvt. Ltd - Vithalapur": {
+    "allot_min_cg": 5.86,
+    "allot_responses": 2
+  },
+  "Hyderabad Eye Institute (DBA - L V Prasad Eye Institute)": {
+    "allot_min_cg": 6.36,
+    "allot_responses": 5
+  },
+  "Hyphen SCS Pvt Ltd": {
+    "allot_min_cg": 6.45,
+    "allot_responses": 4
+  },
+  "IDS Infotech Ltd": {
+    "allot_min_cg": 8.68,
+    "allot_responses": 6
+  },
+  "Indian AI": {
+    "allot_min_cg": 7.05,
+    "allot_responses": 1
+  },
+  "Indian Oil Corporation Ltd": {
+    "allot_min_cg": 5.91,
+    "allot_responses": 1
+  },
+  "Indian Red Cross Society": {
+    "allot_min_cg": 4,
+    "allot_responses": 1
+  },
+  "Indian Semiconductor Mission ( ISM )": {
+    "allot_min_cg": 7.91,
+    "allot_responses": 3
+  },
+  "Indira Gandhi Centre for Atomic Research (IGCAR)": {
+    "allot_min_cg": 6.63,
+    "allot_responses": 7
+  },
+  "Indium Software Pvt. Ltd.": {
+    "allot_min_cg": 8.46,
+    "allot_responses": 3
+  },
+  "Integra Design - Electronics": {
+    "allot_min_cg": 6.33,
+    "allot_responses": 1
+  },
+  "Integra Design - IT": {
+    "allot_min_cg": 6.33,
+    "allot_responses": 1
+  },
+  "Kotak Education Foundation": {
+    "allot_min_cg": 6.97,
+    "allot_responses": 3
+  },
+  "Laurus Labs": {
+    "allot_min_cg": 6.12,
+    "allot_responses": 3
+  },
+  "Lenest": {
+    "allot_min_cg": 6.33,
+    "allot_responses": 1
+  },
+  "Lifespark Technologies Private Limited": {
+    "allot_min_cg": 7.14,
+    "allot_responses": 3
+  },
+  "MD Enterprises Global": {
+    "allot_min_cg": 8.33,
+    "allot_responses": 6
+  },
+  "MeitY Startup Hub(MSH)": {
+    "allot_min_cg": 7.76,
+    "allot_responses": 1
+  },
+  "MindPeers - Non Tech": {
+    "allot_min_cg": 7.79,
+    "allot_responses": 2
+  },
+  "MindPeers - Tech": {
+    "allot_min_cg": 7.79,
+    "allot_responses": 2
+  },
+  "Multigraphics Group - Renewable Energy": {
+    "allot_min_cg": 5.24,
+    "allot_responses": 1
+  },
+  "Multigraphics Group -  Digital Marketing": {
+    "allot_min_cg": 5.24,
+    "allot_responses": 1
+  },
+  "Multigraphics Group - Market Research": {
+    "allot_min_cg": 5.24,
+    "allot_responses": 1
+  },
+  "Multigraphics Group - Software Development": {
+    "allot_min_cg": 5.24,
+    "allot_responses": 1
+  },
+  "Myoworks Private Limited": {
+    "allot_min_cg": 5.77,
+    "allot_responses": 1
+  },
+  "Myoworks Private Limited - Non tech": {
+    "allot_min_cg": 5.77,
+    "allot_responses": 1
+  },
+  "National Atmospheric Research Laboratory": {
+    "allot_min_cg": 6.5,
+    "allot_responses": 2
+  },
+  "National Centre for Polar and Ocean Research (NCPOR) -Causal analysis": {
+    "allot_min_cg": 7.78,
+    "allot_responses": 2
+  },
+  "National Centre for Polar and Ocean Research (NCPOR) -Integration of Neural Network Models with WRF/ROMS": {
+    "allot_min_cg": 7.78,
+    "allot_responses": 2
+  },
+  "National Centre for Polar and Ocean Research (NCPOR)-Application of AI and ML": {
+    "allot_min_cg": 7.78,
+    "allot_responses": 2
+  },
+  "National Centre for Polar and Ocean Research (NCPOR)-Marine Chemistry/Geochemistry": {
+    "allot_min_cg": 7.78,
+    "allot_responses": 2
+  },
+  "National Centre for Polar and Ocean Research (NCPOR)-Microbiology and Biogeochemistry": {
+    "allot_min_cg": 7.78,
+    "allot_responses": 2
+  },
+  "National Council of Applied Economic Research (NCAER)": {
+    "allot_min_cg": 8.52,
+    "allot_responses": 1
+  },
+  "National e-Governance Division (NeGD)": {
+    "allot_min_cg": 8,
+    "allot_responses": 2
+  },
+  "National Informatics Centre (NIC)": {
+    "allot_min_cg": 8.2,
+    "allot_responses": 1
+  },
+  "National Load Despatch Centre, Grid Controller of India Limited": {
+    "allot_min_cg": 7.54,
+    "allot_responses": 1
+  },
+  "NHPC Limited": {
+    "allot_min_cg": 6.1,
+    "allot_responses": 2
+  },
+  "NICSI( National Informatics Centre services Inc.)": {
+    "allot_min_cg": 7.2,
+    "allot_responses": 5
+  },
+  "Nitisara - Tech, Gurgaon": {
+    "allot_min_cg": 7.34,
+    "allot_responses": 1
+  },
+  "NIXI( National Internet Exchange of India)": {
+    "allot_min_cg": 7.1,
+    "allot_responses": 3
+  },
+  "OnFinance AI - IT": {
+    "allot_min_cg": 6.85,
+    "allot_responses": 1
+  },
+  "ONGC, Ahmedabad": {
+    "allot_min_cg": 4.98,
+    "allot_responses": 3
+  },
+  "PNT Robotics & Automation Solutions,LLP": {
+    "allot_min_cg": 8.53,
+    "allot_responses": 2
+  },
+  "Pockvue Solutions Pvt. Ltd - Tech": {
+    "allot_min_cg": 5.88,
+    "allot_responses": 2
+  },
+  "Preto Tooling Systems": {
+    "allot_min_cg": 0,
+    "allot_responses": 1
+  },
+  "Quinfosys Private Limited": {
+    "allot_min_cg": 5.5,
+    "allot_responses": 1
+  },
+  "Regional Remote Sensing Center-North, NRSC, ISRO - Electronics": {
+    "allot_min_cg": 8.53,
+    "allot_responses": 3
+  },
+  "Regional Remote Sensing Center-North, NRSC, ISRO - IT": {
+    "allot_min_cg": 8.53,
+    "allot_responses": 3
+  },
+  "Regional Remote Sensing Centre,Jodhpur": {
+    "allot_min_cg": 7,
+    "allot_responses": 2
+  },
+  "Semi-Conductor Laboratory (SCL), Mohali, Punjab": {
+    "allot_min_cg": 8,
+    "allot_responses": 1
+  },
+  "Siemens Digital Industries Software India Pvt Ltd": {
+    "allot_min_cg": 6.79,
+    "allot_responses": 4
+  },
+  "SimpleWorks Solutions Pvt. Ltd.": {
+    "allot_min_cg": 6.55,
+    "allot_responses": 1
+  },
+  "Steel Authority of India Ltd. (SAIL) Bhilai Steel Plant - Bhilai": {
+    "allot_min_cg": 6.39,
+    "allot_responses": 1
+  },
+  "Swecha - Agriculture Technology": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Artificial Intelligence - AI Workflows": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Artificial Intelligence - Corpus": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Data Analytics": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Data Engineering": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Education Technology": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - HealthCare": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Mobile Application": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Operating Systems": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Swecha - Software Engineering": {
+    "allot_min_cg": 4.76,
+    "allot_responses": 1
+  },
+  "Mormugao Port Trust": {
+    "allot_min_cg": 6.33,
+    "allot_responses": 6
+  },
+  "Yashoda Hospitals": {
+    "allot_min_cg": 6.15,
+    "allot_responses": 4
+  },
+  "Deccan Fine Chemicals": {
+    "allot_min_cg": 7,
+    "allot_responses": 1
+  },
+  "Grasim Industries - Online": {
+    "allot_min_cg": 6.9,
+    "allot_responses": 1
+  }
+}
