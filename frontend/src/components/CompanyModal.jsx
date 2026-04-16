@@ -304,7 +304,7 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
   );
 
   // PS data fields (from station-level data on stationCompany)
-  const minCG = stationCompany.min_cg != null ? String(stationCompany.min_cg) : 'Pata Chalega';
+  const minCG = stationCompany.min_cg != null ? String(stationCompany.min_cg) : null;
   const workMode = stationCompany.work_mode || null;
   const contactEmails = stationCompany.contact_emails || [];
 
@@ -507,9 +507,11 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
                 <span className="text-xs text-text-muted flex items-center gap-1">
                   <GraduationCap size={10} /> '25 Min CG
                 </span>
-                <span className={`text-sm font-semibold ${stationCompany.min_cg != null ? 'text-accent-amber' : 'text-text-muted italic'}`}>
-                  {minCG}
-                </span>
+                {minCG != null ? (
+                  <span className="text-sm font-semibold text-accent-amber">{minCG}</span>
+                ) : (
+                  <span className="text-sm text-text-muted italic">No data</span>
+                )}
               </div>
 
               <div className="flex flex-col gap-0.5">
