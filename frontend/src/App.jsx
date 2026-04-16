@@ -93,41 +93,30 @@ function loadPriority() {
 }
 
 function OnlineNotice({ companies, enrichments, onOpenCompany, onTogglePriority, priorityList, searchQuery }) {
-  const [showCompanies, setShowCompanies] = useState(false);
   return (
-    <div className="rounded-xl border border-accent-teal/25 bg-accent-teal/5 p-4 mb-4 flex flex-col gap-3">
-      <div className="flex items-start gap-2">
-        <span className="text-accent-teal text-base flex-shrink-0 mt-0.5">💻</span>
+    <div className="flex flex-col gap-3 mb-4">
+      <div className="rounded-xl border border-accent-teal/35 bg-accent-teal/8 p-4 flex items-start gap-3">
+        <span className="text-2xl flex-shrink-0">🎉</span>
         <div>
-          <p className="text-sm font-semibold text-accent-teal">No online stations officially listed yet</p>
+          <p className="text-sm font-bold text-accent-teal">Finally!! Online stations are here!</p>
           <p className="text-xs text-text-secondary mt-1 leading-relaxed">
-            The official PS1 station list hasn't confirmed any online mode yet.
-            The {companies.length} station{companies.length !== 1 ? 's' : ''} below offered online last year and are available this year too —{' '}
-            <span className="font-semibold text-accent-amber">for reference only, not a guarantee.</span>
+            {companies.length} online station{companies.length !== 1 ? 's' : ''} have been officially listed.
           </p>
         </div>
       </div>
-      <button
-        onClick={() => setShowCompanies(v => !v)}
-        className="self-start flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-accent-teal/10 text-accent-teal border border-accent-teal/30 hover:bg-accent-teal/20 transition-all"
-      >
-        {showCompanies ? '▲ Hide' : '▼ Show'} last year's online stations ({companies.length})
-      </button>
-      {showCompanies && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-          {companies.map(company => (
-            <CompanyCard
-              key={company.id}
-              company={company}
-              onClick={() => onOpenCompany(company)}
-              searchQuery={searchQuery}
-              enrichment={enrichments[company.name]}
-              isPriority={priorityList.some(c => c.id === company.id)}
-              onTogglePriority={onTogglePriority}
-            />
-          ))}
-        </div>
-      )}
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
+        {companies.map(company => (
+          <CompanyCard
+            key={company.id}
+            company={company}
+            onClick={() => onOpenCompany(company)}
+            searchQuery={searchQuery}
+            enrichment={enrichments[company.name]}
+            isPriority={priorityList.some(c => c.id === company.id)}
+            onTogglePriority={onTogglePriority}
+          />
+        ))}
+      </div>
     </div>
   );
 }

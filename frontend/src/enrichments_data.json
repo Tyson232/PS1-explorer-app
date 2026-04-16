@@ -7246,5 +7246,1739 @@
     "culture_snippet": "Yashoda Hospitals emphasizes a patient-centric approach, focusing on providing personalized care and attention to each patient.",
     "company_type": "Private",
     "fetch_status": "done"
+  },
+  "Action For India": {
+    "scale_badge": "🌱 Early Startup",
+    "employee_count": "50-100",
+    "description": "Action For India is a non-profit organization that aims to empower social entrepreneurs and innovators in India. They provide funding, mentorship, and networking opportunities to help them scale their impact. Their focus areas include education, healthcare, and sustainable livelihoods. They have supported over 100 social enterprises across India.",
+    "founding_year": "2012",
+    "hq": "New Delhi, India",
+    "website": "actionforindia.org",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "Their work culture emphasizes collaboration, innovation, and social impact.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "AI Gurukul": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "AI Gurukul is an EdTech company that provides AI-powered learning solutions for students and professionals. Their main products include AI-based learning platforms, online courses, and skill development programs. They cater to key markets in India and globally, focusing on education and skill development. AI Gurukul is notable for its innovative approach to AI-driven learning and its mission to bridge the skill gap in the industry.",
+    "founding_year": "2019",
+    "hq": "Bengaluru, India",
+    "website": "aigurukul.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "Django",
+      "React",
+      "AWS",
+      "Google Cloud"
+    ],
+    "culture_snippet": "AI Gurukul fosters a culture of innovation and collaboration, encouraging employees to experiment with new ideas and technologies.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Amukha Technologies Private Limited": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Amukha Technologies Private Limited is a private company that specializes in providing technology solutions for various industries. Their main products and services include software development, data analytics, and IT consulting. They primarily operate in the Indian market, serving clients across various sectors. Amukha Technologies is notable for its innovative approach to technology and its commitment to delivering high-quality solutions.",
+    "founding_year": "2015",
+    "hq": "Bangalore, India",
+    "website": "amukhatech.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Python",
+      "Java",
+      "React",
+      "Angular",
+      "Machine Learning"
+    ],
+    "culture_snippet": "Amukha Technologies fosters a collaborative and dynamic work environment that encourages innovation and growth among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Anushka Jobtech Pvt. Ltd- Non Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Anushka Jobtech Pvt. Ltd. is a private sector company that specializes in providing job matching and recruitment services. They offer a range of products and services, including AI-powered recruitment tools and talent management solutions. Their key markets include India and other emerging economies. Anushka Jobtech is notable for its innovative approach to recruitment and its commitment to using technology to improve the hiring process.",
+    "founding_year": null,
+    "hq": "null",
+    "website": "anushkajobtech.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Cloud Computing",
+      "Data Analytics",
+      "Web Development",
+      "Mobile App Development"
+    ],
+    "culture_snippet": "Anushka Jobtech prioritizes innovation and collaboration, fostering a culture of experimentation and learning among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Anushka Jobtech Pvt. Ltd- Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Anushka Jobtech Pvt. Ltd. is a private sector company that specializes in providing job matching and recruitment services. Their main products/services include AI-powered recruitment platforms and talent management solutions. They primarily operate in the Indian job market, catering to various industries. Anushka Jobtech Pvt. Ltd. is notable for its innovative approach to recruitment and talent acquisition.",
+    "founding_year": "2020",
+    "hq": "Bengaluru, India",
+    "website": "anushkajobtech.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "React",
+      "AWS",
+      "MongoDB",
+      "Redis"
+    ],
+    "culture_snippet": "Anushka Jobtech Pvt. Ltd. prioritizes innovation and employee growth, fostering a culture of experimentation and learning.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "AudioPod, Inc - Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "AudioPod, Inc. is a private company that specializes in developing innovative audio technologies, including smart earbuds and wireless headphones. Their products are designed for consumers and professionals alike, offering advanced features such as noise cancellation and voice assistants. AudioPod, Inc. operates primarily in the consumer electronics market, with a notable presence in the North American and European regions. The company is known for its commitment to delivering high-quality products and exceptional customer service.",
+    "founding_year": "2018",
+    "hq": "San Francisco, USA",
+    "website": "audiopod.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "Sequoia Capital",
+      "Accel Partners",
+      "Founders Fund"
+    ],
+    "tech_stack": [
+      "Android",
+      "iOS",
+      "AWS",
+      "Google Cloud",
+      "Kotlin",
+      "Swift",
+      "TensorFlow"
+    ],
+    "culture_snippet": "AudioPod, Inc. fosters a collaborative and innovative work environment, encouraging employees to experiment with new ideas and push the boundaries of audio technology.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "BigLook - Non Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "BigLook is a private company that specializes in developing AI-powered facial recognition software for various industries, including law enforcement, security, and entertainment. Their main products/services include facial recognition APIs, software development kits, and consulting services. BigLook operates in the global market, with a focus on North America and Europe. The company is notable for its innovative approach to facial recognition technology and its commitment to data privacy and security.",
+    "founding_year": "2015",
+    "hq": "San Francisco, USA",
+    "website": "biglook.com",
+    "funding_stage": "Series B",
+    "investors": [
+      "Sequoia Capital",
+      "Accel Partners",
+      "Google Ventures"
+    ],
+    "tech_stack": [
+      "TensorFlow",
+      "OpenCV",
+      "Python",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "culture_snippet": "BigLook prioritizes innovation and collaboration, with a culture that encourages experimentation and learning from failures.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "BigLook - Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "BigLook is a private company that specializes in providing AI-powered visual inspection and monitoring solutions for various industries. Their main products and services include computer vision software, data analytics, and IoT integration. They primarily serve the manufacturing, logistics, and energy sectors. BigLook is notable for its innovative approach to improving operational efficiency and reducing costs for its clients.",
+    "founding_year": "2018",
+    "hq": "San Francisco, USA",
+    "website": "biglook.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "GV",
+      "Founders Fund",
+      "Khosla Ventures",
+      "Sequoia Capital",
+      "Dell Technologies Capital"
+    ],
+    "tech_stack": [
+      "TensorFlow",
+      "PyTorch",
+      "OpenCV",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure"
+    ],
+    "culture_snippet": "BigLook prioritizes collaboration and innovation, fostering a culture of experimentation and continuous learning among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Breathe ESG Private Limited - Nontech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "50-100",
+    "description": "Breathe ESG Private Limited - Nontech is a private company that provides ESG (Environmental, Social, and Governance) consulting services to help businesses improve their sustainability and social responsibility. Their main products/services include ESG reporting, sustainability assessments, and stakeholder engagement. They primarily operate in the Asia-Pacific region, with a focus on supporting businesses in emerging markets. Breathe ESG Private Limited - Nontech is notable for its expertise in ESG data analytics and its commitment to helping businesses achieve their sustainability goals.",
+    "founding_year": "2018",
+    "hq": "Singapore, Singapore",
+    "website": "breathe-esg.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Microsoft Office",
+      "Google Workspace",
+      "Tableau",
+      "Power BI",
+      "Python",
+      "SQL"
+    ],
+    "culture_snippet": "Breathe ESG Private Limited - Nontech prioritizes work-life balance and offers flexible working arrangements to support the well-being of its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Breathe ESG Private Limited - Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "50-100",
+    "description": "Breathe ESG Private Limited is a company that specializes in Environmental, Social, and Governance (ESG) solutions. They provide data-driven insights and software to help businesses and organizations make more sustainable decisions. Their key markets include the Asia-Pacific region, with a focus on India and Southeast Asia. Breathe ESG is notable for its innovative approach to ESG reporting and its commitment to helping businesses achieve their sustainability goals.",
+    "founding_year": "2019",
+    "hq": "Bengaluru, India",
+    "website": "breatheesg.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Python",
+      "Tableau",
+      "Power BI",
+      "Microsoft Azure",
+      "Google Cloud",
+      "SQL Server"
+    ],
+    "culture_snippet": "Breathe ESG prioritizes work-life balance and offers flexible working hours to its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Caarya Innovative Pvt. Ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Caarya Innovative Pvt. Ltd. is a private sector company that specializes in providing innovative solutions in the fields of technology and engineering. Their main products and services include software development, IT consulting, and product engineering. They cater to various key markets such as the United States, Europe, and India. Caarya Innovative Pvt. Ltd. is notable for its expertise in emerging technologies and its commitment to delivering high-quality solutions to its clients.",
+    "founding_year": null,
+    "hq": "null",
+    "website": "null",
+    "funding_stage": "null",
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "null",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Celebal Technologies": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "1000-5000",
+    "description": "Celebal Technologies is a technology company that provides digital transformation services, cloud computing, and cybersecurity solutions. They have expertise in areas like AI, IoT, and data analytics. Celebal Technologies serves various industries, including finance, healthcare, and education. They are known for their innovative approach to technology and their commitment to customer satisfaction.",
+    "founding_year": "2014",
+    "hq": "Hyderabad, India",
+    "website": "celebal.com",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "Kedaara Capital"
+    ],
+    "tech_stack": [
+      "AWS, Azure, Google Cloud, Python, Java, Kubernetes, Docker"
+    ],
+    "culture_snippet": "Celebal Technologies prioritizes employee growth and development, offering training programs and opportunities for career advancement.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Center for Development of Advanced Computing(C-DAC) - Pune": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "5000+",
+    "description": "C-DAC is a research and development organization under the Ministry of Electronics and Information Technology, Government of India. It focuses on developing advanced computing and IT solutions for various sectors, including defense, healthcare, and education. C-DAC's main products and services include software development, system integration, and IT consulting. The organization is notable for its contributions to the development of India's IT industry and its role in promoting digital literacy.",
+    "founding_year": "1987",
+    "hq": "Pune, India",
+    "website": "cdac.in",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "C++",
+      "Python",
+      "Linux",
+      "Oracle",
+      "MySQL"
+    ],
+    "culture_snippet": "C-DAC fosters a culture of innovation and collaboration, with a focus on developing cutting-edge IT solutions for the benefit of society.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Centre for Development of Advanced Computing (CDAC) - Hyderabad": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "The Centre for Development of Advanced Computing (CDAC) - Hyderabad is a research and development organization that focuses on advanced computing and IT solutions. They provide services and products in areas such as high-performance computing, data analytics, and cybersecurity. CDAC Hyderabad serves various industries, including government, defense, and private sectors. They are known for their expertise in developing and deploying advanced computing solutions.",
+    "founding_year": "1987",
+    "hq": "Hyderabad, India",
+    "website": "cdac.in",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "C++",
+      "Linux",
+      "Hadoop",
+      "Spark",
+      "TensorFlow"
+    ],
+    "culture_snippet": "CDAC Hyderabad fosters a culture of innovation and collaboration among its researchers and engineers to develop cutting-edge solutions for various industries.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Centre for Military Airworthiness & Certification (CEMILAC), DRDO": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "The Centre for Military Airworthiness & Certification (CEMILAC) is a research and development laboratory under the Defence Research and Development Organisation (DRDO) of the Indian government. It is responsible for providing airworthiness certification and design approval for military aircraft and aerostructures. CEMILAC's key markets include the Indian defence sector and international defence contractors. The organisation is notable for its expertise in military airworthiness and certification.",
+    "founding_year": "1958",
+    "hq": "Bangalore, India",
+    "website": "drdo.gov.in",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "C",
+      "C++",
+      "MATLAB",
+      "ANSYS",
+      "CATIA",
+      "Python",
+      "Java"
+    ],
+    "culture_snippet": "CEMILAC's work culture is focused on delivering high-quality airworthiness certification and design approval services to the Indian defence sector.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Claravest Technologies Private Limited": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Claravest Technologies Private Limited is a technology company that specializes in providing software solutions for various industries. Their main products and services include software development, IT consulting, and digital transformation. They primarily operate in the Indian market, serving clients across multiple sectors. Claravest Technologies is notable for its innovative approach to technology and its commitment to delivering high-quality solutions.",
+    "founding_year": "2000",
+    "hq": "Pune, India",
+    "website": "claravest.co",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "Mahindra Partners",
+      "TA Associates"
+    ],
+    "tech_stack": [
+      "Microsoft Azure",
+      "Amazon Web Services",
+      "Java",
+      "Python",
+      "React",
+      "Angular",
+      "Docker"
+    ],
+    "culture_snippet": "Claravest Technologies fosters a culture of innovation and collaboration, encouraging its employees to think creatively and push the boundaries of what is possible.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Codegres (OPC) Private Limited": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Codegres (OPC) Private Limited is a private sector company that provides software development and IT services. Their main products/services include software development, IT consulting, and digital transformation. They operate in various key markets including India and Southeast Asia. Codegres is notable for its expertise in emerging technologies and its commitment to delivering high-quality solutions.",
+    "founding_year": "2008",
+    "hq": "Bengaluru, India",
+    "website": "codegres.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Microsoft Azure",
+      "Amazon Web Services",
+      "Java",
+      "Python",
+      "React",
+      "Angular",
+      "Docker"
+    ],
+    "culture_snippet": "Codegres fosters a culture of innovation and collaboration, encouraging its employees to experiment with new technologies and approaches.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Commercial Consultancy Services (Flexsim)": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Commercial Consultancy Services (Flexsim) is a company that provides simulation software and consulting services to help organizations optimize their operations and make data-driven decisions. Their main products include FlexSim, a simulation software used for modeling and analyzing complex systems. They primarily serve industries such as manufacturing, logistics, and healthcare. Flexsim is notable for its user-friendly interface and robust analytics capabilities.",
+    "founding_year": "1992",
+    "hq": "Orem, United States",
+    "website": "flexsim.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "FlexSim",
+      "C++",
+      "Java",
+      "Python",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "culture_snippet": "Flexsim prioritizes innovation and collaboration, fostering a culture of continuous learning and improvement among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Cosmasol": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "50-100",
+    "description": "Cosmasol is a private company that specializes in the development of advanced materials and coatings for various industries. Their main products and services include customized coatings, surface treatments, and material science consulting. They primarily serve the aerospace, automotive, and energy sectors. Cosmasol is notable for its innovative approach to material science and its commitment to sustainability.",
+    "founding_year": "2015",
+    "hq": "Wokingham, United Kingdom",
+    "website": "cosmasol.com",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "BGF Ventures",
+      "Octopus Ventures"
+    ],
+    "tech_stack": [
+      "MATLAB",
+      "COMSOL",
+      "Finite Element Analysis",
+      "Materials Science Simulation",
+      "Surface Engineering",
+      "Coatings Technology"
+    ],
+    "culture_snippet": "Cosmasol fosters a collaborative and innovative work environment that encourages experimentation and learning.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Deccan Fine Chemicals": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "100-500",
+    "description": "Deccan Fine Chemicals is a chemical manufacturing company that specializes in producing a wide range of fine chemicals, pharmaceutical intermediates, and specialty chemicals. They cater to various industries such as pharmaceuticals, agrochemicals, and dyes. Their products are used in various applications including pharmaceutical formulations, agrochemical formulations, and industrial processes. Deccan Fine Chemicals is known for its high-quality products and customer-centric approach.",
+    "founding_year": "1980",
+    "hq": "Pune, India",
+    "website": "deccanfinechemicals.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "Deccan Fine Chemicals emphasizes on innovation, quality, and customer satisfaction, fostering a culture of excellence and teamwork.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Edutech Learning Solutions Pvt. Ltd.": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Edutech Learning Solutions Pvt. Ltd. is an education technology company that provides digital learning solutions to schools and institutions. Their main products and services include online learning platforms, educational software, and content development. They cater to the Indian market and are known for their innovative approach to education. Edutech Learning Solutions Pvt. Ltd. is a notable player in the Indian ed-tech industry.",
+    "founding_year": "2015",
+    "hq": "Bengaluru, India",
+    "website": "edutechlearningsolutions.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "LMS (Learning Management System)",
+      "SCORM (Sharable Content Object Reference Model)",
+      "HTML5",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "culture_snippet": "Edutech Learning Solutions Pvt. Ltd. prioritizes innovation and employee growth, fostering a culture of experimentation and learning.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Elite Projects Pvt Ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Elite Projects Pvt Ltd is a private sector company that specializes in providing project management and consulting services to various industries. They offer expertise in IT, construction, and infrastructure development. Their key markets include India and Southeast Asia. Elite Projects Pvt Ltd is notable for its innovative approach to project management and its commitment to delivering high-quality results.",
+    "founding_year": "2005",
+    "hq": "Mumbai, India",
+    "website": "eliteprojects.in",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Microsoft Project",
+      "Primavera P6",
+      "Asana",
+      "Trello",
+      "Jira",
+      "Tableau"
+    ],
+    "culture_snippet": "Elite Projects Pvt Ltd fosters a collaborative work environment that encourages open communication and teamwork among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "ERLDC- Eastern Regional Load Dispatch Center, Grid India": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "ERLDC (Eastern Regional Load Dispatch Center) is a grid management organization responsible for managing the power grid in the Eastern region of India. They ensure reliable and efficient power supply to the region. ERLDC operates under the guidance of Power Grid Corporation of India Limited (PGCIL). Their primary focus is on load dispatch, grid management, and power system operation.",
+    "founding_year": "1982",
+    "hq": "Kolkata, India",
+    "website": "erldc.gov.in",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "SCADA",
+      "Energy Management System",
+      "Load Dispatch System",
+      "Power System Operation",
+      "Grid Management Software",
+      "Telecom Network"
+    ],
+    "culture_snippet": "ERLDC prioritizes teamwork and collaboration to ensure seamless grid operations and reliable power supply to the region.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "FANPLAY IoT": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "FANPLAY IoT is a technology company that specializes in developing and manufacturing IoT (Internet of Things) solutions for various industries. Their main products and services include IoT devices, data analytics, and software development. FANPLAY IoT primarily operates in the Asia-Pacific region, with a focus on China and Southeast Asia. The company is notable for its innovative approach to IoT technology and its commitment to providing sustainable solutions.",
+    "founding_year": "2018",
+    "hq": "Shenzhen, China",
+    "website": "fanplayiot.com",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "IDG Capital",
+      "Fengsheng Capital",
+      "Shenzhen Capital Group"
+    ],
+    "tech_stack": [
+      "Arduino",
+      "Python",
+      "C++",
+      "AWS IoT",
+      "Microsoft Azure",
+      "Google Cloud IoT Core",
+      "Kubernetes"
+    ],
+    "culture_snippet": "FANPLAY IoT prioritizes innovation and collaboration, fostering a culture of experimentation and knowledge-sharing among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Genesis Gas Solutions Private Limited - Electronics": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Genesis Gas Solutions Private Limited - Electronics is a company that specializes in providing electronic solutions for gas management systems. Their main products and services include gas detection systems, gas monitoring systems, and gas control systems. They cater to various industries such as oil and gas, chemical, and manufacturing. The company is notable for its innovative approach to gas management and its commitment to providing reliable and efficient solutions.",
+    "founding_year": null,
+    "hq": "null",
+    "website": "null",
+    "funding_stage": "null",
+    "investors": [
+      "null"
+    ],
+    "tech_stack": [
+      "null"
+    ],
+    "culture_snippet": "null",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Genesis Gas Solutions Private Limited - IT": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Genesis Gas Solutions Private Limited - IT is a company that provides IT solutions for gas and energy industries. Their main products and services include IT consulting, software development, and system integration. They cater to key markets in the energy sector, including oil and gas companies. Genesis Gas Solutions Private Limited - IT is notable for its expertise in providing customized IT solutions for the gas and energy industries.",
+    "founding_year": "null",
+    "hq": "null",
+    "website": "null",
+    "funding_stage": "null",
+    "investors": [
+      "null"
+    ],
+    "tech_stack": [
+      "null"
+    ],
+    "culture_snippet": "null",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Genquery Technology Services Pvt Ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Genquery Technology Services Pvt Ltd is a technology company that provides services in data analytics, artificial intelligence, and cybersecurity. They cater to various industries including finance, healthcare, and education. Genquery is notable for its innovative approach to data-driven decision making. The company has a strong focus on research and development, staying at the forefront of emerging technologies.",
+    "founding_year": null,
+    "hq": "null",
+    "website": "genquery.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "R",
+      "TensorFlow",
+      "Keras",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "culture_snippet": "Genquery fosters a collaborative environment that encourages creativity and experimentation, allowing employees to push the boundaries of innovation.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Glocol Networks, California, USA": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Glocol Networks is a California-based company that specializes in providing innovative network solutions for various industries. Their main products and services include network infrastructure, cybersecurity, and data analytics. They primarily serve the North American market, with a notable presence in the tech and finance sectors. Glocol Networks is recognized for its cutting-edge technology and commitment to customer satisfaction.",
+    "founding_year": null,
+    "hq": "California, USA",
+    "website": "glocolnetworks.com",
+    "funding_stage": "Private",
+    "investors": [],
+    "tech_stack": [
+      "Cisco Systems",
+      "VMware",
+      "AWS",
+      "Microsoft Azure",
+      "Python",
+      "Java"
+    ],
+    "culture_snippet": "Glocol Networks prioritizes employee growth and development, offering regular training programs and opportunities for advancement.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Grasim Industries - Online": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "10,000+",
+    "description": "Grasim Industries is a leading Indian multinational company that operates in the sectors of textiles, chemicals, and cement. The company is a part of the Aditya Birla Group and is known for its diversified portfolio of products and services. Grasim Industries serves various markets across the globe, including India, Asia, and Europe. The company is notable for its commitment to sustainability and innovation.",
+    "founding_year": "1948",
+    "hq": "Mumbai, India",
+    "website": "grasim.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "ERP",
+      "CRM",
+      "SCADA",
+      "PLM",
+      "CAD",
+      "SAP"
+    ],
+    "culture_snippet": "Grasim Industries fosters a culture of innovation and teamwork, encouraging employees to think creatively and work collaboratively to achieve excellence.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "HEBE Financial Services": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "50-100",
+    "description": "HEBE Financial Services is a financial services company that provides investment and wealth management services to high net worth individuals and institutions. They offer a range of products and services, including investment advisory, portfolio management, and financial planning. HEBE Financial Services operates in the Asia-Pacific region and has a strong presence in Hong Kong and Singapore. The company is known for its expertise in alternative investments and its commitment to providing personalized service to its clients.",
+    "founding_year": "2015",
+    "hq": "Hong Kong, China",
+    "website": "hebe.com",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "Goldman Sachs",
+      "Citi Ventures",
+      "HSBC"
+    ],
+    "tech_stack": [
+      "Microsoft Office",
+      "Salesforce",
+      "Tableau",
+      "Python",
+      "R",
+      "AWS"
+    ],
+    "culture_snippet": "HEBE Financial Services prioritizes collaboration and innovation in its work culture, encouraging employees to think creatively and work together to deliver exceptional results.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Heetherark Labs Private Limited - IT": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Heetherark Labs Private Limited - IT is a private sector IT company that specializes in software development, data analytics, and cybersecurity services. Their key markets include the Asia-Pacific region, with a focus on India and Southeast Asia. They are notable for their innovative approach to IT solutions and their commitment to delivering high-quality services. Heetherark Labs Private Limited - IT has established itself as a reliable partner for businesses looking to leverage technology for growth and success.",
+    "founding_year": "2018",
+    "hq": "Bangalore, India",
+    "website": "heetherarklabs.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [
+      "null"
+    ],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Python",
+      "Java",
+      "React",
+      "Angular",
+      "Docker"
+    ],
+    "culture_snippet": "Heetherark Labs Private Limited - IT fosters a culture of innovation and collaboration, with a focus on employee growth and development.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Iljin Electronics": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "1,000-5,000",
+    "description": "Iljin Electronics is a South Korean electronics company that specializes in the development and manufacturing of display panels, semiconductors, and other electronic components. They supply their products to various industries, including consumer electronics, automotive, and industrial. Iljin Electronics is known for its high-quality products and innovative technologies. The company has a strong presence in the global market and is recognized for its commitment to research and development.",
+    "founding_year": "1975",
+    "hq": "Seoul, South Korea",
+    "website": "iljin.com",
+    "funding_stage": "Private",
+    "investors": [],
+    "tech_stack": [
+      "LCD technology",
+      "LED technology",
+      "Semiconductor manufacturing",
+      "Display panel manufacturing",
+      "Automotive electronics",
+      "Industrial electronics"
+    ],
+    "culture_snippet": "Iljin Electronics prioritizes innovation and employee development, fostering a culture of continuous learning and improvement.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Indium Software Pvt. Ltd.": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "1000-5000",
+    "description": "Indium Software Pvt. Ltd. is a software development company that provides end-to-end IT services, including software development, testing, and quality assurance. They cater to various industries such as healthcare, finance, and retail. Their services are designed to help businesses improve their operational efficiency and customer experience. Indium Software has a strong presence in the global market, with a notable presence in the US and Europe.",
+    "founding_year": "2006",
+    "hq": "Bangalore, India",
+    "website": "indiumsoftware.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Microsoft Azure",
+      "Amazon Web Services",
+      "Java",
+      "Python",
+      "Selenium",
+      "Appium",
+      "Cucumber"
+    ],
+    "culture_snippet": "Indium Software emphasizes a culture of innovation, collaboration, and continuous learning, with a focus on delivering high-quality solutions to their clients.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Infogain India Pvt Ltd": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "5000+",
+    "description": "Infogain is a digital transformation company that provides services such as digital engineering, cloud, data analytics, and customer experience. They offer solutions for industries like retail, healthcare, and finance. Infogain has a strong presence in the Asia-Pacific region and has been recognized for its expertise in digital transformation. They have a notable track record of delivering successful projects for their clients.",
+    "founding_year": "1999",
+    "hq": "Sunnyvale, USA",
+    "website": "infogain.com",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "TA Associates"
+    ],
+    "tech_stack": [
+      "Microsoft Azure",
+      "Amazon Web Services",
+      "SAP",
+      "Oracle",
+      "Salesforce",
+      "Tableau",
+      "Power BI"
+    ],
+    "culture_snippet": "Infogain emphasizes a culture of innovation and collaboration, with a focus on delivering high-quality solutions for their clients.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Innokreat Technologies Pvt Ltd - Tech": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Innokreat Technologies Pvt Ltd is a private sector company that specializes in providing innovative technology solutions. They offer a range of products and services, including software development, data analytics, and cybersecurity. Their key markets include the Indian subcontinent and Southeast Asia. Innokreat Technologies Pvt Ltd is notable for its commitment to using cutting-edge technologies to drive business growth.",
+    "founding_year": "2015",
+    "hq": "Bangalore, India",
+    "website": "innokreat.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Python",
+      "Java",
+      "React",
+      "Angular",
+      "Machine Learning"
+    ],
+    "culture_snippet": "Innokreat Technologies Pvt Ltd fosters a culture of innovation and collaboration, with a focus on delivering high-quality solutions to its clients.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "ITCONS E-Solutions Ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "ITCONS E-Solutions Ltd is a software development company that provides IT solutions and services to various industries. They specialize in e-governance, e-commerce, and enterprise resource planning. Their key markets include India and other countries in the Asia-Pacific region. ITCONS E-Solutions Ltd is notable for its expertise in developing scalable and secure software solutions.",
+    "founding_year": "2000",
+    "hq": "Bhubaneswar, India",
+    "website": "itcons.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "Oracle",
+      "Microsoft .NET",
+      "SQL Server",
+      "Oracle Database",
+      "AngularJS",
+      "React"
+    ],
+    "culture_snippet": "ITCONS E-Solutions Ltd emphasizes a collaborative work environment that encourages innovation and creativity among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Jalte Diye Foundation": {
+    "scale_badge": "🌱 Early Startup",
+    "employee_count": "50-100",
+    "description": "Jalte Diye Foundation is a non-profit organization that focuses on providing education and healthcare services to underprivileged communities. They offer various programs and initiatives to support the development of these communities. Their key markets include rural areas and urban slums. Jalte Diye Foundation is notable for its community-driven approach and commitment to creating a positive impact.",
+    "founding_year": "2010",
+    "hq": "Kolkata, India",
+    "website": "jaltediye.org",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "Their work culture emphasizes collaboration and empathy, with a focus on creating a supportive environment for their team members.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Kuppismart solutions Pvt Ltd - Non Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Kuppismart Solutions Pvt Ltd is a technology company that specializes in providing innovative solutions for smart cities and urban planning. Their main products and services include IoT-based smart infrastructure management, data analytics, and urban mobility solutions. They primarily operate in the Indian market, with a focus on cities like Mumbai and Delhi. Kuppismart Solutions is notable for its cutting-edge technology and commitment to sustainable urban development.",
+    "founding_year": "2018",
+    "hq": "Mumbai, India",
+    "website": "kuppismartsolutions.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Python",
+      "Django",
+      "React",
+      "MongoDB",
+      "TensorFlow",
+      "Kubernetes"
+    ],
+    "culture_snippet": "Kuppismart Solutions fosters a culture of innovation and collaboration, with a focus on delivering high-quality solutions that make a positive impact on urban communities.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Kuppismart solutions Pvt Ltd - Tech": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Kuppismart Solutions Pvt Ltd is a technology company that specializes in providing innovative solutions for smart cities and urban planning. Their main products and services include IoT-based smart infrastructure management, data analytics, and urban mobility solutions. They primarily serve cities and municipalities in India and Southeast Asia. Kuppismart Solutions is notable for its cutting-edge technology and commitment to sustainability.",
+    "founding_year": "2018",
+    "hq": "Bengaluru, India",
+    "website": "kuppismartsolutions.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "AWS"
+    ],
+    "culture_snippet": "Kuppismart Solutions prioritizes a culture of innovation and collaboration, with a focus on empowering employees to take ownership of their projects and ideas.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "KVGAI Tech Pvt. Ltd": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "KVGAI Tech Pvt. Ltd. is an artificial intelligence and machine learning company that provides AI-powered solutions for various industries. Their main products and services include AI-driven chatbots, predictive analytics, and natural language processing. They primarily operate in the Indian market, with a focus on providing innovative solutions to businesses. KVGAI Tech Pvt. Ltd. is notable for its cutting-edge AI technology and commitment to delivering high-quality services.",
+    "founding_year": "2020",
+    "hq": "Bangalore, India",
+    "website": "kvgai.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Python"
+    ],
+    "culture_snippet": "KVGAI Tech Pvt. Ltd. fosters a collaborative and innovative work environment that encourages employees to think outside the box and push the boundaries of AI technology.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "L&T Heavy Engineering, IC": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "10,000-20,000",
+    "description": "L&T Heavy Engineering is a leading engineering and construction company that provides services for the oil and gas, power, and other industries. They offer a range of products and services including design, engineering, procurement, and construction. With a strong presence in India and globally, they have a notable reputation for their expertise in heavy engineering projects. Their services cater to various markets including the energy, infrastructure, and industrial sectors.",
+    "founding_year": "1945",
+    "hq": "Mumbai, India",
+    "website": "lntecc.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "Autodesk",
+      "SolidWorks",
+      "Microsoft Office",
+      "Oracle",
+      "SAP",
+      "Primavera P6",
+      "Microsoft Project"
+    ],
+    "culture_snippet": "L&T Heavy Engineering prioritizes innovation and collaboration, fostering a culture of continuous learning and improvement among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Laurus Labs": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Laurus Labs is a pharmaceutical company that specializes in the development and manufacturing of active pharmaceutical ingredients (APIs) and intermediates. They cater to various markets, including the US, Europe, and India. Laurus Labs is known for its high-quality products and has received several certifications, including ISO 9001:2015 and WHO-GMP. The company has a strong presence in the global pharmaceutical industry.",
+    "founding_year": "2005",
+    "hq": "Vizag, India",
+    "website": "lauruslabs.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "ERP",
+      "CRM",
+      "PLM",
+      "MES",
+      "SCADA",
+      "SAP"
+    ],
+    "culture_snippet": "Laurus Labs prioritizes innovation and employee development, with a focus on creating a collaborative and dynamic work environment.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "MCEME": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "MCEME (Military College of Electronics and Mechanical Engineering) is a government-run research and development institution. They focus on developing cutting-edge technologies in the fields of electronics and mechanical engineering for the Indian Armed Forces. Their key markets include defense and aerospace. MCEME is notable for its contributions to the development of India's defense technology.",
+    "founding_year": "1968",
+    "hq": "Pune, India",
+    "website": "mceme.gov.in",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "C++",
+      "Python",
+      "MATLAB",
+      "SolidWorks",
+      "ANSYS",
+      "Autodesk Inventor"
+    ],
+    "culture_snippet": "MCEME fosters a culture of innovation and collaboration among its researchers and engineers to develop solutions for the Indian Armed Forces.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "MD Enterprises Global": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "MD Enterprises Global is a private sector company that specializes in providing logistics and supply chain management services to various industries. Their main products and services include freight forwarding, customs clearance, and warehousing. They operate in key markets across Asia, Europe, and North America. MD Enterprises Global is notable for its commitment to sustainability and reducing carbon emissions in the logistics industry.",
+    "founding_year": "2005",
+    "hq": "Singapore, Singapore",
+    "website": "mdenterprisesglobal.com",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "CVC Capital Partners",
+      "Kohlberg Kravis Roberts",
+      "Blackstone Group",
+      "Apax Partners",
+      "Permira"
+    ],
+    "tech_stack": [
+      "Oracle Transportation Management",
+      "JDA Software",
+      "SAP ERP",
+      "Microsoft Dynamics",
+      "Google Cloud Platform",
+      "Amazon Web Services"
+    ],
+    "culture_snippet": "MD Enterprises Global prioritizes employee development and offers training programs to enhance skills and knowledge in the logistics industry.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "MeghaAI India Private Limited": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "MeghaAI India Private Limited is an AI and data science company that provides various services and products. Their key markets include the Indian and global AI and data science industries. They are notable for their innovative approach to AI and data science solutions. The company focuses on delivering high-quality services and products to its clients.",
+    "founding_year": "2020",
+    "hq": "Bengaluru, India",
+    "website": "meghaai.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "NumPy",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "culture_snippet": "MeghaAI India Private Limited emphasizes a culture of innovation and collaboration among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Meghgen Technologies Private Limited": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Meghgen Technologies Private Limited is an Indian technology company that specializes in providing innovative solutions for the defense and aerospace sectors. Their main products and services include design and development of advanced systems, software development, and engineering services. They cater to key markets in India and globally. Meghgen Technologies is notable for its cutting-edge technology and expertise in the defense and aerospace industries.",
+    "founding_year": "2015",
+    "hq": "Bangalore, India",
+    "website": "meghgentech.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "C++",
+      "Python",
+      "Java",
+      "MATLAB",
+      "SolidWorks",
+      "Autodesk Inventor",
+      "Git"
+    ],
+    "culture_snippet": "Meghgen Technologies fosters a culture of innovation and collaboration, with a focus on delivering high-quality solutions to their clients.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "METASRUJAN": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "METASRUJAN is a private company that specializes in providing innovative solutions for the defense and aerospace industries. Their main products and services include advanced materials, propulsion systems, and satellite technology. They primarily operate in the North American market and have gained recognition for their cutting-edge research and development capabilities. METASRUJAN is notable for its collaboration with top universities and research institutions.",
+    "founding_year": "2015",
+    "hq": "Santa Clara, USA",
+    "website": "metasrujan.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "Northzone",
+      "Founders Fund",
+      "Bessemer Venture Partners",
+      "Khosla Ventures",
+      "In-Q-Tel"
+    ],
+    "tech_stack": [
+      "Python",
+      "C++",
+      "MATLAB",
+      "SolidWorks",
+      "ANSYS",
+      "Simulink",
+      "AWS"
+    ],
+    "culture_snippet": "METASRUJAN fosters a culture of innovation and collaboration, with a focus on pushing the boundaries of what is possible in the defense and aerospace industries.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "miBiome Therapeutics (DataHelix AI)": {
+    "scale_badge": "🌱 Early Startup",
+    "employee_count": "50-100",
+    "description": "miBiome Therapeutics is a biotechnology company that leverages DataHelix AI to develop novel therapeutics for various diseases. Their main products/services include AI-driven drug discovery and development. They focus on key markets such as oncology and infectious diseases. miBiome Therapeutics is notable for its innovative approach to biotechnology and its use of AI in drug discovery.",
+    "founding_year": "2020",
+    "hq": "San Francisco, USA",
+    "website": "mibiome.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "Data Collective Fund",
+      "Obvious Ventures"
+    ],
+    "tech_stack": [
+      "DataHelix AI",
+      "Deep learning",
+      "Natural language processing",
+      "Genomics",
+      "Bioinformatics",
+      "Cloud computing",
+      "Containerization"
+    ],
+    "culture_snippet": "miBiome Therapeutics fosters a collaborative and innovative work environment where employees can push the boundaries of biotechnology and AI.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "MindPeers - Non Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "MindPeers is an AI-powered peer-to-peer learning platform that connects students with industry experts for mentorship and skill-building. They offer a range of services including personalized learning plans, skill assessments, and career guidance. Their platform is used by students and professionals in various fields, making them notable for their innovative approach to education and skill development. MindPeers operates globally, serving key markets in the US, Europe, and Asia.",
+    "founding_year": "2019",
+    "hq": "San Francisco, USA",
+    "website": "mindpeers.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "GV",
+      "Founders Fund",
+      "Y Combinator",
+      "500 Startups",
+      "Khosla Ventures"
+    ],
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "AWS",
+      "Google Cloud",
+      "TensorFlow",
+      "Python"
+    ],
+    "culture_snippet": "MindPeers prioritizes a culture of innovation, collaboration, and continuous learning, encouraging employees to experiment and take calculated risks to drive growth and improvement.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "MindPeers - Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "50-100",
+    "description": "MindPeers is an ed-tech platform that provides peer-to-peer learning and mentorship services. They offer a range of products and services, including online courses, mentorship programs, and community building tools. Their key markets include education, career development, and personal growth. MindPeers is notable for its innovative approach to learning and its commitment to making education more accessible and affordable.",
+    "founding_year": "2019",
+    "hq": "New York, USA",
+    "website": "mindpeers.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "AWS",
+      "Google Cloud",
+      "Kubernetes"
+    ],
+    "culture_snippet": "MindPeers prioritizes a culture of innovation, collaboration, and continuous learning, with a focus on empowering its employees to take ownership of their work and make a meaningful impact.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "NERLDC- North Eastern Regional Load Despatch Center, Grid-India": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "NERLDC is a Regional Load Despatch Center responsible for managing the power grid in the North Eastern region of India. It ensures the efficient and reliable supply of electricity to the region. NERLDC operates under the guidance of the Power Grid Corporation of India Limited (PGCIL). The organization plays a crucial role in maintaining the stability and security of the power grid.",
+    "founding_year": "2009",
+    "hq": "Guwahati, India",
+    "website": "pgcil.gov.in/nerldc",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "SCADA",
+      "Energy Management System",
+      "Load Dispatch System",
+      "Power Grid Management System",
+      "GIS Mapping",
+      "SQL Server"
+    ],
+    "culture_snippet": "NERLDC prioritizes teamwork and collaboration to ensure the smooth operation of the power grid in the North Eastern region.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "NeSL Asset Data Limited (NADL)": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "NeSL Asset Data Limited (NADL) is a fintech company that provides asset verification and due diligence services. They offer a range of products and services, including asset verification, due diligence, and risk assessment. Their key markets include the financial services, banking, and insurance sectors. NeSL Asset Data Limited is notable for its innovative approach to asset verification and its commitment to providing secure and reliable services.",
+    "founding_year": "2015",
+    "hq": "Chennai, India",
+    "website": "nsl.co",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "Kedaara Capital"
+    ],
+    "tech_stack": [
+      "Blockchain",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Cloud Computing",
+      "Data Analytics",
+      "Cybersecurity"
+    ],
+    "culture_snippet": "NeSL Asset Data Limited prioritizes innovation and collaboration, fostering a culture of continuous learning and improvement among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Niftrix Technologies Private Limited": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Niftrix Technologies Private Limited is a private sector company that specializes in providing innovative technology solutions. Their main products and services include software development, data analytics, and artificial intelligence. They primarily operate in the Indian market, serving various industries such as finance, healthcare, and education. Niftrix Technologies is notable for its commitment to delivering high-quality solutions and its dedication to fostering a culture of innovation.",
+    "founding_year": "2015",
+    "hq": "Bangalore, India",
+    "website": "niftrixtech.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "TensorFlow",
+      "Kubernetes"
+    ],
+    "culture_snippet": "Niftrix Technologies prioritizes employee growth and well-being, offering opportunities for skill development and work-life balance.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Nitisara - Tech, Gurgaon": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Nitisara - Tech, Gurgaon is a private technology company that specializes in software development and IT services. Their main products and services include custom software development, mobile app development, and digital transformation. They primarily serve clients in the Indian market, with a focus on the IT and software sectors. Nitisara - Tech, Gurgaon is notable for its innovative approach to software development and its commitment to delivering high-quality solutions.",
+    "founding_year": null,
+    "hq": "Gurgaon, India",
+    "website": "nitisara.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "React",
+      "Angular",
+      "Node.js",
+      "AWS",
+      "Docker"
+    ],
+    "culture_snippet": "Nitisara - Tech, Gurgaon prioritizes a flexible work environment and employee well-being, encouraging work-life balance and professional growth.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "NLDC": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "NLDC (National Informatics Centre's National Level Data Centre) is a data centre that provides data storage and management services. They offer various services including data centre services, cloud services, and cybersecurity services. NLDC serves various government departments and institutions. They are notable for their efforts in providing secure and reliable data storage solutions.",
+    "founding_year": "2009",
+    "hq": "New Delhi, India",
+    "website": "nl.in.nic.in",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Oracle",
+      "Microsoft",
+      "VMware",
+      "Red Hat",
+      "Apache",
+      "MySQL",
+      "Linux"
+    ],
+    "culture_snippet": "NLDC prioritizes innovation and collaboration in their work culture.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "NoQs Digital, Ahmedabad": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "NoQs Digital, Ahmedabad is a digital transformation and IT services company that provides solutions for industries such as healthcare, finance, and education. Their main products and services include custom software development, cloud migration, and digital marketing. They cater to clients across India and have a strong presence in the Gujarat region. NoQs Digital is notable for its innovative approach to digital transformation and its commitment to delivering high-quality solutions.",
+    "founding_year": "2015",
+    "hq": "Ahmedabad, India",
+    "website": "noqsdigital.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform",
+      "React",
+      "Angular",
+      "Node.js",
+      "Docker"
+    ],
+    "culture_snippet": "NoQs Digital fosters a culture of innovation and collaboration, where employees are encouraged to think outside the box and come up with creative solutions to complex problems.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "OrbitArch": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "OrbitArch is a technology company that specializes in providing cybersecurity solutions and services. Their main products include threat intelligence, incident response, and security consulting. They primarily serve the financial and government sectors. OrbitArch is notable for its expertise in advanced threat detection and response.",
+    "founding_year": "2019",
+    "hq": "New York, USA",
+    "website": "orbitarch.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "Cyberstarts",
+      "Ten Eleven Ventures"
+    ],
+    "tech_stack": [
+      "AWS",
+      "Splunk",
+      "ELK Stack",
+      "Ansible",
+      "Python",
+      "Kubernetes",
+      "Docker"
+    ],
+    "culture_snippet": "OrbitArch prioritizes employee growth and development, offering training programs and opportunities for advancement.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Paradeep Phosphates Limited": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Paradeep Phosphates Limited is a Government-owned company that operates in the fertilizers and chemicals sector. It is involved in the production of phosphatic fertilizers, industrial chemicals, and other related products. The company serves the domestic market with a focus on providing essential nutrients to Indian farmers. Paradeep Phosphates Limited is a notable player in the Indian fertilizers industry.",
+    "founding_year": "1979",
+    "hq": "Paradeep, India",
+    "website": "www.paradeephosphates.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "ERP systems",
+      "Supply Chain Management",
+      "Manufacturing Execution Systems",
+      "Quality Management Systems",
+      "SAP",
+      "Oracle"
+    ],
+    "culture_snippet": "Paradeep Phosphates Limited prioritizes innovation and employee development to drive growth and excellence in the fertilizers industry.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Paradeep Phosphates Limited  Goa": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "1000-5000",
+    "description": "Paradeep Phosphates Limited is a Government-owned company that operates in the fertilizers and chemicals sector. They are involved in the production and marketing of various phosphatic fertilizers and chemicals. Their key markets include India and other countries in the Asia-Pacific region. The company is notable for its contribution to the Indian fertilizers industry and its commitment to sustainable practices.",
+    "founding_year": "1978",
+    "hq": "Paradeep, India",
+    "website": "www.paradeephosphates.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "The company prioritizes employee safety and well-being, with a strong focus on maintaining a healthy work environment.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Paradeep Phosphates Limited  PPL Township, Odisha": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "1000-5000",
+    "description": "Paradeep Phosphates Limited (PPL) is a government-owned company that operates in the fertilizers and chemicals sector. It is involved in the production of phosphatic fertilizers, industrial chemicals, and other related products. PPL serves the domestic market of India and is known for its contribution to the country's fertilizer industry. The company is notable for its long history and commitment to providing essential products to the Indian agricultural sector.",
+    "founding_year": "1979",
+    "hq": "Paradeep, India",
+    "website": "pplindia.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "ERP systems",
+      "Supply chain management software",
+      "Manufacturing execution systems",
+      "Quality control software",
+      "Industrial automation systems",
+      "Enterprise resource planning"
+    ],
+    "culture_snippet": "PPL prioritizes employee safety and well-being, with a strong focus on maintaining a healthy work environment.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Pascal AI": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Pascal AI is a company that specializes in developing artificial intelligence and machine learning solutions for various industries. Their main products and services include AI-powered chatbots, predictive analytics, and natural language processing. They primarily serve the healthcare, finance, and education sectors. Pascal AI is notable for its innovative approach to AI adoption and its commitment to improving business outcomes through data-driven insights.",
+    "founding_year": "2020",
+    "hq": "New York, USA",
+    "website": "pascal.ai",
+    "funding_stage": "Series A",
+    "investors": [
+      "GV",
+      "Lightspeed Venture Partners",
+      "Founders Fund",
+      "Khosla Ventures",
+      "NVIDIA"
+    ],
+    "tech_stack": [
+      "TensorFlow",
+      "PyTorch",
+      "Docker",
+      "Kubernetes",
+      "AWS SageMaker",
+      "Google Cloud AI Platform"
+    ],
+    "culture_snippet": "Pascal AI prioritizes collaboration and innovation, fostering a culture that encourages experimentation and learning from failures.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Phodu Club - Non Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Phodu Club is a social media platform that allows users to share and discover short-form videos. They have a strong presence in the Indian market and are known for their engaging content. Phodu Club's main products/services include video sharing, live streaming, and community building. They have gained popularity among the younger generation.",
+    "founding_year": "2020",
+    "hq": "Bangalore, India",
+    "website": "phoduclub.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "AWS",
+      "Cloudflare",
+      "Redis",
+      "GraphQL"
+    ],
+    "culture_snippet": "Phodu Club prioritizes innovation and creativity in their work culture, encouraging employees to think outside the box and experiment with new ideas.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Pranesh Deep Tech Solutions": {
+    "scale_badge": "🌱 Early Startup",
+    "employee_count": "null",
+    "description": "Pranesh Deep Tech Solutions is a technology company that provides AI and data analytics solutions. They offer services in areas such as predictive maintenance, quality control, and supply chain optimization. Their key markets include manufacturing, logistics, and energy. Pranesh Deep Tech Solutions is notable for its innovative approach to leveraging AI and data analytics for business growth.",
+    "founding_year": null,
+    "hq": "null",
+    "website": "null",
+    "funding_stage": "null",
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "null",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Promark Techsolutionspvt ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Promark Techsolutions Pvt Ltd is a technology company that provides IT services and solutions to various industries. They offer services such as software development, data analytics, and cybersecurity. Their key markets include the Indian subcontinent and the Middle East. They are notable for their expertise in emerging technologies and their commitment to delivering high-quality solutions.",
+    "founding_year": "2010",
+    "hq": "Bangalore, India",
+    "website": "promarktechsolutions.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Python",
+      "Java",
+      "React",
+      "Angular",
+      "MySQL"
+    ],
+    "culture_snippet": "They prioritize employee growth and development, offering training programs and opportunities for professional advancement.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "PS-I Entrepreneurship track - Vopais Tech - Non Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Vopais Tech is a technology company that specializes in developing innovative solutions for the Internet of Things (IoT) and artificial intelligence. Their main products and services include IoT platforms, AI-powered software, and data analytics. They primarily operate in the Asia-Pacific region, serving various industries such as manufacturing, healthcare, and finance. Vopais Tech is notable for its cutting-edge technology and collaborative work culture.",
+    "founding_year": "2018",
+    "hq": "Singapore, Singapore",
+    "website": "vopais.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "Sequoia Capital",
+      "GGV Capital",
+      "Qualcomm Ventures"
+    ],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Kubernetes",
+      "Docker",
+      "TensorFlow",
+      "PyTorch",
+      "AWS"
+    ],
+    "culture_snippet": "Vopais Tech fosters a culture of innovation and experimentation, encouraging employees to take calculated risks and explore new ideas.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "PS-I Entrepreneurship track - Vopais Tech - Tech": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Vopais Tech is a technology company that specializes in developing innovative solutions for the automotive and industrial sectors. Their main products and services include software development, data analytics, and IoT integration. They primarily serve the North American and European markets. Vopais Tech is notable for its cutting-edge technology and commitment to sustainability.",
+    "founding_year": null,
+    "hq": "null",
+    "website": "vopais.com",
+    "funding_stage": "Private",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "C++",
+      "AWS",
+      "Azure",
+      "Kubernetes",
+      "TensorFlow"
+    ],
+    "culture_snippet": "Vopais Tech prioritizes employee well-being and offers flexible work arrangements to promote work-life balance.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Pune Polytech Pvt Ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Pune Polytech Pvt Ltd is a private company that provides engineering and technical services. They offer products and services in the fields of mechanical, electrical, and civil engineering. Their key markets include the automotive, aerospace, and construction industries. They are notable for their expertise in product design and development.",
+    "founding_year": null,
+    "hq": "Pune, India",
+    "website": "pune-polytech.com",
+    "funding_stage": null,
+    "investors": [],
+    "tech_stack": [
+      "SolidWorks",
+      "Autodesk Inventor",
+      "CATIA",
+      "Ansys",
+      "MATLAB",
+      "Microsoft Office"
+    ],
+    "culture_snippet": "They prioritize innovation and collaboration in their work culture.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "RCMA (Chandigarh)": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "RCMA (Chandigarh) is a research and development organization that focuses on various fields such as textiles, dyes, and chemicals. They provide research and development services, testing, and certification. Their key markets include the textile industry, and they are notable for their expertise in the field of textiles and dyes. RCMA is a government organization.",
+    "founding_year": "1948",
+    "hq": "Chandigarh, India",
+    "website": "rcma.gov.in",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "MATLAB",
+      "Python",
+      "SAP",
+      "Oracle",
+      "Microsoft Office",
+      "Adobe Creative Cloud"
+    ],
+    "culture_snippet": "RCMA has a culture that emphasizes innovation and collaboration among its employees to achieve excellence in research and development.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Remedo Clinitech Pvt. Ltd.": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Remedo Clinitech Pvt. Ltd. is a private company that specializes in medical technology and healthcare solutions. They offer a range of products and services, including medical devices and software solutions. Their key markets include India and other emerging economies. Remedo Clinitech is notable for its innovative approach to healthcare technology and its commitment to improving patient outcomes.",
+    "founding_year": "2010",
+    "hq": "Pune, India",
+    "website": "remedoclinitech.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "culture_snippet": "Remedo Clinitech fosters a culture of innovation and collaboration, with a focus on delivering high-quality solutions that meet the needs of its customers.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "RenewCred (Net Zero Initiative Pvt Ltd)": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "50-100",
+    "description": "RenewCred (Net Zero Initiative Pvt Ltd) is a company focused on providing carbon credit solutions and services to help businesses achieve net-zero emissions. They offer a range of products and services, including carbon footprint analysis, offsetting, and reporting. Their key markets include industries with high carbon emissions, such as energy and transportation. RenewCred is notable for its innovative approach to carbon credit management and its commitment to sustainability.",
+    "founding_year": "2020",
+    "hq": "Bengaluru, India",
+    "website": "renewcred.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [
+      "Unknown"
+    ],
+    "tech_stack": [
+      "Blockchain",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Cloud Computing",
+      "Data Analytics",
+      "Sustainability Platforms"
+    ],
+    "culture_snippet": "RenewCred prioritizes collaboration and innovation, fostering a culture of sustainability and environmental responsibility among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Richas Techpro Pvt Ltd": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Richas Techpro Pvt Ltd is a technology company that specializes in providing IT solutions and services to various industries. Their main products and services include software development, data analytics, and cybersecurity. They primarily operate in the Indian market and have gained recognition for their innovative approach to technology. Richas Techpro Pvt Ltd is a private sector company that has been making a name for itself in the industry.",
+    "founding_year": "2010",
+    "hq": "Bangalore, India",
+    "website": "richastechnology.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Python",
+      "Java",
+      "React",
+      "Angular",
+      "Docker"
+    ],
+    "culture_snippet": "Richas Techpro Pvt Ltd prioritizes employee growth and development, offering opportunities for skill enhancement and career advancement.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Samaro software pvt ltd": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Samaro Software Pvt Ltd is a software development company that specializes in providing AI-powered data annotation and labeling solutions for businesses. Their main products and services include data annotation tools, AI training data, and data enrichment services. They primarily serve the technology and finance sectors. Samaro Software Pvt Ltd is notable for its innovative approach to data annotation and its commitment to delivering high-quality data solutions.",
+    "founding_year": "2017",
+    "hq": "Bangalore, India",
+    "website": "samaro.ai",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Google Cloud",
+      "Microsoft Azure",
+      "Python",
+      "TensorFlow",
+      "Docker",
+      "Kubernetes"
+    ],
+    "culture_snippet": "Samaro Software Pvt Ltd prioritizes innovation and collaboration, fostering a culture of experimentation and continuous learning among its employees.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Sasha Innoworks Pvt. Ltd.": {
+    "scale_badge": "🌱 Early Startup",
+    "employee_count": null,
+    "description": "Sasha Innoworks Pvt. Ltd. is a private sector company that specializes in providing innovative solutions and services in the field of technology and innovation. Their main products and services include software development, data analytics, and digital transformation. They cater to various key markets such as healthcare, finance, and education. Sasha Innoworks is notable for its commitment to delivering cutting-edge technology solutions that drive business growth and improvement.",
+    "founding_year": null,
+    "hq": null,
+    "website": null,
+    "funding_stage": null,
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": null,
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "SMARTSA TECH PRIVATE LIMITED-Online": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "SMARTSA TECH PRIVATE LIMITED-Online is a private company that specializes in providing online services. Their main products/services include software development, IT consulting, and digital transformation. They primarily operate in the Indian market, catering to various industries such as finance, healthcare, and education. SMARTSA TECH PRIVATE LIMITED-Online is notable for its innovative approach to technology and its commitment to delivering high-quality solutions.",
+    "founding_year": "2015",
+    "hq": "Bangalore, India",
+    "website": "smartsatech.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Python",
+      "Java",
+      "React",
+      "Angular",
+      "MySQL"
+    ],
+    "culture_snippet": "SMARTSA TECH PRIVATE LIMITED-Online fosters a collaborative work environment that encourages creativity and innovation, with a focus on delivering exceptional results for its clients.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "SRLDC -Southern Regional Load Despatch Center, Grid-India": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "SRLDC - Southern Regional Load Despatch Center is a government-owned organization responsible for managing the power grid in the southern region of India. They ensure the efficient transmission and distribution of electricity to meet the demands of the region. Their main products/services include load despatch, grid management, and power system operation. SRLDC is notable for its critical role in maintaining the stability and reliability of the power grid in the region.",
+    "founding_year": "1996",
+    "hq": "Bangalore, India",
+    "website": "srlc.in",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "SCADA",
+      "Energy Management System",
+      "Load Despatch System",
+      "Power System Operation",
+      "Grid Management System",
+      "Distributed Energy Resources Management System"
+    ],
+    "culture_snippet": "SRLDC's work culture is centered around teamwork and collaboration to ensure the reliable and efficient operation of the power grid in the southern region of India.",
+    "company_type": "Government",
+    "fetch_status": "done"
+  },
+  "Sungold Suppliers Pvt Ltd, Kota Rajasthan": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Sungold Suppliers Pvt Ltd, Kota Rajasthan is a private sector company that specializes in supplying various products and services. Their main products and services include food grains, fertilizers, and other agricultural supplies. They cater to key markets in Rajasthan and surrounding areas. Sungold Suppliers is notable for its commitment to providing quality products and services to its customers.",
+    "founding_year": null,
+    "hq": "Kota, India",
+    "website": "sungoldsuppliers.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "ERP systems",
+      "Supply chain management software",
+      "CRM systems",
+      "Microsoft Office",
+      "Google Workspace",
+      "SAP"
+    ],
+    "culture_snippet": "Sungold Suppliers prioritizes teamwork and customer satisfaction in its work culture.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "THE GLOBAL MERCHANTS - Online": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "The Global Merchants - Online is an e-commerce platform that enables cross-border trade and provides logistics services to businesses and individuals. They offer a range of products and services, including international shipping, customs clearance, and trade finance. The company operates in multiple markets globally, with a focus on emerging economies. Their notable approach to trade facilitation has made them a notable player in the industry.",
+    "founding_year": "2015",
+    "hq": "Singapore, Singapore",
+    "website": "theglobalmerchants.com",
+    "funding_stage": "Private Equity",
+    "investors": [
+      "CIMB Private Equity",
+      "Maybank Private Equity"
+    ],
+    "tech_stack": [
+      "SAP",
+      "Oracle",
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes"
+    ],
+    "culture_snippet": "The Global Merchants - Online prioritizes innovation and collaboration, with a culture that encourages experimentation and learning from failures.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Vitalize Healthcare Pvt. Ltd - Non Tech": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Vitalize Healthcare Pvt. Ltd. is a healthcare technology company that provides innovative solutions for patient care and management. Their main products and services include electronic health records, telemedicine platforms, and medical billing software. They primarily operate in the Indian market, catering to both public and private healthcare institutions. Vitalize Healthcare is notable for its commitment to leveraging technology to improve healthcare outcomes and patient experiences.",
+    "founding_year": "2015",
+    "hq": "Bengaluru, India",
+    "website": "vitalizehealthcare.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Python",
+      "Java",
+      "React",
+      "Django",
+      "MySQL"
+    ],
+    "culture_snippet": "Vitalize Healthcare fosters a culture of innovation and collaboration, encouraging employees to think creatively and work together to develop cutting-edge healthcare solutions.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Vitalize Healthcare Pvt. Ltd - Tech": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Vitalize Healthcare Pvt. Ltd. is a healthcare technology company that provides innovative solutions for patient care and management. Their main products and services include electronic health records, telemedicine platforms, and healthcare analytics. They primarily operate in the Indian market, catering to both public and private healthcare providers. Vitalize Healthcare is notable for its commitment to using technology to improve healthcare outcomes and accessibility.",
+    "founding_year": "2015",
+    "hq": "Bengaluru, India",
+    "website": "vitalizehealthcare.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Docker",
+      "Python",
+      "React",
+      "MySQL",
+      "MongoDB"
+    ],
+    "culture_snippet": "Vitalize Healthcare prioritizes employee well-being and offers flexible work arrangements to promote work-life balance.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Yana Travel Pvt Ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Yana Travel Pvt Ltd is a travel company that provides travel services, including tour packages, hotel bookings, and travel insurance. They operate in India and cater to both domestic and international customers. Yana Travel Pvt Ltd is notable for its user-friendly website and mobile app. They have a strong presence in the Indian travel market.",
+    "founding_year": null,
+    "hq": "null",
+    "website": "yanatravel.com",
+    "funding_stage": null,
+    "investors": [],
+    "tech_stack": [
+      "Google Maps",
+      "Airbnb API",
+      "Stripe",
+      "React Native",
+      "MySQL",
+      "AWS"
+    ],
+    "culture_snippet": "Yana Travel Pvt Ltd prioritizes innovation and customer satisfaction in its work culture.",
+    "company_type": "Private",
+    "fetch_status": "done"
   }
 }
