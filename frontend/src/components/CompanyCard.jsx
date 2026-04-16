@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Plus, Check } from 'lucide-react';
+import { MapPin, Plus, Check, Layers } from 'lucide-react';
 
 const DOMAIN_COLORS = {
   CSIS: 'text-accent-purple border-accent-purple/40 bg-accent-purple/10',
@@ -36,9 +36,18 @@ const SCALE_COLORS = {
   '🌐 Enterprise': 'text-accent-purple border-accent-purple/30 bg-accent-purple/10',
 };
 
-export default function CompanyCard({ company, onClick, searchQuery, enrichment, isPriority, onTogglePriority }) {
-  const teaser = company.project_details?.slice(0, 80);
-  const hasTruncation = (company.project_details?.length || 0) > 80;
+// group = array of company objects with same name
+export default function CompanyCard({ group, onClick, searchQuery, enrichment, isPriority, onTogglePriority }) {
+  const company = group[0];
+  const isMulti = group.length > 1;
+
+  // For multi-project: collect all unique subdomains across projects
+  const allSubdomains = isMulti
+    ? [...new Set(group.flatMap(c => c.subdomains || []).filter(s => s !== 'General'))]
+    : company.subdomains || [];
+
+  const teaser = isMulti ? null : company.project_details?.slice(0, 80);
+  const hasTruncation = !isMulti && (company.project_details?.length || 0) > 80;
 
   const scaleStyle = enrichment?.scale_badge
     ? SCALE_COLORS[enrichment.scale_badge] || 'text-text-secondary border-bg-border bg-bg-hover'
@@ -57,7 +66,7 @@ export default function CompanyCard({ company, onClick, searchQuery, enrichment,
         group animate-fade-in cursor-pointer
       "
     >
-      {/* Bookmark button — absolute top-right */}
+      {/* Bookmark button */}
       <button
         onClick={(e) => { e.stopPropagation(); onTogglePriority?.(company); }}
         className={`
@@ -72,17 +81,23 @@ export default function CompanyCard({ company, onClick, searchQuery, enrichment,
         {isPriority ? <Check size={13} /> : <Plus size={13} />}
       </button>
 
-      {/* Header — give right padding so title doesn't overlap bookmark */}
+      {/* Header */}
       <div className="flex items-start gap-2 pr-8">
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-text-primary text-sm leading-snug group-hover:text-accent-purple transition-colors line-clamp-1">
             {highlightText(company.name, searchQuery)}
           </h3>
-          <div className="flex items-center gap-1 mt-0.5">
+          <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
             {company.city && (
               <span className="flex items-center gap-0.5 text-xs text-text-muted">
                 <MapPin size={10} />
                 {highlightText(company.city, searchQuery)}
+              </span>
+            )}
+            {isMulti && (
+              <span className="flex items-center gap-1 text-xs font-medium text-accent-purple bg-accent-purple/10 border border-accent-purple/25 rounded-full px-2 py-0.5">
+                <Layers size={9} />
+                {group.length} projects
               </span>
             )}
           </div>
@@ -96,7 +111,7 @@ export default function CompanyCard({ company, onClick, searchQuery, enrichment,
         )}
       </div>
 
-      {/* Domain + Subdomain chips */}
+      {/* Domain + chips */}
       <div className="flex flex-wrap gap-1.5">
         {company.normalized_domain && (
           <span className={`badge ${getDomainStyle(company.normalized_domain)}`}>
@@ -117,24 +132,37 @@ export default function CompanyCard({ company, onClick, searchQuery, enrichment,
             🏠 Accommodation
           </span>
         )}
-        {company.subdomains?.slice(0, 2).map(sub => (
-          <span key={sub} className="tag-chip">
-            {sub}
-          </span>
+        {allSubdomains.slice(0, 2).map(sub => (
+          <span key={sub} className="tag-chip">{sub}</span>
         ))}
-        {company.subdomains?.length > 2 && (
-          <span className="tag-chip text-text-muted">
-            +{company.subdomains.length - 2}
-          </span>
+        {allSubdomains.length > 2 && (
+          <span className="tag-chip text-text-muted">+{allSubdomains.length - 2}</span>
         )}
       </div>
 
-      {/* Project teaser */}
-      {teaser && (
-        <p className="text-xs text-text-muted leading-relaxed line-clamp-1">
-          {highlightText(teaser, searchQuery)}
-          {hasTruncation && '…'}
-        </p>
+      {/* Single project: teaser. Multi: project list preview */}
+      {isMulti ? (
+        <div className="flex flex-col gap-1">
+          {group.slice(0, 3).map((c, i) => {
+            const title = c.project_details?.split('\n')[0]?.replace(/^Title:\s*/i, '').trim();
+            return title ? (
+              <p key={i} className="text-xs text-text-muted leading-snug flex items-start gap-1">
+                <span className="text-accent-purple/50 flex-shrink-0 font-mono">{i + 1}.</span>
+                <span className="line-clamp-1">{title}</span>
+              </p>
+            ) : null;
+          })}
+          {group.length > 3 && (
+            <p className="text-xs text-text-muted/60">+{group.length - 3} more projects</p>
+          )}
+        </div>
+      ) : (
+        teaser && (
+          <p className="text-xs text-text-muted leading-relaxed line-clamp-1">
+            {highlightText(teaser, searchQuery)}
+            {hasTruncation && '…'}
+          </p>
+        )
       )}
 
       {/* Tech stack preview */}

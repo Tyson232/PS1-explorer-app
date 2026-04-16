@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Toaster } from 'react-hot-toast';
 import toast from 'react-hot-toast';
 import { Building2, SlidersHorizontal, X, Plus, MessageSquarePlus, Info } from 'lucide-react';
@@ -92,7 +92,7 @@ function loadPriority() {
   catch { return []; }
 }
 
-function OnlineNotice({ companies, enrichments, onOpenCompany, onTogglePriority, priorityList, searchQuery }) {
+function OnlineNotice({ groups, enrichments, onOpenGroup, onTogglePriority, priorityList, searchQuery }) {
   return (
     <div className="flex flex-col gap-3 mb-4">
       <div className="rounded-xl border border-accent-teal/35 bg-accent-teal/8 p-4 flex items-start gap-3">
@@ -100,19 +100,19 @@ function OnlineNotice({ companies, enrichments, onOpenCompany, onTogglePriority,
         <div>
           <p className="text-sm font-bold text-accent-teal">Finally!! Online stations are here!</p>
           <p className="text-xs text-text-secondary mt-1 leading-relaxed">
-            {companies.length} online station{companies.length !== 1 ? 's' : ''} have been officially listed.
+            {groups.length} online station{groups.length !== 1 ? 's' : ''} have been officially listed.
           </p>
         </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3">
-        {companies.map(company => (
+        {groups.map(group => (
           <CompanyCard
-            key={company.id}
-            company={company}
-            onClick={() => onOpenCompany(company)}
+            key={group[0].id}
+            group={group}
+            onClick={() => onOpenGroup(group)}
             searchQuery={searchQuery}
-            enrichment={enrichments[company.name]}
-            isPriority={priorityList.some(c => c.id === company.id)}
+            enrichment={enrichments[group[0].name]}
+            isPriority={priorityList.some(c => c.id === group[0].id)}
             onTogglePriority={onTogglePriority}
           />
         ))}
@@ -140,7 +140,7 @@ export default function App() {
     clearFilters,
   } = useCompanies();
 
-  const [selectedCompany, setSelectedCompany] = useState(null);
+  const [selectedGroup, setSelectedGroup] = useState(null);
   const [showAllotmentInfo, setShowAllotmentInfo] = useState(false);
   const [showSheets, setShowSheets] = useState(false);
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -275,6 +275,16 @@ export default function App() {
     return true;
   });
 
+  // Group visible companies by station name → one card per unique station
+  const groupedCompanies = useMemo(() => {
+    const groups = {};
+    visibleCompanies.forEach(c => {
+      if (!groups[c.name]) groups[c.name] = [];
+      groups[c.name].push(c);
+    });
+    return Object.values(groups);
+  }, [visibleCompanies]);
+
   const hasFilters = filters.domains.length > 0 || filters.subdomains.length > 0
     || filters.cities.length > 0 || selectedScales.length > 0 || filters.workModes.length > 0
     || filters.branches.length > 0 || selectedTypes.length > 0 || accomOnly;
@@ -319,7 +329,7 @@ export default function App() {
                 query={filters.q}
                 onChange={(v) => updateFilter('q', v)}
                 onSheetsClick={() => setShowSheets(true)}
-                totalCount={hasFilters ? undefined : visibleCompanies.length}
+                totalCount={hasFilters ? undefined : groupedCompanies.length}
               />
             </div>
 
@@ -452,7 +462,7 @@ export default function App() {
           {hasFilters && !loading && (
             <div className="flex flex-wrap items-center gap-2 mb-4 text-sm">
               <span className="text-text-muted text-xs">Filtered by:</span>
-              <span className="font-mono text-xs text-text-primary bg-bg-card border border-bg-border rounded px-1.5 py-0.5">{visibleCompanies.length}</span>
+              <span className="font-mono text-xs text-text-primary bg-bg-card border border-bg-border rounded px-1.5 py-0.5">{groupedCompanies.length}</span>
               {filters.domains.map(d => (
                 <button key={d} onClick={() => toggleDomain(d)}
                   className="tag-chip flex items-center gap-1 text-accent-purple border-accent-purple/30 hover:border-accent-purple transition-colors">
@@ -504,9 +514,9 @@ export default function App() {
 
           {/* Online filter notice */}
           {filters.workModes.includes('Online') && <OnlineNotice
-            companies={visibleCompanies}
+            groups={groupedCompanies}
             enrichments={cardEnrichments}
-            onOpenCompany={setSelectedCompany}
+            onOpenGroup={setSelectedGroup}
             onTogglePriority={togglePriority}
             priorityList={priorityList}
             searchQuery={filters.q}
@@ -520,7 +530,7 @@ export default function App() {
           )}
 
           {/* Empty state */}
-          {!loading && !error && visibleCompanies.length === 0 && !(filters.workModes.length === 1 && filters.workModes[0] === 'Online') && (
+          {!loading && !error && groupedCompanies.length === 0 && !(filters.workModes.length === 1 && filters.workModes[0] === 'Online') && (
             <div className="flex flex-col items-center justify-center py-24 gap-4 text-center">
               <div className="w-16 h-16 rounded-2xl bg-bg-card border border-bg-border flex items-center justify-center text-3xl">
                 📂
@@ -545,14 +555,14 @@ export default function App() {
           <div className={`grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 ${filters.workModes.length === 1 && filters.workModes[0] === 'Online' ? 'hidden' : ''}`}>
             {loading
               ? Array.from({ length: 9 }).map((_, i) => <SkeletonCard key={i} />)
-              : visibleCompanies.map(company => (
+              : groupedCompanies.map(group => (
                 <CompanyCard
-                  key={company.id}
-                  company={company}
-                  onClick={() => setSelectedCompany(company)}
+                  key={group[0].id}
+                  group={group}
+                  onClick={() => setSelectedGroup(group)}
                   searchQuery={filters.q}
-                  enrichment={cardEnrichments[company.name]}
-                  isPriority={priorityList.some(c => c.id === company.id)}
+                  enrichment={cardEnrichments[group[0].name]}
+                  isPriority={priorityList.some(c => c.id === group[0].id)}
                   onTogglePriority={togglePriority}
                 />
               ))
@@ -562,12 +572,12 @@ export default function App() {
       </div>
 
       {/* Company detail modal */}
-      {selectedCompany && (
+      {selectedGroup && (
         <CompanyModal
-          company={selectedCompany}
-          onClose={() => setSelectedCompany(null)}
+          projects={selectedGroup}
+          onClose={() => setSelectedGroup(null)}
           onEnriched={handleEnriched}
-          isPriority={priorityList.some(c => c.id === selectedCompany.id)}
+          isPriority={priorityList.some(c => c.id === selectedGroup[0].id)}
           onTogglePriority={togglePriority}
         />
       )}
@@ -582,7 +592,10 @@ export default function App() {
           onClearAll={() => setPriorityList([])}
           onOpenCompany={(company) => {
             setShowPriorityList(false);
-            setSelectedCompany(company);
+            // Find all projects for this station
+            const all = getAllCompanies();
+            const group = all.filter(c => c.name === company.name);
+            setSelectedGroup(group.length > 0 ? group : [company]);
           }}
         />
       )}

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import {
   X, MapPin, Globe, Calendar, Users, TrendingUp,
   Code, ExternalLink, Linkedin, Building2, Briefcase,
-  GraduationCap, Mail, Wifi, Sparkles, RotateCcw, Loader2, Plus, Check
+  GraduationCap, Mail, Wifi, Sparkles, RotateCcw, Loader2, Plus, Check, ChevronLeft, ChevronRight
 } from 'lucide-react';
 import { fetchEnrichment } from '../api/client.js';
 import { SkeletonEnrichment } from './SkeletonCard.jsx';
@@ -191,19 +191,31 @@ function CityMapLink({ company, enrichment }) {
   );
 }
 
-export default function CompanyModal({ company, onClose, onEnriched, isPriority, onTogglePriority }) {
+export default function CompanyModal({ projects, onClose, onEnriched, isPriority, onTogglePriority }) {
+  const isMulti = projects.length > 1;
+  const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
+
+  // Reset to first project when a new modal opens
+  useEffect(() => {
+    setSelectedProjectIndex(0);
+  }, [projects]);
+
+  // company = currently viewed project; stationCompany = first project (for enrichment/color/priority)
+  const company = projects[selectedProjectIndex] || projects[0];
+  const stationCompany = projects[0];
+
   const [enrichment, setEnrichment] = useState(null);
   const [loadingEnrich, setLoadingEnrich] = useState(true);
 
-  // Priority + color state
+  // Priority + color state (keyed on station, not individual project)
   const [color, setColor] = useState('grey');
   const [showColorPicker, setShowColorPicker] = useState(false);
   const colorPickerRef = useRef(null);
 
-  // Sync color from localStorage when company changes
+  // Sync color from localStorage when station changes
   useEffect(() => {
-    if (company) setColor(getStoredColor(company.id));
-  }, [company]);
+    setColor(getStoredColor(stationCompany.id));
+  }, [stationCompany.id]);
 
   // Close color picker on outside click
   useEffect(() => {
@@ -218,34 +230,37 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
   function handleColorSelect(optId) {
     const next = optId === color ? 'grey' : optId;
     setColor(next);
-    setStoredColor(company.id, next);
+    setStoredColor(stationCompany.id, next);
     setShowColorPicker(false);
   }
 
-  // Simplify state
+  // Simplify state — reset per project
   const [simplified, setSimplified] = useState(null);
   const [simplifying, setSimplifying] = useState(false);
   const [simplifyError, setSimplifyError] = useState(null);
   const [showOriginal, setShowOriginal] = useState(false);
 
   useEffect(() => {
-    if (!company) return;
-    setLoadingEnrich(true);
-    setEnrichment(null);
     setSimplified(null);
     setShowOriginal(false);
     setSimplifyError(null);
+  }, [company.id]);
 
-    fetchEnrichment(company.name)
+  // Fetch enrichment — once per station name (same for all projects)
+  useEffect(() => {
+    setLoadingEnrich(true);
+    setEnrichment(null);
+
+    fetchEnrichment(stationCompany.name)
       .then(data => {
         setEnrichment(data.enrichment);
         if (data.enrichment?.fetch_status === 'done') {
-          onEnriched?.(company.name, data.enrichment);
+          onEnriched?.(stationCompany.name, data.enrichment);
         }
       })
       .catch(() => setEnrichment(null))
       .finally(() => setLoadingEnrich(false));
-  }, [company]);
+  }, [stationCompany.name]);
 
   // Close on Escape
   useEffect(() => {
@@ -275,9 +290,7 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
     }
   }
 
-  if (!company) return null;
-
-  const domainStyle = DOMAIN_COLORS[company.normalized_domain] || 'text-text-secondary border-bg-border bg-bg-hover';
+  const domainStyle = DOMAIN_COLORS[stationCompany.normalized_domain] || 'text-text-secondary border-bg-border bg-bg-hover';
   const scaleStyle = enrichment?.scale_badge
     ? SCALE_COLORS[enrichment.scale_badge] || ''
     : '';
@@ -288,10 +301,10 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
     !['company name', 'company', 'name', 'domain', 'city', 'project details', 'project', 'description'].includes(k.toLowerCase())
   );
 
-  // PS data fields
-  const minCG = company.min_cg != null ? String(company.min_cg) : 'Pata Chalega';
-  const workMode = company.work_mode || null;
-  const contactEmails = company.contact_emails || [];
+  // PS data fields (from station-level data on stationCompany)
+  const minCG = stationCompany.min_cg != null ? String(stationCompany.min_cg) : 'Pata Chalega';
+  const workMode = stationCompany.work_mode || null;
+  const contactEmails = stationCompany.contact_emails || [];
 
   const displayedProjectDetails = simplified && !showOriginal ? simplified : company.project_details;
 
@@ -312,11 +325,12 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
         <div className="sm:hidden flex justify-center pt-3 pb-1 flex-shrink-0">
           <div className="w-10 h-1 rounded-full bg-bg-border" />
         </div>
+
         {/* Modal Header */}
         <div className="flex items-start justify-between p-4 sm:p-6 border-b border-bg-border flex-shrink-0">
           <div className="flex-1 min-w-0">
             <div className="flex items-center gap-2 flex-wrap mb-1">
-              <span className={`badge ${domainStyle}`}>{company.normalized_domain}</span>
+              <span className={`badge ${domainStyle}`}>{stationCompany.normalized_domain}</span>
               {enrichment?.scale_badge && (
                 <span className={`badge ${scaleStyle}`}>{enrichment.scale_badge}</span>
               )}
@@ -326,9 +340,9 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
                 </span>
               )}
             </div>
-            <h2 className="text-xl font-bold text-text-primary leading-tight">{company.name}</h2>
-            {company.city && (
-              <CityMapLink company={company} enrichment={enrichment} />
+            <h2 className="text-xl font-bold text-text-primary leading-tight">{stationCompany.name}</h2>
+            {stationCompany.city && (
+              <CityMapLink company={stationCompany} enrichment={enrichment} />
             )}
           </div>
 
@@ -371,7 +385,7 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
 
               {/* Add / Remove button */}
               <button
-                onClick={() => onTogglePriority?.(company)}
+                onClick={() => onTogglePriority?.(stationCompany)}
                 className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-all ${
                   isPriority
                     ? 'bg-accent-amber/15 text-accent-amber border-accent-amber/30 hover:bg-red-400/10 hover:text-red-400 hover:border-red-400/30'
@@ -390,6 +404,52 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
           </div>
         </div>
 
+        {/* Project switcher — shown when multi-project station */}
+        {isMulti && (
+          <div className="border-b border-bg-border bg-bg-card/40 flex-shrink-0">
+            <div className="px-4 sm:px-6 py-2 flex items-center gap-1.5 overflow-x-auto">
+              <span className="text-xs text-text-muted flex-shrink-0 mr-1">Projects:</span>
+              {projects.map((p, i) => {
+                const title = p.project_details?.split('\n')[0]?.replace(/^Title:\s*/i, '').trim() || `Project ${i + 1}`;
+                return (
+                  <button
+                    key={p.id}
+                    onClick={() => setSelectedProjectIndex(i)}
+                    className={`flex-shrink-0 flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
+                      i === selectedProjectIndex
+                        ? 'bg-accent-purple/15 text-accent-purple border border-accent-purple/30'
+                        : 'text-text-muted hover:text-text-primary hover:bg-bg-hover border border-transparent'
+                    }`}
+                  >
+                    <span className="font-mono text-[10px] opacity-60">{i + 1}</span>
+                    <span className="max-w-[150px] truncate">{title}</span>
+                  </button>
+                );
+              })}
+            </div>
+            {/* Prev/next navigation for mobile */}
+            <div className="sm:hidden flex items-center justify-between px-4 py-1.5 border-t border-bg-border/50">
+              <button
+                onClick={() => setSelectedProjectIndex(i => Math.max(0, i - 1))}
+                disabled={selectedProjectIndex === 0}
+                className="flex items-center gap-1 text-xs text-text-muted disabled:opacity-30 hover:text-text-primary transition-colors"
+              >
+                <ChevronLeft size={13} /> Prev
+              </button>
+              <span className="text-xs text-text-muted font-mono">
+                {selectedProjectIndex + 1} / {projects.length}
+              </span>
+              <button
+                onClick={() => setSelectedProjectIndex(i => Math.min(projects.length - 1, i + 1))}
+                disabled={selectedProjectIndex === projects.length - 1}
+                className="flex items-center gap-1 text-xs text-text-muted disabled:opacity-30 hover:text-text-primary transition-colors"
+              >
+                Next <ChevronRight size={13} />
+              </button>
+            </div>
+          </div>
+        )}
+
         {/* Modal Body — scrollable */}
         <div className="flex-1 overflow-y-auto p-4 sm:p-6 flex flex-col gap-5 sm:gap-6">
 
@@ -399,7 +459,7 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
               <span className="text-xs text-text-muted flex items-center gap-1">
                 <GraduationCap size={10} /> Min CG
               </span>
-              <span className={`text-sm font-semibold ${company.min_cg != null ? 'text-accent-amber' : 'text-text-muted italic'}`}>
+              <span className={`text-sm font-semibold ${stationCompany.min_cg != null ? 'text-accent-amber' : 'text-text-muted italic'}`}>
                 {minCG}
               </span>
             </div>
@@ -427,7 +487,7 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
             </div>
           </div>
 
-          {/* Subdomain chips */}
+          {/* Subdomain chips — from current project */}
           {company.subdomains?.length > 0 && (
             <div className="flex flex-wrap gap-1.5">
               {company.subdomains.map(sub => (
@@ -464,6 +524,11 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
                 <h3 className="text-xs font-semibold uppercase tracking-wider text-text-muted flex items-center gap-1.5">
                   <Briefcase size={12} />
                   Project Details
+                  {isMulti && (
+                    <span className="font-mono text-[10px] text-accent-purple/60 normal-case tracking-normal">
+                      · project {selectedProjectIndex + 1}/{projects.length}
+                    </span>
+                  )}
                 </h3>
                 <div className="flex items-center gap-2">
                   {simplified && (
