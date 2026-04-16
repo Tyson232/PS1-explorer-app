@@ -12749,5 +12749,1094 @@
       "Project Domain": "Data Analysis,Agentic AI",
       "Title": "Title: Academic SME Agentic AI – K12 Mathematics Content Generation & Deployment at Scale"
     }
+  },
+  {
+    "id": 1113,
+    "name": "Airports Authority of India (AAI)- Guwahati",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Guwahati",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8670",
+      "Station Name": "Airports Authority of India (AAI)- Guwahati",
+      "Centre (Location)": "Guwahati",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA7,A7",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1114,
+    "name": "Airports Authority of India (AAI)- Guwahati",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Guwahati",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8670",
+      "Station Name": "Airports Authority of India (AAI)- Guwahati",
+      "Centre (Location)": "Guwahati",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA2,A2",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1115,
+    "name": "Airports Authority of India (AAI)- Guwahati",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Guwahati",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8670",
+      "Station Name": "Airports Authority of India (AAI)- Guwahati",
+      "Centre (Location)": "Guwahati",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyAA,AA",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1116,
+    "name": "Airports Authority of India (AAI)- Guwahati",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Guwahati",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8670",
+      "Station Name": "Airports Authority of India (AAI)- Guwahati",
+      "Centre (Location)": "Guwahati",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA8,A8",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1117,
+    "name": "Airports Authority of India (AAI)- Guwahati",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Guwahati",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8670",
+      "Station Name": "Airports Authority of India (AAI)- Guwahati",
+      "Centre (Location)": "Guwahati",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA3,A3",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1118,
+    "name": "Airports Authority of India (AAI)- Kanpur",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Kanpur",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8672",
+      "Station Name": "Airports Authority of India (AAI)- Kanpur",
+      "Centre (Location)": "Kanpur",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA3,A3",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1119,
+    "name": "Airports Authority of India (AAI)- Kanpur",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Kanpur",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8672",
+      "Station Name": "Airports Authority of India (AAI)- Kanpur",
+      "Centre (Location)": "Kanpur",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA2,A2",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1120,
+    "name": "Airports Authority of India (AAI)- Kanpur",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Kanpur",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8672",
+      "Station Name": "Airports Authority of India (AAI)- Kanpur",
+      "Centre (Location)": "Kanpur",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1121,
+    "name": "Albatross Energetics",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Mumbai",
+    "project_details": "Experimental Investigation of Pollutant Gas Solubility in Liquid Desiccants and Development of Mitigation Strategies for Performance Stability\nTitle: Experimental Investigation of Pollutant Gas Solubility in Liquid Desiccants and Development of Mitigation Strategies for Performance StabilityDescription:\tLiquid desiccant systems operate in direct contact with atmospheric air, making them susceptible to the absorption of ambient gaseous pollutants. Over prolonged operation, dissolution of such pollutants into the desiccant solution may alter its physicochemical properties and degrade system performance.\tThe solubility of gaseous pollutants in liquid desiccants depends on various parameters, including temperature, gas composition, partial pressure, and the chemical nature of the desiccant solution. This project aims to experimentally evaluate the solubility behaviour of selected ambient pollutant gases in water (as a baseline case) and in different liquid desiccant solutions under controlled variations of temperature and pressure.\tBased on the experimental findings, the student will investigate and evaluate potential mitigation strategies to remove or desorb dissolved gaseous pollutants from the desiccant. Techniques to be explored may include physical filtration, adsorption-based filters (e.g., KMn04 media, activated carbon/charcoal, activated alumina), ion exchange resins, temperature-driven desorption, air stripping/injection, and other suitable approaches. The student will be expected to design and develop a laboratory-scale test setup to validate the effectiveness of selected pollutant removal techniques and assess their feasibility for long-term system integration.This project combines experimental chemistry, thermodynamics, mass transfer, and system-level engineering evaluation.Skill sets:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experimental techniques in thermal and chemical engineering2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fundamentals of mass transfer and phase equilibrium3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic chemical thermodynamics and gas solubility principles4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analytical measurement techniques (gas concentration, solution properties)5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design and fabrication of experimental test setups6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instrumentation and data acquisition7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming (Python) for data analysis8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Literature review and comparative technology assessment9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Critical thinking and engineering evaluation skillsExpected learning:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Understanding of gas—liquid equilibrium and solubility behaviour in complex solutions2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Practical exposure to experimental design for multivariable systems (temperature, pressure, gas type)3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insight into long-term operational challenges in liquid desiccant HVAC systems4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience with adsorption and filtration technologies5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ability to compare and evaluate pollutant removal strategies based on technical and practical feasibility6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development of system-level thinking for performance stability and lifecycle reliabilitySpecific courses required for project execution:1 . Thermodynamics2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mass Transfer3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heat Transfer (basic understanding)4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fluid Mechanics5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physical Chemistry (preferred)2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Environmental Engineering or Air Pollution Control (preferred)3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering Mathematics4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic Programming (preferably Python)Experimental Methods in Mechanical/Chemical Engineering (preferred)",
+    "subdomains": [
+      "Chemical"
+    ],
+    "raw_row": {
+      "Station Id": "4286",
+      "Station Name": "Albatross Energetics",
+      "Centre (Location)": "Mumbai",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "A1,AnyA1",
+      "Description": "Title: Experimental Investigation of Pollutant Gas Solubility in Liquid Desiccants and Development of Mitigation Strategies for Performance StabilityDescription:\tLiquid desiccant systems operate in direct contact with atmospheric air, making them susceptible to the absorption of ambient gaseous pollutants. Over prolonged operation, dissolution of such pollutants into the desiccant solution may alter its physicochemical properties and degrade system performance.\tThe solubility of gaseous pollutants in liquid desiccants depends on various parameters, including temperature, gas composition, partial pressure, and the chemical nature of the desiccant solution. This project aims to experimentally evaluate the solubility behaviour of selected ambient pollutant gases in water (as a baseline case) and in different liquid desiccant solutions under controlled variations of temperature and pressure.\tBased on the experimental findings, the student will investigate and evaluate potential mitigation strategies to remove or desorb dissolved gaseous pollutants from the desiccant. Techniques to be explored may include physical filtration, adsorption-based filters (e.g., KMn04 media, activated carbon/charcoal, activated alumina), ion exchange resins, temperature-driven desorption, air stripping/injection, and other suitable approaches. The student will be expected to design and develop a laboratory-scale test setup to validate the effectiveness of selected pollutant removal techniques and assess their feasibility for long-term system integration.This project combines experimental chemistry, thermodynamics, mass transfer, and system-level engineering evaluation.Skill sets:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experimental techniques in thermal and chemical engineering2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fundamentals of mass transfer and phase equilibrium3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic chemical thermodynamics and gas solubility principles4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analytical measurement techniques (gas concentration, solution properties)5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design and fabrication of experimental test setups6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instrumentation and data acquisition7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming (Python) for data analysis8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Literature review and comparative technology assessment9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Critical thinking and engineering evaluation skillsExpected learning:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Understanding of gas—liquid equilibrium and solubility behaviour in complex solutions2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Practical exposure to experimental design for multivariable systems (temperature, pressure, gas type)3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insight into long-term operational challenges in liquid desiccant HVAC systems4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience with adsorption and filtration technologies5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ability to compare and evaluate pollutant removal strategies based on technical and practical feasibility6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development of system-level thinking for performance stability and lifecycle reliabilitySpecific courses required for project execution:1 . Thermodynamics2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mass Transfer3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heat Transfer (basic understanding)4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fluid Mechanics5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physical Chemistry (preferred)2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Environmental Engineering or Air Pollution Control (preferred)3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering Mathematics4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic Programming (preferably Python)Experimental Methods in Mechanical/Chemical Engineering (preferred)",
+      "Project Domain": "Chemical",
+      "Title": "Experimental Investigation of Pollutant Gas Solubility in Liquid Desiccants and Development of Mitigation Strategies for Performance Stability"
+    }
+  },
+  {
+    "id": 1122,
+    "name": "Albatross Energetics",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Mumbai",
+    "project_details": "Development and Experimental Validation of Control Logic for Desiccant Exchange and Airflow Modulation under Seasonal Ambient Variations\nTitle: Development and Experimental Validation of Control Logic for Desiccant Exchange and Airflow Modulation under Seasonal Ambient VariationsDescription:Seasonal variations in ambient temperature and humidity result in fluctuating sensible and latent loads on the desiccant systems. To maintain high seasonal efficiency while ensuring desired performance levels, system operation must be dynamically optimised.This project focuses on developing a control system logic that modulates key operational parameters such as cold water flow rate, hot water flow rate, desiccant solution exchange rate, fan RPM, and pump RPM in response to varying ambient conditions. The objective is to optimise seasonal efficiency while maintaining acceptable indoor air conditions and system performance.\tThe student will develop simulation-based test cases to evaluate different seasonal scenarios and operating strategies. Based on these simulations, a control algorithm will be formulated and implemented. A benchtop-scale experimental rig will then be designed and commissioned to validate the developed control logic under controlled conditions.The project integrates system modelling, control engineering, experimental validation, and performance optimisation.Skill sets:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fundamentals of control systems and feedback control logic2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thermodynamics and HVAC system analysis3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heat and Mass Transfer4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System modelling and simulation5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming (Python / MATLAB or equivalent)6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic embedded systems or controller interfacing (preferred)7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instrumentation and data acquisition8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optimisation techniques9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analytical and systems-level thinkingExpected learning:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Understanding of seasonal performance optimisation in HVAC systems2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience in developing and implementing control strategies3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to multi-variable system optimisation with performance trade-offs4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ability to translate simulation-based insights into experimental validation5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Practical knowledge of benchtop system integration and controller tuning6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insight into energy-efficient system operation and seasonal performance metricsSpecific courses required for project execution:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control Systems2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thermodynamics3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heat Transfer4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mass Transfer5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fluid Mechanics6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HVAC / Refrigeration &amp; Air Conditioning (preferred)7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering Mathematics8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numerical Methods or Simulation Techniques (preferred)Basic Programming (Python / MATLAB preferred)",
+    "subdomains": [
+      "Control Systems"
+    ],
+    "raw_row": {
+      "Station Id": "4286",
+      "Station Name": "Albatross Energetics",
+      "Centre (Location)": "Mumbai",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA8,AnyAA,AnyAC,A3,A8,AA,AC",
+      "Description": "Title: Development and Experimental Validation of Control Logic for Desiccant Exchange and Airflow Modulation under Seasonal Ambient VariationsDescription:Seasonal variations in ambient temperature and humidity result in fluctuating sensible and latent loads on the desiccant systems. To maintain high seasonal efficiency while ensuring desired performance levels, system operation must be dynamically optimised.This project focuses on developing a control system logic that modulates key operational parameters such as cold water flow rate, hot water flow rate, desiccant solution exchange rate, fan RPM, and pump RPM in response to varying ambient conditions. The objective is to optimise seasonal efficiency while maintaining acceptable indoor air conditions and system performance.\tThe student will develop simulation-based test cases to evaluate different seasonal scenarios and operating strategies. Based on these simulations, a control algorithm will be formulated and implemented. A benchtop-scale experimental rig will then be designed and commissioned to validate the developed control logic under controlled conditions.The project integrates system modelling, control engineering, experimental validation, and performance optimisation.Skill sets:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fundamentals of control systems and feedback control logic2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thermodynamics and HVAC system analysis3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heat and Mass Transfer4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System modelling and simulation5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming (Python / MATLAB or equivalent)6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic embedded systems or controller interfacing (preferred)7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instrumentation and data acquisition8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Optimisation techniques9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analytical and systems-level thinkingExpected learning:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Understanding of seasonal performance optimisation in HVAC systems2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience in developing and implementing control strategies3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to multi-variable system optimisation with performance trade-offs4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ability to translate simulation-based insights into experimental validation5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Practical knowledge of benchtop system integration and controller tuning6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insight into energy-efficient system operation and seasonal performance metricsSpecific courses required for project execution:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control Systems2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thermodynamics3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heat Transfer4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mass Transfer5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fluid Mechanics6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HVAC / Refrigeration &amp; Air Conditioning (preferred)7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineering Mathematics8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numerical Methods or Simulation Techniques (preferred)Basic Programming (Python / MATLAB preferred)",
+      "Project Domain": "Control Systems",
+      "Title": "Development and Experimental Validation of Control Logic for Desiccant Exchange and Airflow Modulation under Seasonal Ambient Variations"
+    }
+  },
+  {
+    "id": 1123,
+    "name": "Albatross Energetics",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Mumbai",
+    "project_details": "Al-Enabled Field Service Assistant for Maintenance, Commissioning, and Installation Support\nTitle: Al-Enabled Field Service Assistant for Maintenance, Commissioning, and Installation SupportDescription:This project focuses on developing an Al-powered service support application designed to streamline field maintenance, commissioning, and installation activities for liquid desiccant-based air conditioning systems.\tThe proposed system will function as an intelligent field service assistant, integrating structured checklists with an intuitive UI/UX to guide technicians step-by-step through standard operating procedures. The platform will include features such as dynamic troubleshooting support, automated workflow guidance, digital documentation, and contextual recommendations based on system inputs.The objective is to improve service consistency, reduce human error, enhance technician productivity, and ensure standardised maintenance practices. The student will be involved in requirement analysis, workflow mapping, UI/UX conceptualisation, backend logic design, and integration of Al-based conversational or decision-support capabilities. A prototype application will be developed and tested through simulated or pilot field scenarios.Skill sets:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic understanding of Al/ML concepts (especially NLP for chatbot development)2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming (Python / JavaScript preferred)3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UI/UX design principles4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backend logic and workflow automation5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database design and data structuring6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systems thinking and process mapping7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic knowledge of HVAC or mechanical systems (preferred)8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem-solving and product design mindsetExpected learning:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to Al-driven service automation systems2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience in translating engineering SOPs into structured digital workflows3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Understanding of conversational Al and decision-tree logic4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience in prototype app development5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insight into field service challenges and operational optimisation6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development of product-thinking and user-centred design capabilitiesSpecific courses required for project execution:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Structures and Algorithms2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Artificial Intelligence or Machine Learning3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database Management Systems4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software Engineering5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Human-Computer Interaction (preferred)6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic Programming (Python / JavaScript)Operations Management (preferred)",
+    "subdomains": [
+      "Artificial Intelligence"
+    ],
+    "raw_row": {
+      "Station Id": "4286",
+      "Station Name": "Albatross Energetics",
+      "Centre (Location)": "Mumbai",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA7,AnyAC,AnyAD,A7,AC,AD",
+      "Description": "Title: Al-Enabled Field Service Assistant for Maintenance, Commissioning, and Installation SupportDescription:This project focuses on developing an Al-powered service support application designed to streamline field maintenance, commissioning, and installation activities for liquid desiccant-based air conditioning systems.\tThe proposed system will function as an intelligent field service assistant, integrating structured checklists with an intuitive UI/UX to guide technicians step-by-step through standard operating procedures. The platform will include features such as dynamic troubleshooting support, automated workflow guidance, digital documentation, and contextual recommendations based on system inputs.The objective is to improve service consistency, reduce human error, enhance technician productivity, and ensure standardised maintenance practices. The student will be involved in requirement analysis, workflow mapping, UI/UX conceptualisation, backend logic design, and integration of Al-based conversational or decision-support capabilities. A prototype application will be developed and tested through simulated or pilot field scenarios.Skill sets:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic understanding of Al/ML concepts (especially NLP for chatbot development)2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programming (Python / JavaScript preferred)3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UI/UX design principles4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backend logic and workflow automation5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database design and data structuring6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Systems thinking and process mapping7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic knowledge of HVAC or mechanical systems (preferred)8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Problem-solving and product design mindsetExpected learning:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposure to Al-driven service automation systems2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience in translating engineering SOPs into structured digital workflows3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Understanding of conversational Al and decision-tree logic4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hands-on experience in prototype app development5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Insight into field service challenges and operational optimisation6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development of product-thinking and user-centred design capabilitiesSpecific courses required for project execution:1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Data Structures and Algorithms2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction to Artificial Intelligence or Machine Learning3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Database Management Systems4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software Engineering5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Human-Computer Interaction (preferred)6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic Programming (Python / JavaScript)Operations Management (preferred)",
+      "Project Domain": "Artificial Intelligence",
+      "Title": "Al-Enabled Field Service Assistant for Maintenance, Commissioning, and Installation Support"
+    }
+  },
+  {
+    "id": 1124,
+    "name": "Central Institute of Road Transport – Chemical",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Pune",
+    "project_details": "Fuel cell\n&nbsp;Fuel cell&nbsp;",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "6938",
+      "Station Name": "Central Institute of Road Transport – Chemical",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA1,A1",
+      "Description": "&nbsp;Fuel cell&nbsp;",
+      "Project Domain": "Yet to be finalized",
+      "Title": " Fuel cell "
+    }
+  },
+  {
+    "id": 1125,
+    "name": "Central Institute of Road Transport - Electrical & Electronics",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Pune",
+    "project_details": "Functional safety of batteries",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "6937",
+      "Station Name": "Central Institute of Road Transport - Electrical & Electronics",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA3,A3",
+      "Description": "Functional safety of batteries",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Functional safety of batteries"
+    }
+  },
+  {
+    "id": 1126,
+    "name": "Central Institute of Road Transport - IT",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Pune",
+    "project_details": ": Software development related to the CIRT\nSoftware development related to the CIRT",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "4826",
+      "Station Name": "Central Institute of Road Transport - IT",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA7,A7",
+      "Description": " Software development related to the CIRT",
+      "Project Domain": "Yet to be finalized",
+      "Title": ": Software development related to the CIRT"
+    }
+  },
+  {
+    "id": 1127,
+    "name": "Central Institute of Road Transport - Mechanical",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Pune",
+    "project_details": "Hydrogen-fueled vehicles",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "6936",
+      "Station Name": "Central Institute of Road Transport - Mechanical",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA4,A4",
+      "Description": "Hydrogen-fueled vehicles",
+      "Project Domain": "Yet to be finalized",
+      "Title": " Hydrogen-fueled vehicles"
+    }
+  },
+  {
+    "id": 1128,
+    "name": "E MUG Engineering Services Pvt. Ltd.",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Talent Match Al - Intelligent Staff Augmentation Platform\nTitle: Talent Match Al - Intelligent Staff Augmentation PlatformDescription: An Al platform for e-MUG that automatically parses client requirements, semantically matches them to engineer profiles, and generates tailored proposals reducing time-to-submission and improving placement qualitySkill sets: Python, NLP, Vector Databases, PostgreSQL, REST APIs, ReactExpected learning: I-LM APIs and prompt engineering, semantic search and embeddings, recommendation systems, data privacy and GDPR compliance",
+    "subdomains": [
+      "Machine Learning"
+    ],
+    "raw_row": {
+      "Station Id": "8675",
+      "Station Name": "E MUG Engineering Services Pvt. Ltd.",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Title: Talent Match Al - Intelligent Staff Augmentation PlatformDescription: An Al platform for e-MUG that automatically parses client requirements, semantically matches them to engineer profiles, and generates tailored proposals reducing time-to-submission and improving placement qualitySkill sets: Python, NLP, Vector Databases, PostgreSQL, REST APIs, ReactExpected learning: I-LM APIs and prompt engineering, semantic search and embeddings, recommendation systems, data privacy and GDPR compliance",
+      "Project Domain": "Machine Learning",
+      "Title": "Talent Match Al - Intelligent Staff Augmentation Platform"
+    }
+  },
+  {
+    "id": 1129,
+    "name": "FANPLAY IoT",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bangalore",
+    "project_details": "Neurotech platform assessment,Neuromarketing platform assessment\nTitle: Neurotech platform assessmentDescription: Data mining and AI/ML concepts with multi-modal sensing applicationsSkill sets: AI/ML, Data science, Neuroscience, BiosensingExpected learning: Data science, AI/ML for biophysical dataSpecific courses required for project execution:&nbsp;AI/ML, Data science, Biology,Title: Neuromarketing platform assessmentDescription: Develop comparison metrics of neuromarketing with social media based on big data ingestionSkill sets: AI/ML, Data science, Neuroscience Expected learning: Marketing, Branding, Fan behaviour assessmentSpecific courses required for project execution:&nbsp;Psychology, Data science, Social Engineering, AI/ML",
+    "subdomains": [
+      "Software Development",
+      "Data Science"
+    ],
+    "raw_row": {
+      "Station Id": "4785",
+      "Station Name": "FANPLAY IoT",
+      "Centre (Location)": "Bangalore",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "2",
+      "Tags": "AnyA7,AnyAD,A7,AD,AnyA7,AnyAD,A7,AD",
+      "Description": "Title: Neurotech platform assessmentDescription: Data mining and AI/ML concepts with multi-modal sensing applicationsSkill sets: AI/ML, Data science, Neuroscience, BiosensingExpected learning: Data science, AI/ML for biophysical dataSpecific courses required for project execution:&nbsp;AI/ML, Data science, Biology,Title: Neuromarketing platform assessmentDescription: Develop comparison metrics of neuromarketing with social media based on big data ingestionSkill sets: AI/ML, Data science, Neuroscience Expected learning: Marketing, Branding, Fan behaviour assessmentSpecific courses required for project execution:&nbsp;Psychology, Data science, Social Engineering, AI/ML",
+      "Project Domain": "Software Development,Data Science",
+      "Title": "Neurotech platform assessment,Neuromarketing platform assessment"
+    }
+  },
+  {
+    "id": 1130,
+    "name": "ITCONS E-Solutions Ltd",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Noida",
+    "project_details": "Digital Marketing & Brand Positioning\nDescription: Create engaging content for LinkedIn and Instagram using AI tools with Canva and Figma. Develop and execute growth strategies to increase social media reach and brand visibility in staffing and employment markets.Skill sets: Social media management, graphic design (Canva/Figma), content writing, AI prompt engineering, understanding growth metrics and algorithms.Expected learning: AI-assisted content creation, B2B brand building, social media analytics, digital marketing strategies.Courses required: Digital Marketing or Marketing Management.",
+    "subdomains": [
+      "Marketing"
+    ],
+    "raw_row": {
+      "Station Id": "4314",
+      "Station Name": "ITCONS E-Solutions Ltd",
+      "Centre (Location)": "Noida",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Description: Create engaging content for LinkedIn and Instagram using AI tools with Canva and Figma. Develop and execute growth strategies to increase social media reach and brand visibility in staffing and employment markets.Skill sets: Social media management, graphic design (Canva/Figma), content writing, AI prompt engineering, understanding growth metrics and algorithms.Expected learning: AI-assisted content creation, B2B brand building, social media analytics, digital marketing strategies.Courses required: Digital Marketing or Marketing Management.",
+      "Project Domain": "Marketing",
+      "Title": "Digital Marketing & Brand Positioning"
+    }
+  },
+  {
+    "id": 1131,
+    "name": "ITCONS E-Solutions Ltd",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Noida",
+    "project_details": "Business Strategy & Market Research Analysis\nDescription: Conduct research to identify new market opportunities and formulate Go-To-Market (GTM) strategies. Create and maintain data analytics dashboards for market segmentation and track business pipelines.Skill sets: Market research, data analysis, strategic thinking, business acumen, proficiency in Excel/Google Sheets or visualization tools.Expected learning: GTM strategy formulation, sales/business pipeline management.",
+    "subdomains": [
+      "Data Analysis"
+    ],
+    "raw_row": {
+      "Station Id": "4314",
+      "Station Name": "ITCONS E-Solutions Ltd",
+      "Centre (Location)": "Noida",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Description: Conduct research to identify new market opportunities and formulate Go-To-Market (GTM) strategies. Create and maintain data analytics dashboards for market segmentation and track business pipelines.Skill sets: Market research, data analysis, strategic thinking, business acumen, proficiency in Excel/Google Sheets or visualization tools.Expected learning: GTM strategy formulation, sales/business pipeline management.",
+      "Project Domain": "Data Analysis",
+      "Title": "Business Strategy & Market Research Analysis"
+    }
+  },
+  {
+    "id": 1132,
+    "name": "L&T Heavy Engineering, IC",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Surat",
+    "project_details": "-",
+    "subdomains": [
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "4806",
+      "Station Name": "L&T Heavy Engineering, IC",
+      "Centre (Location)": "Surat",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA7,A7",
+      "Description": "-",
+      "Project Domain": "Software Development",
+      "Title": "-"
+    }
+  },
+  {
+    "id": 1133,
+    "name": "Maven Infotech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Ahmedabad",
+    "project_details": "Title: e-Commerce web development\nDescription: e-Commerce functionality, payment gateway, checkout process.Skill sets: Laravel, React JS, MySQLExpected learning: Laravel, React JS, MySQL, HTML, CSS, JSSpecific courses required for project execution",
+    "subdomains": [
+      "Web Development",
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "8500",
+      "Station Name": "Maven Infotech",
+      "Centre (Location)": "Ahmedabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "A7,AnyA7",
+      "Description": "Description: e-Commerce functionality, payment gateway, checkout process.Skill sets: Laravel, React JS, MySQLExpected learning: Laravel, React JS, MySQL, HTML, CSS, JSSpecific courses required for project execution",
+      "Project Domain": "Web Development,Software Development",
+      "Title": "Title: e-Commerce web development"
+    }
+  },
+  {
+    "id": 1134,
+    "name": "Maven Infotech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Ahmedabad",
+    "project_details": "Title: CMS development\nDescription: Content management systemSkill sets: PHP, WordPress, MySQLExpected learning: PHP, WordPressSpecific courses required for project execution:",
+    "subdomains": [
+      "Web Development",
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "8500",
+      "Station Name": "Maven Infotech",
+      "Centre (Location)": "Ahmedabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "A7,AnyA7",
+      "Description": "Description: Content management systemSkill sets: PHP, WordPress, MySQLExpected learning: PHP, WordPressSpecific courses required for project execution:",
+      "Project Domain": "Web Development,Software Development",
+      "Title": "Title: CMS development"
+    }
+  },
+  {
+    "id": 1135,
+    "name": "Meghgen Technologies Private Limited",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Well Architected Databricks Accelerator\nDescription: Design, implement, and optimize a robust data and AI platform solution onDatabricks, ensuring adherence to the principles of a Cloud Well-Architected Frameworke.g., operational excellence, security, reliability, performance efficiency, and costoptimization.Skill sets: Data Engineering, Databricks, Apache Spark, Python/Scala, SQL, CloudComputing AWSAzureGCP, Data Engineering concepts.Expected learning:Students will gain hands-on experience in building scalable andproduction-ready data pipelines and machine learning workflows on Databricks,mastering best practices for enterprise-level cloud data architecture.Specific courses required for project execution: Data Engineering, Databases, CloudComputing, Big Data Analytics, Software Engineering, Advanced Programming orequivalent electives.",
+    "subdomains": [
+      "Data Science"
+    ],
+    "raw_row": {
+      "Station Id": "8535",
+      "Station Name": "Meghgen Technologies Private Limited",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA1,A7,A4,AD,AB,A8,A5,A3,A2,A1,AnyAD,AnyAC,AnyAB,AnyAA,AnyA8,AnyA7,AnyA5,AnyA4,AnyA3,AnyA2,AA,AC",
+      "Description": "Description: Design, implement, and optimize a robust data and AI platform solution onDatabricks, ensuring adherence to the principles of a Cloud Well-Architected Frameworke.g., operational excellence, security, reliability, performance efficiency, and costoptimization.Skill sets: Data Engineering, Databricks, Apache Spark, Python/Scala, SQL, CloudComputing AWSAzureGCP, Data Engineering concepts.Expected learning:Students will gain hands-on experience in building scalable andproduction-ready data pipelines and machine learning workflows on Databricks,mastering best practices for enterprise-level cloud data architecture.Specific courses required for project execution: Data Engineering, Databases, CloudComputing, Big Data Analytics, Software Engineering, Advanced Programming orequivalent electives.",
+      "Project Domain": "Data Science",
+      "Title": "Well Architected Databricks Accelerator"
+    }
+  },
+  {
+    "id": 1136,
+    "name": "NIXI( National Internet Exchange of India)",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Delhi",
+    "project_details": "Intern\nNIXI requires students with hands-on experience in PYTHON&nbsp;&amp; DJANGO and an interest&nbsp;in networking&nbsp;(DNS, internet Protocols , and related areas)Projects will be assigned based on organizational requirements and availability&nbsp;at the time .",
+    "subdomains": [
+      "Python"
+    ],
+    "raw_row": {
+      "Station Id": "4550",
+      "Station Name": "NIXI( National Internet Exchange of India)",
+      "Centre (Location)": "Delhi",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "NIXI requires students with hands-on experience in PYTHON&nbsp;&amp; DJANGO and an interest&nbsp;in networking&nbsp;(DNS, internet Protocols , and related areas)Projects will be assigned based on organizational requirements and availability&nbsp;at the time .",
+      "Project Domain": "Python",
+      "Title": "Intern"
+    }
+  },
+  {
+    "id": 1137,
+    "name": "Paradeep Phosphates Limited  Goa",
+    "domain": "Chemical",
+    "normalized_domain": "Chemical",
+    "city": "Goa",
+    "project_details": "tudy on Failure of Convection Coils and MOC Recommendation,Study on Performance of Steam Turbine and Compressor\nProject Description: This project focuses on studying recurrent failures of convection coils in fired heaters by analysing operating conditions, flue gas characteristics, metallurgical degradation mechanisms, and historical failure data. The study aims to identify root causes such as high-temperature corrosion, oxidation, carburization, sulfide attack, or thermal fatigue. Based on the findings, suitable Material of Construction (MOC) recommendations will be developed to improve coil life, reliability, and safe operation under existing and future process conditions.,This project involves evaluating the performance of steam turbines and compressors by analyzing operating data, efficiency trends, design versus actual performance, and condition monitoring parameters. The study focuses on identifying performance degradation.",
+    "subdomains": [
+      "Mechanical"
+    ],
+    "raw_row": {
+      "Station Id": "8796",
+      "Station Name": "Paradeep Phosphates Limited  Goa",
+      "Centre (Location)": "Goa",
+      "Business Domain": "Chemical",
+      "Total Project": "2",
+      "Tags": "A4,AnyA4,AnyA4,A4",
+      "Description": "Project Description: This project focuses on studying recurrent failures of convection coils in fired heaters by analysing operating conditions, flue gas characteristics, metallurgical degradation mechanisms, and historical failure data. The study aims to identify root causes such as high-temperature corrosion, oxidation, carburization, sulfide attack, or thermal fatigue. Based on the findings, suitable Material of Construction (MOC) recommendations will be developed to improve coil life, reliability, and safe operation under existing and future process conditions.,This project involves evaluating the performance of steam turbines and compressors by analyzing operating data, efficiency trends, design versus actual performance, and condition monitoring parameters. The study focuses on identifying performance degradation.",
+      "Project Domain": "Mechanical",
+      "Title": "tudy on Failure of Convection Coils and MOC Recommendation,Study on Performance of Steam Turbine and Compressor"
+    }
+  },
+  {
+    "id": 1138,
+    "name": "Paradeep Phosphates Limited  PPL Township, Odisha",
+    "domain": "Chemical",
+    "normalized_domain": "Chemical",
+    "city": "PPL Township, Odisha",
+    "project_details": "Digitalization of Manufacturing process\nDescription: Study the Paradeep Phosphate Ltd complex and find out the potential area of automation and digitalization.Skill Sets: Chemical, Instrument, Electrical and AIExpected Learning:Digital technology in ManufacturingProcess AutomationProductivity improvement in manufacturingSpecific Courses Required for Project Execution: AI, ML, DS and other digital skills",
+    "subdomains": [
+      "Chemical",
+      "Mechanical",
+      "AI"
+    ],
+    "raw_row": {
+      "Station Id": "8795",
+      "Station Name": "Paradeep Phosphates Limited  PPL Township, Odisha",
+      "Centre (Location)": "PPL Township, Odisha",
+      "Business Domain": "Chemical",
+      "Total Project": "1",
+      "Tags": "AnyA1,AnyA3,AnyA8,AnyA7,A1,A8,A3,A7",
+      "Description": "Description: Study the Paradeep Phosphate Ltd complex and find out the potential area of automation and digitalization.Skill Sets: Chemical, Instrument, Electrical and AIExpected Learning:Digital technology in ManufacturingProcess AutomationProductivity improvement in manufacturingSpecific Courses Required for Project Execution: AI, ML, DS and other digital skills",
+      "Project Domain": "Chemical,Mechanical,AI",
+      "Title": "Digitalization of Manufacturing process"
+    }
+  },
+  {
+    "id": 1139,
+    "name": "Pranesh Deep Tech Solutions",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Hyderabad",
+    "project_details": "Design and Develop Cage for Collision proof Drone\nTensegrity based structural design for a collision proof cage for drone so that it can navigate in Oil Pipelines, Mines, and other such locations.",
+    "subdomains": [
+      "Mechanical"
+    ],
+    "raw_row": {
+      "Station Id": "8797",
+      "Station Name": "Pranesh Deep Tech Solutions",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA4,AnyAB,A4,AB",
+      "Description": " Tensegrity based structural design for a collision proof cage for drone so that it can navigate in Oil Pipelines, Mines, and other such locations.",
+      "Project Domain": "Mechanical",
+      "Title": "Design and Develop Cage for Collision proof Drone"
+    }
+  },
+  {
+    "id": 1140,
+    "name": "Pranesh Deep Tech Solutions",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Hyderabad",
+    "project_details": "Design, Development, Integration of software stack for Autonomous UAV flights in poor GPS areas\nDesign, Development, Integration of software stack for Autonomous UAV flights in poor GPS areas Using LiDAR and SLAM for factories and indoor warehouses   Design, Development, Integration of software stack for Autonomous UAV flights in GPS-Denied areas For Defence/Air Force applications   Design, Development, Integration of other sensors (Thermal) on UAV/UGV for vision processing solutions Install thermal sensors on UAV/UGV   Design, Development of Fixed Camera options for vision processing solutions for chemical/ process industries Based on industry needs for vision based AI powered quality and production inference for chemicals and other processing industries   Integration to Open ERP system(s) API based integration with ERPNext or Odoo of the data flow from Far Edge devices such as Jetson Nano fitted on drone   Build and update company Website with all necessary components Website for launching our products   Design and Development of a Data Analysis and Image Processing System on the Edge node Pre-processing, AI powered inference, local analytics and dashboard   Design and Development of a Data Analysis and Image Processing System on the FOG node Factory level aggregation, AI powered inference, analytics and dashboard   Design and Development of a Data Analysis and Image Processing System on the Cloud node Long term storage, AI model training, analytics dashboard",
+    "subdomains": [
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "8797",
+      "Station Name": "Pranesh Deep Tech Solutions",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyA1,AB,AC,AA,A8,A7,A4,A3,A2,A1,AnyAJ,AnyAD,AnyAC,AnyAB,AnyAA,AnyA8,AnyA7,AnyA4,AnyA3,AnyA2,AD,AJ",
+      "Description": "Design, Development, Integration of software stack for Autonomous UAV flights in poor GPS areas Using LiDAR and SLAM for factories and indoor warehouses   Design, Development, Integration of software stack for Autonomous UAV flights in GPS-Denied areas For Defence/Air Force applications   Design, Development, Integration of other sensors (Thermal) on UAV/UGV for vision processing solutions Install thermal sensors on UAV/UGV   Design, Development of Fixed Camera options for vision processing solutions for chemical/ process industries Based on industry needs for vision based AI powered quality and production inference for chemicals and other processing industries   Integration to Open ERP system(s) API based integration with ERPNext or Odoo of the data flow from Far Edge devices such as Jetson Nano fitted on drone   Build and update company Website with all necessary components Website for launching our products   Design and Development of a Data Analysis and Image Processing System on the Edge node Pre-processing, AI powered inference, local analytics and dashboard   Design and Development of a Data Analysis and Image Processing System on the FOG node Factory level aggregation, AI powered inference, analytics and dashboard   Design and Development of a Data Analysis and Image Processing System on the Cloud node Long term storage, AI model training, analytics dashboard ",
+      "Project Domain": "Software Development",
+      "Title": "Design, Development, Integration of software stack for Autonomous UAV flights in poor GPS areas"
+    }
+  },
+  {
+    "id": 1141,
+    "name": "PS-I Entrepreneurship track - Apollyon Dynamics - Non Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Growth & Operations Intern\nFounder’s Office (Strategy, Investor Relations, Special Projects), Product/Tech (Development, UI/UX, Data Science, Backend Engineering), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement), Specific Domain (e.g., AI/ML Research, Financial Modeling)About the CompanyWe make autonomous UAV for the Defense and Law Enforcement&nbsp;",
+    "subdomains": [
+      "Growth & Operations"
+    ],
+    "raw_row": {
+      "Station Id": "8751",
+      "Station Name": "PS-I Entrepreneurship track - Apollyon Dynamics - Non Tech",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Founder’s Office (Strategy, Investor Relations, Special Projects), Product/Tech (Development, UI/UX, Data Science, Backend Engineering), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement), Specific Domain (e.g., AI/ML Research, Financial Modeling)About the CompanyWe make autonomous UAV for the Defense and Law Enforcement&nbsp;",
+      "Project Domain": "Growth & Operations",
+      "Title": "Growth & Operations Intern"
+    }
+  },
+  {
+    "id": 1142,
+    "name": "PS-I Entrepreneurship track - Apollyon Dynamics - Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Intern\nProduct/Tech (Development, UI/UX, Data Science, Backend Engineering), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the CompanyWe make autonomous UAV for the Defense and Law Enforcement&nbsp;",
+    "subdomains": [
+      "Growth & Operations"
+    ],
+    "raw_row": {
+      "Station Id": "8750",
+      "Station Name": "PS-I Entrepreneurship track - Apollyon Dynamics - Tech",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Product/Tech (Development, UI/UX, Data Science, Backend Engineering), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the CompanyWe make autonomous UAV for the Defense and Law Enforcement&nbsp;",
+      "Project Domain": "Growth & Operations",
+      "Title": "Intern"
+    }
+  },
+  {
+    "id": 1143,
+    "name": "PS-I Entrepreneurship track - CuraCraft Designs - Non Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Chennai",
+    "project_details": "Growth & Operations Intern\nFounder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyWe are a medial device company in IIT Madras, developing higher activity prosthetic foot; making it biomechanically adaptive and one with the amputee's body.",
+    "subdomains": [
+      "Growth & Operations"
+    ],
+    "raw_row": {
+      "Station Id": "8742",
+      "Station Name": "PS-I Entrepreneurship track - CuraCraft Designs - Non Tech",
+      "Centre (Location)": "Chennai",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Founder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyWe are a medial device company in IIT Madras, developing higher activity prosthetic foot; making it biomechanically adaptive and one with the amputee's body.",
+      "Project Domain": "Growth & Operations",
+      "Title": "Growth & Operations Intern"
+    }
+  },
+  {
+    "id": 1144,
+    "name": "PS-I Entrepreneurship track - KriSHE Carbon - Non Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Gurgaon",
+    "project_details": "Process and SOP Intern\nFounder’s Office (Strategy, Investor Relations, Special Projects), , Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyKriSHE Carbon develops and implements biochar-based carbon removal projects using robust MRV/dMRV systems and internationally recognized carbon standards.We design carbon project, manage feedstock-to-biochar conversion, and quantify durable carbon sequestration across smallholder landscapes.Carbon credits generated are certified and sold to fund scalable, high-integrity climate and soil health interventions.",
+    "subdomains": [
+      "Founders Office"
+    ],
+    "raw_row": {
+      "Station Id": "8739",
+      "Station Name": "PS-I Entrepreneurship track - KriSHE Carbon - Non Tech",
+      "Centre (Location)": "Gurgaon",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Founder’s Office (Strategy, Investor Relations, Special Projects), , Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyKriSHE Carbon develops and implements biochar-based carbon removal projects using robust MRV/dMRV systems and internationally recognized carbon standards.We design carbon project, manage feedstock-to-biochar conversion, and quantify durable carbon sequestration across smallholder landscapes.Carbon credits generated are certified and sold to fund scalable, high-integrity climate and soil health interventions.",
+      "Project Domain": "Founders Office",
+      "Title": "Process and SOP Intern"
+    }
+  },
+  {
+    "id": 1145,
+    "name": "PS-I Entrepreneurship track - Lepton Maps",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Gurgaon",
+    "project_details": "Founder’s Office Intern\nFounder’s Office (Strategy, Investor Relations, Special Projects), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyLepton Software is a global leader in Location Intelligence, High-Precision Mapping and Geospatial Consulting, delivering AI-powered solutions that enable smarter business decisions across industries.",
+    "subdomains": [
+      "Founders Office"
+    ],
+    "raw_row": {
+      "Station Id": "8740",
+      "Station Name": "PS-I Entrepreneurship track - Lepton Maps",
+      "Centre (Location)": "Gurgaon",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Founder’s Office (Strategy, Investor Relations, Special Projects), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyLepton Software is a global leader in Location Intelligence, High-Precision Mapping and Geospatial Consulting, delivering AI-powered solutions that enable smarter business decisions across industries.",
+      "Project Domain": "Founders Office",
+      "Title": "Founder’s Office Intern"
+    }
+  },
+  {
+    "id": 1146,
+    "name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Non Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Operations Intern\nFounder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+    "subdomains": [
+      "Growth & Operations"
+    ],
+    "raw_row": {
+      "Station Id": "8748",
+      "Station Name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Non Tech",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Founder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+      "Project Domain": "Growth & Operations",
+      "Title": "Operations Intern"
+    }
+  },
+  {
+    "id": 1147,
+    "name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Non Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Sales Intern\nFounder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+    "subdomains": [
+      "sales"
+    ],
+    "raw_row": {
+      "Station Id": "8748",
+      "Station Name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Non Tech",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Founder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+      "Project Domain": "sales",
+      "Title": "Sales Intern"
+    }
+  },
+  {
+    "id": 1148,
+    "name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Non Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Content Intern\nFounder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+    "subdomains": [
+      "Content Creation"
+    ],
+    "raw_row": {
+      "Station Id": "8748",
+      "Station Name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Non Tech",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Founder’s Office (Strategy, Investor Relations, Special Projects),&nbsp;Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement)About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+      "Project Domain": "Content Creation",
+      "Title": "Content Intern"
+    }
+  },
+  {
+    "id": 1149,
+    "name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Tech",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Bengaluru",
+    "project_details": "Growth & Operations Intern\nProduct/Tech (Development, UI/UX, Data Science, Backend Engineering), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement),About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+    "subdomains": [
+      "sales",
+      "Growth & Operations"
+    ],
+    "raw_row": {
+      "Station Id": "8743",
+      "Station Name": "PS-I Entrepreneurship track - Okulo Aerospace Private Limited - Tech",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Product/Tech (Development, UI/UX, Data Science, Backend Engineering), Growth &amp; Operations (Marketing, Sales, Logistics, Process Improvement),About the companyOkulo Aerodpace specializes in the design and development of long endurance UAVs from ground up. The company has developed India's first solar electric UAV as well as first sub 10 kg fixed winged UAV to be certified by the DGCA. The UAV is code named SUVI (payload = 1kg, endurance = up to 8 hours, max operational altitude = 5kms), it has been specially designed for enterprise surveillance. Additionally Okulo is also developing a long ranged tactical UAV (TRL =7) for the defense forces, under the IDEX program. Given it's bigger payload capacity and high operational altitude, it is best suited for border surveillance and strategic locations.",
+      "Project Domain": "sales,Growth & Operations",
+      "Title": "Growth & Operations Intern"
+    }
+  },
+  {
+    "id": 1150,
+    "name": "Pune Polytech Pvt Ltd",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Pune",
+    "project_details": "Infrastructure Modernization and Strategic Market Expansion\nDescription: Structural audit of existing facilities coupled with market research and B2Boutreach for business expansion.Skill sets: AutoCAD/Structural Analysis, Market Research, Database Management (CRM/SQL),Financial Forecasting, and Technical Writing.Expected learning: Experience in industrial plant layout optimization and the commercial cycleof a B2B manufacturing firm, from infrastructure planning to client acquisition.",
+    "subdomains": [
+      "Infrastructure",
+      "Business Development"
+    ],
+    "raw_row": {
+      "Station Id": "8562",
+      "Station Name": "Pune Polytech Pvt Ltd",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA2,A2",
+      "Description": "Description: Structural audit of existing facilities coupled with market research and B2Boutreach for business expansion.Skill sets: AutoCAD/Structural Analysis, Market Research, Database Management (CRM/SQL),Financial Forecasting, and Technical Writing.Expected learning: Experience in industrial plant layout optimization and the commercial cycleof a B2B manufacturing firm, from infrastructure planning to client acquisition.",
+      "Project Domain": "Infrastructure,Business Development",
+      "Title": "Infrastructure Modernization and Strategic Market Expansion"
+    }
+  },
+  {
+    "id": 1151,
+    "name": "Saikrishna & Associates",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Noida",
+    "project_details": "Patent Infringement Law Suite\nDescription: A telecom giant has filed an infringement law suite against another mobile manufacturingcompany alleging unauthorized usage of their technology and invention. The court needs tounderstand their technology and decide who is the real owner of the technology and whether thetechnology is meritorious.Skill sets: Telecommunication knowledge + Good English + Legal AptitudeExpected learning: Techno legalhttps://docs.google.com/presentation/d/1Agj5JA7EmNvNB_d7TlKsZtYIFiAveGPq/edit?usp=drive_link&amp;ouid=107751256398468124733&amp;rtpof=true&amp;sd=truehttps://drive.google.com/file/d/1YeXCIeXPAOlDXxwLdvPxN0zxqkWozJRB/view?usp=drive_link",
+    "subdomains": [
+      "Electronics"
+    ],
+    "raw_row": {
+      "Station Id": "8568",
+      "Station Name": "Saikrishna & Associates",
+      "Centre (Location)": "Noida",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA8,AnyAA,A3,A8,AA",
+      "Description": "Description: A telecom giant has filed an infringement law suite against another mobile manufacturingcompany alleging unauthorized usage of their technology and invention. The court needs tounderstand their technology and decide who is the real owner of the technology and whether thetechnology is meritorious.Skill sets: Telecommunication knowledge + Good English + Legal AptitudeExpected learning: Techno legalhttps://docs.google.com/presentation/d/1Agj5JA7EmNvNB_d7TlKsZtYIFiAveGPq/edit?usp=drive_link&amp;ouid=107751256398468124733&amp;rtpof=true&amp;sd=truehttps://drive.google.com/file/d/1YeXCIeXPAOlDXxwLdvPxN0zxqkWozJRB/view?usp=drive_link",
+      "Project Domain": "Electronics",
+      "Title": "Patent Infringement Law Suite"
+    }
+  },
+  {
+    "id": 1152,
+    "name": "Saikrishna & Associates",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Noida",
+    "project_details": "Patent Analytics\nDescription: Patent Searches, Patent Drafting, Patent AnalysesSkill sets: Mechanical Engineering + Good English + Legal AptitudeExpected learning: Techno legalhttps://docs.google.com/presentation/d/1Agj5JA7EmNvNB_d7TlKsZtYIFiAveGPq/edit?usp=drive_link&amp;ouid=107751256398468124733&amp;rtpof=true&amp;sd=truehttps://drive.google.com/file/d/1YeXCIeXPAOlDXxwLdvPxN0zxqkWozJRB/view?usp=drive_link",
+    "subdomains": [
+      "Mechanical"
+    ],
+    "raw_row": {
+      "Station Id": "8568",
+      "Station Name": "Saikrishna & Associates",
+      "Centre (Location)": "Noida",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "A4,AnyA4",
+      "Description": "Description: Patent Searches, Patent Drafting, Patent AnalysesSkill sets: Mechanical Engineering + Good English + Legal AptitudeExpected learning: Techno legalhttps://docs.google.com/presentation/d/1Agj5JA7EmNvNB_d7TlKsZtYIFiAveGPq/edit?usp=drive_link&amp;ouid=107751256398468124733&amp;rtpof=true&amp;sd=truehttps://drive.google.com/file/d/1YeXCIeXPAOlDXxwLdvPxN0zxqkWozJRB/view?usp=drive_link",
+      "Project Domain": "Mechanical",
+      "Title": "Patent Analytics"
+    }
+  },
+  {
+    "id": 1153,
+    "name": "Sasha Innoworks Pvt. Ltd.",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Project  3\ncomposite materials in defence applicationsDescription: This project focuses on developing machine learning algorithms to monitor the structuralhealth of composite materials used in defence applications. The system aims to predict potential failuresby analyzing sensor data and material behavior patterns'Skill sets: Knowledge of composite materials, stress - strain relations and machine learningExpected learning: Students will create predictive models that detect early slgns of damage andforecast material failure with high accuracy. The outcome will enhance reliability, safety, and proactivemaintenance strategies in defence composite structures'Project 3Specific courses required for project execution: Composite materials, Machine learning, Anyanalysis software like ANSYS or ABAQUS.",
+    "subdomains": [
+      "Artificial Intelligence",
+      "Machine Learning"
+    ],
+    "raw_row": {
+      "Station Id": "6750",
+      "Station Name": "Sasha Innoworks Pvt. Ltd.",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA4,AnyA2,AnyA1,A4,A2,A1",
+      "Description": "composite materials in defence applicationsDescription: This project focuses on developing machine learning algorithms to monitor the structuralhealth of composite materials used in defence applications. The system aims to predict potential failuresby analyzing sensor data and material behavior patterns'Skill sets: Knowledge of composite materials, stress - strain relations and machine learningExpected learning: Students will create predictive models that detect early slgns of damage andforecast material failure with high accuracy. The outcome will enhance reliability, safety, and proactivemaintenance strategies in defence composite structures'Project 3Specific courses required for project execution: Composite materials, Machine learning, Anyanalysis software like ANSYS or ABAQUS.",
+      "Project Domain": "Artificial Intelligence,Machine Learning",
+      "Title": "Project  3 "
+    }
+  },
+  {
+    "id": 1154,
+    "name": "SNC&IT services Pvt Ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Title: ServiceNow HRSD / Integration & Portal Development\nDescription: Students will assist in HRSD configuration, portal customization, and REST API integrations.Skill sets: JavaScript basics, Web technologies, API fundamentalsExpected learning: Enterprise HRSD workflows and ServiceNow integration experienceSpecific courses required for project execution: Computer Science / Electronics / Mathematics &amp; Computing",
+    "subdomains": [
+      "Software Development"
+    ],
+    "raw_row": {
+      "Station Id": "8755",
+      "Station Name": "SNC&IT services Pvt Ltd",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "Description: Students will assist in HRSD configuration, portal customization, and REST API integrations.Skill sets: JavaScript basics, Web technologies, API fundamentalsExpected learning: Enterprise HRSD workflows and ServiceNow integration experienceSpecific courses required for project execution: Computer Science / Electronics / Mathematics &amp; Computing",
+      "Project Domain": "Software Development",
+      "Title": "Title: ServiceNow HRSD / Integration & Portal Development"
+    }
+  },
+  {
+    "id": 1155,
+    "name": "Steel Authority of India Ltd. (SAIL) Bhilai Steel Plant - Bhilai",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Bhilai",
+    "project_details": "Title: Iron Making,Title: Steel Making,Title: Bloom, Billet & Slab Casting,Title: Rail Making,Title: Plate Making\nThis project explores the fundamental processes involved in ironmaking, from raw material selection to the final production of iron. It covers theextraction of iron ore, its conversion into pig iron in a blast furnace, and furtherrefining into steel. Key aspects such as raw materials (iron ore, coke, andlimestone), the chemical reactions involved, and modern advancements iniron-making technology will be discussed.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project examines the steel-making process, focusing on thetransformation of iron into steel through refining techniques. It covers primarymethods such as the Basic Oxygen Furnace (BOF) and Electric Arc Furnace (EAF),along with key raw materials like pig iron, scrap metal, and fluxes.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project explores the casting processes used in the steel industryto produce semi-finished metal forms: blooms, billets, and slabs. It covers thecontinuous casting process, where molten steel is solidified into theseintermediate shapes before further processing.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project explores the production of railway tracks, from rawmaterial selection to final shaping. It covers the transformation of high-qualitysteel through continuous casting into blooms or billets, which are then hot-rolledinto rail profiles.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project explores the production of steel plates, focusing on theprocesses involved from raw materials to finished products. It covers thetransformation of molten steel into slabs through continuous casting, followed byhot rolling to achieve the desired thickness and dimensions.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "5324",
+      "Station Name": "Steel Authority of India Ltd. (SAIL) Bhilai Steel Plant - Bhilai",
+      "Centre (Location)": "Bhilai",
+      "Business Domain": "Mechanical",
+      "Total Project": "5",
+      "Tags": "Any,Any,Any,Any,Any",
+      "Description": "This project explores the fundamental processes involved in ironmaking, from raw material selection to the final production of iron. It covers theextraction of iron ore, its conversion into pig iron in a blast furnace, and furtherrefining into steel. Key aspects such as raw materials (iron ore, coke, andlimestone), the chemical reactions involved, and modern advancements iniron-making technology will be discussed.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project examines the steel-making process, focusing on thetransformation of iron into steel through refining techniques. It covers primarymethods such as the Basic Oxygen Furnace (BOF) and Electric Arc Furnace (EAF),along with key raw materials like pig iron, scrap metal, and fluxes.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project explores the casting processes used in the steel industryto produce semi-finished metal forms: blooms, billets, and slabs. It covers thecontinuous casting process, where molten steel is solidified into theseintermediate shapes before further processing.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project explores the production of railway tracks, from rawmaterial selection to final shaping. It covers the transformation of high-qualitysteel through continuous casting into blooms or billets, which are then hot-rolledinto rail profiles.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.,Description: This project explores the production of steel plates, focusing on theprocesses involved from raw materials to finished products. It covers thetransformation of molten steel into slabs through continuous casting, followed byhot rolling to achieve the desired thickness and dimensions.Skill sets: Manufacturing and Material KnowledgeExpected learning: metallurgy, manufacturing, and industrial engineering, ensuringefficiency, safety, and innovation in iron and steel production.",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Title: Iron Making,Title: Steel Making,Title: Bloom, Billet & Slab Casting,Title: Rail Making,Title: Plate Making"
+    }
+  },
+  {
+    "id": 1156,
+    "name": "Swecha - Artificial Intelligence - AI Workflows",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Artificial Intelligence\nA complete RAG suite easy to deploy and integrate into existing applications.",
+    "subdomains": [
+      "AI"
+    ],
+    "raw_row": {
+      "Station Id": "8758",
+      "Station Name": "Swecha - Artificial Intelligence - AI Workflows",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,AnyAC,A3,A7,A8,AA,AC,AD",
+      "Description": "A complete RAG suite easy to deploy and integrate into existing applications.",
+      "Project Domain": "AI",
+      "Title": "Artificial Intelligence"
+    }
+  },
+  {
+    "id": 1157,
+    "name": "Swecha - Artificial Intelligence - AI Workflows",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Artificial Intelligence\nASR based realtime subtitle generation.",
+    "subdomains": [
+      "AI"
+    ],
+    "raw_row": {
+      "Station Id": "8758",
+      "Station Name": "Swecha - Artificial Intelligence - AI Workflows",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "A3,A7,A8,AA,AC,AD",
+      "Description": " ASR based realtime subtitle generation.",
+      "Project Domain": "AI",
+      "Title": "Artificial Intelligence"
+    }
+  },
+  {
+    "id": 1158,
+    "name": "Swecha - Artificial Intelligence - Corpus",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Hyderabad",
+    "project_details": "Artificial Intelligence Intern,Artificial Intelligence Intern\nBroad Project Domain: Artificial IntelligenceProject: CorpusSubmodule: Corpus Client AppLocation: HyderabadMode: OnsiteDescription:The Corpus Client application is designed to work seamlessly with the Corpus Server platform. It enables users to contribute to corpus collection by uploading, annotating, and reviewing multimodal data, while participating in collaborative workflows for validation and quality assurance, supporting the development of high-quality datasets for AI systems.Skills Required: React &amp; Tailwind,Broad Project Domain: Artificial IntelligenceProject: CorpusSubmodule: Corpus Client AppLocation: HyderabadMode: OnsiteDescription:The Corpus Client application is designed to work seamlessly with the Corpus Server platform. It enables users to contribute to corpus collection by uploading, annotating, and reviewing multimodal data, while participating in collaborative workflows for validation and quality assurance, supporting the development of high-quality datasets for AI systems.Skills Required: React &amp; Tailwind",
+    "subdomains": [
+      "Artificial Intelligence"
+    ],
+    "raw_row": {
+      "Station Id": "8769",
+      "Station Name": "Swecha - Artificial Intelligence - Corpus",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "2",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,AnyAC,AnyAD,A3,A7,A8,AA,AC,AD",
+      "Description": "Broad Project Domain: Artificial IntelligenceProject: CorpusSubmodule: Corpus Client AppLocation: HyderabadMode: OnsiteDescription:The Corpus Client application is designed to work seamlessly with the Corpus Server platform. It enables users to contribute to corpus collection by uploading, annotating, and reviewing multimodal data, while participating in collaborative workflows for validation and quality assurance, supporting the development of high-quality datasets for AI systems.Skills Required: React &amp; Tailwind,Broad Project Domain: Artificial IntelligenceProject: CorpusSubmodule: Corpus Client AppLocation: HyderabadMode: OnsiteDescription:The Corpus Client application is designed to work seamlessly with the Corpus Server platform. It enables users to contribute to corpus collection by uploading, annotating, and reviewing multimodal data, while participating in collaborative workflows for validation and quality assurance, supporting the development of high-quality datasets for AI systems.Skills Required: React &amp; Tailwind",
+      "Project Domain": "Artificial Intelligence",
+      "Title": "Artificial Intelligence Intern,Artificial Intelligence Intern"
+    }
+  },
+  {
+    "id": 1159,
+    "name": "Unwind Minds Pvt. Ltd.",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Bengaluru",
+    "project_details": "Title: Development of novel textile fabric blend and textile finish for textile\nDescription: Developing novel fibre blend and functional finish&nbsp;Skill sets: Analytics, Fabric Analysis, Chemical AnalysisDiscipline: Manufacturing,Chemistry,Product DevelopementExpected learning: Learn to analyse&nbsp;fibre, fabric and functional finishes and applicationSpecific courses required for project execution:",
+    "subdomains": [
+      "Textile",
+      "Product Development"
+    ],
+    "raw_row": {
+      "Station Id": "8630",
+      "Station Name": "Unwind Minds Pvt. Ltd.",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "1",
+      "Tags": "AnyAB,AnyB2,AB,B2",
+      "Description": "Description: Developing novel fibre blend and functional finish&nbsp;Skill sets: Analytics, Fabric Analysis, Chemical AnalysisDiscipline: Manufacturing,Chemistry,Product DevelopementExpected learning: Learn to analyse&nbsp;fibre, fabric and functional finishes and applicationSpecific courses required for project execution: ",
+      "Project Domain": "Textile,Product Development",
+      "Title": "Title: Development of novel textile fabric blend and textile finish for textile"
+    }
+  },
+  {
+    "id": 1160,
+    "name": "Yantraayush Solutions PVT Ltd",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Hyderabad",
+    "project_details": "AI-Powered Predictive Analytics\nTitle: AI-Powered Predictive AnalyticsDescription: Develop web-based predictive analytics using machine learning models for datadriveninsights.Skill sets: Machine Learning, Python, ReactJS, JavaScript, HTML/CSSExpected learning: End-to-end ML pipeline integration, Real-time visualization of predictivemodels.Specific courses required for project execution: Machine Learning, Web Development, andSoftware Engineering.",
+    "subdomains": [
+      "Web Development",
+      "AI"
+    ],
+    "raw_row": {
+      "Station Id": "6794",
+      "Station Name": "Yantraayush Solutions PVT Ltd",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA7,A7",
+      "Description": "Title: AI-Powered Predictive AnalyticsDescription: Develop web-based predictive analytics using machine learning models for datadriveninsights.Skill sets: Machine Learning, Python, ReactJS, JavaScript, HTML/CSSExpected learning: End-to-end ML pipeline integration, Real-time visualization of predictivemodels.Specific courses required for project execution: Machine Learning, Web Development, andSoftware Engineering.",
+      "Project Domain": "Web Development,AI",
+      "Title": "AI-Powered Predictive Analytics"
+    }
+  },
+  {
+    "id": 1161,
+    "name": "Yantraayush Solutions PVT Ltd",
+    "domain": "Mechanical",
+    "normalized_domain": "Mechanical",
+    "city": "Hyderabad",
+    "project_details": "Electrical Circuit Connection and Testing\nTitle: Electrical Circuit Connection and TestingDescription: The project involves creating circuit diagrams, simulating power flow, and testingpower supply integritySkill sets: Electrical Circuit Design and Analysis, PCB Layout and Power Integrity Testing, andSimulation ToolsExpected learning: Hands-on experience in designing and testing power circuitsSpecific courses required for project execution: Electrical Circuit Analysis, Power Electronics,and Embedded Systems",
+    "subdomains": [
+      "Circuit Design",
+      "Testing"
+    ],
+    "raw_row": {
+      "Station Id": "6794",
+      "Station Name": "Yantraayush Solutions PVT Ltd",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "Mechanical",
+      "Total Project": "1",
+      "Tags": "AnyA3,AnyA8,AnyAA,A3,A8,AA",
+      "Description": "Title: Electrical Circuit Connection and TestingDescription: The project involves creating circuit diagrams, simulating power flow, and testingpower supply integritySkill sets: Electrical Circuit Design and Analysis, PCB Layout and Power Integrity Testing, andSimulation ToolsExpected learning: Hands-on experience in designing and testing power circuitsSpecific courses required for project execution: Electrical Circuit Analysis, Power Electronics,and Embedded Systems",
+      "Project Domain": "Circuit Design,Testing",
+      "Title": "Electrical Circuit Connection and Testing"
+    }
   }
 ]
