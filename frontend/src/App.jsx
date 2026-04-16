@@ -56,12 +56,19 @@ function AllotmentInfoModal({ onClose }) {
             {[
               { icon: '🏆', text: 'Higher CGPA = processed first.' },
               { icon: '🔁', text: "If your pref 1 isn't available, system tries pref 2, then 3, and so on." },
-              { icon: '🏠', text: "Accommodation matters — if you don't have it and neither does the org, you likely won't get that station." },
+              { icon: '🏠', text: "Accommodation matters — if you don't have it and neither does the org, you likely won't get that station.", priority: true },
               { icon: '⚖️', text: 'Same CGPA? Whoever ranked that station higher wins. Still tied? Branch/domain match decides.' },
-            ].map(({ icon, text }) => (
-              <div key={text} className="flex items-start gap-3 p-3 rounded-lg bg-bg-card border border-bg-border">
+            ].map(({ icon, text, priority }) => (
+              <div key={text} className={`flex items-start gap-3 p-3 rounded-lg border ${priority ? 'bg-rose-500/8 border-rose-500/35' : 'bg-bg-card border-bg-border'}`}>
                 <span className="text-base flex-shrink-0">{icon}</span>
-                <p className="text-sm text-text-secondary leading-relaxed">{text}</p>
+                <div className="flex-1 min-w-0">
+                  <p className={`text-sm leading-relaxed ${priority ? 'text-text-primary font-medium' : 'text-text-secondary'}`}>{text}</p>
+                  {priority && (
+                    <span className="inline-flex items-center gap-1 mt-1.5 text-[10px] font-semibold uppercase tracking-wider text-rose-400 bg-rose-500/15 border border-rose-500/25 rounded px-1.5 py-0.5">
+                      ⚠ Highest Priority Factor
+                    </span>
+                  )}
+                </div>
               </div>
             ))}
           </div>
