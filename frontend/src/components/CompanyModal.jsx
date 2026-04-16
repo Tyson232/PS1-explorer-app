@@ -427,14 +427,6 @@ export default function CompanyModal({ company, onClose, onEnriched, isPriority,
             </div>
           </div>
 
-          {/* Disclaimer */}
-          <div className="-mt-4 px-1 py-2 rounded-lg bg-accent-amber/10 border border-accent-amber/30">
-            <p className="text-xs text-accent-amber font-semibold">⚠ NOT OFFICIAL</p>
-            <p className="text-xs text-accent-amber/80 mt-0.5 leading-relaxed">
-              Min CG, Work Mode, and contact emails are based on <span className="font-semibold">last year's student responses</span> — for reference only. Official data will be updated when available.
-            </p>
-          </div>
-
           {/* Subdomain chips */}
           {company.subdomains?.length > 0 && (
             <div className="flex flex-wrap gap-1.5">
