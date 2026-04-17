@@ -119,7 +119,7 @@ function OnlineNotice({ groups, enrichments, onOpenGroup, onTogglePriority, prio
             onClick={() => onOpenGroup(group)}
             searchQuery={searchQuery}
             enrichment={enrichments[group[0].name]}
-            isPriority={priorityList.some(c => c.id === group[0].id)}
+            isPriority={priorityList.some(pc => group.some(g => g.id === pc.id))}
             onTogglePriority={onTogglePriority}
           />
         ))}
@@ -579,7 +579,7 @@ export default function App() {
                   onClick={() => setSelectedGroup(group)}
                   searchQuery={filters.q}
                   enrichment={cardEnrichments[group[0].name]}
-                  isPriority={priorityList.some(c => c.id === group[0].id)}
+                  isPriority={priorityList.some(pc => group.some(g => g.id === pc.id))}
                   onTogglePriority={togglePriority}
                 />
               ))
@@ -594,7 +594,7 @@ export default function App() {
           projects={selectedGroup}
           onClose={() => setSelectedGroup(null)}
           onEnriched={handleEnriched}
-          isPriority={priorityList.some(c => c.id === selectedGroup[0].id)}
+          priorityIds={new Set(priorityList.map(c => c.id))}
           onTogglePriority={togglePriority}
         />
       )}

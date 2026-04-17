@@ -193,7 +193,7 @@ function CityMapLink({ company, enrichment }) {
   );
 }
 
-export default function CompanyModal({ projects, onClose, onEnriched, isPriority, onTogglePriority }) {
+export default function CompanyModal({ projects, onClose, onEnriched, priorityIds = new Set(), onTogglePriority }) {
   const isMulti = projects.length > 1;
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
 
@@ -202,9 +202,12 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
     setSelectedProjectIndex(0);
   }, [projects]);
 
-  // company = currently viewed project; stationCompany = first project (for enrichment/color/priority)
+  // company = currently viewed project; stationCompany = first project (for enrichment/name/city)
   const company = projects[selectedProjectIndex] || projects[0];
   const stationCompany = projects[0];
+
+  // isPriority is per-project (the currently viewed one)
+  const isPriority = priorityIds.has(company.id);
 
   const [enrichment, setEnrichment] = useState(null);
   const [loadingEnrich, setLoadingEnrich] = useState(true);
@@ -214,10 +217,10 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
   const [showColorPicker, setShowColorPicker] = useState(false);
   const colorPickerRef = useRef(null);
 
-  // Sync color from localStorage when station changes
+  // Sync color from localStorage when project changes
   useEffect(() => {
-    setColor(getStoredColor(stationCompany.id));
-  }, [stationCompany.id]);
+    setColor(getStoredColor(company.id));
+  }, [company.id]);
 
   // Close color picker on outside click
   useEffect(() => {
@@ -232,7 +235,7 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
   function handleColorSelect(optId) {
     const next = optId === color ? 'grey' : optId;
     setColor(next);
-    setStoredColor(stationCompany.id, next);
+    setStoredColor(company.id, next);
     setShowColorPicker(false);
   }
 
@@ -388,9 +391,9 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
                 </div>
               )}
 
-              {/* Add / Remove button */}
+              {/* Add / Remove button — per project */}
               <button
-                onClick={() => onTogglePriority?.(stationCompany)}
+                onClick={() => onTogglePriority?.(company)}
                 className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium border transition-all ${
                   isPriority
                     ? 'bg-accent-amber/15 text-accent-amber border-accent-amber/30 hover:bg-red-400/10 hover:text-red-400 hover:border-red-400/30'
@@ -440,11 +443,15 @@ export default function CompanyModal({ projects, onClose, onEnriched, isPriority
                         : 'text-text-muted hover:text-text-secondary hover:bg-bg-hover border-transparent hover:border-bg-border'
                       }
                     `}
+                    title={priorityIds.has(p.id) ? 'In your list' : ''}
                   >
                     <span className={`font-mono text-[10px] w-4 h-4 rounded flex items-center justify-center flex-shrink-0 transition-colors ${
                       isActive ? 'bg-accent-purple/25 text-accent-purple' : 'text-text-muted/50'
                     }`}>{i + 1}</span>
                     <span className="max-w-[160px] truncate">{title}</span>
+                    {priorityIds.has(p.id) && (
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent-amber flex-shrink-0" title="In your list" />
+                    )}
                   </button>
                 );
               })}
