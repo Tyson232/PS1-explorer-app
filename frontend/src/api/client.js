@@ -170,10 +170,11 @@ export function fetchDomains() {
 }
 
 export function fetchMeta() {
-  const uniqueStations = new Set(_companies.map(c => c.name)).size;
+  const uniqueStations = new Set(_companies.map(c => c.name.replace(/\s*-\s*(Online|Onsite)\s*$/i, '').trim())).size;
   return Promise.resolve({
     lastUpdated: _lastUpdated,
     companyCount: String(uniqueStations),
+    projectCount: String(_companies.length),
     watchFilePath: null
   });
 }
