@@ -89,7 +89,7 @@
     "work_mode": "Onsite"
   },
   "CRRI- Planning, Monitoring & Evaluation": {
-    "min_cg": 5,
+    "min_cg": 5.0,
     "contact_emails": [
       "f20231216@goa.bits-pilani.ac.in"
     ],
@@ -175,7 +175,7 @@
     "work_mode": "Onsite"
   },
   "Central Institute of Road Transport - Electrical & Electronics": {
-    "min_cg": 6.95,
+    "min_cg": 6.29,
     "contact_emails": [
       "f20230512@hyderabad.bits-pilani.ac.in"
     ],
@@ -189,8 +189,8 @@
     ],
     "work_mode": "Onsite"
   },
-  "Central Institute of Road Transport – Chemical": {
-    "min_cg": 7,
+  "Central Institute of Road Transport \u2013 Chemical": {
+    "min_cg": 6.29,
     "contact_emails": [
       "f20230079@goa.bits-pilani.ac.in"
     ],
@@ -252,7 +252,7 @@
     "work_mode": "Onsite"
   },
   "Digibuks LLP Mumbai": {
-    "min_cg": 8,
+    "min_cg": 8.0,
     "contact_emails": [
       "f20230373@goa.bits-pilani.ac.in",
       "f20231073@pilani.bits-pilani.ac.in",
@@ -315,7 +315,7 @@
     "work_mode": "Onsite"
   },
   "Heetherark Labs Private Limited - Electronics": {
-    "min_cg": null,
+    "min_cg": 8.65,
     "contact_emails": [
       "f20230950@hyderabad.bits-pilani.ac.in"
     ],
@@ -363,7 +363,7 @@
     "work_mode": "Onsite"
   },
   "Indian Oil Corporation Ltd": {
-    "min_cg": 7.21,
+    "min_cg": 8.15,
     "contact_emails": [
       "f20230942@hyderabad.bits-pilani.ac.in",
       "f20231276@hyderabad.bits-pilani.ac.in"
@@ -507,7 +507,7 @@
     "work_mode": "Onsite"
   },
   "National Remote Sensing Centre": {
-    "min_cg": 8,
+    "min_cg": 8.0,
     "contact_emails": [
       "f20230853@goa.bits-pilani.ac.in",
       "f20231122@pilani.bits-pilani.ac.in",
@@ -548,7 +548,7 @@
     "work_mode": "Onsite"
   },
   "Regional Remote Sensing Center-North, NRSC, ISRO - Electronics": {
-    "min_cg": 9.68,
+    "min_cg": 9.08,
     "contact_emails": [
       "f20231280@pilani.bits-pilani.ac.in"
     ],
@@ -594,7 +594,7 @@
     "work_mode": "Onsite"
   },
   "Siemens Digital Industries Software India Pvt Ltd": {
-    "min_cg": 7.22,
+    "min_cg": 8.28,
     "contact_emails": [
       "f20230061@goa.bits-pilani.ac.in",
       "f20230602@goa.bits-pilani.ac.in",
@@ -653,7 +653,7 @@
     ],
     "work_mode": "Onsite"
   },
-  "sfHawk – Tech": {
+  "sfHawk \u2013 Tech": {
     "min_cg": 6.21,
     "contact_emails": [
       "f20230905@hyderabad.bits-pilani.ac.in",
@@ -706,7 +706,7 @@
     "work_mode": "Onsite"
   },
   "Indian Red Cross Society Delhi": {
-    "min_cg": 6,
+    "min_cg": 6.8,
     "contact_emails": [
       "f20230426@goa.bits-pilani.ac.in",
       "f20231208@pilani.bits-pilani.ac.in"
@@ -737,7 +737,7 @@
     "work_mode": "Online"
   },
   "SMARTSA TECH PRIVATE LIMITED-Online": {
-    "min_cg": null,
+    "min_cg": 8.12,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -767,7 +767,7 @@
     "work_mode": "Onsite"
   },
   "AdaptNXT Technology Solutions Pvt. Ltd - Tech": {
-    "min_cg": null,
+    "min_cg": 7.02,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -822,12 +822,12 @@
     "work_mode": "Onsite"
   },
   "Bid Alert - Tech": {
-    "min_cg": null,
+    "min_cg": 7.2,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Bid alert - Non Tech": {
-    "min_cg": null,
+    "min_cg": 7.2,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -882,17 +882,17 @@
     "work_mode": "Onsite"
   },
   "Center for Materials for Electronics Technology (C-MET), Hyderabad": {
-    "min_cg": null,
+    "min_cg": 6.97,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "Central Institute of Road Transport - IT": {
-    "min_cg": null,
+    "min_cg": 6.29,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "Centre for Development of Advanced Computing (CDAC) - Thiruvananthapuram": {
-    "min_cg": null,
+    "min_cg": 8.96,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -902,7 +902,7 @@
     "work_mode": "Onsite"
   },
   "Collegedunia - Tech": {
-    "min_cg": null,
+    "min_cg": 6.45,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -1092,27 +1092,27 @@
     "work_mode": "Onsite"
   },
   "National Centre for Polar and Ocean Research (NCPOR) -Causal analysis": {
-    "min_cg": null,
+    "min_cg": 6.83,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "National Centre for Polar and Ocean Research (NCPOR) -Integration of Neural Network Models with WRF/ROMS": {
-    "min_cg": null,
+    "min_cg": 6.83,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "National Centre for Polar and Ocean Research (NCPOR)-Application of AI and ML": {
-    "min_cg": null,
+    "min_cg": 6.83,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "National Centre for Polar and Ocean Research (NCPOR)-Marine Chemistry/Geochemistry": {
-    "min_cg": null,
+    "min_cg": 6.83,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "National Centre for Polar and Ocean Research (NCPOR)-Microbiology and Biogeochemistry": {
-    "min_cg": null,
+    "min_cg": 6.83,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -1146,8 +1146,8 @@
     "contact_emails": [],
     "work_mode": "Onsite"
   },
-  "Nitisara – Non Tech": {
-    "min_cg": null,
+  "Nitisara \u2013 Non Tech": {
+    "min_cg": 5.59,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -1197,12 +1197,12 @@
     "work_mode": "Onsite"
   },
   "Petasense Technologies Private Limited-Bangalore": {
-    "min_cg": null,
+    "min_cg": 8.35,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "Petasense Technologies Private Limited-Hyderabad": {
-    "min_cg": null,
+    "min_cg": 8.35,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -1272,7 +1272,7 @@
     "work_mode": "Onsite"
   },
   "SMARTSA TECH PRIVATE LIMITED-Onsite": {
-    "min_cg": null,
+    "min_cg": 8.12,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -1491,7 +1491,7 @@
     "contact_emails": [],
     "work_mode": "Onsite"
   },
-  "HPCL – Visakh Refinery": {
+  "HPCL \u2013 Visakh Refinery": {
     "min_cg": null,
     "contact_emails": [],
     "work_mode": "Onsite"
@@ -2007,27 +2007,27 @@
     "work_mode": "Online"
   },
   "AI Gurukul": {
-    "min_cg": null,
+    "min_cg": 7.55,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Amukha Technologies Private Limited": {
-    "min_cg": null,
+    "min_cg": 8.14,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Anushka Jobtech Pvt. Ltd- Non Tech": {
-    "min_cg": null,
+    "min_cg": 7.53,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Anushka Jobtech Pvt. Ltd- Tech": {
-    "min_cg": null,
+    "min_cg": 7.53,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "AudioPod, Inc - Tech": {
-    "min_cg": null,
+    "min_cg": 7.7,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2042,17 +2042,17 @@
     "work_mode": "Online"
   },
   "Breathe ESG Private Limited - Nontech": {
-    "min_cg": null,
+    "min_cg": 6.0,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Breathe ESG Private Limited - Tech": {
-    "min_cg": null,
+    "min_cg": 6.0,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Caarya Innovative Pvt. Ltd": {
-    "min_cg": null,
+    "min_cg": 8.31,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2062,12 +2062,12 @@
     "work_mode": "Onsite"
   },
   "Center for Development of Advanced Computing(C-DAC) - Pune": {
-    "min_cg": null,
+    "min_cg": 9.28,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "Centre for Development of Advanced Computing (CDAC) - Hyderabad": {
-    "min_cg": null,
+    "min_cg": 8.8,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -2082,12 +2082,12 @@
     "work_mode": "Online"
   },
   "Codegres (OPC) Private Limited": {
-    "min_cg": null,
+    "min_cg": 8.05,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Commercial Consultancy Services (Flexsim)": {
-    "min_cg": null,
+    "min_cg": 6.78,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2102,17 +2102,17 @@
     "work_mode": "Onsite"
   },
   "Edutech Learning Solutions Pvt. Ltd.": {
-    "min_cg": null,
+    "min_cg": 9.15,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Elite Projects Pvt Ltd": {
-    "min_cg": null,
+    "min_cg": 7.61,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "ERLDC- Eastern Regional Load Dispatch Center, Grid India": {
-    "min_cg": null,
+    "min_cg": 4.35,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -2122,12 +2122,12 @@
     "work_mode": "Onsite"
   },
   "Genesis Gas Solutions Private Limited - Electronics": {
-    "min_cg": null,
+    "min_cg": 7.49,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Genesis Gas Solutions Private Limited - IT": {
-    "min_cg": null,
+    "min_cg": 7.49,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2147,7 +2147,7 @@
     "work_mode": "Onsite"
   },
   "Heetherark Labs Private Limited - IT": {
-    "min_cg": null,
+    "min_cg": 8.65,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2167,7 +2167,7 @@
     "work_mode": "Onsite"
   },
   "Innokreat Technologies Pvt Ltd - Tech": {
-    "min_cg": null,
+    "min_cg": 8.14,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2182,42 +2182,42 @@
     "work_mode": "Online"
   },
   "Kuppismart solutions Pvt Ltd - Non Tech": {
-    "min_cg": null,
+    "min_cg": 7.65,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "Kuppismart solutions Pvt Ltd - Tech": {
-    "min_cg": null,
+    "min_cg": 7.65,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "KVGAI Tech Pvt. Ltd": {
-    "min_cg": null,
+    "min_cg": 8.59,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "L&T Heavy Engineering, IC": {
-    "min_cg": null,
+    "min_cg": 8.1,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "Laurus Labs": {
-    "min_cg": null,
+    "min_cg": 7.54,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "MCEME": {
-    "min_cg": null,
+    "min_cg": 6.56,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "MD Enterprises Global": {
-    "min_cg": null,
+    "min_cg": 8.97,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "MeghaAI India Private Limited": {
-    "min_cg": null,
+    "min_cg": 6.53,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2227,7 +2227,7 @@
     "work_mode": "Onsite"
   },
   "METASRUJAN": {
-    "min_cg": null,
+    "min_cg": 8.22,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2237,12 +2237,12 @@
     "work_mode": "Onsite"
   },
   "MindPeers - Non Tech": {
-    "min_cg": null,
+    "min_cg": 7.65,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "MindPeers - Tech": {
-    "min_cg": null,
+    "min_cg": 7.65,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2257,12 +2257,12 @@
     "work_mode": "Online"
   },
   "Niftrix Technologies Private Limited": {
-    "min_cg": null,
+    "min_cg": 8.52,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Nitisara - Tech, Gurgaon": {
-    "min_cg": null,
+    "min_cg": 5.59,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2272,7 +2272,7 @@
     "work_mode": "Onsite"
   },
   "NoQs Digital, Ahmedabad": {
-    "min_cg": null,
+    "min_cg": 7.62,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2292,7 +2292,7 @@
     "work_mode": "Onsite"
   },
   "Phodu Club - Non Tech": {
-    "min_cg": null,
+    "min_cg": 8.14,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2332,7 +2332,7 @@
     "work_mode": "Online"
   },
   "RenewCred (Net Zero Initiative Pvt Ltd)": {
-    "min_cg": null,
+    "min_cg": 6.52,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -2342,17 +2342,17 @@
     "work_mode": "Online"
   },
   "Samaro software pvt ltd": {
-    "min_cg": null,
+    "min_cg": 7.86,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Sasha Innoworks Pvt. Ltd.": {
-    "min_cg": null,
+    "min_cg": 6.0,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
   "SRLDC -Southern Regional Load Despatch Center, Grid-India": {
-    "min_cg": null,
+    "min_cg": 7.7,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -2362,17 +2362,17 @@
     "work_mode": "Onsite"
   },
   "Vitalize Healthcare Pvt. Ltd - Non Tech": {
-    "min_cg": null,
+    "min_cg": 7.04,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Vitalize Healthcare Pvt. Ltd - Tech": {
-    "min_cg": null,
+    "min_cg": 7.04,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Yana Travel Pvt Ltd": {
-    "min_cg": null,
+    "min_cg": 7.57,
     "contact_emails": [],
     "work_mode": "Online"
   }
