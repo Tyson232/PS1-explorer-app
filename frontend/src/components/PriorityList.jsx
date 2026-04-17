@@ -149,7 +149,7 @@ function SortableItem({ company, index, onRemove, onOpen }) {
         onClick={() => onOpen(company)}
       >
         <p className="text-sm font-medium text-text-primary truncate hover:text-accent-purple transition-colors">
-          {company.name}
+          {company.name.replace(/\s*-\s*(Online|Onsite)\s*$/i, '').trim()}
         </p>
         <div className="flex items-center gap-2 mt-0.5">
           <span className={`font-mono text-xs px-1.5 py-0.5 rounded border ${domainStyle}`}>

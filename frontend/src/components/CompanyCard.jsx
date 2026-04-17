@@ -85,7 +85,7 @@ export default function CompanyCard({ group, onClick, searchQuery, enrichment, i
       <div className="flex items-start gap-2 pr-8">
         <div className="flex-1 min-w-0">
           <h3 className="font-semibold text-text-primary text-sm leading-snug group-hover:text-accent-purple transition-colors line-clamp-1">
-            {highlightText(company.name, searchQuery)}
+            {highlightText(company.name.replace(/\s*-\s*(Online|Onsite)\s*$/i, '').trim(), searchQuery)}
           </h3>
           <div className="flex items-center gap-1.5 mt-0.5 flex-wrap">
             {company.city && (

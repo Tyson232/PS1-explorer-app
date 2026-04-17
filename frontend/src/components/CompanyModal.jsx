@@ -348,7 +348,7 @@ export default function CompanyModal({ projects, onClose, onEnriched, priorityId
                 </span>
               )}
             </div>
-            <h2 className="text-xl font-bold text-text-primary leading-tight">{stationCompany.name}</h2>
+            <h2 className="text-xl font-bold text-text-primary leading-tight">{stationCompany.name.replace(/\s*-\s*(Online|Onsite)\s*$/i, '').trim()}</h2>
             {stationCompany.city && (
               <CityMapLink company={stationCompany} enrichment={enrichment} />
             )}
