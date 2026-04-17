@@ -283,11 +283,15 @@ export default function App() {
   });
 
   // Group visible companies by station name → one card per unique station
+  // Strip trailing " - Online" suffix so e.g. "THE GLOBAL MERCHANTS - Online"
+  // groups with "THE GLOBAL MERCHANTS" into one card
   const groupedCompanies = useMemo(() => {
     const groups = {};
+    const groupKeys = {}; // normalised key → original first-seen name
     visibleCompanies.forEach(c => {
-      if (!groups[c.name]) groups[c.name] = [];
-      groups[c.name].push(c);
+      const key = c.name.replace(/\s*-\s*(Online|Onsite)\s*$/i, '').trim();
+      if (!groups[key]) { groups[key] = []; groupKeys[key] = key; }
+      groups[key].push(c);
     });
     return Object.values(groups);
   }, [visibleCompanies]);

@@ -89,7 +89,7 @@
     "work_mode": "Onsite"
   },
   "CRRI- Planning, Monitoring & Evaluation": {
-    "min_cg": 5.0,
+    "min_cg": 5,
     "contact_emails": [
       "f20231216@goa.bits-pilani.ac.in"
     ],
@@ -189,7 +189,7 @@
     ],
     "work_mode": "Onsite"
   },
-  "Central Institute of Road Transport \u2013 Chemical": {
+  "Central Institute of Road Transport – Chemical": {
     "min_cg": 6.29,
     "contact_emails": [
       "f20230079@goa.bits-pilani.ac.in"
@@ -252,7 +252,7 @@
     "work_mode": "Onsite"
   },
   "Digibuks LLP Mumbai": {
-    "min_cg": 8.0,
+    "min_cg": 8,
     "contact_emails": [
       "f20230373@goa.bits-pilani.ac.in",
       "f20231073@pilani.bits-pilani.ac.in",
@@ -507,7 +507,7 @@
     "work_mode": "Onsite"
   },
   "National Remote Sensing Centre": {
-    "min_cg": 8.0,
+    "min_cg": 8,
     "contact_emails": [
       "f20230853@goa.bits-pilani.ac.in",
       "f20231122@pilani.bits-pilani.ac.in",
@@ -653,7 +653,7 @@
     ],
     "work_mode": "Onsite"
   },
-  "sfHawk \u2013 Tech": {
+  "sfHawk – Tech": {
     "min_cg": 6.21,
     "contact_emails": [
       "f20230905@hyderabad.bits-pilani.ac.in",
@@ -738,11 +738,6 @@
   },
   "SMARTSA TECH PRIVATE LIMITED-Online": {
     "min_cg": 8.12,
-    "contact_emails": [],
-    "work_mode": "Online"
-  },
-  "THE GLOBAL MERCHANTS - Online": {
-    "min_cg": null,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -1146,7 +1141,7 @@
     "contact_emails": [],
     "work_mode": "Onsite"
   },
-  "Nitisara \u2013 Non Tech": {
+  "Nitisara – Non Tech": {
     "min_cg": 5.59,
     "contact_emails": [],
     "work_mode": "Onsite"
@@ -1491,7 +1486,7 @@
     "contact_emails": [],
     "work_mode": "Onsite"
   },
-  "HPCL \u2013 Visakh Refinery": {
+  "HPCL – Visakh Refinery": {
     "min_cg": null,
     "contact_emails": [],
     "work_mode": "Onsite"
@@ -2042,12 +2037,12 @@
     "work_mode": "Online"
   },
   "Breathe ESG Private Limited - Nontech": {
-    "min_cg": 6.0,
+    "min_cg": 6,
     "contact_emails": [],
     "work_mode": "Online"
   },
   "Breathe ESG Private Limited - Tech": {
-    "min_cg": 6.0,
+    "min_cg": 6,
     "contact_emails": [],
     "work_mode": "Online"
   },
@@ -2347,7 +2342,7 @@
     "work_mode": "Online"
   },
   "Sasha Innoworks Pvt. Ltd.": {
-    "min_cg": 6.0,
+    "min_cg": 6,
     "contact_emails": [],
     "work_mode": "Onsite"
   },
@@ -2373,6 +2368,16 @@
   },
   "Yana Travel Pvt Ltd": {
     "min_cg": 7.57,
+    "contact_emails": [],
+    "work_mode": "Online"
+  },
+  "THE GLOBAL MERCHANTS": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
+  },
+  "THE GLOBAL MERCHANTS - Online": {
+    "min_cg": null,
     "contact_emails": [],
     "work_mode": "Online"
   }
