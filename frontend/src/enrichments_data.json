@@ -529,50 +529,29 @@
   },
   "Bid Alert - Tech": {
     "scale_badge": "🚀 Growth Stage",
-    "employee_count": "500-1000",
-    "description": "Bid Alert - Tech is not a specific company, however, assuming it's related to a tech firm, they likely provide IT services, software solutions, and digital transformation products to key markets such as finance, healthcare, and e-commerce, making them notable for their innovative approaches to technology integration. Their main products and services could include artificial intelligence, cybersecurity, and data analytics. They operate in a competitive market, requiring them to stay updated with the latest technologies. Their ability to adapt and innovate makes them stand out.",
+    "employee_count": null,
+    "description": null,
     "founding_year": null,
     "hq": "New Delhi, India",
     "website": "bidalert.tech",
-    "funding_stage": "Series A",
-    "investors": [
-      "Accel Partners",
-      "Blume Ventures",
-      "Indian Angel Network"
-    ],
-    "tech_stack": [
-      "Python",
-      "Java",
-      "JavaScript",
-      "AWS",
-      "Azure",
-      "Google Cloud",
-      "MySQL"
-    ],
-    "culture_snippet": "Employees appreciate the flexible work environment and the opportunity to work on diverse projects that challenge their skills and knowledge.",
+    "funding_stage": null,
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": null,
     "fetch_status": "done",
     "company_type": "Private"
   },
   "Bid alert - Non Tech": {
-    "scale_badge": "🌐 Enterprise",
-    "employee_count": "5000+",
-    "description": "Non Tech refers to a broad category of companies and organizations in India that operate outside the technology sector, encompassing industries such as manufacturing, construction, and services. These entities play a crucial role in the country's economy, contributing to sectors like infrastructure development, consumer goods, and healthcare. What makes them notable is their diverse range of products and services, catering to both domestic and international markets. They are key to employment and economic growth in India.",
-    "founding_year": "null",
-    "hq": "Mumbai, India",
-    "website": null,
-    "funding_stage": "null",
-    "investors": [
-      "Government of India"
-    ],
-    "tech_stack": [
-      "SAP",
-      "Oracle",
-      "Microsoft Office",
-      "Google Workspace",
-      "Tally",
-      "Zoho"
-    ],
-    "culture_snippet": "Employees often highlight the importance of teamwork and the organization's commitment to contributing to India's economic development.",
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": null,
+    "description": null,
+    "founding_year": null,
+    "hq": "New Delhi, India",
+    "website": "bidalert.tech",
+    "funding_stage": null,
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": null,
     "fetch_status": "done",
     "company_type": "Private"
   },
