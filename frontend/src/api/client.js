@@ -170,9 +170,10 @@ export function fetchDomains() {
 }
 
 export function fetchMeta() {
+  const uniqueStations = new Set(_companies.map(c => c.name)).size;
   return Promise.resolve({
     lastUpdated: _lastUpdated,
-    companyCount: String(_companies.length),
+    companyCount: String(uniqueStations),
     watchFilePath: null
   });
 }

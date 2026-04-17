@@ -25,7 +25,7 @@ export default function StatusBar({ meta, connected }) {
       {meta?.companyCount && (
         <span className="flex items-center gap-1">
           <Database size={11} />
-          {meta.companyCount} entries
+          {meta.companyCount} stations
         </span>
       )}
 
