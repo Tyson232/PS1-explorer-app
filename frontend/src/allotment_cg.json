@@ -27,10 +27,6 @@
     "allot_min_cg": 6.91,
     "allot_responses": 8
   },
-  "ASPIC Innovations Private Limited": {
-    "allot_min_cg": 7.55,
-    "allot_responses": 1
-  },
   "Caarya Innovative Pvt. Ltd": {
     "allot_min_cg": 7.8,
     "allot_responses": 4
@@ -47,11 +43,11 @@
     "allot_min_cg": 7.79,
     "allot_responses": 3
   },
-  "Centre for Development of Advanced Computing (CDAC) - Thiruvananthapuram": {
+  "Centre for Development of Advanced Computing (CDAC) - Hyderabad": {
     "allot_min_cg": 8.44,
     "allot_responses": 2
   },
-  "Centre for Development of Advanced Computing (CDAC) - Hyderabad": {
+  "Centre for Development of Advanced Computing (CDAC) - Thiruvananthapuram": {
     "allot_min_cg": 8.44,
     "allot_responses": 2
   },
@@ -59,25 +55,25 @@
     "allot_min_cg": 6.62,
     "allot_responses": 3
   },
+  "Centre for Railway Information Systems, Secunderabad": {
+    "allot_min_cg": 6.7,
+    "allot_responses": 4
+  },
   "Commercial Consultancy Services (Flexsim)": {
     "allot_min_cg": 6.95,
     "allot_responses": 4
   },
   "CSIR - Central Electronics Engineering Research Institute (CEERI) - Pilani": {
-    "allot_min_cg": 4.8,
-    "allot_responses": 1
+    "allot_min_cg": 5.93,
+    "allot_responses": 4
   },
   "CSIR - Central Electronics Engineering Research Institute (CEERI)- Jaipur": {
-    "allot_min_cg": 4.8,
-    "allot_responses": 1
-  },
-  "CSIR - National Aerospace Laboratories": {
-    "allot_min_cg": 4.8,
-    "allot_responses": 1
+    "allot_min_cg": 5.93,
+    "allot_responses": 4
   },
   "CSIR-Central Scientific Instruments Organization": {
-    "allot_min_cg": 4.8,
-    "allot_responses": 1
+    "allot_min_cg": 5.86,
+    "allot_responses": 2
   },
   "Delhi Metro Rail Corporation (DMRC)": {
     "allot_min_cg": 7.11,
@@ -87,20 +83,12 @@
     "allot_min_cg": 5.86,
     "allot_responses": 1
   },
-  "Ananta Medicare Limited": {
-    "allot_min_cg": 6.25,
-    "allot_responses": 2
-  },
   "DRDO - Solid State Physics Laboratory (SSPL)": {
-    "allot_min_cg": 7.1,
+    "allot_min_cg": 8.69,
     "allot_responses": 4
   },
   "DYSL - CT DRDO": {
     "allot_min_cg": 9.1,
-    "allot_responses": 2
-  },
-  "505 Army Base Workshop": {
-    "allot_min_cg": 4.68,
     "allot_responses": 2
   },
   "FANPLAY IoT": {
@@ -156,6 +144,10 @@
     "allot_responses": 1
   },
   "Indian Red Cross Society": {
+    "allot_min_cg": 4,
+    "allot_responses": 1
+  },
+  "Indian Red Cross Society Delhi": {
     "allot_min_cg": 4,
     "allot_responses": 1
   },
@@ -227,6 +219,10 @@
     "allot_min_cg": 5.24,
     "allot_responses": 1
   },
+  "Multigraphics Groupn - Battery Technology and Energy Systems": {
+    "allot_min_cg": 5.24,
+    "allot_responses": 1
+  },
   "Myoworks Private Limited": {
     "allot_min_cg": 5.77,
     "allot_responses": 1
@@ -283,6 +279,10 @@
     "allot_min_cg": 7.2,
     "allot_responses": 5
   },
+  "Nitisara – Non Tech": {
+    "allot_min_cg": 7.34,
+    "allot_responses": 1
+  },
   "Nitisara - Tech, Gurgaon": {
     "allot_min_cg": 7.34,
     "allot_responses": 1
@@ -292,11 +292,7 @@
     "allot_responses": 3
   },
   "OnFinance AI - IT": {
-    "allot_min_cg": 6.85,
-    "allot_responses": 1
-  },
-  "ONGC, Ahmedabad": {
-    "allot_min_cg": 4.98,
+    "allot_min_cg": 7,
     "allot_responses": 3
   },
   "PNT Robotics & Automation Solutions,LLP": {
@@ -311,15 +307,11 @@
     "allot_min_cg": 0,
     "allot_responses": 1
   },
-  "Quinfosys Private Limited": {
-    "allot_min_cg": 5.5,
-    "allot_responses": 1
-  },
-  "Regional Remote Sensing Center-North, NRSC, ISRO - Electronics": {
+  "Regional Remote Sensing Center-North, NRSC, ISRO - IT": {
     "allot_min_cg": 8.53,
     "allot_responses": 3
   },
-  "Regional Remote Sensing Center-North, NRSC, ISRO - IT": {
+  "Regional Remote Sensing Center-North, NRSC, ISRO - Electronics": {
     "allot_min_cg": 8.53,
     "allot_responses": 3
   },
@@ -331,10 +323,6 @@
     "allot_min_cg": 8,
     "allot_responses": 1
   },
-  "Siemens Digital Industries Software India Pvt Ltd": {
-    "allot_min_cg": 6.79,
-    "allot_responses": 4
-  },
   "SimpleWorks Solutions Pvt. Ltd.": {
     "allot_min_cg": 6.55,
     "allot_responses": 1
@@ -342,50 +330,6 @@
   "Steel Authority of India Ltd. (SAIL) Bhilai Steel Plant - Bhilai": {
     "allot_min_cg": 6.39,
     "allot_responses": 1
-  },
-  "Swecha - Agriculture Technology": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Artificial Intelligence - AI Workflows": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Artificial Intelligence - Corpus": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Data Analytics": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Data Engineering": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Education Technology": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - HealthCare": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Mobile Application": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Operating Systems": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Swecha - Software Engineering": {
-    "allot_min_cg": 4.76,
-    "allot_responses": 1
-  },
-  "Mormugao Port Trust": {
-    "allot_min_cg": 6.33,
-    "allot_responses": 6
   },
   "Yashoda Hospitals": {
     "allot_min_cg": 6.15,
