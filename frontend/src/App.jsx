@@ -56,8 +56,8 @@ function AllotmentInfoModal({ onClose }) {
             {[
               { icon: '🏆', text: 'Higher CGPA = processed first.' },
               { icon: '🔁', text: "If your pref 1 isn't available, system tries pref 2, then 3, and so on." },
-              { icon: '🏠', text: "Accommodation matters — if you don't have it and neither does the org, you likely won't get that station.", priority: true },
-              { icon: '⚖️', text: 'Same CGPA? Whoever ranked that station higher wins. Still tied? Branch/domain match decides.' },
+              { icon: '🏠', text: "Accommodation is checked first — if you haven't ticked 'Own Accommodation' for that station in your preference list, you most likely won't get it no matter your CG. Only if you've ticked it does CG comparison happen.", priority: true },
+              { icon: '⚖️', text: "Same CGPA? Whoever ranked that station higher wins. Still tied? Branch/domain match decides. Also check which branches the station prefers — some are open only to specific branches." },
             ].map(({ icon, text, priority }) => (
               <div key={text} className={`flex items-start gap-3 p-3 rounded-lg border ${priority ? 'bg-rose-500/8 border-rose-500/35' : 'bg-bg-card border-bg-border'}`}>
                 <span className="text-base flex-shrink-0">{icon}</span>
