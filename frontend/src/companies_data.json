@@ -9981,7 +9981,7 @@
   },
   {
     "id": 863,
-    "name": "THE GLOBAL MERCHANTS",
+    "name": "THE GLOBAL MERCHANTS - Onsite",
     "domain": "CSIS/IT",
     "normalized_domain": "CSIS",
     "city": "Jalandhar",
@@ -9991,7 +9991,7 @@
     ],
     "raw_row": {
       "Station Id": "8485",
-      "Station Name": "THE GLOBAL MERCHANTS",
+      "Station Name": "THE GLOBAL MERCHANTS - Onsite",
       "Location (Centre)": "Jalandhar",
       "Business Domain": "CSIS/IT",
       "Total Project": "2",
@@ -10005,7 +10005,7 @@
   },
   {
     "id": 1303,
-    "name": "THE GLOBAL MERCHANTS",
+    "name": "THE GLOBAL MERCHANTS - Onsite",
     "domain": "CSIS/IT",
     "normalized_domain": "CSIS",
     "city": "Jalandhar",
@@ -10015,7 +10015,7 @@
     ],
     "raw_row": {
       "Station Id": "8485",
-      "Station Name": "THE GLOBAL MERCHANTS",
+      "Station Name": "THE GLOBAL MERCHANTS - Onsite",
       "Location (Centre)": "Jalandhar",
       "Business Domain": "CSIS/IT",
       "Total Project": "2",
@@ -19740,6 +19740,116 @@
       "Description": "Title: Electrical Circuit Connection and TestingDescription: The project involves creating circuit diagrams, simulating power flow, and testingpower supply integritySkill sets: Electrical Circuit Design and Analysis, PCB Layout and Power Integrity Testing, andSimulation ToolsExpected learning: Hands-on experience in designing and testing power circuitsSpecific courses required for project execution: Electrical Circuit Analysis, Power Electronics,and Embedded Systems",
       "Project Domain": "Circuit Design,Testing",
       "Title": "Electrical Circuit Connection and Testing"
+    }
+  },
+  {
+    "id": 1429,
+    "name": "ONGC",
+    "domain": "Others",
+    "normalized_domain": "Other",
+    "city": "Surat",
+    "project_details": "",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "4632",
+      "Station Name": "ONGC",
+      "Location (Centre)": "Surat",
+      "Business Domain": "Others",
+      "Total Project": "1",
+      "Tags": "",
+      "Description": "Details Awaited",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Details Awaited"
+    }
+  },
+  {
+    "id": 1430,
+    "name": "RCMA (Kanpur)",
+    "domain": "Others",
+    "normalized_domain": "Other",
+    "city": "Kanpur",
+    "project_details": "",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8811",
+      "Station Name": "RCMA (Kanpur)",
+      "Location (Centre)": "Kanpur",
+      "Business Domain": "Others",
+      "Total Project": "1",
+      "Tags": "",
+      "Description": "Details Awaited",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Details Awaited"
+    }
+  },
+  {
+    "id": 1431,
+    "name": "RCMA (Koraput)",
+    "domain": "Others",
+    "normalized_domain": "Other",
+    "city": "Sunabeda",
+    "project_details": "",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8814",
+      "Station Name": "RCMA (Koraput)",
+      "Location (Centre)": "Sunabeda",
+      "Business Domain": "Others",
+      "Total Project": "1",
+      "Tags": "",
+      "Description": "Details Awaited",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Details Awaited"
+    }
+  },
+  {
+    "id": 1432,
+    "name": "RCMA (Lucknow)",
+    "domain": "Others",
+    "normalized_domain": "Other",
+    "city": "Lucknow",
+    "project_details": "",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8810",
+      "Station Name": "RCMA (Lucknow)",
+      "Location (Centre)": "Lucknow",
+      "Business Domain": "Others",
+      "Total Project": "1",
+      "Tags": "",
+      "Description": "Details Awaited",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Details Awaited"
+    }
+  },
+  {
+    "id": 1433,
+    "name": "RCMA (Nasik)",
+    "domain": "Others",
+    "normalized_domain": "Other",
+    "city": "Nashik",
+    "project_details": "",
+    "subdomains": [
+      "General"
+    ],
+    "raw_row": {
+      "Station Id": "8813",
+      "Station Name": "RCMA (Nasik)",
+      "Location (Centre)": "Nashik",
+      "Business Domain": "Others",
+      "Total Project": "1",
+      "Tags": "",
+      "Description": "Details Awaited",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Details Awaited"
     }
   }
 ]

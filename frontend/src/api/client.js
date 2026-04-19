@@ -170,7 +170,7 @@ export function fetchDomains() {
 }
 
 export function fetchMeta() {
-  const uniqueStations = new Set(_companies.map(c => c.name.replace(/\s*-\s*(Online|Onsite)\s*$/i, '').trim())).size;
+  const uniqueStations = new Set(_companies.map(c => c.raw_row?.['Station Id'] || c.raw_row?.['Station ID'] || c.name)).size;
   return Promise.resolve({
     lastUpdated: _lastUpdated,
     companyCount: String(uniqueStations),
