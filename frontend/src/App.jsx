@@ -15,9 +15,11 @@ import QueryBox from './components/QueryBox.jsx';
 import SheetsSync from './components/SheetsSync.jsx';
 import StatusBar from './components/StatusBar.jsx';
 import { SkeletonCard } from './components/SkeletonCard.jsx';
+import MigrationPage from './components/MigrationPage.jsx';
 
 
 const PRIORITY_KEY = 'ps1_priority_list';
+const IS_OLD_SITE = window.location.hostname === 'ps1-explorer.vercel.app';
 
 function AllotmentInfoModal({ onClose }) {
   useEffect(() => {
@@ -128,7 +130,7 @@ function OnlineNotice({ groups, enrichments, onOpenGroup, onTogglePriority, prio
   );
 }
 
-export default function App() {
+function Explorer() {
   const {
     companies,
     domains,
@@ -635,4 +637,9 @@ export default function App() {
       </div>
     </div>
   );
+}
+
+export default function App() {
+  if (IS_OLD_SITE) return <MigrationPage />;
+  return <Explorer />;
 }
