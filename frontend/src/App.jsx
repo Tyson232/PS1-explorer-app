@@ -307,8 +307,13 @@ function Explorer() {
         }}
       />
 
+      {/* ⚠️ Accommodation Warning Banner */}
+      <div className="bg-yellow-400 text-yellow-950 text-center py-2.5 px-4 font-bold text-sm tracking-wide z-40 sticky top-0">
+        ⚠️ GUYS PLEASE MAKE SURE TO TICK <span className="underline underline-offset-2">OWN ACCOMMODATION</span> FOR WHICHEVER STATION YOU ARE FILLING ⚠️
+      </div>
+
       {/* Top Header */}
-      <header className="border-b border-bg-border bg-bg-secondary/50 backdrop-blur-sm sticky top-0 z-30">
+      <header className="border-b border-bg-border bg-bg-secondary/50 backdrop-blur-sm sticky top-[40px] z-30">
         <div className="max-w-screen-xl mx-auto px-4 py-3 flex flex-col gap-2">
           <div className="flex items-center gap-4">
             {/* Mobile sidebar toggle */}
