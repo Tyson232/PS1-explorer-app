@@ -329,7 +329,6 @@ function Explorer() {
                   <span className="font-mono text-accent-purple">PS1</span>
                   <span className="text-text-primary"> Explorer</span>
                 </span>
-                <p className="text-xs text-text-muted leading-none mt-0.5">hi palak 👋</p>
               </div>
             </div>
 
