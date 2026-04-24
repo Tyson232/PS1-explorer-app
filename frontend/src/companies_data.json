@@ -3105,7 +3105,7 @@
   },
   {
     "id": 680,
-    "name": "Digibuks LLP  Noida",
+    "name": "Digibuks LLP Noida",
     "domain": "CSIS/IT",
     "normalized_domain": "CSIS",
     "city": "Noida",
@@ -11324,7 +11324,7 @@
   },
   {
     "id": 889,
-    "name": "Spatially Collaborative Engineering Labs  (SPACE Labs)",
+    "name": "Spatially Collaborative Engineering Labs (SPACE Labs)",
     "domain": "Electronics",
     "normalized_domain": "Electrical & Electronics",
     "city": "Noida",
@@ -11348,7 +11348,7 @@
   },
   {
     "id": 1322,
-    "name": "Spatially Collaborative Engineering Labs  (SPACE Labs)",
+    "name": "Spatially Collaborative Engineering Labs (SPACE Labs)",
     "domain": "Electronics",
     "normalized_domain": "Electrical & Electronics",
     "city": "Noida",
@@ -11867,7 +11867,7 @@
   },
   {
     "id": 907,
-    "name": "Multigraphics Group -  Digital Marketing",
+    "name": "Multigraphics Group - Digital Marketing",
     "domain": "CSIS/IT",
     "normalized_domain": "CSIS",
     "city": "Delhi",
@@ -11977,7 +11977,7 @@
   },
   {
     "id": 912,
-    "name": "Phaloudi Constructions and Infrastructure  PVT. LTD.",
+    "name": "Phaloudi Constructions and Infrastructure PVT. LTD.",
     "domain": "Infrastructure",
     "normalized_domain": "Infrastructure",
     "city": "Indore",
@@ -11999,7 +11999,7 @@
   },
   {
     "id": 1328,
-    "name": "Phaloudi Constructions and Infrastructure  PVT. LTD.",
+    "name": "Phaloudi Constructions and Infrastructure PVT. LTD.",
     "domain": "Infrastructure",
     "normalized_domain": "Infrastructure",
     "city": "Indore",
@@ -12021,7 +12021,7 @@
   },
   {
     "id": 1329,
-    "name": "Phaloudi Constructions and Infrastructure  PVT. LTD.",
+    "name": "Phaloudi Constructions and Infrastructure PVT. LTD.",
     "domain": "Infrastructure",
     "normalized_domain": "Infrastructure",
     "city": "Indore",
@@ -12043,7 +12043,7 @@
   },
   {
     "id": 1330,
-    "name": "Phaloudi Constructions and Infrastructure  PVT. LTD.",
+    "name": "Phaloudi Constructions and Infrastructure PVT. LTD.",
     "domain": "Infrastructure",
     "normalized_domain": "Infrastructure",
     "city": "Indore",
@@ -12065,7 +12065,7 @@
   },
   {
     "id": 1331,
-    "name": "Phaloudi Constructions and Infrastructure  PVT. LTD.",
+    "name": "Phaloudi Constructions and Infrastructure PVT. LTD.",
     "domain": "Infrastructure",
     "normalized_domain": "Infrastructure",
     "city": "Indore",
@@ -17524,7 +17524,7 @@
   },
   {
     "id": 1068,
-    "name": "Paradeep Phosphates Limited  Goa",
+    "name": "Paradeep Phosphates Limited Goa",
     "domain": "Chemical",
     "normalized_domain": "Chemical",
     "city": "Goa",
@@ -17546,7 +17546,7 @@
   },
   {
     "id": 1069,
-    "name": "Paradeep Phosphates Limited  PPL Township, Odisha",
+    "name": "Paradeep Phosphates Limited PPL Township, Odisha",
     "domain": "Chemical",
     "normalized_domain": "Chemical",
     "city": "PPL Township, Odisha",
@@ -19186,7 +19186,7 @@
   },
   {
     "id": 1137,
-    "name": "Paradeep Phosphates Limited  Goa",
+    "name": "Paradeep Phosphates Limited Goa",
     "domain": "Chemical",
     "normalized_domain": "Chemical",
     "city": "Goa",
@@ -19208,7 +19208,7 @@
   },
   {
     "id": 1138,
-    "name": "Paradeep Phosphates Limited  PPL Township, Odisha",
+    "name": "Paradeep Phosphates Limited PPL Township, Odisha",
     "domain": "Chemical",
     "normalized_domain": "Chemical",
     "city": "PPL Township, Odisha",
@@ -20761,20 +20761,6 @@
     }
   },
   {
-    "id": 1471,
-    "name": "Digibuks LLP Noida",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
-  },
-  {
     "id": 1472,
     "name": "DigiToad Technologies Pvt. Ltd.",
     "domain": "CSIS/IT",
@@ -21560,20 +21546,6 @@
     }
   },
   {
-    "id": 1504,
-    "name": "Multigraphics Group - Digital Marketing",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
-  },
-  {
     "id": 1505,
     "name": "National Centre for Biologicaal Sciences (NCBS)",
     "domain": "Health Care",
@@ -21742,20 +21714,6 @@
     }
   },
   {
-    "id": 1512,
-    "name": "Nirmal Bang - Ajmer - Rajasthan",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
-  },
-  {
     "id": 1513,
     "name": "Northern Credit & Collection Business",
     "domain": "Finance and Mgmt",
@@ -21853,48 +21811,6 @@
       "Project Domain": "Electronics",
       "Title": "Electronics"
     }
-  },
-  {
-    "id": 1517,
-    "name": "Paradeep Phosphates Limited Goa",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
-  },
-  {
-    "id": 1518,
-    "name": "Paradeep Phosphates Limited PPL Township, Odisha",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
-  },
-  {
-    "id": 1519,
-    "name": "Phaloudi Constructions and Infrastructure PVT. LTD.",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
   },
   {
     "id": 1520,
@@ -22136,20 +22052,6 @@
       "Project Domain": "Growth & Operations",
       "Title": "Growth & Operations Intern"
     }
-  },
-  {
-    "id": 1530,
-    "name": "PS-I Entrepreneurship track - Growleads - Non Tech",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
   },
   {
     "id": 1531,
@@ -22587,20 +22489,6 @@
     }
   },
   {
-    "id": 1549,
-    "name": "Spatially Collaborative Engineering Labs (SPACE Labs)",
-    "domain": "",
-    "normalized_domain": "General",
-    "city": "",
-    "project_details": "",
-    "subdomains": [
-      "General"
-    ],
-    "station_mode": "Onsite",
-    "is_newly_added": true,
-    "raw_row": {}
-  },
-  {
     "id": 1550,
     "name": "Sstudize Labs Pvt. Ltd",
     "domain": "CSIS/IT",
@@ -22754,7 +22642,7 @@
     "name": "Target Institute of Medical Education & Research pvt.ltd",
     "domain": "",
     "normalized_domain": "General",
-    "city": "",
+    "city": "Mumbai",
     "project_details": "",
     "subdomains": [
       "General"
@@ -23038,7 +22926,7 @@
     "name": "Vedhascents",
     "domain": "",
     "normalized_domain": "General",
-    "city": "",
+    "city": "Edakkulam",
     "project_details": "",
     "subdomains": [
       "General"

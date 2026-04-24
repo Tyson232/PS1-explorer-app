@@ -1438,22 +1438,6 @@
     "fetch_status": "done",
     "company_type": "Private"
   },
-  "Digibuks LLP  Noida": {
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "500-1000",
-    "description": "Digibuks LLP is a digital transformation and IT consulting company that provides services such as digital strategy, IT infrastructure, and cybersecurity. They cater to various industries including BFSI, retail, and manufacturing. Their expertise lies in leveraging emerging technologies like AI, blockchain, and cloud computing. Digibuks LLP is known for its innovative approach and commitment to delivering high-quality solutions.",
-    "founding_year": "2015",
-    "hq": "Noida, India",
-    "website": "digibuks.com",
-    "funding_stage": "Bootstrapped",
-    "investors": [],
-    "tech_stack": [
-      "AWS, Azure, Google Cloud, Python, Java, Node.js, MongoDB"
-    ],
-    "culture_snippet": "Digibuks LLP fosters a culture of innovation and collaboration, where employees are encouraged to think outside the box and push the boundaries of what is possible.",
-    "fetch_status": "done",
-    "company_type": "Private"
-  },
   "Digibuks LLP Mumbai": {
     "scale_badge": "🚀 Growth Stage",
     "employee_count": "500-1000",
@@ -4549,28 +4533,6 @@
     "company_type": "Private",
     "fetch_status": "done"
   },
-  "Spatially Collaborative Engineering Labs  (SPACE Labs)": {
-    "scale_badge": "🌱 Early Startup",
-    "employee_count": "50-100",
-    "description": "Spatially Collaborative Engineering Labs (SPACE Labs) is a research organization that focuses on developing innovative solutions for spatial collaboration and engineering. They provide software and services for various industries, including architecture, engineering, and construction. SPACE Labs is notable for its cutting-edge research and development in the field of spatial collaboration. Their solutions enable teams to work together more effectively and efficiently.",
-    "founding_year": null,
-    "hq": "null",
-    "website": null,
-    "funding_stage": "Bootstrapped",
-    "investors": [],
-    "tech_stack": [
-      "Unity",
-      "C#",
-      "Python",
-      "Java",
-      "AWS",
-      "Azure",
-      "Git"
-    ],
-    "culture_snippet": "SPACE Labs fosters a culture of innovation and collaboration, where employees are encouraged to think creatively and push the boundaries of what is possible.",
-    "company_type": "Private",
-    "fetch_status": "done"
-  },
   "Ode Chem LLP": {
     "scale_badge": "🏢 Mid-size",
     "employee_count": "50-100",
@@ -4920,29 +4882,6 @@
     "company_type": "Private",
     "fetch_status": "done"
   },
-  "Multigraphics Group -  Digital Marketing": {
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "500-1000",
-    "description": "Multigraphics Group - Digital Marketing is a digital marketing agency that provides services such as SEO, social media management, and content creation. They cater to various industries including e-commerce, healthcare, and finance. The company is known for its innovative approach to digital marketing and its commitment to delivering measurable results. Multigraphics Group - Digital Marketing has a strong presence in the Asia-Pacific region.",
-    "founding_year": "2010",
-    "hq": "Singapore, Singapore",
-    "website": "multigraphics.com",
-    "funding_stage": "Bootstrapped",
-    "investors": [
-      null
-    ],
-    "tech_stack": [
-      "Adobe Creative Cloud",
-      "Google Analytics",
-      "HubSpot",
-      "Mailchimp",
-      "Microsoft Office 365",
-      "WordPress"
-    ],
-    "culture_snippet": "Multigraphics Group - Digital Marketing prioritizes a work-life balance and encourages its employees to participate in community service projects.",
-    "company_type": "Private",
-    "fetch_status": "done"
-  },
   "Multigraphics Group - Market Research": {
     "scale_badge": "🏢 Mid-size",
     "employee_count": "500-1000",
@@ -5029,20 +4968,6 @@
       "Python"
     ],
     "culture_snippet": "NRLDC operates in a fast-paced, dynamic environment, requiring its employees to be highly skilled and adaptable in managing complex power grid systems.",
-    "company_type": "Private",
-    "fetch_status": "done"
-  },
-  "Phaloudi Constructions and Infrastructure  PVT. LTD.": {
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "500-1000",
-    "description": "Phaloudi Constructions and Infrastructure PVT. LTD. is a private construction company that specializes in infrastructure development, road construction, and building services. They operate primarily in India, serving various industries including government, commercial, and residential sectors. The company is known for its commitment to quality, safety, and timely project delivery. Phaloudi Constructions and Infrastructure PVT. LTD. has established itself as a reliable partner for infrastructure development projects.",
-    "founding_year": null,
-    "hq": "null",
-    "website": null,
-    "funding_stage": "null",
-    "investors": [],
-    "tech_stack": [],
-    "culture_snippet": "Phaloudi Constructions and Infrastructure PVT. LTD. prioritizes employee safety and well-being, providing regular training and equipment to ensure a secure working environment.",
     "company_type": "Private",
     "fetch_status": "done"
   },
@@ -8495,41 +8420,6 @@
     "company_type": "Private",
     "fetch_status": "done"
   },
-  "Paradeep Phosphates Limited  Goa": {
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "1000-5000",
-    "description": "Paradeep Phosphates Limited is a Government-owned company that operates in the fertilizers and chemicals sector. They are involved in the production and marketing of various phosphatic fertilizers and chemicals. Their key markets include India and other countries in the Asia-Pacific region. The company is notable for its contribution to the Indian fertilizers industry and its commitment to sustainable practices.",
-    "founding_year": "1978",
-    "hq": "Paradeep, India",
-    "website": "www.paradeephosphates.com",
-    "funding_stage": "Public",
-    "investors": [],
-    "tech_stack": [],
-    "culture_snippet": "The company prioritizes employee safety and well-being, with a strong focus on maintaining a healthy work environment.",
-    "company_type": "Private",
-    "fetch_status": "done"
-  },
-  "Paradeep Phosphates Limited  PPL Township, Odisha": {
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "1000-5000",
-    "description": "Paradeep Phosphates Limited (PPL) is a government-owned company that operates in the fertilizers and chemicals sector. It is involved in the production of phosphatic fertilizers, industrial chemicals, and other related products. PPL serves the domestic market of India and is known for its contribution to the country's fertilizer industry. The company is notable for its long history and commitment to providing essential products to the Indian agricultural sector.",
-    "founding_year": "1979",
-    "hq": "Paradeep, India",
-    "website": "pplindia.com",
-    "funding_stage": "Public",
-    "investors": [],
-    "tech_stack": [
-      "ERP systems",
-      "Supply chain management software",
-      "Manufacturing execution systems",
-      "Quality control software",
-      "Industrial automation systems",
-      "Enterprise resource planning"
-    ],
-    "culture_snippet": "PPL prioritizes employee safety and well-being, with a strong focus on maintaining a healthy work environment.",
-    "company_type": "Private",
-    "fetch_status": "done"
-  },
   "Pascal AI": {
     "scale_badge": "🚀 Growth Stage",
     "employee_count": "100-500",
@@ -9386,20 +9276,20 @@
     "culture_snippet": "NPL provides a collaborative and innovative work environment, with opportunities for professional growth and development."
   },
   "Digibuks LLP Noida": {
-    "fetch_status": "done",
-    "company_type": "Private",
     "scale_badge": "🏢 Mid-size",
     "employee_count": "500-1000",
-    "description": "Digibuks LLP Noida is a digital transformation and IT consulting company that provides services such as cloud migration, data analytics, and cybersecurity. They cater to various industries including BFSI, healthcare, and manufacturing. Their expertise lies in leveraging emerging technologies like AI, blockchain, and IoT to drive business growth. Digibuks LLP Noida is known for its innovative approach and commitment to delivering high-quality solutions.",
+    "description": "Digibuks LLP is a digital transformation and IT consulting company that provides services such as digital strategy, IT infrastructure, and cybersecurity. They cater to various industries including BFSI, retail, and manufacturing. Their expertise lies in leveraging emerging technologies like AI, blockchain, and cloud computing. Digibuks LLP is known for its innovative approach and commitment to delivering high-quality solutions.",
     "founding_year": "2015",
     "hq": "Noida, India",
     "website": "digibuks.com",
     "funding_stage": "Bootstrapped",
     "investors": [],
     "tech_stack": [
-      "AWS, Azure, Google Cloud, Python, Java, MongoDB, PostgreSQL"
+      "AWS, Azure, Google Cloud, Python, Java, Node.js, MongoDB"
     ],
-    "culture_snippet": "At Digibuks LLP Noida, employees appreciate the company's emphasis on work-life balance and opportunities for professional growth and development."
+    "culture_snippet": "Digibuks LLP fosters a culture of innovation and collaboration, where employees are encouraged to think outside the box and push the boundaries of what is possible.",
+    "fetch_status": "done",
+    "company_type": "Private"
   },
   "DigiToad Technologies Pvt. Ltd.": {
     "fetch_status": "done",
@@ -9973,26 +9863,27 @@
     "culture_snippet": "Mowito Automation prioritizes employee growth and development, offering training programs and opportunities for professional advancement."
   },
   "Multigraphics Group - Digital Marketing": {
-    "fetch_status": "done",
-    "company_type": "Private",
     "scale_badge": "🏢 Mid-size",
     "employee_count": "500-1000",
-    "description": "Multigraphics Group - Digital Marketing is a digital marketing agency that provides services such as SEO, PPC, social media marketing, and content creation. They cater to various industries including e-commerce, finance, and healthcare. With a focus on delivering measurable results, they help businesses grow their online presence. Their team of experts uses the latest digital marketing tools to drive customer engagement and conversions.",
-    "founding_year": "2000",
-    "hq": "Mumbai, India",
-    "website": "multigraphics.in",
+    "description": "Multigraphics Group - Digital Marketing is a digital marketing agency that provides services such as SEO, social media management, and content creation. They cater to various industries including e-commerce, healthcare, and finance. The company is known for its innovative approach to digital marketing and its commitment to delivering measurable results. Multigraphics Group - Digital Marketing has a strong presence in the Asia-Pacific region.",
+    "founding_year": "2010",
+    "hq": "Singapore, Singapore",
+    "website": "multigraphics.com",
     "funding_stage": "Bootstrapped",
-    "investors": [],
-    "tech_stack": [
-      "Google Analytics",
-      "Google Ads",
-      "Facebook Ads",
-      "Hootsuite",
-      "Mailchimp",
-      "Adobe Creative Cloud",
-      "HubSpot"
+    "investors": [
+      null
     ],
-    "culture_snippet": "Multigraphics Group prioritizes employee growth and development, offering training programs and workshops to enhance their skills and stay updated with industry trends."
+    "tech_stack": [
+      "Adobe Creative Cloud",
+      "Google Analytics",
+      "HubSpot",
+      "Mailchimp",
+      "Microsoft Office 365",
+      "WordPress"
+    ],
+    "culture_snippet": "Multigraphics Group - Digital Marketing prioritizes a work-life balance and encourages its employees to participate in community service projects.",
+    "company_type": "Private",
+    "fetch_status": "done"
   },
   "National Centre for Biologicaal Sciences (NCBS)": {
     "fetch_status": "done",
@@ -10158,58 +10049,53 @@
     "culture_snippet": "NTPC Limited is known for its emphasis on employee development and providing opportunities for growth and learning."
   },
   "Paradeep Phosphates Limited Goa": {
-    "fetch_status": "done",
-    "company_type": "Private",
     "scale_badge": "🏢 Mid-size",
-    "employee_count": "500-1000",
-    "description": "Paradeep Phosphates Limited Goa is a Government of India undertaking under the Department of Fertilizers. It is involved in the production of phosphatic fertilizers. The company operates in the Indian market, catering to the country's fertilizer needs. Paradeep Phosphates Limited Goa is notable for its contribution to India's fertilizer sector.",
-    "founding_year": null,
-    "hq": "Paradeep, India",
-    "website": "www.paradeephosphates.com",
-    "funding_stage": "Government",
-    "investors": [
-      "Government of India"
-    ],
-    "tech_stack": [
-      "ERP, CRM, SAP, Oracle, Microsoft Office, Google Workspace"
-    ],
-    "culture_snippet": "Employees at Paradeep Phosphates Limited Goa appreciate the company's focus on social responsibility and community development initiatives."
-  },
-  "Paradeep Phosphates Limited PPL Township, Odisha": {
-    "fetch_status": "done",
-    "company_type": "Private",
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "500-1000",
-    "description": "Paradeep Phosphates Limited (PPL) is a Government of India undertaking under the Department of Fertilizers. It is involved in the production of phosphatic fertilizers and other chemicals. PPL operates in the Indian market, catering to the country's fertilizer needs. The company is notable for its contribution to the Indian fertilizer industry.",
+    "employee_count": "1000-5000",
+    "description": "Paradeep Phosphates Limited is a Government-owned company that operates in the fertilizers and chemicals sector. They are involved in the production and marketing of various phosphatic fertilizers and chemicals. Their key markets include India and other countries in the Asia-Pacific region. The company is notable for its contribution to the Indian fertilizers industry and its commitment to sustainable practices.",
     "founding_year": "1978",
     "hq": "Paradeep, India",
+    "website": "www.paradeephosphates.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "The company prioritizes employee safety and well-being, with a strong focus on maintaining a healthy work environment.",
+    "company_type": "Private",
+    "fetch_status": "done"
+  },
+  "Paradeep Phosphates Limited PPL Township, Odisha": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "1000-5000",
+    "description": "Paradeep Phosphates Limited (PPL) is a government-owned company that operates in the fertilizers and chemicals sector. It is involved in the production of phosphatic fertilizers, industrial chemicals, and other related products. PPL serves the domestic market of India and is known for its contribution to the country's fertilizer industry. The company is notable for its long history and commitment to providing essential products to the Indian agricultural sector.",
+    "founding_year": "1979",
+    "hq": "Paradeep, India",
     "website": "pplindia.com",
-    "funding_stage": "Government",
-    "investors": [
-      "Government of India"
-    ],
+    "funding_stage": "Public",
+    "investors": [],
     "tech_stack": [
-      "ERP, CRM, SAP, Oracle, Microsoft Office, Google Workspace"
+      "ERP systems",
+      "Supply chain management software",
+      "Manufacturing execution systems",
+      "Quality control software",
+      "Industrial automation systems",
+      "Enterprise resource planning"
     ],
-    "culture_snippet": "PPL values teamwork and collaboration among its employees, with a focus on achieving common goals and contributing to the nation's development."
+    "culture_snippet": "PPL prioritizes employee safety and well-being, with a strong focus on maintaining a healthy work environment.",
+    "company_type": "Private",
+    "fetch_status": "done"
   },
   "Phaloudi Constructions and Infrastructure PVT. LTD.": {
-    "fetch_status": "done",
-    "company_type": "Private",
     "scale_badge": "🏢 Mid-size",
     "employee_count": "500-1000",
-    "description": "Phaloudi Constructions and Infrastructure PVT. LTD. is a construction company that specializes in infrastructure development, building construction, and project management. They operate in various sectors including transportation, energy, and industrial development. The company is known for its expertise in executing large-scale projects and its commitment to quality and safety. Phaloudi Constructions has established itself as a reliable partner for government agencies and private clients alike.",
-    "founding_year": "2005",
-    "hq": "New Delhi, India",
-    "website": "phaloudi.com",
+    "description": "Phaloudi Constructions and Infrastructure PVT. LTD. is a private construction company that specializes in infrastructure development, road construction, and building services. They operate primarily in India, serving various industries including government, commercial, and residential sectors. The company is known for its commitment to quality, safety, and timely project delivery. Phaloudi Constructions and Infrastructure PVT. LTD. has established itself as a reliable partner for infrastructure development projects.",
+    "founding_year": null,
+    "hq": "null",
+    "website": null,
     "funding_stage": "null",
-    "investors": [
-      "null"
-    ],
-    "tech_stack": [
-      "Autodesk, Primavera P6, MS Project, ArcGIS, AutoCAD, Revit"
-    ],
-    "culture_snippet": "Phaloudi Constructions prioritizes employee development and offers opportunities for growth and learning, with many employees citing the company's supportive work environment as a key factor in their job satisfaction."
+    "investors": [],
+    "tech_stack": [],
+    "culture_snippet": "Phaloudi Constructions and Infrastructure PVT. LTD. prioritizes employee safety and well-being, providing regular training and equipment to ensure a secure working environment.",
+    "company_type": "Private",
+    "fetch_status": "done"
   },
   "PIEDS online, Pilani": {
     "fetch_status": "done",
@@ -10674,22 +10560,26 @@
     "culture_snippet": "Software Tree emphasizes a culture of innovation, collaboration, and continuous learning, with employees citing a supportive work environment and opportunities for growth and development."
   },
   "Spatially Collaborative Engineering Labs (SPACE Labs)": {
-    "fetch_status": "done",
-    "company_type": "Private",
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "500-1000",
-    "description": "Spatially Collaborative Engineering Labs (SPACE Labs) is a research and development organization that focuses on creating innovative solutions for various industries. They provide services such as product design, prototyping, and testing. SPACE Labs primarily operates in the Indian market, with a focus on the automotive and aerospace sectors. Their notable work includes developing advanced materials and technologies for these industries.",
-    "founding_year": "2015",
-    "hq": "Bangalore, India",
-    "website": "spacelabs.in",
-    "funding_stage": "Government",
-    "investors": [
-      "DRDO (Defense Research and Development Organisation)"
-    ],
+    "scale_badge": "🌱 Early Startup",
+    "employee_count": "50-100",
+    "description": "Spatially Collaborative Engineering Labs (SPACE Labs) is a research organization that focuses on developing innovative solutions for spatial collaboration and engineering. They provide software and services for various industries, including architecture, engineering, and construction. SPACE Labs is notable for its cutting-edge research and development in the field of spatial collaboration. Their solutions enable teams to work together more effectively and efficiently.",
+    "founding_year": null,
+    "hq": "null",
+    "website": null,
+    "funding_stage": "Bootstrapped",
+    "investors": [],
     "tech_stack": [
-      "CATIA, ANSYS, SolidWorks, MATLAB, Python, C++"
+      "Unity",
+      "C#",
+      "Python",
+      "Java",
+      "AWS",
+      "Azure",
+      "Git"
     ],
-    "culture_snippet": "Employees at SPACE Labs describe the work environment as 'innovative and challenging', with opportunities for growth and learning."
+    "culture_snippet": "SPACE Labs fosters a culture of innovation and collaboration, where employees are encouraged to think creatively and push the boundaries of what is possible.",
+    "company_type": "Private",
+    "fetch_status": "done"
   },
   "Sstudize Labs Pvt. Ltd": {
     "fetch_status": "done",
