@@ -146,6 +146,7 @@ function Explorer() {
     toggleCity,
     toggleWorkMode,
     toggleBranch,
+    toggleNewlyAdded,
     clearFilters,
   } = useCompanies();
 
@@ -296,7 +297,7 @@ function Explorer() {
 
   const hasFilters = filters.domains.length > 0 || filters.subdomains.length > 0
     || filters.cities.length > 0 || selectedScales.length > 0 || filters.workModes.length > 0
-    || filters.branches.length > 0 || selectedTypes.length > 0 || accomOnly;
+    || filters.branches.length > 0 || selectedTypes.length > 0 || accomOnly || !!filters.newlyAdded;
 
   return (
     <div className="min-h-screen bg-bg-primary flex flex-col font-sans">
@@ -429,6 +430,8 @@ function Explorer() {
               onToggleWorkMode={toggleWorkMode}
               selectedBranches={filters.branches}
               onToggleBranch={toggleBranch}
+              newlyAdded={filters.newlyAdded}
+              onToggleNewlyAdded={toggleNewlyAdded}
               onClearAll={clearAllFilters}
             />
           </div>
@@ -464,6 +467,8 @@ function Explorer() {
                 onToggleWorkMode={(m) => { toggleWorkMode(m); setSidebarOpen(false); }}
                 selectedBranches={filters.branches}
                 onToggleBranch={(b) => { toggleBranch(b); setSidebarOpen(false); }}
+                newlyAdded={filters.newlyAdded}
+                onToggleNewlyAdded={(m) => { toggleNewlyAdded(m); setSidebarOpen(false); }}
                 onClearAll={() => { clearAllFilters(); setSidebarOpen(false); }}
               />
             </div>

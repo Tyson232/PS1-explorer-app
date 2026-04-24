@@ -73,9 +73,10 @@ const _companiesWithPS = companiesData.map(c => {
     : c.normalized_domain === 'Mech' ? 'Mechanical'
     : c.normalized_domain;
   const normalized_domain = /^others?$/i.test(nd) ? 'Other' : nd;
+  const work_mode = ps ? ps.work_mode : (c.station_mode || null);
   return ps
-    ? { ...c, city, normalized_domain, min_cg: ps.min_cg, contact_emails: ps.contact_emails, work_mode: ps.work_mode, branch_codes }
-    : { ...c, city, normalized_domain, min_cg: null, contact_emails: [], work_mode: null, branch_codes };
+    ? { ...c, city, normalized_domain, min_cg: ps.min_cg, contact_emails: ps.contact_emails, work_mode, branch_codes }
+    : { ...c, city, normalized_domain, min_cg: null, contact_emails: [], work_mode, branch_codes };
 });
 
 // ─── In-memory store ──────────────────────────────────────────────────────
@@ -87,7 +88,7 @@ export function getAllCompanies() { return _companiesWithPS; }
 // ─── Companies ────────────────────────────────────────────────────────────
 
 export function fetchCompanies(params = {}) {
-  const { q, domains, subdomains, cities, workModes, branches } = params;
+  const { q, domains, subdomains, cities, workModes, branches, newlyAdded } = params;
   const domainList = domains ? domains.split(',').filter(Boolean) : [];
   const subdomainList = subdomains ? subdomains.split(',').filter(Boolean) : [];
   const cityList = cities ? cities.split(',').filter(Boolean) : [];
@@ -128,6 +129,13 @@ export function fetchCompanies(params = {}) {
     companies = companies.filter(c =>
       branchList.some(b => c.branch_codes?.includes(b))
     );
+  }
+
+  // Newly added filter: 'all' | 'Online' | 'Onsite'
+  if (newlyAdded) {
+    companies = companies.filter(c => c.is_newly_added);
+    if (newlyAdded === 'Online') companies = companies.filter(c => c.work_mode === 'Online');
+    if (newlyAdded === 'Onsite') companies = companies.filter(c => c.work_mode === 'Onsite');
   }
 
   return Promise.resolve({ companies, total: companies.length });

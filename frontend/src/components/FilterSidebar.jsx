@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { createPortal } from 'react-dom';
-import { ChevronDown, ChevronRight, X, Layers, MapPin, BarChart2, Wifi, GraduationCap, Info, Landmark, BedDouble } from 'lucide-react';
+import { ChevronDown, ChevronRight, X, Layers, MapPin, BarChart2, Wifi, GraduationCap, Info, Landmark, BedDouble, Sparkles } from 'lucide-react';
 import { BRANCH_CODES, BRANCH_NAMES } from '../api/client.js';
 
 const DOMAIN_COLORS = {
@@ -129,6 +129,12 @@ const TYPE_OPTIONS = [
   { value: 'Private',    label: '🏢 Private',    color: 'text-accent-purple border-accent-purple/30 bg-accent-purple/10' },
 ];
 
+const NEWLY_ADDED_OPTIONS = [
+  { value: 'all',    label: '⭐ All New',  color: 'text-accent-amber border-accent-amber/30 bg-accent-amber/10' },
+  { value: 'Online', label: '💻 Online',   color: 'text-accent-teal border-accent-teal/30 bg-accent-teal/10' },
+  { value: 'Onsite', label: '🏢 Onsite',   color: 'text-orange-400 border-orange-500/30 bg-orange-500/10' },
+];
+
 export default function FilterSidebar({
   domains, subdomainMap, selectedDomains, selectedSubdomains, onToggleDomain, onToggleSubdomain,
   allCities, selectedCities, onToggleCity,
@@ -137,6 +143,7 @@ export default function FilterSidebar({
   accomOnly, onToggleAccom,
   selectedWorkModes, onToggleWorkMode,
   selectedBranches, onToggleBranch,
+  newlyAdded, onToggleNewlyAdded,
   onClearAll
 }) {
   const [domainsOpen, setDomainsOpen] = useState(false);
@@ -146,12 +153,13 @@ export default function FilterSidebar({
   const [accomOpen, setAccomOpen] = useState(false);
   const [workModeOpen, setWorkModeOpen] = useState(false);
   const [branchOpen, setBranchOpen] = useState(false);
+  const [newlyAddedOpen, setNewlyAddedOpen] = useState(false);
   const [citySearch, setCitySearch] = useState('');
   const [showScaleInfo, setShowScaleInfo] = useState(false);
 
   const hasFilters = selectedDomains.length > 0 || selectedSubdomains.length > 0
     || selectedCities.length > 0 || selectedScales.length > 0 || selectedWorkModes.length > 0
-    || selectedBranches.length > 0 || selectedTypes.length > 0 || accomOnly;
+    || selectedBranches.length > 0 || selectedTypes.length > 0 || accomOnly || !!newlyAdded;
 
   const filteredCities = citySearch
     ? allCities.filter(c => c.toLowerCase().includes(citySearch.toLowerCase()))
@@ -388,6 +396,37 @@ export default function FilterSidebar({
 
       <div className="border-t border-bg-border" />
 
+      {/* ── Newly Added ── */}
+      <div>
+        <SectionHeader
+          icon={Sparkles}
+          label="Newly Added"
+          count={newlyAdded ? 1 : 0}
+          expanded={newlyAddedOpen}
+          onToggle={() => setNewlyAddedOpen(v => !v)}
+        />
+        {newlyAddedOpen && (
+          <div className="mt-1 flex flex-col gap-0.5">
+            {NEWLY_ADDED_OPTIONS.map(({ value, label, color }) => {
+              const sel = newlyAdded === value;
+              return (
+                <button
+                  key={value}
+                  onClick={() => onToggleNewlyAdded(value)}
+                  className={`text-left text-xs px-2 py-1.5 rounded-md border transition-all duration-150 ${
+                    sel ? color : 'text-text-muted border-transparent hover:bg-bg-hover hover:text-text-secondary'
+                  }`}
+                >
+                  {label}
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
+
+      <div className="border-t border-bg-border" />
+
       {/* ── Work Mode ── */}
       <div>
         <SectionHeader
@@ -476,6 +515,12 @@ export default function FilterSidebar({
               <button onClick={onToggleAccom}
                 className="tag-chip flex items-center gap-1 text-accent-teal border-accent-teal/30 hover:border-accent-teal transition-colors">
                 🏠 Accom <X size={9} />
+              </button>
+            )}
+            {newlyAdded && (
+              <button onClick={() => onToggleNewlyAdded(newlyAdded)}
+                className="tag-chip flex items-center gap-1 text-accent-amber border-accent-amber/30 hover:border-accent-amber transition-colors">
+                ✨ New{newlyAdded !== 'all' ? ` · ${newlyAdded}` : ''} <X size={9} />
               </button>
             )}
           </div>
