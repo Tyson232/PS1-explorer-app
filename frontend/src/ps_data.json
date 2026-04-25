@@ -731,11 +731,6 @@
     ],
     "work_mode": "Onsite"
   },
-  "Grasim Industries - Online": {
-    "min_cg": null,
-    "contact_emails": [],
-    "work_mode": "Online"
-  },
   "SMARTSA TECH PRIVATE LIMITED-Online": {
     "min_cg": 8.12,
     "contact_emails": [],
@@ -974,7 +969,7 @@
   "FlairX Networks": {
     "min_cg": null,
     "contact_emails": [],
-    "work_mode": "Onsite"
+    "work_mode": "Online"
   },
   "Haryana Power Generation Corporation": {
     "min_cg": null,
@@ -1149,7 +1144,7 @@
   "Nouveau Labs Pvt Ltd": {
     "min_cg": null,
     "contact_emails": [],
-    "work_mode": "Onsite"
+    "work_mode": "Online"
   },
   "ONGC, Ahmedabad": {
     "min_cg": null,
@@ -1354,7 +1349,7 @@
   "VNR Seeds Pvt Ltd": {
     "min_cg": null,
     "contact_emails": [],
-    "work_mode": "Onsite"
+    "work_mode": "Online"
   },
   "Vankal Agri Solutions Pvt. Ltd.": {
     "min_cg": null,
@@ -2380,5 +2375,10 @@
     "min_cg": null,
     "contact_emails": [],
     "work_mode": "Online"
+  },
+  "Grasim Industries - Onsite": {
+    "min_cg": null,
+    "contact_emails": [],
+    "work_mode": "Onsite"
   }
 }

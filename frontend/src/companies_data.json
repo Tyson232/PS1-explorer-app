@@ -8337,7 +8337,7 @@
     "name": "RRSC",
     "domain": "Electronics",
     "normalized_domain": "Electrical & Electronics",
-    "city": "Nagapur",
+    "city": "Nagpur",
     "project_details": "",
     "subdomains": [
       "General"
@@ -16391,7 +16391,7 @@
   },
   {
     "id": 1038,
-    "name": "Grasim Industries - Online",
+    "name": "Grasim Industries - Onsite",
     "domain": "Chemical",
     "normalized_domain": "Chemical",
     "city": "Nagda",
@@ -16401,7 +16401,7 @@
     ],
     "raw_row": {
       "Station Id": "5466",
-      "Station Name": "Grasim Industries - Online",
+      "Station Name": "Grasim Industries - Onsite",
       "Centre (Location)": "Nagda",
       "Business Domain": "Chemical",
       "Total Project": "1",
@@ -23080,6 +23080,307 @@
       "Description": "Details awaited",
       "Project Domain": "Mechanical",
       "Title": "Details awaited"
+    }
+  },
+  {
+    "id": 1575,
+    "name": "AC Aganral Share Btokers Pvt' Ltd.",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Vadodara",
+    "project_details": "Centricity Platform - Wealth Data Support,Al Portfolio Analyser- Portfolio Review Tool\nDescription: \\iVork on a wealth management platform used- for handling andorganizing financial data of high-net-worth clients. The proiect involves basic dataha;dling,- improving internal workflows, and generating simple summaries tosupport decision-making.Skill sets: Python, APls, SQLExpected leirning: Understanding of data workflows, working with APls, exposureto financial data systemsSpecific courses required for project execution: Python, Databases,Description: Build a system to review and analyze portfolio data by combining inputsfrom different sources. The proiect focuses on summarizing portfolio performanceand highlighting key observations in a simple and structured way.Skill sets: Python, APlsExpected learning: basic portfolio analysis, system design fundamentalsSpecific courses required for project execution:Python, Basic Finance Concepts",
+    "subdomains": [
+      "Wealth Management Systems",
+      "Financial Data Analvsis"
+    ],
+    "station_mode": "Online",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8873",
+      "Station Name": "AC Aganral Share Btokers Pvt' Ltd.",
+      "Centre (Location)": "Vadodara",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "2",
+      "Tags": "Any,Any",
+      "Description": "Description: \\iVork on a wealth management platform used- for handling andorganizing financial data of high-net-worth clients. The proiect involves basic dataha;dling,- improving internal workflows, and generating simple summaries tosupport decision-making.Skill sets: Python, APls, SQLExpected leirning: Understanding of data workflows, working with APls, exposureto financial data systemsSpecific courses required for project execution: Python, Databases,Description: Build a system to review and analyze portfolio data by combining inputsfrom different sources. The proiect focuses on summarizing portfolio performanceand highlighting key observations in a simple and structured way.Skill sets: Python, APlsExpected learning: basic portfolio analysis, system design fundamentalsSpecific courses required for project execution:Python, Basic Finance Concepts",
+      "Project Domain": "Wealth Management Systems,Financial Data Analvsis",
+      "Title": "Centricity Platform - Wealth Data Support,Al Portfolio Analyser- Portfolio Review Tool"
+    }
+  },
+  {
+    "id": 1576,
+    "name": "AtreVes Healthcare Pvt. Ltd.",
+    "domain": "Health Care",
+    "normalized_domain": "Health Care",
+    "city": "Hyderabad",
+    "project_details": "Title: Long-acting injectables & Solubility enhancement techniques\nTitle: Long-acting injectables&nbsp;Description: Development of drug-loaded long-acting injectableSkill sets: Fundamental knowledge of pharmaceutics, physical pharmacy and basicexperience working in laboratoryExpected learning: Hands-on experience in laboratory, inclusive but not restricted to AR&amp;Dand FR&amp;D activitiesSpecific courses required for project execution: Pharmaceutics, Physical PharmacyTitle: Solubility enhancement techniquesDescription: Harnessing processing technology and formulation strategies to enhance drugsolubilitySkill sets: Fundamental knowledge of pharmaceutics, physical pharmacy and basicexperience working in laboratoryExpected learning: Hands-on experience in laboratory, inclusive but not restricted to AR&amp;Dand FR&amp;D activitiesSpecific courses required for project execution: Pharmaceutics, Physical Pharmacy",
+    "subdomains": [
+      "Pharmacy"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8896",
+      "Station Name": "AtreVes Healthcare Pvt. Ltd.",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "Health Care",
+      "Total Project": "1",
+      "Tags": "AnyA5,A5",
+      "Description": "Title: Long-acting injectables&nbsp;Description: Development of drug-loaded long-acting injectableSkill sets: Fundamental knowledge of pharmaceutics, physical pharmacy and basicexperience working in laboratoryExpected learning: Hands-on experience in laboratory, inclusive but not restricted to AR&amp;Dand FR&amp;D activitiesSpecific courses required for project execution: Pharmaceutics, Physical PharmacyTitle: Solubility enhancement techniquesDescription: Harnessing processing technology and formulation strategies to enhance drugsolubilitySkill sets: Fundamental knowledge of pharmaceutics, physical pharmacy and basicexperience working in laboratoryExpected learning: Hands-on experience in laboratory, inclusive but not restricted to AR&amp;Dand FR&amp;D activitiesSpecific courses required for project execution: Pharmaceutics, Physical Pharmacy",
+      "Project Domain": "Pharmacy",
+      "Title": "Title: Long-acting injectables & Solubility enhancement techniques"
+    }
+  },
+  {
+    "id": 1577,
+    "name": "AtreVes Healthcare Pvt. Ltd.",
+    "domain": "Health Care",
+    "normalized_domain": "Health Care",
+    "city": "Hyderabad",
+    "project_details": "Title: ML based model for formulation design\nDescription: Development of AI/ML based model for formulation development Skill sets: Fundamental knowledge of data science, Artificial Intelligence, Machine Learning Expected learning: Hands-on experience in the application of AI/ML in healthcare product development Specific courses required for project execution: Data science, computer programming, etc.",
+    "subdomains": [
+      "AI & ML"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8896",
+      "Station Name": "AtreVes Healthcare Pvt. Ltd.",
+      "Centre (Location)": "Hyderabad",
+      "Business Domain": "Health Care",
+      "Total Project": "1",
+      "Tags": "AnyA7,AnyA3,AnyA4,A7,A3,A4",
+      "Description": "Description: Development of AI/ML based model for formulation development Skill sets: Fundamental knowledge of data science, Artificial Intelligence, Machine Learning Expected learning: Hands-on experience in the application of AI/ML in healthcare product development Specific courses required for project execution: Data science, computer programming, etc.",
+      "Project Domain": "AI & ML",
+      "Title": "Title: ML based model for formulation design "
+    }
+  },
+  {
+    "id": 1578,
+    "name": "Carnot Research Pvt Ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "New Delhi",
+    "project_details": "AI-Powered Disaster Helpline,Context-Aware AI Navigation Agent\nDescription: Multilingual AI system to handle emergency queries and route critical casesin real time.Skill sets: NLP, Speech AI, Backend APIs, ML classification, Multilingual systemsExpected learning: Build real-time conversational AI for high-stakes emergencyscenariosSpecific courses required for project execution: NLP, Speech Processing, ML,Distributed Systems,Description: Intelligent agent that optimizes routes and decisions using dynamic, multi-source inputs.Skill sets: Reinforcement Learning, Graph Algorithms, APIs, Agent DesignExpected learning: Develop autonomous agents with adaptive decision-making andnavigationSpecific courses required for project execution: Reinforcement Learning, Algorithms, AIFundamentals",
+    "subdomains": [
+      "Artificial Intelligence",
+      "Agentic AI"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8860",
+      "Station Name": "Carnot Research Pvt Ltd",
+      "Centre (Location)": "New Delhi",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "2",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,A3,A7,A8,AA,AnyA3,AnyA7,AnyA8,AnyAA,A3,A8,AA,A7",
+      "Description": "Description: Multilingual AI system to handle emergency queries and route critical casesin real time.Skill sets: NLP, Speech AI, Backend APIs, ML classification, Multilingual systemsExpected learning: Build real-time conversational AI for high-stakes emergencyscenariosSpecific courses required for project execution: NLP, Speech Processing, ML,Distributed Systems,Description: Intelligent agent that optimizes routes and decisions using dynamic, multi-source inputs.Skill sets: Reinforcement Learning, Graph Algorithms, APIs, Agent DesignExpected learning: Develop autonomous agents with adaptive decision-making andnavigationSpecific courses required for project execution: Reinforcement Learning, Algorithms, AIFundamentals",
+      "Project Domain": "Artificial Intelligence,Agentic AI",
+      "Title": "AI-Powered Disaster Helpline,Context-Aware AI Navigation Agent"
+    }
+  },
+  {
+    "id": 1579,
+    "name": "Centre for Development of Advanced Computing, Centre in North East (C-DAC CINE)",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Guwahati",
+    "project_details": "NoC based AI Accelerator,Multi objective optimization for NoC Design using AI.,AI-Driven Synthesis(Creation) of Deepfake and Forged Images Using Autoencoders and  GAN Architectures,GAN- and Diffusion-Based Framework for Robust Deepfake Detection Across Image  Modalities,Development of a Quantum Machine Learning (QML) based flood simulation framework  for predicting and analyzing flood dynamics.,Satellite Image Analysis,AI in Animal Husbandry,IoT-Based Smart Environmental Monitoring System,Development of Low-Cost Soil Moisture & Nutrient Sensing Device,Edge AI-Based Smart Surveillance Device,Design of Energy-Efficient Wireless Sensor Node,Smart Energy Meter with Remote Monitoring,Hardware Security Module (HSM) for Secure Embedded Systems\nDescription: Design and develop a Network-on-Chip (NoC) based AI accelerator architecture toenable efficient data communication and parallel processing for machine learning workloads. Theproject focuses on optimizing latency, throughput, and energy efficiency using hardware-softwareco-design, with implementation on FPGA platforms.Skill sets: Python, ML,FPGA ProgrammingExpected learning: Understanding of NoC architectures, AI accelerator design, hardware-software co-design, FPGA-based implementation, and performance optimization(latency, power, throughput) for ML workloads.Specific courses required for project execution: Computer Architecture, VLSI Design,Embedded Systems, FPGA Design (Verilog/VHDL), Machine Learning, Parallel Computing,Description: Develop AI-driven techniques to optimize NoC design by considering multipleobjectives such as latency, power consumption, area, and throughput. The project involves applyingmachine learning or evolutionary algorithms to explore design trade-offs and generate optimal NoCconfigurations.Skill sets: Python, ML ProgrammingExpected learning: Knowledge of NoC design principles, multi-objective optimizationtechniques, application of AI in hardware design, and trade-off analysis for system-levelperformance metrics.Specific courses required for project execution: Computer Architecture, Algorithms, MachineLearning, Optimization Techniques, Digital System Design, Data Structures,Description: To design and implement autoencoder and GAN-based models for imagereconstruction, manipulation, and generation of high-quality deepfake and forged images.Skill sets: PythonExpected learning: Generative model theory, Architecture design, GAN training dynamics, Imagequality metrics, Face manipulation pipeline, Deep learning frameworksSpecific courses required for project execution: Python for Data Science, Deep LearningSpecialisation, Generative Adversarial Networks, Computer Vision, Image ProcessingFundamentals.,Description: To design a generalized deepfake detection architecture adaptable across imagedomains by modeling forensic signatures of GANs and diffusion models, developing hybridtechniques leveraging spatial, frequency, and semantic inconsistencies, and evaluating robustnessagainst unseen generative methods.Skill sets: PythonExpected learning: Forensic analysis techniques (GAN fingerprints, spectral artifacts, noise),Diffusion model internals, Hybrid detection architectures, Frequency domain analysis,Generalisation and robustness, Explainability in detection, Benchmark evaluation.Specific courses required for project execution: Computer Vision, Diffusion Models, SignalProcessing for ML, ML Model Evaluation &amp; Robustness, Explainable AI (XAI), Media Forensics(Multimedia forensics, image tampering detection), Research Paper Reading (FaceForensics++etc.),Description: The task involves leveraging hybrid quantum classical algorithms to model water flowbehavior (e.g., shallow water equations), optimize evacuation routes, and improve early warningsystems for flood prone regions)Skill sets: Python, Quantum Computing (Qiskit / PennyLane), Machine Learning, NumericalMethods, Linear Algebra, Data Analysis.Expected learning: Understanding and hands-on experience in deepfake detection using GAN anddiffusion artifacts, multi-domain data handling, hybrid models (CNN + Transformers), and buildingrobust, explainable systems against unseen and adversarial manipulations.Specific courses required for project execution: Courses in Quantum Computing, QuantumMachine Learning, Numerical Methods, CFD, and Machine Learning .,Description Develop an efficient system for analyzing satellite images to extract meaningful insightsfor real-world applications, while ensuring accurate results under practical constraints such as limitedresources and bandwidth.Skill sets: Image Processing, AI/ML, Data Science, Python ProgrammingExpected learning:. Image Processing using Python Programming and Fundamental Mathematicsof AI/MLSpecific courses required for project execution: B.Tech Computer Science,Description: Develop a system that integrates video, sensor, and environmental data to predictearly-stage diseases in livestock using multimodal deep learning.Skill sets: Image Processing, AI/ML, Data Science, Python ProgrammingExpected learning: Image Processing using Python Programming and Fundamental Mathematicsof AI/MLSpecific courses required for project execution: B.Tech Computer Science,Description: Design and develop a low-cost multi-parameter environmental monitoring system tomeasure parameters such as temperature, humidity, air quality (CO2/NH3), and soil moisture. Thesystem should support real-time data acquisition and transmission to a cloud/dashboard interface.Skill sets: Embedded Systems / IoT / SensorsExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Develop a prototype for measuring soil moisture and basic nutrient indicators usingembedded hardware. Focus on calibration, accuracy improvement, and integration with amicrocontroller-based data logging system.Skill sets: Agri-Tech Hardware / Sensor DesignExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Develop a prototype smart surveillance system using edge devices (e.g., RaspberryPi/Jetson Nano) capable of performing basic object detection or motion detection without relying oncontinuous cloud connectivity.Skill sets: Embedded AI / Edge ComputingExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Design and prototype a low-power wireless sensor node using protocols likeLoRa/BLE, focusing on optimizing power consumption and extending battery life for remotedeployment scenarios.Skill sets: Low-Power Electronics / IoT HardwareExpected learning:. Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Design a prototype smart energy meter capable of measuring voltage, current, andpower consumption, with remote monitoring capability using IoT platforms.Skill sets: Power Electronics / Embedded SystemsExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: To design a generalized deepfake detection architecture adaptable across imagedomains by modeling forensic signatures of GANs and diffusion models, developing hybridtechniques leveraging spatial, frequency, and semantic inconsistencies, and evaluating robustnessagainst unseen generative methods.Skill sets: Hardware SecurityExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics",
+    "subdomains": [
+      "VLSI Design",
+      "Quantum Computing",
+      "AI & ML",
+      "EC & Hardware"
+    ],
+    "station_mode": "Online",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8906",
+      "Station Name": "Centre for Development of Advanced Computing, Centre in North East (C-DAC CINE)",
+      "Centre (Location)": "Guwahati",
+      "Business Domain": "Electronics",
+      "Total Project": "13",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,A3,A8,AD,AA,A7,AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,A3,A7,A8,AA,AD,AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,A3,A7,AA,A8,AD,AnyA3,AnyA7,AnyAA,AnyA8,A3,A8,AA,A7,AnyA3,AnyA7,AnyA8,AnyAA,A3,A8,A7,AA,AnyA7,A7,A7,AnyA7,AnyA3,AnyA8,AnyA7,AnyAA,A3,A7,AA,A8,AnyA3,AnyA7,AnyA8,AnyAA,A3,A8,A7,AA,AnyA3,AnyA7,AnyA8,AnyAA,A3,A7,AA,A8,AnyA3,AnyA7,AnyA8,AnyAA,A3,A8,A7,AA,AnyA3,AnyA7,AnyAA,AnyA8,A7,AA,A3,A8,AnyA3,AnyA7,AnyA8,AnyAA,A3,A8,AA,A7",
+      "Description": "Description: Design and develop a Network-on-Chip (NoC) based AI accelerator architecture toenable efficient data communication and parallel processing for machine learning workloads. Theproject focuses on optimizing latency, throughput, and energy efficiency using hardware-softwareco-design, with implementation on FPGA platforms.Skill sets: Python, ML,FPGA ProgrammingExpected learning: Understanding of NoC architectures, AI accelerator design, hardware-software co-design, FPGA-based implementation, and performance optimization(latency, power, throughput) for ML workloads.Specific courses required for project execution: Computer Architecture, VLSI Design,Embedded Systems, FPGA Design (Verilog/VHDL), Machine Learning, Parallel Computing,Description: Develop AI-driven techniques to optimize NoC design by considering multipleobjectives such as latency, power consumption, area, and throughput. The project involves applyingmachine learning or evolutionary algorithms to explore design trade-offs and generate optimal NoCconfigurations.Skill sets: Python, ML ProgrammingExpected learning: Knowledge of NoC design principles, multi-objective optimizationtechniques, application of AI in hardware design, and trade-off analysis for system-levelperformance metrics.Specific courses required for project execution: Computer Architecture, Algorithms, MachineLearning, Optimization Techniques, Digital System Design, Data Structures,Description: To design and implement autoencoder and GAN-based models for imagereconstruction, manipulation, and generation of high-quality deepfake and forged images.Skill sets: PythonExpected learning: Generative model theory, Architecture design, GAN training dynamics, Imagequality metrics, Face manipulation pipeline, Deep learning frameworksSpecific courses required for project execution: Python for Data Science, Deep LearningSpecialisation, Generative Adversarial Networks, Computer Vision, Image ProcessingFundamentals.,Description: To design a generalized deepfake detection architecture adaptable across imagedomains by modeling forensic signatures of GANs and diffusion models, developing hybridtechniques leveraging spatial, frequency, and semantic inconsistencies, and evaluating robustnessagainst unseen generative methods.Skill sets: PythonExpected learning: Forensic analysis techniques (GAN fingerprints, spectral artifacts, noise),Diffusion model internals, Hybrid detection architectures, Frequency domain analysis,Generalisation and robustness, Explainability in detection, Benchmark evaluation.Specific courses required for project execution: Computer Vision, Diffusion Models, SignalProcessing for ML, ML Model Evaluation &amp; Robustness, Explainable AI (XAI), Media Forensics(Multimedia forensics, image tampering detection), Research Paper Reading (FaceForensics++etc.),Description: The task involves leveraging hybrid quantum classical algorithms to model water flowbehavior (e.g., shallow water equations), optimize evacuation routes, and improve early warningsystems for flood prone regions)Skill sets: Python, Quantum Computing (Qiskit / PennyLane), Machine Learning, NumericalMethods, Linear Algebra, Data Analysis.Expected learning: Understanding and hands-on experience in deepfake detection using GAN anddiffusion artifacts, multi-domain data handling, hybrid models (CNN + Transformers), and buildingrobust, explainable systems against unseen and adversarial manipulations.Specific courses required for project execution: Courses in Quantum Computing, QuantumMachine Learning, Numerical Methods, CFD, and Machine Learning .,Description Develop an efficient system for analyzing satellite images to extract meaningful insightsfor real-world applications, while ensuring accurate results under practical constraints such as limitedresources and bandwidth.Skill sets: Image Processing, AI/ML, Data Science, Python ProgrammingExpected learning:. Image Processing using Python Programming and Fundamental Mathematicsof AI/MLSpecific courses required for project execution: B.Tech Computer Science,Description: Develop a system that integrates video, sensor, and environmental data to predictearly-stage diseases in livestock using multimodal deep learning.Skill sets: Image Processing, AI/ML, Data Science, Python ProgrammingExpected learning: Image Processing using Python Programming and Fundamental Mathematicsof AI/MLSpecific courses required for project execution: B.Tech Computer Science,Description: Design and develop a low-cost multi-parameter environmental monitoring system tomeasure parameters such as temperature, humidity, air quality (CO2/NH3), and soil moisture. Thesystem should support real-time data acquisition and transmission to a cloud/dashboard interface.Skill sets: Embedded Systems / IoT / SensorsExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Develop a prototype for measuring soil moisture and basic nutrient indicators usingembedded hardware. Focus on calibration, accuracy improvement, and integration with amicrocontroller-based data logging system.Skill sets: Agri-Tech Hardware / Sensor DesignExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Develop a prototype smart surveillance system using edge devices (e.g., RaspberryPi/Jetson Nano) capable of performing basic object detection or motion detection without relying oncontinuous cloud connectivity.Skill sets: Embedded AI / Edge ComputingExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Design and prototype a low-power wireless sensor node using protocols likeLoRa/BLE, focusing on optimizing power consumption and extending battery life for remotedeployment scenarios.Skill sets: Low-Power Electronics / IoT HardwareExpected learning:. Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: Design a prototype smart energy meter capable of measuring voltage, current, andpower consumption, with remote monitoring capability using IoT platforms.Skill sets: Power Electronics / Embedded SystemsExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics,Description: To design a generalized deepfake detection architecture adaptable across imagedomains by modeling forensic signatures of GANs and diffusion models, developing hybridtechniques leveraging spatial, frequency, and semantic inconsistencies, and evaluating robustnessagainst unseen generative methods.Skill sets: Hardware SecurityExpected learning: Hands on application on IoT based device.Specific courses required for project execution: B.Tech in Computer, IT &amp; Electronics",
+      "Project Domain": "VLSI Design,Quantum Computing,AI & ML,EC & Hardware",
+      "Title": "NoC based AI Accelerator,Multi objective optimization for NoC Design using AI.,AI-Driven Synthesis(Creation) of Deepfake and Forged Images Using Autoencoders and  GAN Architectures,GAN- and Diffusion-Based Framework for Robust Deepfake Detection Across Image  Modalities,Development of a Quantum Machine Learning (QML) based flood simulation framework  for predicting and analyzing flood dynamics.,Satellite Image Analysis,AI in Animal Husbandry,IoT-Based Smart Environmental Monitoring System,Development of Low-Cost Soil Moisture & Nutrient Sensing Device,Edge AI-Based Smart Surveillance Device,Design of Energy-Efficient Wireless Sensor Node,Smart Energy Meter with Remote Monitoring,Hardware Security Module (HSM) for Secure Embedded Systems"
+    }
+  },
+  {
+    "id": 1580,
+    "name": "Pusaaka Ventures",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Gandhinagar",
+    "project_details": "Founder’s Office,Partnerships & Outreach,Marketing & Strategy\n(strategy, operations, business building),Partnerships &amp; Outreach(institutional collaborations, brand alliances),Marketing &amp; Strategy (brand positioning, growth, and digital strategy)",
+    "subdomains": [
+      "Founders Office",
+      "Partnerships & Outreach",
+      "Marketing"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8867",
+      "Station Name": "Pusaaka Ventures",
+      "Centre (Location)": "Gandhinagar",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "3",
+      "Tags": "Any,Any,Any",
+      "Description": "(strategy, operations, business building),Partnerships &amp; Outreach(institutional collaborations, brand alliances),Marketing &amp; Strategy (brand positioning, growth, and digital strategy)",
+      "Project Domain": "Founders Office,Partnerships & Outreach,Marketing",
+      "Title": "Founder’s Office,Partnerships & Outreach,Marketing & Strategy"
+    }
+  },
+  {
+    "id": 1581,
+    "name": "SCI-COM SOFTWARE INDIA PVT LTD",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Pune",
+    "project_details": "Schematic Capture using Orcad\nAny project as mentioned in the domains above.Following activities can be explored:Schematic Capture using OrcadAll technical activities associated with Hardware design and firmware coding in Embedded C or VHDL and software coding for PC applications (Python/C#/VC++ etc)Board-level and Unit level functional &amp; Environmental testing and test report generationMATLAB simulationsAnalysis report generation (Power estimation, Thermal, Reliability, Signal Integrity &amp; FMECA etc.)Maintaining documents, reports and supporting team as required&nbsp;Avionics &amp; Radar SystemsDigital&nbsp;ReceiversRF EngineeringDigital Communication SystemsControl &amp; Embedded SystemsIndustrial AutomationMedical&nbsp;",
+    "subdomains": [
+      "Embedded Systems",
+      "Medical Services"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8866",
+      "Station Name": "SCI-COM SOFTWARE INDIA PVT LTD",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Electronics",
+      "Total Project": "1",
+      "Tags": "AnyAA,AnyA3,AnyA8,AA,A3,A8",
+      "Description": "Any project as mentioned in the domains above.Following activities can be explored:Schematic Capture using OrcadAll technical activities associated with Hardware design and firmware coding in Embedded C or VHDL and software coding for PC applications (Python/C#/VC++ etc)Board-level and Unit level functional &amp; Environmental testing and test report generationMATLAB simulationsAnalysis report generation (Power estimation, Thermal, Reliability, Signal Integrity &amp; FMECA etc.)Maintaining documents, reports and supporting team as required&nbsp;Avionics &amp; Radar SystemsDigital&nbsp;ReceiversRF EngineeringDigital Communication SystemsControl &amp; Embedded SystemsIndustrial AutomationMedical&nbsp;",
+      "Project Domain": "Embedded Systems,Medical Services",
+      "Title": "Schematic Capture using Orcad"
+    }
+  },
+  {
+    "id": 1582,
+    "name": "Shalaka Connected Devices LLP",
+    "domain": "Electronics",
+    "normalized_domain": "Electrical & Electronics",
+    "city": "Pune",
+    "project_details": "Embedded Systems & IoT Intern,IoT Cloud & Backend Intern,AI & LLM Applications Intern,Dev Tools & Firmware Scaffolding Intern,Generative AI for Embedded & IIoT Applications Intern\nJD 1 — Embedded Systems &amp; IoT InternWhat you'll learn and do: You'll get hands-on with how IoT devices are actually built — from reading sensor data on a microcontroller tosending it over Wi-Fi to a cloud endpoint. Most of the work is on ESP32-based hardware using C and ESP-IDF.Tasks (guided):Set up and run existing firmware onShalaka dev boards — understand whateach module doesWrite small firmware modules:read a sensor over I2C, publishdata over MQTTTest RS-485/Modbuscommunication with a real industrialdevice (under supervision)Document what youbuilt: wiring, code logic,test resultsWhat we expect you to already know:Basic C programming (from coursework —loops, functions, structs)Basic electronics: voltage, current, serialcommunication conceptsComfortable reading and followingtechnical documentationWhat you will leave with:Working familiarity with ESP32, ESP-IDF,FreeRTOS basicsAt least one functional firmware moduleyou wrote and testedUnderstanding of how data moves from sensor- device- cloud,JD 2 - IoT Cloud &amp; Backend InternWhat you will learn and do: You will work on the cloud side of an IoT system - understanding how device data arrives, gets stored, and getsserved to a dashboard. Stack is Python/Node.js on AWS.Tasks (guided):Understand the existing SYSNet backend: how MQTT messages flow into a databaseWrite simple API endpoints that query stored device dataBuild a basic data display page (table or chart) using a frontend template we provideWrite test scripts that simulate device data and verify the pipeline worksWhat we expect you to already know:Python or JavaScript (basic - functions, loops, working with JSON)Some exposure to web concepts: what is an API, HTTP request/responseBasic SQL is a plus but not required - we will teach itWhat you will leave with:Practical understanding of cloud IoT architecture (MQTT - DB - API - UI)At least one API endpoint written and testedFamiliarity with AWS basics: EC2, how a server runs, what a database connection looks like,AI &amp; LLM Applications InternWhat you will learn and do: You will work on ThinkBinary - a platform that uses AI to generate assessment reports for engineering students.Your job is to understand how LLM-based pipelines are structured, run experiments with prompts, and measure output quality.Tasks (guided):Understand the existing report generation pipeline (Claude API - structured output - email)Write and test prompt variations - learn what makes AI output better or worseBuild a simple evaluation sheet: score 20–30 AI-generated reports against a rubric we define togetherSummarize findings: what works, what does not, what to try nextWhat we expect you to already know:Python basics - enough to run scripts, work with JSON, call an APICuriosity about how LLMs work - you don't need to have built anything with themStructured thinking - you will be judging output quality, which requires a frameworkWhat you will leave with:Practical understanding of prompt engineering and LLM evaluationExperience using the Anthropic API on a real productA documented set of prompt experiments with measurable outcomes,Dev Tools &amp; Firmware Scaffolding InternWhat you'll learn and do: You will contribute to ChipForge - a tool that helps engineers configure and generate ESP32 firmware visually.You will work on both the logic layer (what code gets generated) and help build learning content for the ESP32 Fundamentals module.Tasks (guided):Study existing ESP32 firmware patterns - understand what a correctly structured project looks likeWrite small code templates: if user selects I2C sensor X, generate this driver stubDocument hardware constraints: which pins can not be combined, which peripherals conflictWrite beginner-friendly concept notes for the ESP32 Fundamentals content layerWhat we expect you to already know:C basics (from coursework)Some electronics - what a microcontroller is, what peripherals areBonus: any exposure to React/JavaScript (for frontend contributions)What you will leave with:Solid practical grounding in ESP32 and embedded firmware structureUnderstanding of how developer tools and code generators are designedAt least one documented template module and a set of constraint rulesGood call - keep it grounded in the core Shalaka domain. Gen AI in an embedded/IIoT context is actually more interesting anddifferentiated for a PS1 student.,Generative AI for Embedded &amp; IIoT Applications InternWhat you will learn and do: You'll explore how generative AI can be applied to real engineering problems in embedded systems andindustrial IoT - not chatbots, but practical use cases: generating firmware code, interpreting device data, automating documentation, andassisting field diagnostics.Tasks (guided):Study how LLMs can assist firmware development — prompt patterns for generating ESP32 driver stubs, config files, and boilerplatefrom natural language specsBuild and test small proof-of-concept tools: e.g., \"describe what this sensor does, get a working I2C read function\"Explore AI-assisted anomaly narration: given time-series data from a machine, can an LLM produce a readable diagnostic summary?Document what works, what doesn't, and where LLM output requires human validation before use in embedded contextsWhat we expect you to already know:Python basics — API calls, JSON handling, simple scriptingSome awareness of what embedded systems are (coursework level is fine)Curiosity about where AI is actually useful vs. where it's overhypedWhat you'll leave with:Practical experience applying LLMs to an engineering domain, not a generic text taskUnderstanding of where AI assistance adds value in hardware/firmware workflows — and where it breaksAt least one working PoC tool with documented evaluation",
+    "subdomains": [
+      "Embedded Systems",
+      "IoT",
+      "AI",
+      "Firmware",
+      "Generative AI"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8901",
+      "Station Name": "Shalaka Connected Devices LLP",
+      "Centre (Location)": "Pune",
+      "Business Domain": "Electronics",
+      "Total Project": "5",
+      "Tags": "AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,A3,A8,AA,A7,AD,AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,A3,A7,A8,AA,AD,AnyA3,AnyA8,AnyA7,AnyAA,AnyAD,A3,A8,AA,A7,AD,AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,A3,A7,A8,AA,AD,AnyA3,AnyA7,AnyA8,AnyAA,AnyAD,A3,A7,A8,AA,AD",
+      "Description": "JD 1 — Embedded Systems &amp; IoT InternWhat you'll learn and do: You'll get hands-on with how IoT devices are actually built — from reading sensor data on a microcontroller tosending it over Wi-Fi to a cloud endpoint. Most of the work is on ESP32-based hardware using C and ESP-IDF.Tasks (guided):Set up and run existing firmware onShalaka dev boards — understand whateach module doesWrite small firmware modules:read a sensor over I2C, publishdata over MQTTTest RS-485/Modbuscommunication with a real industrialdevice (under supervision)Document what youbuilt: wiring, code logic,test resultsWhat we expect you to already know:Basic C programming (from coursework —loops, functions, structs)Basic electronics: voltage, current, serialcommunication conceptsComfortable reading and followingtechnical documentationWhat you will leave with:Working familiarity with ESP32, ESP-IDF,FreeRTOS basicsAt least one functional firmware moduleyou wrote and testedUnderstanding of how data moves from sensor- device- cloud,JD 2 - IoT Cloud &amp; Backend InternWhat you will learn and do: You will work on the cloud side of an IoT system - understanding how device data arrives, gets stored, and getsserved to a dashboard. Stack is Python/Node.js on AWS.Tasks (guided):Understand the existing SYSNet backend: how MQTT messages flow into a databaseWrite simple API endpoints that query stored device dataBuild a basic data display page (table or chart) using a frontend template we provideWrite test scripts that simulate device data and verify the pipeline worksWhat we expect you to already know:Python or JavaScript (basic - functions, loops, working with JSON)Some exposure to web concepts: what is an API, HTTP request/responseBasic SQL is a plus but not required - we will teach itWhat you will leave with:Practical understanding of cloud IoT architecture (MQTT - DB - API - UI)At least one API endpoint written and testedFamiliarity with AWS basics: EC2, how a server runs, what a database connection looks like,AI &amp; LLM Applications InternWhat you will learn and do: You will work on ThinkBinary - a platform that uses AI to generate assessment reports for engineering students.Your job is to understand how LLM-based pipelines are structured, run experiments with prompts, and measure output quality.Tasks (guided):Understand the existing report generation pipeline (Claude API - structured output - email)Write and test prompt variations - learn what makes AI output better or worseBuild a simple evaluation sheet: score 20–30 AI-generated reports against a rubric we define togetherSummarize findings: what works, what does not, what to try nextWhat we expect you to already know:Python basics - enough to run scripts, work with JSON, call an APICuriosity about how LLMs work - you don't need to have built anything with themStructured thinking - you will be judging output quality, which requires a frameworkWhat you will leave with:Practical understanding of prompt engineering and LLM evaluationExperience using the Anthropic API on a real productA documented set of prompt experiments with measurable outcomes,Dev Tools &amp; Firmware Scaffolding InternWhat you'll learn and do: You will contribute to ChipForge - a tool that helps engineers configure and generate ESP32 firmware visually.You will work on both the logic layer (what code gets generated) and help build learning content for the ESP32 Fundamentals module.Tasks (guided):Study existing ESP32 firmware patterns - understand what a correctly structured project looks likeWrite small code templates: if user selects I2C sensor X, generate this driver stubDocument hardware constraints: which pins can not be combined, which peripherals conflictWrite beginner-friendly concept notes for the ESP32 Fundamentals content layerWhat we expect you to already know:C basics (from coursework)Some electronics - what a microcontroller is, what peripherals areBonus: any exposure to React/JavaScript (for frontend contributions)What you will leave with:Solid practical grounding in ESP32 and embedded firmware structureUnderstanding of how developer tools and code generators are designedAt least one documented template module and a set of constraint rulesGood call - keep it grounded in the core Shalaka domain. Gen AI in an embedded/IIoT context is actually more interesting anddifferentiated for a PS1 student.,Generative AI for Embedded &amp; IIoT Applications InternWhat you will learn and do: You'll explore how generative AI can be applied to real engineering problems in embedded systems andindustrial IoT - not chatbots, but practical use cases: generating firmware code, interpreting device data, automating documentation, andassisting field diagnostics.Tasks (guided):Study how LLMs can assist firmware development — prompt patterns for generating ESP32 driver stubs, config files, and boilerplatefrom natural language specsBuild and test small proof-of-concept tools: e.g., \"describe what this sensor does, get a working I2C read function\"Explore AI-assisted anomaly narration: given time-series data from a machine, can an LLM produce a readable diagnostic summary?Document what works, what doesn't, and where LLM output requires human validation before use in embedded contextsWhat we expect you to already know:Python basics — API calls, JSON handling, simple scriptingSome awareness of what embedded systems are (coursework level is fine)Curiosity about where AI is actually useful vs. where it's overhypedWhat you'll leave with:Practical experience applying LLMs to an engineering domain, not a generic text taskUnderstanding of where AI assistance adds value in hardware/firmware workflows — and where it breaksAt least one working PoC tool with documented evaluation",
+      "Project Domain": "Embedded Systems,IoT,AI,Firmware,Generative AI",
+      "Title": "Embedded Systems & IoT Intern,IoT Cloud & Backend Intern,AI & LLM Applications Intern,Dev Tools & Firmware Scaffolding Intern,Generative AI for Embedded & IIoT Applications Intern"
+    }
+  },
+  {
+    "id": 1583,
+    "name": "Spectrum Dyes and Chemicals Private Limited",
+    "domain": "Chemical",
+    "normalized_domain": "Chemical",
+    "city": "Surat",
+    "project_details": "Efficient solvent recovery through distillation in Dye manufacturing\nDescription: Solvent recoverySkill sets: Knowledge of Chemicals &amp; distillationExpected learning: To learn whole processSpecific courses required for project execution:",
+    "subdomains": [
+      "Chemical"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8888",
+      "Station Name": "Spectrum Dyes and Chemicals Private Limited",
+      "Centre (Location)": "Surat",
+      "Business Domain": "Chemical",
+      "Total Project": "1",
+      "Tags": "AnyA1,A1",
+      "Description": "Description: Solvent recoverySkill sets: Knowledge of Chemicals &amp; distillationExpected learning: To learn whole processSpecific courses required for project execution:",
+      "Project Domain": "Chemical",
+      "Title": "Efficient solvent recovery through distillation in Dye manufacturing"
+    }
+  },
+  {
+    "id": 1584,
+    "name": "State Bank of India",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Jaipur",
+    "project_details": "-",
+    "subdomains": [
+      "General"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8904",
+      "Station Name": "State Bank of India",
+      "Centre (Location)": "Jaipur",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "1",
+      "Tags": "Any",
+      "Description": "-",
+      "Project Domain": "Yet to be finalized",
+      "Title": "Details awaited"
+    }
+  },
+  {
+    "id": 1585,
+    "name": "Syncup AI Private Limited",
+    "domain": "Finance and Mgmt",
+    "normalized_domain": "Finance",
+    "city": "Bengaluru",
+    "project_details": "Account Management Intern,Marketing & Branding Intern (User Growth & Engagement)\nDescription:This role focuses on onboarding companies onto the platform and ensuring asmooth transition from initial outreach to active usage. The intern will work closelywith recruiters and hiring managers to understand their hiring needs, guide themthrough the platform, and ensure successful activation. The role requires strongcommunication, relationship-building, and operational execution skills.Skill Sets:Strong verbal and written communication Relationship management &amp; stakeholder handling Problem-solving and coordination skills Attention to detail and follow-upsExpected Learning: End-to-end B2B onboarding process Understanding hiring pipelines and recruiter behavior Client relationship management in a startup environment Exposure to SaaS/product-led growth models Handling objections and improving conversion ratesSpecific Courses Required for Project Execution: NA,Description:This role focuses on acquiring users (students/job seekers), improvingonboarding experience, and building the brand presence of the platform. Theintern will work on campaigns, content, and growth strategies to increase visibility,engagement, and trust among users.Skill Sets:Content creation (LinkedIn, Instagram, etc.)Basic digital marketing knowledgeCreativity and storytellingUnderstanding of user psychology and engagementData-driven thinking (tracking performance metrics)Graphic tools (Canva/Figma – optional but useful)Expected Learning:Growth marketing and user acquisition strategies Building and positioning a startup brandRunning and analyzing marketing campaignsSocial media and content-led growthUser onboarding funnels and retention strategiesSpecific Courses Required for Project Execution: (Optional)Digital Marketing FundamentalsSocial Media MarketingBasics of Branding &amp; Consumer BehaviorContent Marketing / CopywritingAnalytics basics (Google Analytics / basic metrics understanding)",
+    "subdomains": [
+      "Key Account Management",
+      "Brand Marketing"
+    ],
+    "station_mode": "Online",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8886",
+      "Station Name": "Syncup AI Private Limited",
+      "Centre (Location)": "Bengaluru",
+      "Business Domain": "Finance and Mgmt",
+      "Total Project": "2",
+      "Tags": "Any,Any",
+      "Description": "Description:This role focuses on onboarding companies onto the platform and ensuring asmooth transition from initial outreach to active usage. The intern will work closelywith recruiters and hiring managers to understand their hiring needs, guide themthrough the platform, and ensure successful activation. The role requires strongcommunication, relationship-building, and operational execution skills.Skill Sets:Strong verbal and written communication Relationship management &amp; stakeholder handling Problem-solving and coordination skills Attention to detail and follow-upsExpected Learning: End-to-end B2B onboarding process Understanding hiring pipelines and recruiter behavior Client relationship management in a startup environment Exposure to SaaS/product-led growth models Handling objections and improving conversion ratesSpecific Courses Required for Project Execution: NA,Description:This role focuses on acquiring users (students/job seekers), improvingonboarding experience, and building the brand presence of the platform. Theintern will work on campaigns, content, and growth strategies to increase visibility,engagement, and trust among users.Skill Sets:Content creation (LinkedIn, Instagram, etc.)Basic digital marketing knowledgeCreativity and storytellingUnderstanding of user psychology and engagementData-driven thinking (tracking performance metrics)Graphic tools (Canva/Figma – optional but useful)Expected Learning:Growth marketing and user acquisition strategies Building and positioning a startup brandRunning and analyzing marketing campaignsSocial media and content-led growthUser onboarding funnels and retention strategiesSpecific Courses Required for Project Execution: (Optional)Digital Marketing FundamentalsSocial Media MarketingBasics of Branding &amp; Consumer BehaviorContent Marketing / CopywritingAnalytics basics (Google Analytics / basic metrics understanding)",
+      "Project Domain": "Key Account Management,Brand Marketing",
+      "Title": "Account Management Intern,Marketing & Branding Intern (User Growth & Engagement)"
+    }
+  },
+  {
+    "id": 1586,
+    "name": "Tech-India Infosolutions Pvt. Ltd.",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Ahmedabad",
+    "project_details": "Software Development, Web & Database Management\nTitle: Software Development, Web &amp; Database ManagementDescription:à Custom CMS Development: Building or modifying WordPress or Laravel based sites for theircorporate clients.à Inventory &amp; Asset Tracking System: Creating a web-based database (SQL-based) to track ITassets (laptops, servers, licenses) across various client sites.à Reporting Engines: Developing software modules that parse logs from security systems(CCTV/Access Control) and generate automated weekly \"Smart Reports\" for management.Skill sets: Python(Django/Flask), PHP, API integration, SQL, HTML, CSSExpected learning: Full-stack Architectural understanding, data security and integrity, servermanagement and optimization, soft skills.Specific courses required for project execution: CS courses",
+    "subdomains": [
+      "Software Development"
+    ],
+    "station_mode": "Onsite",
+    "is_newly_added": true,
+    "raw_row": {
+      "Station Id": "8871",
+      "Station Name": "Tech-India Infosolutions Pvt. Ltd.",
+      "Centre (Location)": "Ahmedabad",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "1",
+      "Tags": "AnyA7,A7",
+      "Description": "Title: Software Development, Web &amp; Database ManagementDescription:à Custom CMS Development: Building or modifying WordPress or Laravel based sites for theircorporate clients.à Inventory &amp; Asset Tracking System: Creating a web-based database (SQL-based) to track ITassets (laptops, servers, licenses) across various client sites.à Reporting Engines: Developing software modules that parse logs from security systems(CCTV/Access Control) and generate automated weekly \"Smart Reports\" for management.Skill sets: Python(Django/Flask), PHP, API integration, SQL, HTML, CSSExpected learning: Full-stack Architectural understanding, data security and integrity, servermanagement and optimization, soft skills.Specific courses required for project execution: CS courses",
+      "Project Domain": "Software Development",
+      "Title": "Software Development, Web & Database Management"
     }
   }
 ]

@@ -1124,7 +1124,7 @@
     ],
     "culture_snippet": "CDAC is known for its collaborative and innovative work environment, where employees are encouraged to think creatively and develop new solutions to complex problems.",
     "fetch_status": "done",
-    "company_type": "Private"
+    "company_type": "Government"
   },
   "Centre for High Impact Neuroscience and Translational Applications, TCG CREST": {
     "scale_badge": "🏢 Mid-size",
@@ -7423,7 +7423,7 @@
       "MySQL"
     ],
     "culture_snippet": "C-DAC fosters a culture of innovation and collaboration, with a focus on developing cutting-edge IT solutions for the benefit of society.",
-    "company_type": "Private",
+    "company_type": "Government",
     "fetch_status": "done"
   },
   "Centre for Development of Advanced Computing (CDAC) - Hyderabad": {
@@ -7445,7 +7445,7 @@
       "TensorFlow"
     ],
     "culture_snippet": "CDAC Hyderabad fosters a culture of innovation and collaboration among its researchers and engineers to develop cutting-edge solutions for various industries.",
-    "company_type": "Private",
+    "company_type": "Government",
     "fetch_status": "done"
   },
   "Centre for Military Airworthiness & Certification (CEMILAC), DRDO": {
@@ -7742,27 +7742,6 @@
       "Java"
     ],
     "culture_snippet": "Glocol Networks prioritizes employee growth and development, offering regular training programs and opportunities for advancement.",
-    "company_type": "Private",
-    "fetch_status": "done"
-  },
-  "Grasim Industries - Online": {
-    "scale_badge": "🏢 Mid-size",
-    "employee_count": "10,000+",
-    "description": "Grasim Industries is a leading Indian multinational company that operates in the sectors of textiles, chemicals, and cement. The company is a part of the Aditya Birla Group and is known for its diversified portfolio of products and services. Grasim Industries serves various markets across the globe, including India, Asia, and Europe. The company is notable for its commitment to sustainability and innovation.",
-    "founding_year": "1948",
-    "hq": "Mumbai, India",
-    "website": "grasim.com",
-    "funding_stage": "Public",
-    "investors": [],
-    "tech_stack": [
-      "ERP",
-      "CRM",
-      "SCADA",
-      "PLM",
-      "CAD",
-      "SAP"
-    ],
-    "culture_snippet": "Grasim Industries fosters a culture of innovation and teamwork, encouraging employees to think creatively and work collaboratively to achieve excellence.",
     "company_type": "Private",
     "fetch_status": "done"
   },
@@ -9136,7 +9115,7 @@
   },
   "Centre for Development of Advanced Computing (CDAC) Kolkata": {
     "fetch_status": "done",
-    "company_type": "Private",
+    "company_type": "Government",
     "scale_badge": "🏢 Mid-size",
     "employee_count": "500-1000",
     "description": "Centre for Development of Advanced Computing (CDAC) Kolkata is a research and development organization that focuses on developing advanced computing solutions for various industries. They provide services such as software development, system integration, and IT consulting. CDAC Kolkata serves key markets in India and abroad, with a notable presence in the government and public sectors. The organization is known for its expertise in developing cutting-edge technologies.",
@@ -10934,5 +10913,264 @@
     "investors": [],
     "tech_stack": [],
     "culture_snippet": "Ramco Steels is known for its employee-friendly policies and has been recognized as one of the best places to work in India."
+  },
+  "AC Aganral Share Btokers Pvt' Ltd.": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "AC Agarwal Share Brokers Pvt Ltd is a financial services company that provides stock broking services, investment advice, and wealth management solutions. They cater to individual investors, institutional clients, and high net worth individuals. The company is known for its expertise in the Indian stock market and its commitment to providing personalized services. AC Agarwal Share Brokers Pvt Ltd has a strong presence in the Indian financial services sector.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "acagarwal.com",
+    "funding_stage": "null",
+    "investors": [
+      "null"
+    ],
+    "tech_stack": [
+      "Oracle Financials",
+      "Microsoft Office",
+      "Adobe Acrobat",
+      "Google Workspace",
+      "Microsoft Dynamics",
+      "SAP"
+    ],
+    "culture_snippet": "Employees at AC Agarwal Share Brokers Pvt Ltd appreciate the company's emphasis on teamwork and collaboration, which they believe is essential for delivering exceptional client service."
+  },
+  "AtreVes Healthcare Pvt. Ltd.": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "AtreVes Healthcare Pvt. Ltd. is a healthcare company that provides medical devices and solutions. Their main products include medical imaging equipment and diagnostic tools. They cater to the Indian market, with a focus on hospitals and healthcare institutions. AtreVes is notable for its innovative approach to healthcare technology.",
+    "founding_year": "2010",
+    "hq": "Pune, India",
+    "website": "atreves.com",
+    "funding_stage": "Private",
+    "investors": [
+      "Venture East, IDG Ventures"
+    ],
+    "tech_stack": [
+      "Python, Java, C++, MySQL, MongoDB, TensorFlow, Docker"
+    ],
+    "culture_snippet": "AtreVes prioritizes employee growth and development, offering training programs and opportunities for innovation."
+  },
+  "Carnot Research Pvt Ltd": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Carnot Research Pvt Ltd is a research and development company that specializes in providing innovative solutions to various industries. They offer services in areas such as data analytics, artificial intelligence, and cybersecurity. Carnot Research has a strong presence in the Indian market and has worked with several notable clients. The company is known for its collaborative and dynamic work environment.",
+    "founding_year": "2015",
+    "hq": "Bangalore, India",
+    "website": "carnotresearch.com",
+    "funding_stage": "Private",
+    "investors": [
+      "None"
+    ],
+    "tech_stack": [
+      "Python",
+      "R",
+      "TensorFlow",
+      "Keras",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "culture_snippet": "Carnot Research prioritizes employee growth and development, offering opportunities for skill-building and career advancement."
+  },
+  "Centre for Development of Advanced Computing, Centre in North East (C-DAC CINE)": {
+    "fetch_status": "done",
+    "company_type": "Government",
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "C-DAC CINE is a research and development centre focused on developing advanced computing technologies for the North Eastern region of India. They work on various projects including data analytics, artificial intelligence, and cybersecurity. Their key markets include government institutions, research organizations, and industries in the North East. C-DAC CINE is notable for its contributions to the development of advanced computing infrastructure in the region.",
+    "founding_year": "1997",
+    "hq": "Guwahati, India",
+    "website": "cdac.in",
+    "funding_stage": "Government",
+    "investors": [
+      "Government of India"
+    ],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "C++",
+      "TensorFlow",
+      "Keras",
+      "Docker",
+      "Kubernetes"
+    ],
+    "culture_snippet": "Employees at C-DAC CINE appreciate the opportunities for growth and learning in a collaborative and supportive environment."
+  },
+  "Pusaaka Ventures": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🌱 Early Startup",
+    "employee_count": "10-50",
+    "description": "Pusaaka Ventures is an Indian venture capital firm that invests in early-stage startups. They focus on sectors like fintech, healthcare, and education. Their key markets include India and Southeast Asia. They are known for their hands-on approach and support to portfolio companies.",
+    "founding_year": "2020",
+    "hq": "Bengaluru, India",
+    "website": "pusaaka.com",
+    "funding_stage": "Venture Capital",
+    "investors": [
+      "None"
+    ],
+    "tech_stack": [
+      "AWS, Google Cloud, MongoDB, Node.js, React, TypeScript, Docker"
+    ],
+    "culture_snippet": "Pusaaka Ventures is known for its collaborative and supportive culture, where employees say they have the freedom to take ownership of their work and contribute to the growth of the firm."
+  },
+  "SCI-COM SOFTWARE INDIA PVT LTD": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "SCI-COM Software India Pvt Ltd is a software development company that provides IT services and solutions to various industries. They specialize in software development, testing, and maintenance. Their key markets include the Indian government, defense, and BFSI sectors. They are notable for their expertise in developing software for critical infrastructure projects.",
+    "founding_year": "1995",
+    "hq": "Bangalore, India",
+    "website": "sci-com.com",
+    "funding_stage": "null",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "C++",
+      "Python",
+      "Oracle",
+      "Microsoft .NET",
+      "Linux",
+      "AWS"
+    ],
+    "culture_snippet": "Employees at SCI-COM Software India Pvt Ltd describe the work environment as collaborative and challenging, with opportunities for growth and professional development."
+  },
+  "Shalaka Connected Devices LLP": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Shalaka Connected Devices LLP is a technology company that specializes in developing and manufacturing IoT devices and solutions. Their products cater to various industries, including healthcare, agriculture, and smart cities. They have a strong presence in the Indian market and are known for their innovative approach to IoT technology. Shalaka Connected Devices LLP is a leading player in the Indian IoT market.",
+    "founding_year": "2018",
+    "hq": "Pune, India",
+    "website": "shalakadevices.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "IoT Operating Systems",
+      "Embedded Systems",
+      "Cloud Computing",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Analytics",
+      "Cybersecurity"
+    ],
+    "culture_snippet": "Employees at Shalaka Connected Devices LLP praise the company's collaborative and innovative work environment, which encourages them to think outside the box and develop cutting-edge IoT solutions."
+  },
+  "Spectrum Dyes and Chemicals Private Limited": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Spectrum Dyes and Chemicals Private Limited is a chemical manufacturing company that produces a range of dyes and chemicals. They cater to various industries such as textiles, leather, and plastics. Their products are known for their quality and consistency. The company has a strong presence in the Indian market.",
+    "founding_year": "1985",
+    "hq": "Mumbai, India",
+    "website": "spectrumdyes.com",
+    "funding_stage": "null",
+    "investors": [],
+    "tech_stack": [
+      "ERP software",
+      "Supply chain management software",
+      "Quality management software",
+      "Manufacturing execution system",
+      "PLM software",
+      "CAD software"
+    ],
+    "culture_snippet": "Employees at Spectrum Dyes and Chemicals Private Limited appreciate the company's emphasis on innovation and customer satisfaction, which is reflected in their mission statement."
+  },
+  "State Bank of India": {
+    "fetch_status": "done",
+    "company_type": "Government",
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "2,50,000+",
+    "description": "State Bank of India (SBI) is a multinational banking and financial services company that provides a wide range of banking products and services to individuals, businesses, and governments. It offers services such as savings and current accounts, loans, credit cards, insurance, and investment products. SBI operates in over 36 countries and has a significant presence in India. It is one of the largest banks in India and is known for its customer-centric approach and innovative banking solutions.",
+    "founding_year": "1806",
+    "hq": "Mumbai, India",
+    "website": "statebankofindia.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Government of India"
+    ],
+    "tech_stack": [
+      "Oracle, SAP, Microsoft, IBM, Java, Python"
+    ],
+    "culture_snippet": "SBI is known for its strong work culture and employee engagement initiatives, with a focus on employee development and well-being."
+  },
+  "Syncup AI Private Limited": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Syncup AI Private Limited is an Indian company that provides AI-powered solutions for various industries. Their main products and services include AI-driven chatbots, virtual assistants, and predictive analytics. They cater to key markets such as BFSI, healthcare, and retail. Syncup AI is notable for its innovative approach to AI adoption and its commitment to customer satisfaction.",
+    "founding_year": "2020",
+    "hq": "Bengaluru, India",
+    "website": "syncup.ai",
+    "funding_stage": "Series A",
+    "investors": [
+      "YourStory Research Foundation",
+      "LetsVenture"
+    ],
+    "tech_stack": [
+      "TensorFlow",
+      "PyTorch",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Google Cloud Platform",
+      "Microsoft Azure"
+    ],
+    "culture_snippet": "Employees at Syncup AI appreciate the company's emphasis on innovation and collaboration, which enables them to work on cutting-edge projects and learn from each other's expertise."
+  },
+  "Tech-India Infosolutions Pvt. Ltd.": {
+    "fetch_status": "done",
+    "company_type": "Private",
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Tech-India Infosolutions Pvt. Ltd. is a software development company that provides IT services, software solutions, and consulting services to various industries. They specialize in mobile app development, web development, and enterprise software solutions. Their key markets include the United States, Europe, and India. They are notable for their expertise in emerging technologies and their commitment to delivering high-quality solutions.",
+    "founding_year": "2008",
+    "hq": "Bangalore, India",
+    "website": "techindia.co.in",
+    "funding_stage": "Private",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "React",
+      "Angular",
+      "Node.js",
+      "MongoDB",
+      "AWS",
+      "Docker"
+    ],
+    "culture_snippet": "Employees at Tech-India Infosolutions Pvt. Ltd. praise the company's flexible work environment and opportunities for professional growth and development."
+  },
+  "Grasim Industries - Onsite": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "10,000+",
+    "description": "Grasim Industries is a leading Indian multinational company that operates in the sectors of textiles, chemicals, and cement. The company is a part of the Aditya Birla Group and is known for its diversified portfolio of products and services. Grasim Industries serves various markets across the globe, including India, Asia, and Europe. The company is notable for its commitment to sustainability and innovation.",
+    "founding_year": "1948",
+    "hq": "Mumbai, India",
+    "website": "grasim.com",
+    "funding_stage": "Public",
+    "investors": [],
+    "tech_stack": [
+      "ERP",
+      "CRM",
+      "SCADA",
+      "PLM",
+      "CAD",
+      "SAP"
+    ],
+    "culture_snippet": "Grasim Industries fosters a culture of innovation and teamwork, encouraging employees to think creatively and work collaboratively to achieve excellence.",
+    "company_type": "Private",
+    "fetch_status": "done"
   }
 }
