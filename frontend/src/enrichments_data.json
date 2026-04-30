@@ -11172,5 +11172,645 @@
     "culture_snippet": "Grasim Industries fosters a culture of innovation and teamwork, encouraging employees to think creatively and work collaboratively to achieve excellence.",
     "company_type": "Private",
     "fetch_status": "done"
+  },
+  "Airports Authority of India (AAI)- Mumbai": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "20,000+",
+    "description": "Airports Authority of India (AAI) is a statutory body responsible for the management of civil aviation infrastructure in India. It operates and maintains 137 airports across the country, providing air traffic management services, ground handling, and other aviation-related services. AAI is a key player in the Indian aviation industry, with a focus on safety, security, and customer satisfaction. It is also a major employer in the sector, with a large workforce.",
+    "founding_year": "1995",
+    "hq": "New Delhi, India",
+    "website": "airportsindia.org.in",
+    "funding_stage": "Government",
+    "investors": [
+      "Government of India"
+    ],
+    "tech_stack": [
+      "Oracle, SAP, IBM, Microsoft, Google, AWS"
+    ],
+    "culture_snippet": "AAI is known for its strong emphasis on safety and customer satisfaction, with employees citing a sense of pride and responsibility in their work.",
+    "fetch_status": "done"
+  },
+  "AlgoLabs": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "AlgoLabs is an AI and data science company that provides solutions for various industries such as finance, healthcare, and education. They offer products and services like predictive analytics, natural language processing, and machine learning. AlgoLabs operates globally with a focus on the Indian market. The company is known for its innovative approach to AI and data science.",
+    "founding_year": "2016",
+    "hq": "Bengaluru, India",
+    "website": "algolabs.com",
+    "funding_stage": "Series A",
+    "investors": [
+      "Kalaari Capital",
+      "Blume Ventures"
+    ],
+    "tech_stack": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "NumPy",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "culture_snippet": "AlgoLabs prioritizes employee growth and development, offering opportunities for skill-building and career advancement.",
+    "fetch_status": "done"
+  },
+  "Birla pivot": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Birla Pivot is a business unit of the Aditya Birla Group, a multinational conglomerate. It focuses on digital transformation and innovation, providing services such as digital consulting, technology implementation, and business process re-engineering. The company serves various industries, including BFSI, retail, and manufacturing. Birla Pivot is known for its expertise in leveraging technology to drive business growth and improve operational efficiency.",
+    "founding_year": null,
+    "hq": "Mumbai, India",
+    "website": "birlapivot.com",
+    "funding_stage": null,
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "AWS, Microsoft Azure, Salesforce, Oracle, SAP, Tableau, Power BI"
+    ],
+    "culture_snippet": "Birla Pivot prioritizes employee development and offers opportunities for growth and learning, with many employees citing the company's emphasis on innovation and collaboration as key factors in their job satisfaction.",
+    "fetch_status": "done"
+  },
+  "CSIR-Advanced Materials and Processes Research Institute (AMPRI)": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "CSIR-Advanced Materials and Processes Research Institute (AMPRI) is a research institute that focuses on the development of advanced materials and processes. It provides research and development services to various industries, including aerospace, automotive, and energy. AMPRI's key markets include India and other countries in the Asia-Pacific region. The institute is notable for its cutting-edge research and development capabilities.",
+    "founding_year": "1987",
+    "hq": "Bhopal, India",
+    "website": "ampri.res.in",
+    "funding_stage": "Government",
+    "investors": [
+      "Council of Scientific and Industrial Research (CSIR)"
+    ],
+    "tech_stack": [
+      "Materials Science, Nanotechnology, Computational Modeling, Experimental Techniques, Characterization Methods, Simulation Tools"
+    ],
+    "culture_snippet": "AMPRI's research environment is collaborative and encourages innovation, with employees citing a sense of purpose and fulfillment in their work.",
+    "fetch_status": "done"
+  },
+  "GeM-Government e-Marketplace": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "GeM (Government e-Marketplace) is an e-procurement platform launched by the Government of India to facilitate online procurement of goods and services by various government departments and public sector undertakings. It provides a platform for suppliers to sell their products and services to the government and its agencies. GeM aims to increase transparency, efficiency, and competitiveness in government procurement. It has become a significant platform for government procurement in India.",
+    "founding_year": null,
+    "hq": "New Delhi, India",
+    "website": "gem.gov.in",
+    "funding_stage": "Government",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "Spring",
+      "Hibernate",
+      "MySQL",
+      "Oracle",
+      "Apache Tomcat",
+      "AWS"
+    ],
+    "culture_snippet": "GeM has been recognized for its innovative approach to government procurement and has won several awards, including the 'Best Government Initiative' award at the India Digital Awards 2020.",
+    "fetch_status": "done"
+  },
+  "Indian Red Cross Society, Mumbai": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "The Indian Red Cross Society, Mumbai is a humanitarian organization that provides emergency assistance, disaster relief, and education to vulnerable populations. They offer services such as blood donation, first aid training, and disaster response. Their key markets include Mumbai and surrounding areas. They are notable for their commitment to humanitarian work and community service.",
+    "founding_year": "1920",
+    "hq": "Mumbai, India",
+    "website": "indianredcross.org",
+    "funding_stage": "Government",
+    "investors": [],
+    "tech_stack": [
+      "CRM software",
+      "Database management systems",
+      "Communication tools",
+      "Project management software",
+      "Spreadsheets",
+      "Word processing software"
+    ],
+    "culture_snippet": "Employees at the Indian Red Cross Society, Mumbai describe the organization as a place where they can make a meaningful difference in people's lives.",
+    "fetch_status": "done"
+  },
+  "Kshema General Insurance Limited": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Kshema General Insurance Limited is a general insurance company in India. It offers various insurance products such as motor, health, and travel insurance. The company operates in the Indian market and is known for its customer-centric approach. Kshema General Insurance Limited is a subsidiary of the Indian government.",
+    "founding_year": "2013",
+    "hq": "Mumbai, India",
+    "website": "kshemageneralinsurance.com",
+    "funding_stage": "null",
+    "investors": [
+      "Government of India"
+    ],
+    "tech_stack": [
+      "Oracle, SAP, Microsoft Dynamics, Salesforce, Google Cloud, AWS"
+    ],
+    "culture_snippet": "Kshema General Insurance Limited prioritizes employee development and offers training programs to enhance their skills and knowledge.",
+    "fetch_status": "done"
+  },
+  "MEITY_NIC_MUMBAI": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "10,000+",
+    "description": "MEITY_NIC_MUMBAI is a government organization under the Ministry of Electronics and Information Technology (MeitY), Government of India. It is responsible for the development and implementation of various IT projects and initiatives. The organization is headquartered in Mumbai, India. It plays a crucial role in promoting digital India and providing IT services to various government departments.",
+    "founding_year": null,
+    "hq": "Mumbai, India",
+    "website": "nic.in",
+    "funding_stage": "Government",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "Oracle",
+      "MySQL",
+      "AWS",
+      "Microsoft Azure",
+      "Google Cloud Platform"
+    ],
+    "culture_snippet": "MEITY_NIC_MUMBAI is known for its collaborative and innovative work environment, where employees are encouraged to think outside the box and come up with creative solutions to complex problems.",
+    "fetch_status": "done"
+  },
+  "National Test House (NWR)": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "National Test House (NWR) is a premier testing and calibration laboratory in India, providing testing and calibration services to various industries. They offer a wide range of services including mechanical, electrical, and chemical testing. Their key markets include industries such as aerospace, automotive, and consumer goods. NWR is notable for its expertise in testing and calibration services.",
+    "founding_year": "1907",
+    "hq": "New Delhi, India",
+    "website": "nth.gov.in",
+    "funding_stage": "Government",
+    "investors": [
+      "Government of India"
+    ],
+    "tech_stack": [
+      "SAP, Oracle, Microsoft Office, Adobe Acrobat, AutoCAD, SolidWorks"
+    ],
+    "culture_snippet": "Employees at National Test House (NWR) appreciate the organization's commitment to providing a safe and healthy work environment.",
+    "fetch_status": "done"
+  },
+  "Neemus Software Solution Private Limited": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Neemus Software Solution Private Limited is a software development company that provides IT services and solutions to various industries. They specialize in mobile app development, web development, and enterprise software solutions. Their key markets include India and the Middle East. Neemus is notable for its innovative approach to software development and its commitment to delivering high-quality solutions.",
+    "founding_year": "2010",
+    "hq": "Bangalore, India",
+    "website": "neemus.com",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Java",
+      "Python",
+      "React",
+      "Angular",
+      "Node.js",
+      "MongoDB",
+      "AWS"
+    ],
+    "culture_snippet": "At Neemus, employees say they value a culture of innovation and collaboration, with opportunities to work on diverse projects and contribute to the company's growth.",
+    "fetch_status": "done"
+  },
+  "NEXAPOL": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "NEXAPOL is a leading provider of cybersecurity solutions, specializing in threat intelligence, incident response, and security consulting services. Their main products include threat detection and response platforms, security assessments, and penetration testing. They cater to key markets such as BFSI, government, and critical infrastructure. NEXAPOL is notable for its expertise in advanced threat detection and its commitment to delivering cutting-edge security solutions.",
+    "founding_year": "2015",
+    "hq": "New Delhi, India",
+    "website": "nexapol.com",
+    "funding_stage": "Private",
+    "investors": [
+      "Venture Capital firms, Private Equity firms"
+    ],
+    "tech_stack": [
+      "AWS, Azure, Splunk, ELK Stack, Python, Java, C++"
+    ],
+    "culture_snippet": "NEXAPOL prioritizes employee growth and development, offering training programs and opportunities for professional advancement.",
+    "fetch_status": "done"
+  },
+  "Project Management Unit under Coding and Robotics Education in School (GARES) Scheme": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "The Project Management Unit under Coding and Robotics Education in School (GARES) Scheme is an initiative by the Government of India to promote coding and robotics education in schools. The scheme aims to provide a platform for students to learn and develop skills in coding and robotics. The project focuses on providing resources, training, and infrastructure to schools to implement coding and robotics education. The scheme is notable for its efforts to bridge the gap in digital literacy and provide opportunities for students to develop skills in emerging technologies.",
+    "founding_year": null,
+    "hq": "New Delhi, India",
+    "website": "education.gov.in",
+    "funding_stage": "Government",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "Java",
+      "C++",
+      "JavaScript",
+      "HTML/CSS",
+      "MySQL",
+      "AWS"
+    ],
+    "culture_snippet": "The project is known for its collaborative and innovative work environment, where employees work together to achieve a common goal of promoting coding and robotics education in schools.",
+    "fetch_status": "done"
+  },
+  "Quant Solar Technologies Pvt Ltd": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Quant Solar Technologies Pvt Ltd is a renewable energy company that specializes in solar panel manufacturing and energy solutions. They offer a range of products and services, including solar panels, inverters, and energy storage systems. Their key markets include India and other emerging economies. The company is notable for its focus on innovation and sustainability.",
+    "founding_year": "2015",
+    "hq": "Pune, India",
+    "website": "quantsolartech.com",
+    "funding_stage": "Private",
+    "investors": [
+      "IDFC First Bank, Aavishkaar-Intellecap Group"
+    ],
+    "tech_stack": [
+      "Solar Panel Manufacturing, Inverter Technology, Energy Storage Systems, IoT, Cloud Computing, Data Analytics, Python, Java"
+    ],
+    "culture_snippet": "Quant Solar Technologies prioritizes employee growth and development, offering training programs and opportunities for career advancement.",
+    "fetch_status": "done"
+  },
+  "Resonance Digital LLP": {
+    "scale_badge": "🏢 Mid-size",
+    "employee_count": "500-1000",
+    "description": "Resonance Digital LLP is a digital transformation and technology consulting company that helps businesses navigate the digital landscape. They offer services such as digital strategy, technology implementation, and process automation. Their key markets include India and the Middle East. Resonance Digital LLP is notable for its expertise in emerging technologies like AI and blockchain.",
+    "founding_year": "2015",
+    "hq": "Mumbai, India",
+    "website": "resonancedigital.in",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Python",
+      "Java",
+      "React",
+      "Angular"
+    ],
+    "culture_snippet": "At Resonance Digital LLP, employees say they value a culture of innovation and collaboration, with opportunities to work on diverse projects and contribute to the company's growth.",
+    "fetch_status": "done"
+  },
+  "Tata Motors Pune - PV BU Pune plant": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "10,000+",
+    "description": "Tata Motors Pune - PV BU Pune plant is a manufacturing facility of Tata Motors, a multinational automotive manufacturing company. The plant is responsible for producing passenger vehicles, including cars and utility vehicles. The plant serves the domestic and international markets, with a focus on quality and customer satisfaction. The plant is notable for its state-of-the-art manufacturing processes and its commitment to sustainability.",
+    "founding_year": null,
+    "hq": "Mumbai, India",
+    "website": "tatamotors.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Tata Group"
+    ],
+    "tech_stack": [
+      "CATIA, Siemens NX, ERP, MES, IoT, Industry 4.0"
+    ],
+    "culture_snippet": "Employees at Tata Motors Pune - PV BU Pune plant say that the company prioritizes employee development and provides opportunities for growth and learning.",
+    "fetch_status": "done"
+  },
+  "Technum Opus Pvt Ltd (ONIFIED.AI)": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "100-500",
+    "description": "Technum Opus Pvt Ltd, doing business as ONIFIED.AI, is an Indian technology company that specializes in AI-powered solutions for various industries. Their main products and services include AI-driven chatbots, virtual assistants, and predictive analytics. They primarily serve the Indian market, with a focus on the BFSI (Banking, Financial Services, and Insurance) sector. ONIFIED.AI is notable for its innovative approach to AI adoption and its commitment to delivering personalized customer experiences.",
+    "founding_year": "2019",
+    "hq": "Bengaluru, India",
+    "website": "onified.ai",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "Django",
+      "React",
+      "Angular",
+      "MySQL"
+    ],
+    "culture_snippet": "ONIFIED.AI prioritizes employee growth and development, offering opportunities for skill enhancement and career advancement.",
+    "fetch_status": "done"
+  },
+  "The Barabari Collective": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "50-100",
+    "description": "The Barabari Collective is a social enterprise that aims to promote sustainable livelihoods and community development through innovative solutions. They work with rural communities to design and implement sustainable agriculture practices, and also provide training and capacity-building programs for farmers. Their main products and services include sustainable agriculture solutions, capacity-building programs, and community development initiatives. They are notable for their unique approach to community development and their commitment to sustainability.",
+    "founding_year": "2015",
+    "hq": "Bengaluru, India",
+    "website": "barabari.org",
+    "funding_stage": "Bootstrapped",
+    "investors": [],
+    "tech_stack": [
+      "Drupal",
+      "WordPress",
+      "Google Workspace",
+      "Microsoft Office 365",
+      "Asana",
+      "Trello",
+      "Airtable"
+    ],
+    "culture_snippet": "Employees at The Barabari Collective describe the work environment as collaborative and supportive, with a strong focus on teamwork and community development.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Aditya - Chittorgarh, Rajasthan": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, offering a wide range of products including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market and is known for its high-quality products and strong distribution network. UltraTech Cement is a notable player in the Indian cement industry, with a significant presence in the country. It is a subsidiary of Aditya Birla Group.",
+    "founding_year": "1984",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, Manufacturing Execution System (MES), Quality Management System (QMS), SAP, Oracle"
+    ],
+    "culture_snippet": "UltraTech Cement is known for its strong focus on employee development and provides various training programs to enhance the skills of its employees.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Balaji - Budawada,  Andhra Pradesh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India. It offers a range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in various markets, including India, the Middle East, and Africa. UltraTech Cement is a notable player in the Indian cement industry.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, SAP, Oracle, Microsoft Office, Google Workspace"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and community engagement, with many employees praising the company's commitment to social responsibility.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Bela - Rewa, Madhya Pradesh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India. It offers a range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market and is known for its high-quality products and strong distribution network. UltraTech Cement Ltd is a notable player in the Indian cement industry.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, Manufacturing Execution System (MES), Quality Management System (QMS), SAP, Oracle"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and community welfare, with initiatives such as the UltraTech Cement Foundation that supports education, healthcare, and infrastructure development in rural areas.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Dalla - Sonebhadra, Uttar Pradesh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, producing a wide range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market, catering to various industries such as construction, infrastructure, and real estate. UltraTech Cement Ltd is a notable player in the Indian cement industry, with a strong presence in the country. It is a subsidiary of the Aditya Birla Group.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, Manufacturing Execution System (MES), Industrial Automation systems, Quality Management System (QMS), Enterprise Asset Management (EAM)"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and community welfare, with initiatives such as skill development programs and corporate social responsibility projects.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Gujarat - Amreli, Gujarat": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India. It offers a range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market and is known for its high-quality products and strong distribution network. UltraTech Cement is a notable player in the Indian cement industry.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, SAP, Oracle, Microsoft Office"
+    ],
+    "culture_snippet": "UltraTech Cement is known for its strong focus on employee development and provides opportunities for growth and learning to its employees.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Hirmi - Bhatapara, Chhattisgarh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India. It operates a cement plant in Hirmi - Bhatapara, Chhattisgarh, and offers a range of cement products. The company serves various markets, including India and other countries. UltraTech Cement is notable for its large production capacity and wide distribution network.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, SCADA (Supervisory Control and Data Acquisition) system, MES (Manufacturing Execution System), CAD (Computer-Aided Design) software, GIS (Geographic Information System) software"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and safety, with a goal of achieving zero accidents in the workplace.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Kotputli - Jaipur, Rajasthan": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, producing a wide range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian cement market, which is one of the largest in the world. UltraTech Cement has a strong presence in the country, with a significant market share. The company is notable for its commitment to sustainability and environmental responsibility.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, Manufacturing Execution System (MES), Industrial Automation systems, IoT (Internet of Things) technology, Data Analytics tools"
+    ],
+    "culture_snippet": "UltraTech Cement is known for its strong focus on employee development and training, with a comprehensive program to enhance the skills and knowledge of its workforce.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Maihar - Satna, Madhya Pradesh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, producing a wide range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market, with a strong presence in the northern and eastern regions. UltraTech Cement Ltd is a notable player in the Indian cement industry, with a strong focus on quality and customer satisfaction. The company has a large production capacity and a strong distribution network.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, Manufacturing Execution System (MES), Industrial Automation systems, Quality Management System (QMS), Enterprise Asset Management (EAM)"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and training, with a comprehensive training program for its employees to enhance their skills and knowledge.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Nathdwara - Pindwara, Rajasthan": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, producing a wide range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market, with a significant presence in Rajasthan. UltraTech Cement is a notable player in the Indian cement industry, with a strong brand presence and a wide distribution network. It is a subsidiary of the Aditya Birla Group.",
+    "founding_year": "1984",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, Manufacturing Execution System (MES), Quality Management System (QMS), SAP, Oracle"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and community engagement, with a range of initiatives aimed at improving the lives of its employees and the communities it operates in.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Rajashree - Gulbarga, Karnataka": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement company in India, offering a wide range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in various markets, including India, the Middle East, and Southeast Asia. UltraTech Cement is known for its high-quality products and strong distribution network. It is a notable player in the Indian cement industry.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) systems, CRM (Customer Relationship Management) software, Supply Chain Management systems, Quality Management systems, SAP, Oracle"
+    ],
+    "culture_snippet": "UltraTech Cement is known for its strong focus on employee development and community welfare, with various initiatives in place to support the growth and well-being of its employees and the communities it operates in.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Rawan - Raipur, Chhattisgarh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, producing a wide range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market, with a significant presence in the eastern and central regions. UltraTech Cement is a notable player in the Indian cement industry, with a strong brand presence and a commitment to sustainability. The company has a large production capacity and a strong distribution network.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, Supply Chain Management software, Manufacturing Execution System (MES), Industrial Automation systems, Quality Management System (QMS), Enterprise Asset Management (EAM)"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and training, with a comprehensive training program that helps employees acquire new skills and advance in their careers.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Redipalayam - Ariyalur, Tamil Nadu": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India. It offers a range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company serves various markets, including India, the Middle East, and Africa. UltraTech Cement Ltd is notable for its strong presence in the Indian cement industry and its commitment to sustainability.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, SAP, Oracle, Microsoft Office, CAD (Computer-Aided Design) software, GIS (Geographic Information System) software"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and its commitment to creating a safe and healthy work environment.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Sarlanagar - Kalaburagi, Karnataka": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India. They offer a range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. Their key markets include India, the Middle East, and Southeast Asia. UltraTech Cement is notable for its strong brand presence and extensive distribution network.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, SAP, Oracle, Microsoft Office, Google Workspace"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its employee-centric culture, with a focus on providing opportunities for growth and development.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Sewagram - Kutch, Gujarat": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, producing a wide range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian cement market, which is one of the largest in the world. UltraTech Cement has a strong presence in India and is known for its high-quality products and innovative manufacturing processes. The company is a subsidiary of Aditya Birla Group.",
+    "founding_year": "1984",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CAD/CAM, 3D modeling, Cement manufacturing technology, Quality control software, Supply chain management software"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and provides opportunities for growth and learning to its employees.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd - Sidhi - Rewa, Madhya Pradesh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India. It offers a range of cement products, including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company serves various markets, including India, the Middle East, and Africa. UltraTech Cement Ltd is notable for its strong market presence and high-quality products.",
+    "founding_year": "1987",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "SAP, Oracle, Microsoft Dynamics, IBM, Siemens, GE"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its employee-centric culture, with a focus on skill development and career growth opportunities.",
+    "fetch_status": "done"
+  },
+  "UltraTech Cement Ltd -APCW -Anantapur, Andhra Pradesh": {
+    "scale_badge": "🌐 Enterprise",
+    "employee_count": "50,000+",
+    "description": "UltraTech Cement Ltd is a leading cement manufacturer in India, offering a wide range of products including Portland Pozzolana Cement, Portland Slag Cement, and Ordinary Portland Cement. The company operates in the Indian market, with a strong presence in the southern region. UltraTech Cement is a notable player in the Indian cement industry, with a strong focus on quality and customer satisfaction. It is a subsidiary of the Aditya Birla Group.",
+    "founding_year": "1984",
+    "hq": "Mumbai, India",
+    "website": "ultratechcement.com",
+    "funding_stage": "Public",
+    "investors": [
+      "Aditya Birla Group"
+    ],
+    "tech_stack": [
+      "ERP (Enterprise Resource Planning) software, CRM (Customer Relationship Management) software, SAP, Oracle, Microsoft Office, Google Workspace"
+    ],
+    "culture_snippet": "UltraTech Cement Ltd is known for its strong focus on employee development and community engagement, with a strong emphasis on sustainability and environmental responsibility.",
+    "fetch_status": "done"
+  },
+  "Univest": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Univest is a digital banking platform that offers a range of financial services to individuals and businesses. They provide services such as savings accounts, credit cards, and loans. Univest operates in India and is known for its user-friendly interface and competitive interest rates. The company has gained popularity among young Indians due to its mobile banking app.",
+    "founding_year": "2017",
+    "hq": "Bangalore, India",
+    "website": "univest.in",
+    "funding_stage": "Series B",
+    "investors": [
+      "Omidyar Network, Accion Venture Lab, Inventus Capital Partners, Matrix Partners India"
+    ],
+    "tech_stack": [
+      "React, Node.js, MongoDB, AWS, Docker, Kubernetes"
+    ],
+    "culture_snippet": "Univest prioritizes employee well-being and offers flexible work arrangements, mental health support, and a generous parental leave policy.",
+    "fetch_status": "done"
+  },
+  "Vishwa.ai (LeverLattice Innovations Pvt Ltd)": {
+    "scale_badge": "🚀 Growth Stage",
+    "employee_count": "500-1000",
+    "description": "Vishwa.ai (LeverLattice Innovations Pvt Ltd) is an AI-powered platform that provides data-driven insights and decision-making tools for businesses. Their main products/services include AI-driven analytics, predictive modeling, and data visualization. They cater to various industries such as finance, healthcare, and retail. Vishwa.ai is notable for its innovative approach to AI adoption and its commitment to delivering actionable insights.",
+    "founding_year": "2019",
+    "hq": "Bengaluru, India",
+    "website": "vishwa.ai",
+    "funding_stage": "Series A",
+    "investors": [
+      "Kalaari Capital",
+      "Blume Ventures"
+    ],
+    "tech_stack": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Tableau"
+    ],
+    "culture_snippet": "Vishwa.ai prioritizes employee growth and development, offering opportunities for skill-building and career advancement.",
+    "fetch_status": "done"
   }
 }
