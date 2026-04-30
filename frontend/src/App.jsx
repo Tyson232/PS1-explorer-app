@@ -201,6 +201,31 @@ function Explorer() {
     window.history.replaceState({}, '', window.location.pathname);
   }, []);
 
+  // On mount: refresh priority list entries against current company data so any
+  // mode/location updates (e.g. Pixaflip Online → Onsite) propagate automatically.
+  useEffect(() => {
+    const all = getAllCompanies();
+    let pixaflipChanged = false;
+    setPriorityList(prev => {
+      if (prev.length === 0) return prev;
+      const refreshed = prev.map(c => {
+        const fresh = all.find(x => x.id === c.id) || all.find(x => x.name === c.name);
+        if (!fresh) return c;
+        if (/Pixaflip/i.test(fresh.name) && c.work_mode === 'Online' && fresh.work_mode === 'Onsite') {
+          pixaflipChanged = true;
+        }
+        return { ...c, ...fresh };
+      });
+      return refreshed;
+    });
+    if (pixaflipChanged) {
+      toast('⚠️ Pixaflip Technologies in your priority list is now Onsite (was Online). Please review.', {
+        duration: 8000,
+        style: { background: '#1a1a2e', color: '#fde68a', border: '1px solid #f59e0b', fontSize: '13px' }
+      });
+    }
+  }, []);
+
   const togglePriority = useCallback((company) => {
     setPriorityList(prev =>
       prev.some(c => c.id === company.id)
@@ -313,8 +338,13 @@ function Explorer() {
         ⚠️ GUYS PLEASE MAKE SURE TO TICK <span className="underline underline-offset-2">OWN ACCOMMODATION</span> FOR WHICHEVER STATION YOU ARE FILLING ⚠️
       </div>
 
+      {/* ⚠️ Pixaflip Mode Change Warning Banner */}
+      <div className="bg-orange-500 text-orange-950 text-center py-2.5 px-4 font-bold text-sm tracking-wide z-40 sticky top-[40px]">
+        ⚠️ <span className="underline underline-offset-2">PIXAFLIP TECHNOLOGIES (PUNE)</span> HAS BECOME <span className="underline underline-offset-2">ONSITE</span> FROM ONLINE — REVIEW YOUR PREFERENCE LIST ⚠️
+      </div>
+
       {/* Top Header */}
-      <header className="border-b border-bg-border bg-bg-secondary/50 backdrop-blur-sm sticky top-[40px] z-30">
+      <header className="border-b border-bg-border bg-bg-secondary/50 backdrop-blur-sm sticky top-[80px] z-30">
         <div className="max-w-screen-xl mx-auto px-4 py-3 flex flex-col gap-2">
           <div className="flex items-center gap-4">
             {/* Mobile sidebar toggle */}
@@ -409,7 +439,7 @@ function Explorer() {
 
         {/* Sidebar — desktop */}
         <div className="hidden lg:block flex-shrink-0">
-          <div className="sticky top-24 max-h-[calc(100vh-6rem)] overflow-y-auto overscroll-contain pr-1">
+          <div className="sticky top-[140px] max-h-[calc(100vh-9rem)] overflow-y-auto overscroll-contain pr-1">
             <FilterSidebar
               domains={domains}
               subdomainMap={subdomainMap}

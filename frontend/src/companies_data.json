@@ -20853,5 +20853,29 @@
       "Project Domain": "Software Development",
       "Title": "AI Engineer Intern — Feedback Loop for Underwriting System"
     }
+  },
+  {
+    "id": 1476,
+    "name": "Pixaflip Technologies Pvt Ltd",
+    "domain": "CSIS/IT",
+    "normalized_domain": "CSIS",
+    "city": "Pune",
+    "project_details": "Title: Turtle Conservation\nDescription: A project focused on protecting turtle nests using image-based analysis, smartsensors, and IoT-based monitoring for early detection and better conservation support.Skill sets: AI/ML, image processing, IoT, sensor data handling, basic data analysisExpected learning: Practical exposure to smart monitoring, image analysis, sensor integration,and real-world conservation problem solving.Specific courses required for project execution:\nTitle: DGT\nDescription: Data Gathering ToolSkill sets:Expected learning:Specific courses required for project execution:",
+    "subdomains": [
+      "AI & ML",
+      "Data Analysis"
+    ],
+    "station_mode": "Onsite",
+    "raw_row": {
+      "Station Id": "8835",
+      "Station Name": "Pixaflip Technologies Pvt Ltd",
+      "Centre (Location)": "Pune",
+      "Business Domain": "CSIS/IT",
+      "Total Project": "2",
+      "Tags": "Any,Any",
+      "Description": "Description: A project focused on protecting turtle nests using image-based analysis, smartsensors, and IoT-based monitoring for early detection and better conservation support.Skill sets: AI/ML, image processing, IoT, sensor data handling, basic data analysisExpected learning: Practical exposure to smart monitoring, image analysis, sensor integration,and real-world conservation problem solving.Specific courses required for project execution:,Description: Data Gathering ToolSkill sets:Expected learning:Specific courses required for project execution:",
+      "Project Domain": "AI & ML,Data Analysis",
+      "Title": "Title: Turtle Conservation,Title: DGT"
+    }
   }
 ]
